@@ -2143,120 +2143,110 @@
     margin: 14px auto 0;
   }
 
-  .exam-spotlight-stack {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+  /* --- EXAM SPOTLIGHT SLIDER (Horizontal) --- */
+  .exam-slider-wrap {
     position: relative;
+    margin-top: 48px;
+    overflow: visible; /* Ensure arrows are not cut off */
+  }
+
+  .spotlight-swiper {
+    overflow: hidden;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
   }
 
   .exam-spotlight-card {
+    width: 100%;
     background: #FFFFFF;
     border: 1px solid var(--line);
-    border-radius: 20px;
+    border-radius: 24px;
     overflow: hidden;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    min-height: 380px;
-    box-shadow: 0 10px 30px rgba(26, 26, 46, 0.08), 0 4px 8px rgba(26, 26, 46, 0.04);
-    transition: transform 0.5s cubic-bezier(0.2, 0, 0, 1), opacity 0.5s cubic-bezier(0.2, 0, 0, 1), filter 0.5s cubic-bezier(0.2, 0, 0, 1), box-shadow 0.3s ease;
-    position: sticky;
-    will-change: transform, opacity, filter;
+    display: flex;
+    min-height: 440px;
+    box-shadow: none; /* Removed shadow as per request */
+    transition: border-color 0.3s ease;
     isolation: isolate;
-    transform-origin: center top;
   }
 
   .exam-spotlight-card.reveal {
     opacity: 0;
-  }
-
-  .exam-spotlight-card.reveal:nth-child(odd) {
-    transform: translateX(-30px) translateY(40px) rotate(-1deg);
-  }
-
-  .exam-spotlight-card.reveal:nth-child(even) {
-    transform: translateX(30px) translateY(40px) rotate(1deg);
+    transform: translateY(20px);
   }
 
   .exam-spotlight-card.reveal.in {
     opacity: 1;
-    transform: translateX(0) translateY(0) rotate(0);
+    transform: translateY(0);
   }
 
   .exam-spotlight-card:hover {
     border-color: var(--orange);
-    box-shadow: 0 20px 44px rgba(26, 26, 46, 0.18), 0 6px 14px rgba(232, 149, 31, 0.12);
   }
 
-  /* Staggered sticky offsets — creates the layered card-stack effect on scroll */
-  .exam-spotlight-card:nth-child(1) {
-    top: 90px;
-    z-index: 1;
+  /* Staggered sticky offsets removed - slider uses flex */
+
+  /* Slider Arrows */
+  .slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 54px;
+    height: 54px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 50;
+    transition: all 0.25s;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+    color: var(--ink);
   }
 
-  .exam-spotlight-card:nth-child(2) {
-    top: 102px;
-    z-index: 2;
+  .slider-arrow:hover {
+    background: var(--orange);
+    color: #fff;
+    border-color: var(--orange);
+    box-shadow: 0 8px 24px rgba(254, 168, 47, 0.35);
+    transform: translateY(-50%) scale(1.08);
   }
 
-  .exam-spotlight-card:nth-child(3) {
-    top: 114px;
-    z-index: 3;
+  .slider-arrow.prev { left: -75px; }
+  .slider-arrow.next { right: -75px; }
+
+  @media (max-width: 1400px) {
+    .slider-arrow.prev { left: -30px; }
+    .slider-arrow.next { right: -30px; }
   }
 
-  .exam-spotlight-card:nth-child(4) {
-    top: 126px;
-    z-index: 4;
+  @media (max-width: 1200px) {
+    .exam-spotlight-card {
+      flex: 0 0 100%;
+      flex-direction: column; /* Stack vertically on mobile */
+      min-height: 0;
+    }
+    .exam-spotlight-image {
+      height: 240px;
+      flex: 0 0 auto;
+    }
+    .exam-spotlight-content {
+      padding: 24px 20px;
+    }
+    .slider-arrow {
+      width: 42px;
+      height: 42px;
+    }
+    .slider-arrow.prev { left: 10px; }
+    .slider-arrow.next { right: 10px; }
   }
 
-  .exam-spotlight-card:nth-child(5) {
-    top: 138px;
-    z-index: 5;
-  }
-
-  .exam-spotlight-card:nth-child(6) {
-    top: 150px;
-    z-index: 6;
-  }
-
-  .exam-spotlight-card:nth-child(7) {
-    top: 162px;
-    z-index: 7;
-  }
-
-  .exam-spotlight-card:nth-child(8) {
-    top: 174px;
-    z-index: 8;
-  }
-
-  .exam-spotlight-card:nth-child(9) {
-    top: 186px;
-    z-index: 9;
-  }
-
-  .exam-spotlight-card:nth-child(10) {
-    top: 198px;
-    z-index: 10;
-  }
-
-  .exam-spotlight-card:nth-child(11) {
-    top: 210px;
-    z-index: 11;
-  }
-
-  .exam-spotlight-card:nth-child(12) {
-    top: 222px;
-    z-index: 12;
-  }
-
-  .exam-spotlight-card:nth-child(13) {
-    top: 234px;
-    z-index: 13;
-  }
-
-  .exam-spotlight-card:nth-child(14) {
-    top: 246px;
-    z-index: 14;
+  @media (max-width: 780px) {
+    .slider-arrow { display: none; }
+    .exam-slider { padding: 10px 0; }
+    .exam-track { gap: 16px; }
   }
 
   /* (Modern Scroll-driven entrance block removed in favor of reliable JS fallback) */
@@ -2278,10 +2268,12 @@
   }
 
   .exam-spotlight-image {
+    flex: 0 0 52%; /* Fixed width for image */
     background-color: var(--ink);
     background-size: cover;
     background-position: center;
     position: relative;
+    min-height: 100%;
   }
 
   .exam-spotlight-image::after {
@@ -2292,7 +2284,8 @@
   }
 
   .exam-spotlight-content {
-    padding: 36px 40px;
+    flex: 1; /* Take remaining space */
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;

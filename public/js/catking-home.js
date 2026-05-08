@@ -620,42 +620,35 @@
     });
   })();
 
-  // ── Exam carousel — arrow controls ──
+  // ── Exam spotlight — Swiper initialization ──
   ;(function () {
-    const track = document.getElementById('examTrack');
-    const prev = document.getElementById('examPrev');
-    const next = document.getElementById('examNext');
-    if (!track || !prev || !next) return;
+    const swiperEl = document.querySelector('.spotlight-swiper');
+    if (!swiperEl) return;
 
-    // 280px card + 16px gap = 296px step
-    const CARD_STEP = 296;
-    let resumeTimer = null;
-
-    function advance(direction) {
-      const computed = getComputedStyle(track).transform;
-      let currentX = 0;
-      if (computed && computed !== 'none') {
-        const m = computed.match(/matrix.*\((.+)\)/);
-        if (m) {
-          const parts = m[1].split(',').map(Number);
-          currentX = parts[parts.length - 2] || 0;
+    new Swiper('.spotlight-swiper', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+      speed: 800,
+      effect: 'slide',
+      grabCursor: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: '#examNext',
+        prevEl: '#examPrev',
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+        },
+        1200: {
+          slidesPerView: 1,
         }
       }
-      const newOffset = currentX + (direction * CARD_STEP * -1);
-      track.style.animation = 'none';
-      track.style.transition = 'transform 0.4s ease';
-      track.style.transform = 'translateX(' + newOffset + 'px)';
-
-      clearTimeout(resumeTimer);
-      resumeTimer = setTimeout(() => {
-        track.style.animation = '';
-        track.style.transition = '';
-        track.style.transform = '';
-      }, 4000);
-    }
-
-    prev.addEventListener('click', () => advance(-1));
-    next.addEventListener('click', () => advance(1));
+    });
   })();
 
   window.openPdfModal = function() {
@@ -846,50 +839,18 @@
     });
   }
 
-  // ── Exam Spotlight Stacking Animation ──
-  ;(function() {
-    const stack = document.querySelector('.exam-spotlight-stack');
-    if (!stack) return;
-    const cards = stack.querySelectorAll('.exam-spotlight-card');
-    if (!cards.length) return;
-
-    function updateStack() {
-      const scrollY = window.scrollY;
-      const viewportHeight = window.innerHeight;
-      
-      cards.forEach((card, i) => {
-        const nextCard = cards[i + 1];
-        if (!nextCard) return;
-
-        const nextRect = nextCard.getBoundingClientRect();
-        
-        // Sticky top from CSS (e.g. 90, 102, 114...)
-        const stickyTop = parseInt(getComputedStyle(nextCard).top) || 90;
-        
-        // Calculate progress: how much the next card has covered this card
-        const startPoint = viewportHeight * 0.9; 
-        const endPoint = stickyTop + 100;
-        
-        const progress = 1 - Math.max(0, Math.min(1, (nextRect.top - endPoint) / (startPoint - endPoint)));
-        
-        if (progress > 0) {
-          const scale = 1 - (progress * 0.06);
-          const brightness = 1 - (progress * 0.4);
-          const opacity = 1 - (progress * 0.2);
-          card.style.transform = `scale(${scale}) translateY(-${progress * 20}px)`;
-          card.style.filter = `brightness(${brightness})`;
-          card.style.opacity = opacity;
-        } else {
-          card.style.transform = '';
-          card.style.filter = '';
-          card.style.opacity = '';
-        }
-      });
+  // ── FAQ Toggling logic ──
+  window.toggleFaq = function(btn) {
+    const item = btn.closest('.faq-item');
+    if (!item) return;
+    const wasOpen = item.classList.contains('open');
+    
+    // Close other items
+    document.querySelectorAll('.faq-item').forEach(el => el.classList.remove('open'));
+    
+    if (!wasOpen) {
+      item.classList.add('open');
     }
-
-    window.addEventListener('scroll', updateStack, { passive: true });
-    window.addEventListener('resize', updateStack);
-    setTimeout(updateStack, 600);
-  })();
+  };
 
 })();

@@ -601,10 +601,20 @@
       <p class="section-sub">From CAT to NMAT, SNAP to XAT — purpose-built tracks with the same alumni faculty, mock libraries, and 1-on-1 mentorship that put 2,080+ students into top B-Schools last cycle.</p>
     </div>
 
-    <div class="exam-spotlight-stack">
+    <div class="exam-slider-wrap reveal">
+      <button class="slider-arrow prev" id="examPrev" aria-label="Previous exam card">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <button class="slider-arrow next" id="examNext" aria-label="Next exam card">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+
+      <div class="swiper spotlight-swiper">
+        <div class="swiper-wrapper">
 
       <!-- Card 1: CAT 2026 -->
-      <article class="exam-spotlight-card reveal">
+      <div class="swiper-slide">
+        <article class="exam-spotlight-card">
         <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-iima.jpg') }}');" role="img" aria-label="CAT 2026 — gateway to all 22 IIMs"></div>
         <div class="exam-spotlight-content">
           <div class="exam-spotlight-num">01 / 14 · CAT</div>
@@ -615,10 +625,12 @@
             <a href="https://courses.catking.in/courses/cat-2026-self-study" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
           </div>
         </div>
-      </article>
+        </article>
+      </div>
 
       <!-- Card 2: NMAT -->
-      <article class="exam-spotlight-card flip reveal">
+      <div class="swiper-slide">
+        <article class="exam-spotlight-card flip">
         <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-nmims.jpg') }}');" role="img" aria-label="NMAT 2026 — pathway to NMIMS Mumbai"></div>
         <div class="exam-spotlight-content">
           <div class="exam-spotlight-num">02 / 14 · NMAT</div>
@@ -629,10 +641,12 @@
             <a href="https://courses.catking.in/courses/nmat-snap-combo-2026" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
           </div>
         </div>
-      </article>
+        </article>
+      </div>
 
       <!-- Card 3: SNAP -->
-      <article class="exam-spotlight-card reveal">
+      <div class="swiper-slide">
+        <article class="exam-spotlight-card">
         <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-symbiosis.jpg') }}');" role="img" aria-label="SNAP 2026 — entry to Symbiosis B-Schools"></div>
         <div class="exam-spotlight-content">
           <div class="exam-spotlight-num">03 / 14 · SNAP</div>
@@ -643,10 +657,12 @@
             <a href="https://courses.catking.in/courses/snap-nmat-combo-2026" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
           </div>
         </div>
-      </article>
+        </article>
+      </div>
 
       <!-- Card 4: XAT -->
-      <article class="exam-spotlight-card flip reveal">
+      <div class="swiper-slide">
+        <article class="exam-spotlight-card flip">
         <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-xlri.jpg') }}');" role="img" aria-label="XAT 2027 — gateway to XLRI Jamshedpur"></div>
         <div class="exam-spotlight-content">
           <div class="exam-spotlight-num">04 / 14 · XAT</div>
@@ -657,9 +673,11 @@
             <a href="https://courses.catking.in/courses/xat-turbo" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
           </div>
         </div>
-      </article>
+        </article>
+      </div>
       <!-- Card 05: MICAT -->
-      <article class="exam-spotlight-card reveal">
+      <div class="swiper-slide">
+        <article class="exam-spotlight-card">
         <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-mica.jpg') }}');" role="img" aria-label="MICAT"></div>
         <div class="exam-spotlight-content">
           <div class="exam-spotlight-num">05 / 14 · MICAT</div>
@@ -670,9 +688,11 @@
             <a href="https://courses.catking.in/courses/micat" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
           </div>
         </div>
-      </article>
+        </article>
+      </div>
       <!-- Card 06: CMAT -->
-      <article class="exam-spotlight-card flip reveal">
+      <div class="swiper-slide">
+        <article class="exam-spotlight-card flip">
         <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-jbims.jpg') }}');" role="img" aria-label="CMAT"></div>
         <div class="exam-spotlight-content">
           <div class="exam-spotlight-num">06 / 14 · CMAT</div>
@@ -683,9 +703,11 @@
             <a href="https://courses.catking.in/courses/cmat-cet-combo-2026" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
           </div>
         </div>
-      </article>
+        </article>
+      </div>
       <!-- Card 07: CET -->
-      <article class="exam-spotlight-card reveal">
+      <div class="swiper-slide">
+        <article class="exam-spotlight-card">
         <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-jbims.jpg') }}');" role="img" aria-label="CET"></div>
         <div class="exam-spotlight-content">
           <div class="exam-spotlight-num">07 / 14 · CET</div>
@@ -696,9 +718,11 @@
             <a href="https://courses.catking.in/courses/cet-turbo" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
           </div>
         </div>
-      </article>
+        </article>
+      </div>
       <!-- Card 08: GMAT -->
-      <article class="exam-spotlight-card flip reveal">
+      <div class="swiper-slide">
+        <article class="exam-spotlight-card flip">
         <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-iima.jpg') }}');" role="img" aria-label="GMAT"></div>
         <div class="exam-spotlight-content">
           <div class="exam-spotlight-num">08 / 14 · GMAT</div>
@@ -709,9 +733,11 @@
             <a href="https://courses.catking.in/courses/gmat-courses" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
           </div>
         </div>
-      </article>
+        </article>
+      </div>
       <!-- Card 09: IELTS -->
-      <article class="exam-spotlight-card reveal">
+      <div class="swiper-slide">
+        <article class="exam-spotlight-card">
         <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-iift.jpg') }}');" role="img" aria-label="IELTS"></div>
         <div class="exam-spotlight-content">
           <div class="exam-spotlight-num">09 / 14 · IELTS</div>
@@ -722,9 +748,11 @@
             <a href="https://courses.catking.in/courses/ielts-plus-application-special" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
           </div>
         </div>
-      </article>
+        </article>
+      </div>
       <!-- Card 10: NPAT -->
-      <article class="exam-spotlight-card flip reveal">
+      <div class="swiper-slide">
+        <article class="exam-spotlight-card flip">
         <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-nmims.jpg') }}');" role="img" aria-label="NPAT"></div>
         <div class="exam-spotlight-content">
           <div class="exam-spotlight-num">10 / 14 · NPAT</div>
@@ -735,9 +763,11 @@
             <a href="https://courses.catking.in/courses/npat-course" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
           </div>
         </div>
-      </article>
+        </article>
+      </div>
       <!-- Card 11: MAT -->
-      <article class="exam-spotlight-card reveal">
+      <div class="swiper-slide">
+        <article class="exam-spotlight-card">
         <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-imt.jpg') }}');" role="img" aria-label="MAT"></div>
         <div class="exam-spotlight-content">
           <div class="exam-spotlight-num">11 / 14 · MAT</div>
@@ -748,9 +778,11 @@
             <a href="https://courses.catking.in/courses/mat-turbo" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
           </div>
         </div>
-      </article>
+        </article>
+      </div>
       <!-- Card 12: IPMAT -->
-      <article class="exam-spotlight-card flip reveal">
+      <div class="swiper-slide">
+        <article class="exam-spotlight-card flip">
         <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-iima.jpg') }}');" role="img" aria-label="IPMAT"></div>
         <div class="exam-spotlight-content">
           <div class="exam-spotlight-num">12 / 14 · IPMAT</div>
@@ -761,9 +793,11 @@
             <a href="https://courses.catking.in/courses/ipmat-course" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
           </div>
         </div>
-      </article>
+        </article>
+      </div>
       <!-- Card 13: ATMA -->
-      <article class="exam-spotlight-card reveal">
+      <div class="swiper-slide">
+        <article class="exam-spotlight-card">
         <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-weschool.jpg') }}');" role="img" aria-label="ATMA"></div>
         <div class="exam-spotlight-content">
           <div class="exam-spotlight-num">13 / 14 · ATMA</div>
@@ -774,9 +808,11 @@
             <a href="https://courses.catking.in/courses/atma-turbo" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
           </div>
         </div>
-      </article>
+        </article>
+      </div>
       <!-- Card 14: CUET PG -->
-      <article class="exam-spotlight-card flip reveal">
+      <div class="swiper-slide">
+        <article class="exam-spotlight-card flip">
         <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-tiss.jpg') }}');" role="img" aria-label="CUET PG"></div>
         <div class="exam-spotlight-content">
           <div class="exam-spotlight-num">14 / 14 · CUET PG</div>
@@ -787,8 +823,11 @@
             <a href="https://courses.catking.in/courses/atma-turbo" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
           </div>
         </div>
-      </article>
+        </article>
+      </div>
 
+        </div>
+      </div>
     </div>
   </div>
 </section>
