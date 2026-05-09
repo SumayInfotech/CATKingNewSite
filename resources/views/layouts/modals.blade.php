@@ -5,7 +5,9 @@
   <div class="enquiry-modal" role="document">
     <button class="modal-close" type="button" onclick="closeEnquiryModal()" aria-label="Close enquiry form">✕</button>
     <div class="enquiry-top-tagline">Connect with Alumni of B-Schools <strong>IIMs, NMIMS, SPJIMR, SCMHRD</strong></div>
-    <div class="enquiry-banner" role="img" aria-label="CATKing alumni from IIMs, NMIMS, SPJIMR and SCMHRD"></div>
+    <div class="enquiry-banner">
+      <img src="{{ asset('images/home/popup-alumni-collage.jpg') }}" alt="CATKing Alumni" class="section-bg-img" loading="lazy">
+    </div>
     <div class="enquiry-body">
       <h3 class="enquiry-heading" id="enquiryHeading">Book your <em>session</em>, clear your doubts.</h3>
       <p class="enquiry-sub">A free 30-minute call with our IIM-alumni mentor — get a personalised CAT 2026 plan.</p>
@@ -106,6 +108,16 @@
         <span>CAT Course for Repeaters (95+)</span>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- ─────────────────────────────────────────
+     YOUTUBE VIDEO MODAL — Plays topper reels
+     ───────────────────────────────────────── -->
+<div class="modal-backdrop" id="ytModal" role="dialog" aria-modal="true" aria-label="Video player">
+  <div class="yt-modal" role="document">
+    <button class="modal-close" type="button" onclick="closeYtModal()" aria-label="Close video">✕</button>
+    <iframe id="ytFrame" src="" title="CATKing topper video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
 </div>
 

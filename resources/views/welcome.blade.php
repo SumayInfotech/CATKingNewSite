@@ -26,8 +26,8 @@
                 <h1>From <em>struggling</em> with %tiles to walking into your <em>dream IIM</em> with <span class="brand-accent">CATKing</span>.</h1>
                 <p class="hero-sub">CATKing's CAT 2026 program is designed by IIM-A, B and C alumni — the same mentors who've coached <strong>1,200+ aspirants into top B-Schools last year alone</strong>.</p>
                 <div class="hero-ctas">
-                    <a href="https://courses.catking.in/courses/cat-2026-self-study" target="_blank" rel="noopener" class="btn btn-primary">Enroll Now →</a>
-                    <a href="https://courses.catking.in/courses/cat-2026-self-study" target="_blank" rel="noopener" class="btn btn-ghost-light">Explore CAT 2026 Course →</a>
+                    <a href="https://courses.catking.in/courses/cat-2026-self-study" target="_blank" rel="noopener" class="btn btn-primary">CAT 2026 →</a>
+                    <a href="https://courses.catking.in/" target="_blank" rel="noopener" class="btn btn-ghost-light">Explore ALL Courses →</a>
                 </div>
                 <div class="hero-stats">
                     <div>
@@ -51,7 +51,7 @@
 <!-- ─────────────────────────────────────────
      1.5 WHAT YOU'LL GET — Platform overview
      ───────────────────────────────────────── -->
-<section class="theme-light section platform-section" id="platform">
+<section class="theme-dark section platform-section" id="platform">
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Everything in one platform</span>
@@ -593,243 +593,166 @@
 <!-- ─────────────────────────────────────────
      EXAM SPOTLIGHT — Stacked alternating cards
      ───────────────────────────────────────── -->
+
 <section class="theme-light section exam-spotlight-section" id="exam-spotlight">
-  <div class="container">
-    <div class="section-head reveal exam-spotlight-head">
-      <div class="eyebrow">Master every entrance</div>
-      <h2 class="section-title">One platform. Every <em>MBA exam</em>.</h2>
-      <p class="section-sub">From CAT to NMAT, SNAP to XAT — purpose-built tracks with the same alumni faculty, mock libraries, and 1-on-1 mentorship that put 2,080+ students into top B-Schools last cycle.</p>
+    <div class="container">
+        <div class="section-head reveal exam-spotlight-head">
+            <div class="eyebrow">Master every entrance</div>
+            <h2 class="section-title">One platform. Every <em>MBA exam</em>.</h2>
+            <p class="section-sub">From CAT to NMAT, SNAP to XAT,purpose-built tracks with the same alumni faculty, mock libraries, and 1-on-1 mentorship that put 2,080+ students into top B-Schools last cycle.</p>
+        </div>
+
+        <div class="exam-spotlight-stack">
+
+            <!-- Card 1: CAT 2026 -->
+            <article class="exam-spotlight-card reveal">
+                <div class="exam-spotlight-image exam-spotlight-video" data-yt="Bc6G0H3kLko" role="button" tabindex="0" aria-label="Play video: CAT 2026,gateway to all 22 IIMs" style="background-image: url('https://img.youtube.com/vi/Bc6G0H3kLko/maxresdefault.jpg'), url('https://img.youtube.com/vi/Bc6G0H3kLko/hqdefault.jpg');"><span class="exam-spotlight-video-pill">Watch</span><span class="exam-spotlight-play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span><span class="exam-spotlight-yt-source"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg>CATKing,CAT 2026 Strategy</span><a class="exam-spotlight-yt-link" href="https://youtu.be/Bc6G0H3kLko?si=f1LEKBL45gKeEt_G" target="_blank" rel="noopener" aria-label="Open on YouTube" onclick="event.stopPropagation();"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg></a></div>
+                <div class="exam-spotlight-content">
+                    <div class="exam-spotlight-num">01 / 11 · CAT</div>
+                    <h3 class="exam-spotlight-title">CAT 2026</h3>
+                    <p class="exam-spotlight-desc">India's most competitive MBA exam. The gateway to all <strong>22 IIMs</strong>, FMS Delhi, SPJIMR, MDI, IITs and 1,200+ top B-Schools. CATKing's flagship program,Self Study, Turbo and Intensive tracks led by Sumit Sir's live VARC plus IIM-A/B/C alumni faculty.</p>
+                    <div class="exam-spotlight-ctas">
+                        <a href="https://catking.in/exam/cat-exam/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">Learn More</a>
+                        <a href="https://courses.catking.in/courses/cat-2026-self-study" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">View Course</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 2: NMAT -->
+            <article class="exam-spotlight-card flip reveal">
+                <div class="exam-spotlight-image exam-spotlight-video" data-yt="vw9XFqvcC5g" role="button" tabindex="0" aria-label="Play video: NMAT 2026,pathway to NMIMS Mumbai" style="background-image: url('https://img.youtube.com/vi/vw9XFqvcC5g/maxresdefault.jpg'), url('https://img.youtube.com/vi/vw9XFqvcC5g/hqdefault.jpg');"><span class="exam-spotlight-video-pill">Watch</span><span class="exam-spotlight-play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span><span class="exam-spotlight-yt-source"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg>CATKing,NMAT Strategy</span><a class="exam-spotlight-yt-link" href="https://youtu.be/vw9XFqvcC5g?si=EfE_F5EA__2H1qg0" target="_blank" rel="noopener" aria-label="Open on YouTube" onclick="event.stopPropagation();"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg></a></div>
+                <div class="exam-spotlight-content">
+                    <div class="exam-spotlight-num">02 / 11 · NMAT</div>
+                    <h3 class="exam-spotlight-title">NMAT 2026</h3>
+                    <p class="exam-spotlight-desc">NMIMS Management Aptitude Test,adaptive 3-attempt format with no negative marking. Gateway to <strong>NMIMS Mumbai</strong>, ISB Hyderabad PGP-PRO, SPJIMR PGMPW and other selective programs. Sectional drills, cutoff predictor and shortlist guidance built in.</p>
+                    <div class="exam-spotlight-ctas">
+                        <a href="https://catking.in/exam/nmat/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">Learn More</a>
+                        <a href="https://courses.catking.in/courses/nmat-snap-combo-2026" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">View Course</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 3: SNAP -->
+            <article class="exam-spotlight-card reveal">
+                <div class="exam-spotlight-image exam-spotlight-video" data-yt="swgTjtTaVRQ" role="button" tabindex="0" aria-label="Play video: SNAP 2026,entry to Symbiosis B-Schools" style="background-image: url('https://img.youtube.com/vi/swgTjtTaVRQ/maxresdefault.jpg'), url('https://img.youtube.com/vi/swgTjtTaVRQ/hqdefault.jpg');"><span class="exam-spotlight-video-pill">Watch</span><span class="exam-spotlight-play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span><span class="exam-spotlight-yt-source"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg>CATKing,SNAP Strategy</span><a class="exam-spotlight-yt-link" href="https://www.youtube.com/live/swgTjtTaVRQ?si=VM9ZNRwUHnAJeYYE" target="_blank" rel="noopener" aria-label="Open on YouTube" onclick="event.stopPropagation();"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg></a></div>
+                <div class="exam-spotlight-content">
+                    <div class="exam-spotlight-num">03 / 11 · SNAP</div>
+                    <h3 class="exam-spotlight-title">SNAP 2026</h3>
+                    <p class="exam-spotlight-desc">Symbiosis National Aptitude Test,covers QA, GA, Reasoning and Verbal across a 60-question paper. The route to <strong>SIBM Pune, SCMHRD, SIIB</strong> and 16 other Symbiosis institutes. CATKing's SNAP track includes 12+ pattern-mocks and SNAP-WAT-PI prep.</p>
+                    <div class="exam-spotlight-ctas">
+                        <a href="https://catking.in/exam/snap/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">Learn More</a>
+                        <a href="https://courses.catking.in/courses/snap-nmat-combo-2026" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">View Course</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Card 4: XAT -->
+            <article class="exam-spotlight-card flip reveal">
+                <div class="exam-spotlight-image exam-spotlight-video" data-yt="RqC_IcUMR5k" role="button" tabindex="0" aria-label="Play video: XAT 2027,gateway to XLRI Jamshedpur" style="background-image: url('https://img.youtube.com/vi/RqC_IcUMR5k/maxresdefault.jpg'), url('https://img.youtube.com/vi/RqC_IcUMR5k/hqdefault.jpg');"><span class="exam-spotlight-video-pill">Watch</span><span class="exam-spotlight-play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span><span class="exam-spotlight-yt-source"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg>CATKing,XAT Strategy</span><a class="exam-spotlight-yt-link" href="https://youtu.be/RqC_IcUMR5k?si=cawhhanftshusq1u" target="_blank" rel="noopener" aria-label="Open on YouTube" onclick="event.stopPropagation();"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg></a></div>
+                <div class="exam-spotlight-content">
+                    <div class="exam-spotlight-num">04 / 11 · XAT</div>
+                    <h3 class="exam-spotlight-title">XAT 2027</h3>
+                    <p class="exam-spotlight-desc">Xavier Aptitude Test,features the unique <strong>Decision Making</strong> module and General Knowledge section that no other MBA exam has. Pathway to <strong>XLRI Jamshedpur, XIMB, SPJIMR and IMT</strong>. Includes essay-evaluation rubric and XAT-pattern mocks across years.</p>
+                    <div class="exam-spotlight-ctas">
+                        <a href="https://catking.in/exam/xat/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">Learn More</a>
+                        <a href="https://courses.catking.in/courses/xat-turbo" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">View Course</a>
+                    </div>
+                </div>
+            </article>
+            <!-- Card 05: MICAT -->
+            <article class="exam-spotlight-card reveal">
+                <div class="exam-spotlight-image exam-spotlight-video" data-yt="-Vav_sQCI4k" role="button" tabindex="0" aria-label="Play video: MICAT" style="background-image: url('https://img.youtube.com/vi/-Vav_sQCI4k/maxresdefault.jpg'), url('https://img.youtube.com/vi/-Vav_sQCI4k/hqdefault.jpg');"><span class="exam-spotlight-video-pill">Watch</span><span class="exam-spotlight-play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span><span class="exam-spotlight-yt-source"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg>CATKing,MICAT Strategy</span><a class="exam-spotlight-yt-link" href="https://youtu.be/-Vav_sQCI4k?si=2PUsrgsEHxX_7ohF" target="_blank" rel="noopener" aria-label="Open on YouTube" onclick="event.stopPropagation();"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg></a></div>
+                <div class="exam-spotlight-content">
+                    <div class="exam-spotlight-num">05 / 11 · MICAT</div>
+                    <h3 class="exam-spotlight-title">MICAT</h3>
+                    <p class="exam-spotlight-desc">MICAT (MICA Admission Test) is a national-level entrance exam administered by Mudra Institute of Communications, Ahmedabad (MICA). It serves as a gateway for admission to the PGDM-C (Post Graduate Diploma in Management Communications) and PGDM (Post Graduate Diploma in Management) programs. The exam is conducted twice a year, with MICAT I held in December and MICAT II in January.</p>
+                    <div class="exam-spotlight-ctas">
+                        <a href="https://catking.in/exam/micat/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">Learn More</a>
+                        <a href="https://courses.catking.in/courses/micat" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">View Course</a>
+                    </div>
+                </div>
+            </article>
+            <!-- Card 06: CMAT -->
+            <article class="exam-spotlight-card flip reveal">
+                <div class="exam-spotlight-image exam-spotlight-video" data-yt="unCq_IdmARw" role="button" tabindex="0" aria-label="Play video: CMAT" style="background-image: url('https://img.youtube.com/vi/unCq_IdmARw/maxresdefault.jpg'), url('https://img.youtube.com/vi/unCq_IdmARw/hqdefault.jpg');"><span class="exam-spotlight-video-pill">Watch</span><span class="exam-spotlight-play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span><span class="exam-spotlight-yt-source"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg>CATKing,CMAT Strategy</span><a class="exam-spotlight-yt-link" href="https://youtu.be/unCq_IdmARw?si=I7LZq2Ux8a05i0fC" target="_blank" rel="noopener" aria-label="Open on YouTube" onclick="event.stopPropagation();"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg></a></div>
+                <div class="exam-spotlight-content">
+                    <div class="exam-spotlight-num">06 / 11 · CMAT</div>
+                    <h3 class="exam-spotlight-title">CMAT</h3>
+                    <p class="exam-spotlight-desc">The CMAT exam (Common Management Admission Test) is a national-level computer-based management entrance exam conducted by the National Testing Agency (NTA) on behalf of the All India Council for Technical Education (AICTE). The CMAT is designed for admission into MBA and PGDM programs offered by AICTE-approved institutions and university departments across India.</p>
+                    <div class="exam-spotlight-ctas">
+                        <a href="https://catking.in/exam/cmat/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">Learn More</a>
+                        <a href="https://courses.catking.in/courses/cmat-cet-combo-2026" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">View Course</a>
+                    </div>
+                </div>
+            </article>
+            <!-- Card 07: CET -->
+            <article class="exam-spotlight-card reveal">
+                <div class="exam-spotlight-image exam-spotlight-video" data-yt="IeEBiBVkTlQ" role="button" tabindex="0" aria-label="Play video: CET" style="background-image: url('https://img.youtube.com/vi/IeEBiBVkTlQ/maxresdefault.jpg'), url('https://img.youtube.com/vi/IeEBiBVkTlQ/hqdefault.jpg');"><span class="exam-spotlight-video-pill">Watch</span><span class="exam-spotlight-play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span><span class="exam-spotlight-yt-source"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg>CATKing,CET Strategy</span><a class="exam-spotlight-yt-link" href="https://youtu.be/IeEBiBVkTlQ?si=KkR1bUH3toBYvfxK" target="_blank" rel="noopener" aria-label="Open on YouTube" onclick="event.stopPropagation();"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg></a></div>
+                <div class="exam-spotlight-content">
+                    <div class="exam-spotlight-num">07 / 11 · CET</div>
+                    <h3 class="exam-spotlight-title">CET</h3>
+                    <p class="exam-spotlight-desc">The Government of Maharashtra has established State Common Entrance Test Cell as per Section 10 of the Maharashtra Unaided Private Professional Educational Institutions (Regulation of Admissions and Fees) Act, 2015. The CET Cell conducts various entrance exams for admission to professional courses in the state of Maharashtra, India.</p>
+                    <div class="exam-spotlight-ctas">
+                        <a href="https://catking.in/exam/cet/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">Learn More</a>
+                        <a href="https://courses.catking.in/courses/cet-turbo" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">View Course</a>
+                    </div>
+                </div>
+            </article>
+            <!-- Card 08: GMAT -->
+            <article class="exam-spotlight-card flip reveal">
+                <div class="exam-spotlight-image exam-spotlight-video" data-yt="OqDiAHFIYAM" role="button" tabindex="0" aria-label="Play video: GMAT" style="background-image: url('https://img.youtube.com/vi/OqDiAHFIYAM/maxresdefault.jpg'), url('https://img.youtube.com/vi/OqDiAHFIYAM/hqdefault.jpg');"><span class="exam-spotlight-video-pill">Watch</span><span class="exam-spotlight-play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span><span class="exam-spotlight-yt-source"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg>CATKing,GMAT Strategy</span><a class="exam-spotlight-yt-link" href="https://youtu.be/OqDiAHFIYAM?si=UVhsqoEn_s2-aU-5" target="_blank" rel="noopener" aria-label="Open on YouTube" onclick="event.stopPropagation();"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg></a></div>
+                <div class="exam-spotlight-content">
+                    <div class="exam-spotlight-num">08 / 11 · GMAT</div>
+                    <h3 class="exam-spotlight-title">GMAT</h3>
+                    <p class="exam-spotlight-desc">The GMAT is a computer-based exam that evaluates critical reasoning, problem-solving, data sufficiency, logic, and analytical skills essential for business and management success. It consists of three sections: Verbal Reasoning (21 questions in 45 minutes), Quantitative Reasoning (23 questions in 45 minutes), and Data Insights (20 questions in 45 minutes), total 64 questions in 2 hours and 15 minutes.</p>
+                    <div class="exam-spotlight-ctas">
+                        <a href="https://catking.in/exam/gmat/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">Learn More</a>
+                        <a href="https://courses.catking.in/courses/gmat-courses" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">View Course</a>
+                    </div>
+                </div>
+            </article>
+            <!-- Card 09: IELTS -->
+            <article class="exam-spotlight-card reveal">
+                <div class="exam-spotlight-image exam-spotlight-video" data-yt="qkRzCct5C5Q" role="button" tabindex="0" aria-label="Play video: IELTS" style="background-image: url('https://img.youtube.com/vi/qkRzCct5C5Q/maxresdefault.jpg'), url('https://img.youtube.com/vi/qkRzCct5C5Q/hqdefault.jpg');"><span class="exam-spotlight-video-pill">Watch</span><span class="exam-spotlight-play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span><span class="exam-spotlight-yt-source"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg>CATKing,IELTS Strategy</span><a class="exam-spotlight-yt-link" href="https://youtube.com/shorts/qkRzCct5C5Q?si=am0YfnnuDprHtquh" target="_blank" rel="noopener" aria-label="Open on YouTube" onclick="event.stopPropagation();"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg></a></div>
+                <div class="exam-spotlight-content">
+                    <div class="exam-spotlight-num">09 / 11 · IELTS</div>
+                    <h3 class="exam-spotlight-title">IELTS</h3>
+                    <p class="exam-spotlight-desc">The International English Language Testing System (IELTS) is a standardised test conducted for assessing English proficiency of candidates who want to study or work abroad. It assesses listening, reading, speaking and writing skills, and serves as a key admission requirement for top universities in USA, UK, Canada, Australia, New Zealand and 140+ more. IELTS has two versions: Academic (study abroad) and General Training (work visas).</p>
+                    <div class="exam-spotlight-ctas">
+                        <a href="https://catking.in/exam/ielts/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">Learn More</a>
+                        <a href="https://courses.catking.in/courses/ielts-plus-application-special" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">View Course</a>
+                    </div>
+                </div>
+            </article>
+            <!-- Card 10: MAT -->
+            <article class="exam-spotlight-card reveal">
+                <div class="exam-spotlight-image exam-spotlight-video" data-yt="0uQCKScI80g" role="button" tabindex="0" aria-label="Play video: MAT" style="background-image: url('https://img.youtube.com/vi/0uQCKScI80g/maxresdefault.jpg'), url('https://img.youtube.com/vi/0uQCKScI80g/hqdefault.jpg');"><span class="exam-spotlight-video-pill">Watch</span><span class="exam-spotlight-play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span><span class="exam-spotlight-yt-source"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg>CATKing,MAT Strategy</span><a class="exam-spotlight-yt-link" href="https://youtu.be/0uQCKScI80g?si=DPrIPG1Wp_n5SpQD" target="_blank" rel="noopener" aria-label="Open on YouTube" onclick="event.stopPropagation();"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg></a></div>
+                <div class="exam-spotlight-content">
+                    <div class="exam-spotlight-num">10 / 11 · MAT</div>
+                    <h3 class="exam-spotlight-title">MAT</h3>
+                    <p class="exam-spotlight-desc">MAT 2025 Exam dates are out. MAT 2025 February Exam will be held in two modes: Paper Based Test (PBT) on March 9, 2025 and Computer Based Test (CBT) on March 23, 2025. Registration is open. The exam pattern is divided into 5 sections with 150 total questions. Top MBA colleges accepting MAT scores include BIMTECH Greater Noida, XIME Bangalore, Amrita Coimbatore, IFMR KREA University and Jaipuria Noida.</p>
+                    <div class="exam-spotlight-ctas">
+                        <a href="https://catking.in/exam/mat/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">Learn More</a>
+                        <a href="https://courses.catking.in/courses/mat-turbo" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">View Course</a>
+                    </div>
+                </div>
+            </article>
+            <!-- Card 11: ATMA -->
+            <article class="exam-spotlight-card reveal">
+                <div class="exam-spotlight-image exam-spotlight-video" data-yt="a18swlpido4" role="button" tabindex="0" aria-label="Play video: ATMA" style="background-image: url('https://img.youtube.com/vi/a18swlpido4/maxresdefault.jpg'), url('https://img.youtube.com/vi/a18swlpido4/hqdefault.jpg');"><span class="exam-spotlight-video-pill">Watch</span><span class="exam-spotlight-play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span><span class="exam-spotlight-yt-source"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg>CATKing,ATMA Strategy</span><a class="exam-spotlight-yt-link" href="https://youtu.be/a18swlpido4?si=b1KgivnXDkBMBesl" target="_blank" rel="noopener" aria-label="Open on YouTube" onclick="event.stopPropagation();"><svg viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#FF0000" d="M27.4 3.1c-.3-1.2-1.3-2.2-2.5-2.5C22.6 0 14 0 14 0S5.4 0 3.1.6C1.9.9.9 1.9.6 3.1 0 5.4 0 10 0 10s0 4.6.6 6.9c.3 1.2 1.3 2.2 2.5 2.5C5.4 20 14 20 14 20s8.6 0 10.9-.6c1.2-.3 2.2-1.3 2.5-2.5C28 14.6 28 10 28 10s0-4.6-.6-6.9z"/><path fill="#FFFFFF" d="M11.2 14.3l7.2-4.3-7.2-4.3z"/></svg></a></div>
+                <div class="exam-spotlight-content">
+                    <div class="exam-spotlight-num">11 / 11 · ATMA</div>
+                    <h3 class="exam-spotlight-title">ATMA</h3>
+                    <p class="exam-spotlight-desc">The AIMS Test for Management Admissions (ATMA) is a national-level exam conducted by the Association of Indian Management Schools (AIMS) for admission to MBA, PGDM, MMS, MCA, and PGDBA courses, accepted by over 750 institutes in India. The exam evaluates aptitude through six sections covering Analytical Reasoning, Quantitative Skills, and Verbal Skills. Conducted multiple times a year in a center-based online format.</p>
+                    <div class="exam-spotlight-ctas">
+                        <a href="https://catking.in/exam/atma/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">Learn More</a>
+                        <a href="https://courses.catking.in/courses/atma-turbo" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">View Course</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
     </div>
-
-    <div class="exam-slider-wrap reveal">
-      <button class="slider-arrow prev" id="examPrev" aria-label="Previous exam card">
-        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
-      </button>
-      <button class="slider-arrow next" id="examNext" aria-label="Next exam card">
-        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
-      </button>
-
-      <div class="swiper spotlight-swiper">
-        <div class="swiper-wrapper">
-
-      <!-- Card 1: CAT 2026 -->
-      <div class="swiper-slide">
-        <article class="exam-spotlight-card">
-        <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-iima.jpg') }}');" role="img" aria-label="CAT 2026 — gateway to all 22 IIMs"></div>
-        <div class="exam-spotlight-content">
-          <div class="exam-spotlight-num">01 / 14 · CAT</div>
-          <h3 class="exam-spotlight-title">CAT 2026</h3>
-          <p class="exam-spotlight-desc">India's most competitive MBA exam. The gateway to all <strong>22 IIMs</strong>, FMS Delhi, SPJIMR, MDI, IITs and 1,200+ top B-Schools. CATKing's flagship program — Self Study, Turbo and Intensive tracks led by Sumit Sir's live VARC plus IIM-A/B/C alumni faculty.</p>
-          <div class="exam-spotlight-ctas">
-            <a href="https://catking.in/exam/cat-exam/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">Learn More</a>
-            <a href="https://courses.catking.in/courses/cat-2026-self-study" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
-          </div>
-        </div>
-        </article>
-      </div>
-
-      <!-- Card 2: NMAT -->
-      <div class="swiper-slide">
-        <article class="exam-spotlight-card flip">
-        <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-nmims.jpg') }}');" role="img" aria-label="NMAT 2026 — pathway to NMIMS Mumbai"></div>
-        <div class="exam-spotlight-content">
-          <div class="exam-spotlight-num">02 / 14 · NMAT</div>
-          <h3 class="exam-spotlight-title">NMAT 2026</h3>
-          <p class="exam-spotlight-desc">NMIMS Management Aptitude Test — adaptive 3-attempt format with no negative marking. Gateway to <strong>NMIMS Mumbai</strong>, ISB Hyderabad PGP-PRO, SPJIMR PGMPW and other selective programs. Sectional drills, cutoff predictor and shortlist guidance built in.</p>
-          <div class="exam-spotlight-ctas">
-            <a href="https://catking.in/exam/nmat/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">Learn More</a>
-            <a href="https://courses.catking.in/courses/nmat-snap-combo-2026" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
-          </div>
-        </div>
-        </article>
-      </div>
-
-      <!-- Card 3: SNAP -->
-      <div class="swiper-slide">
-        <article class="exam-spotlight-card">
-        <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-symbiosis.jpg') }}');" role="img" aria-label="SNAP 2026 — entry to Symbiosis B-Schools"></div>
-        <div class="exam-spotlight-content">
-          <div class="exam-spotlight-num">03 / 14 · SNAP</div>
-          <h3 class="exam-spotlight-title">SNAP 2026</h3>
-          <p class="exam-spotlight-desc">Symbiosis National Aptitude Test — covers QA, GA, Reasoning and Verbal across a 60-question paper. The route to <strong>SIBM Pune, SCMHRD, SIIB</strong> and 16 other Symbiosis institutes. CATKing's SNAP track includes 12+ pattern-mocks and SNAP-WAT-PI prep.</p>
-          <div class="exam-spotlight-ctas">
-            <a href="https://catking.in/exam/snap/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">Learn More</a>
-            <a href="https://courses.catking.in/courses/snap-nmat-combo-2026" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
-          </div>
-        </div>
-        </article>
-      </div>
-
-      <!-- Card 4: XAT -->
-      <div class="swiper-slide">
-        <article class="exam-spotlight-card flip">
-        <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-xlri.jpg') }}');" role="img" aria-label="XAT 2027 — gateway to XLRI Jamshedpur"></div>
-        <div class="exam-spotlight-content">
-          <div class="exam-spotlight-num">04 / 14 · XAT</div>
-          <h3 class="exam-spotlight-title">XAT 2027</h3>
-          <p class="exam-spotlight-desc">Xavier Aptitude Test — features the unique <strong>Decision Making</strong> module and General Knowledge section that no other MBA exam has. Pathway to <strong>XLRI Jamshedpur, XIMB, SPJIMR and IMT</strong>. Includes essay-evaluation rubric and XAT-pattern mocks across years.</p>
-          <div class="exam-spotlight-ctas">
-            <a href="https://catking.in/exam/xat/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">Learn More</a>
-            <a href="https://courses.catking.in/courses/xat-turbo" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
-          </div>
-        </div>
-        </article>
-      </div>
-      <!-- Card 05: MICAT -->
-      <div class="swiper-slide">
-        <article class="exam-spotlight-card">
-        <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-mica.jpg') }}');" role="img" aria-label="MICAT"></div>
-        <div class="exam-spotlight-content">
-          <div class="exam-spotlight-num">05 / 14 · MICAT</div>
-          <h3 class="exam-spotlight-title">MICAT</h3>
-          <p class="exam-spotlight-desc">MICAT (MICA Admission Test) is a national-level entrance exam administered by Mudra Institute of Communications, Ahmedabad (MICA). It serves as a gateway for admission to the PGDM-C (Post Graduate Diploma in Management Communications) and PGDM (Post Graduate Diploma in Management) programs. The exam is conducted twice a year, with MICAT I held in December and MICAT II in January.</p>
-          <div class="exam-spotlight-ctas">
-            <a href="https://catking.in/exam/micat/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">Learn More</a>
-            <a href="https://courses.catking.in/courses/micat" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
-          </div>
-        </div>
-        </article>
-      </div>
-      <!-- Card 06: CMAT -->
-      <div class="swiper-slide">
-        <article class="exam-spotlight-card flip">
-        <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-jbims.jpg') }}');" role="img" aria-label="CMAT"></div>
-        <div class="exam-spotlight-content">
-          <div class="exam-spotlight-num">06 / 14 · CMAT</div>
-          <h3 class="exam-spotlight-title">CMAT</h3>
-          <p class="exam-spotlight-desc">The CMAT exam (Common Management Admission Test) is a national-level computer-based management entrance exam conducted by the National Testing Agency (NTA) on behalf of the All India Council for Technical Education (AICTE). The CMAT is designed for admission into MBA and PGDM programs offered by AICTE-approved institutions and university departments across India.</p>
-          <div class="exam-spotlight-ctas">
-            <a href="https://catking.in/exam/cmat/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">Learn More</a>
-            <a href="https://courses.catking.in/courses/cmat-cet-combo-2026" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
-          </div>
-        </div>
-        </article>
-      </div>
-      <!-- Card 07: CET -->
-      <div class="swiper-slide">
-        <article class="exam-spotlight-card">
-        <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-jbims.jpg') }}');" role="img" aria-label="CET"></div>
-        <div class="exam-spotlight-content">
-          <div class="exam-spotlight-num">07 / 14 · CET</div>
-          <h3 class="exam-spotlight-title">CET</h3>
-          <p class="exam-spotlight-desc">The Government of Maharashtra has established State Common Entrance Test Cell as per Section 10 of the Maharashtra Unaided Private Professional Educational Institutions (Regulation of Admissions and Fees) Act, 2015. The CET Cell conducts various entrance exams for admission to professional courses in the state of Maharashtra, India.</p>
-          <div class="exam-spotlight-ctas">
-            <a href="https://catking.in/exam/cet/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">Learn More</a>
-            <a href="https://courses.catking.in/courses/cet-turbo" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
-          </div>
-        </div>
-        </article>
-      </div>
-      <!-- Card 08: GMAT -->
-      <div class="swiper-slide">
-        <article class="exam-spotlight-card flip">
-        <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-iima.jpg') }}');" role="img" aria-label="GMAT"></div>
-        <div class="exam-spotlight-content">
-          <div class="exam-spotlight-num">08 / 14 · GMAT</div>
-          <h3 class="exam-spotlight-title">GMAT</h3>
-          <p class="exam-spotlight-desc">The GMAT is a computer-based exam that evaluates critical reasoning, problem-solving, data sufficiency, logic, and analytical skills essential for business and management success. It consists of three sections: Verbal Reasoning (21 questions in 45 minutes), Quantitative Reasoning (23 questions in 45 minutes), and Data Insights (20 questions in 45 minutes), total 64 questions in 2 hours and 15 minutes.</p>
-          <div class="exam-spotlight-ctas">
-            <a href="https://catking.in/exam/gmat/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">Learn More</a>
-            <a href="https://courses.catking.in/courses/gmat-courses" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
-          </div>
-        </div>
-        </article>
-      </div>
-      <!-- Card 09: IELTS -->
-      <div class="swiper-slide">
-        <article class="exam-spotlight-card">
-        <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-iift.jpg') }}');" role="img" aria-label="IELTS"></div>
-        <div class="exam-spotlight-content">
-          <div class="exam-spotlight-num">09 / 14 · IELTS</div>
-          <h3 class="exam-spotlight-title">IELTS</h3>
-          <p class="exam-spotlight-desc">The International English Language Testing System (IELTS) is a standardised test conducted for assessing English proficiency of candidates who want to study or work abroad. It assesses listening, reading, speaking and writing skills, and serves as a key admission requirement for top universities in USA, UK, Canada, Australia, New Zealand and 140+ more. IELTS has two versions: Academic (study abroad) and General Training (work visas).</p>
-          <div class="exam-spotlight-ctas">
-            <a href="https://catking.in/exam/ielts/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">Learn More</a>
-            <a href="https://courses.catking.in/courses/ielts-plus-application-special" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
-          </div>
-        </div>
-        </article>
-      </div>
-      <!-- Card 10: NPAT -->
-      <div class="swiper-slide">
-        <article class="exam-spotlight-card flip">
-        <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-nmims.jpg') }}');" role="img" aria-label="NPAT"></div>
-        <div class="exam-spotlight-content">
-          <div class="exam-spotlight-num">10 / 14 · NPAT</div>
-          <h3 class="exam-spotlight-title">NPAT</h3>
-          <p class="exam-spotlight-desc">NMIMS-NPAT (National Test for Programs After Twelfth) is the official entrance test for admissions to Undergraduate Degree Programs offered by NMIMS after 12th. It covers programs in Commerce, Economics, International Studies, Branding & Advertising, Liberal Arts and Management.</p>
-          <div class="exam-spotlight-ctas">
-            <a href="https://catking.in/exam/npat/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">Learn More</a>
-            <a href="https://courses.catking.in/courses/npat-course" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
-          </div>
-        </div>
-        </article>
-      </div>
-      <!-- Card 11: MAT -->
-      <div class="swiper-slide">
-        <article class="exam-spotlight-card">
-        <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-imt.jpg') }}');" role="img" aria-label="MAT"></div>
-        <div class="exam-spotlight-content">
-          <div class="exam-spotlight-num">11 / 14 · MAT</div>
-          <h3 class="exam-spotlight-title">MAT</h3>
-          <p class="exam-spotlight-desc">MAT 2025 Exam dates are out. MAT 2025 February Exam will be held in two modes: Paper Based Test (PBT) on March 9, 2025 and Computer Based Test (CBT) on March 23, 2025. Registration is open. The exam pattern is divided into 5 sections with 150 total questions. Top MBA colleges accepting MAT scores include BIMTECH Greater Noida, XIME Bangalore, Amrita Coimbatore, IFMR KREA University and Jaipuria Noida.</p>
-          <div class="exam-spotlight-ctas">
-            <a href="https://catking.in/exam/mat/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">Learn More</a>
-            <a href="https://courses.catking.in/courses/mat-turbo" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
-          </div>
-        </div>
-        </article>
-      </div>
-      <!-- Card 12: IPMAT -->
-      <div class="swiper-slide">
-        <article class="exam-spotlight-card flip">
-        <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-iima.jpg') }}');" role="img" aria-label="IPMAT"></div>
-        <div class="exam-spotlight-content">
-          <div class="exam-spotlight-num">12 / 14 · IPMAT</div>
-          <h3 class="exam-spotlight-title">IPMAT</h3>
-          <p class="exam-spotlight-desc">The Integrated Programme in Management Aptitude Test (IPMAT) is a competitive exam for admission to the five-year dual-degree Integrated Programme in Management (BBA+MBA) at top institutions like IIM Indore, IIM Rohtak, IIM Ranchi, IIFT, and TAPMI. It allows students to bypass the CAT or other exams for MBA admission after completing a three-year BBA. Class 12 graduates from 2023 can pursue this program to earn a BBA and MBA from prestigious B-Schools.</p>
-          <div class="exam-spotlight-ctas">
-            <a href="https://catking.in/exam/ipmat/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">Learn More</a>
-            <a href="https://courses.catking.in/courses/ipmat-course" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
-          </div>
-        </div>
-        </article>
-      </div>
-      <!-- Card 13: ATMA -->
-      <div class="swiper-slide">
-        <article class="exam-spotlight-card">
-        <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-weschool.jpg') }}');" role="img" aria-label="ATMA"></div>
-        <div class="exam-spotlight-content">
-          <div class="exam-spotlight-num">13 / 14 · ATMA</div>
-          <h3 class="exam-spotlight-title">ATMA</h3>
-          <p class="exam-spotlight-desc">The AIMS Test for Management Admissions (ATMA) is a national-level exam conducted by the Association of Indian Management Schools (AIMS) for admission to MBA, PGDM, MMS, MCA, and PGDBA courses, accepted by over 750 institutes in India. The exam evaluates aptitude through six sections covering Analytical Reasoning, Quantitative Skills, and Verbal Skills. Conducted multiple times a year in a center-based online format.</p>
-          <div class="exam-spotlight-ctas">
-            <a href="https://catking.in/exam/atma/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">Learn More</a>
-            <a href="https://courses.catking.in/courses/atma-turbo" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
-          </div>
-        </div>
-        </article>
-      </div>
-      <!-- Card 14: CUET PG -->
-      <div class="swiper-slide">
-        <article class="exam-spotlight-card flip">
-        <div class="exam-spotlight-image" style="background-image: url('{{ asset('images/home/college-tiss.jpg') }}');" role="img" aria-label="CUET PG"></div>
-        <div class="exam-spotlight-content">
-          <div class="exam-spotlight-num">14 / 14 · CUET PG</div>
-          <h3 class="exam-spotlight-title">CUET PG</h3>
-          <p class="exam-spotlight-desc">The Common University Entrance Test (CUET) PG, conducted by the National Testing Agency, is for admission to postgraduate courses at Central Universities and participating colleges. The selection process includes an online written exam followed by counseling. In 2023, 142 universities including Delhi University, Banaras Hindu University, Jamia Millia Islamia, GGS IP University and IIIT Lucknow participated in the exam.</p>
-          <div class="exam-spotlight-ctas">
-            <a href="https://catking.in/exam/cuet/overview" target="_blank" rel="noopener" class="exam-spotlight-cta-primary">Learn More</a>
-            <a href="https://courses.catking.in/courses/atma-turbo" target="_blank" rel="noopener" class="exam-spotlight-cta-secondary">View Course</a>
-          </div>
-        </div>
-        </article>
-      </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 
 
@@ -3145,6 +3068,7 @@
       <!-- Right: Video player -->
       <div class="belief-right">
         <a href="https://youtu.be/sORYuzQ3KDw?si=tlFL0eLV70aKklYc" target="_blank" rel="noopener" class="belief-video" aria-label="Play video: Believe in Yourself — CAT Motivation by Sumit Sir">
+          <img src="{{ asset('images/home/believe-thumb.jpg') }}" alt="" class="section-bg-img" loading="lazy">
           <div class="belief-video-play">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
           </div>
@@ -3152,7 +3076,7 @@
         <h3 class="belief-video-title">You Are What You <em>Believe</em> Yourself To Be.</h3>
         <p class="belief-video-caption">A short message from Sumit Sir — on belief, conviction, and what it really takes to walk into your dream IIM.</p>
         <a href="https://courses.catking.in/courses/cat-2026-self-study" target="_blank" rel="noopener" class="btn btn-primary belief-video-cta">
-          Enroll Now
+          CAT 2026
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
       </div>
@@ -3249,7 +3173,8 @@
       <div class="faculty-marquee">
         <div class="faculty-track" id="facultyTrack">
       <div class="faculty-card">
-        <div class="faculty-photo" style="background-image: url('{{ asset('images/home/faculty-anisha.jpg') }}');">
+        <div class="faculty-photo">
+          <img src="{{ asset('images/home/faculty-anisha.jpg') }}" alt="Anisha Ma'am" class="section-bg-img" loading="lazy">
           <div class="faculty-name-overlay">
             <div class="faculty-name">Anisha Ma'am</div>
             <div class="faculty-role">VARC Lead</div>
@@ -3263,7 +3188,8 @@
       </div>
 
       <div class="faculty-card">
-        <div class="faculty-photo" style="background-image: url('{{ asset('images/home/faculty-sahil.jpg') }}');">
+        <div class="faculty-photo">
+          <img src="{{ asset('images/home/faculty-sahil.jpg') }}" alt="Sahil Sir" class="section-bg-img" loading="lazy">
           <div class="faculty-name-overlay">
             <div class="faculty-name">Sahil Sir</div>
             <div class="faculty-role">Quants &amp; DILR Faculty</div>
@@ -3277,7 +3203,8 @@
       </div>
 
       <div class="faculty-card">
-        <div class="faculty-photo" style="background-image: url('{{ asset('images/home/faculty-prantik.jpg') }}');">
+        <div class="faculty-photo">
+          <img src="{{ asset('images/home/faculty-prantik.jpg') }}" alt="Prantik Sir" class="section-bg-img" loading="lazy">
           <div class="faculty-name-overlay">
             <div class="faculty-name">Prantik Sir</div>
             <div class="faculty-role">Quants &amp; DILR Faculty</div>
@@ -3290,7 +3217,8 @@
       </div>
 
       <div class="faculty-card">
-        <div class="faculty-photo" style="background-image: url('{{ asset('images/home/faculty-megha.jpg') }}');">
+        <div class="faculty-photo">
+          <img src="{{ asset('images/home/faculty-megha.jpg') }}" alt="Megha Ma'am" class="section-bg-img" loading="lazy">
           <div class="faculty-name-overlay">
             <div class="faculty-name">Megha Ma'am</div>
             <div class="faculty-role">Faculty</div>
@@ -3304,7 +3232,8 @@
       </div>
 
       <div class="faculty-card">
-        <div class="faculty-photo" style="background-image: url('{{ asset('images/home/faculty-biswadip.jpg') }}');">
+        <div class="faculty-photo">
+          <img src="{{ asset('images/home/faculty-biswadip.jpg') }}" alt="Biswadip Sir" class="section-bg-img" loading="lazy">
           <div class="faculty-name-overlay">
             <div class="faculty-name">Biswadip Sir</div>
             <div class="faculty-role">Faculty</div>
@@ -3318,7 +3247,8 @@
       </div>
 
       <div class="faculty-card">
-        <div class="faculty-photo" style="background-image: url('{{ asset('images/home/faculty-preet.jpg') }}');">
+        <div class="faculty-photo">
+          <img src="{{ asset('images/home/faculty-preet.jpg') }}" alt="Preet Sir" class="section-bg-img" loading="lazy">
           <div class="faculty-name-overlay">
             <div class="faculty-name">Preet Sir</div>
             <div class="faculty-role">Faculty</div>
@@ -3332,7 +3262,8 @@
       </div>
 
       <div class="faculty-card">
-        <div class="faculty-photo" style="background-image: url('{{ asset('images/home/faculty-manoj.jpg') }}');">
+        <div class="faculty-photo">
+          <img src="{{ asset('images/home/faculty-manoj.jpg') }}" alt="Manoj Sir" class="section-bg-img" loading="lazy">
           <div class="faculty-name-overlay">
             <div class="faculty-name">Manoj Sir</div>
             <div class="faculty-role">Quants &amp; DILR Faculty</div>
@@ -3345,7 +3276,8 @@
       </div>
 
       <div class="faculty-card">
-        <div class="faculty-photo" style="background-image: url('{{ asset('images/home/faculty-abhishek.jpg') }}');">
+        <div class="faculty-photo">
+          <img src="{{ asset('images/home/faculty-abhishek.jpg') }}" alt="Abhishek Sir" class="section-bg-img" loading="lazy">
           <div class="faculty-name-overlay">
             <div class="faculty-name">Abhishek Sir</div>
             <div class="faculty-role">Faculty</div>
@@ -3359,7 +3291,8 @@
       </div>
 
       <div class="faculty-card">
-        <div class="faculty-photo" style="background-image: url('{{ asset('images/home/faculty-monika.jpg') }}');">
+        <div class="faculty-photo">
+          <img src="{{ asset('images/home/faculty-monika.jpg') }}" alt="Monika Ma'am" class="section-bg-img" loading="lazy">
           <div class="faculty-name-overlay">
             <div class="faculty-name">Monika Ma'am</div>
             <div class="faculty-role">Quants &amp; DILR · Doubt Solving</div>
@@ -3373,7 +3306,8 @@
       </div>
 
       <div class="faculty-card" aria-hidden="true">
-        <div class="faculty-photo" style="background-image: url('{{ asset('images/home/faculty-anisha.jpg') }}');">
+        <div class="faculty-photo">
+          <img src="{{ asset('images/home/faculty-anisha.jpg') }}" alt="Anisha Ma'am" class="section-bg-img" loading="lazy">
           <div class="faculty-name-overlay">
             <div class="faculty-name">Anisha Ma'am</div>
             <div class="faculty-role">VARC Lead</div>
@@ -3524,6 +3458,7 @@
         <div class="podcast-grid">
           <a href="https://youtu.be/nqmrrkUvhRw?si=rOT4jZZFpocIOT0a" target="_blank" rel="noopener" class="podcast-card">
             <div class="podcast-thumb t1">
+              <img src="{{ asset('images/home/media-mba.jpg') }}" alt="" class="section-bg-img" loading="lazy">
               <div class="podcast-thumb-play">
                 <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
               </div>
@@ -3538,6 +3473,7 @@
 
           <a href="https://youtu.be/NTgNQ7eNMT4?si=P53z-ZEsFssTEjaN" target="_blank" rel="noopener" class="podcast-card">
             <div class="podcast-thumb t2">
+              <img src="{{ asset('images/home/media-tedx.jpg') }}" alt="" class="section-bg-img" loading="lazy">
               <div class="podcast-thumb-play">
                 <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
               </div>
@@ -3552,6 +3488,7 @@
 
           <a href="https://youtu.be/1nWH3DNGm3o?si=dtv30DRJrlWF19w3" target="_blank" rel="noopener" class="podcast-card">
             <div class="podcast-thumb t3">
+              <img src="{{ asset('images/home/media-ashneer.jpg') }}" alt="" class="section-bg-img" loading="lazy">
               <div class="podcast-thumb-play">
                 <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
               </div>
@@ -3566,6 +3503,7 @@
 
           <a href="https://youtu.be/CwgEEXIhdYg?si=m3Mkw-TdbIFyzR6a" target="_blank" rel="noopener" class="podcast-card">
             <div class="podcast-thumb t4">
+              <img src="{{ asset('images/home/media-iimk.jpg') }}" alt="" class="section-bg-img" loading="lazy">
               <div class="podcast-thumb-play">
                 <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
               </div>
@@ -3589,11 +3527,13 @@
 
         <div class="event-thumbs-grid">
           <a href="https://www.youtube.com/live/gwJTjOR1gME?si=mJU-pzIxuRrXPMNX" target="_blank" rel="noopener" class="event-thumb workshop">
+            <img src="{{ asset('images/home/event-workshop.jpg') }}" alt="" class="section-bg-img" loading="lazy">
             <span class="event-thumb-title">CATKing Live Workshop</span>
             <span class="event-thumb-status">Past Event</span>
             <span class="event-thumb-duration">1:14:37</span>
           </a>
           <a href="https://www.youtube.com/live/EpYC0ckU8KA?si=nAF4ZjsTXYjdPdAC" target="_blank" rel="noopener" class="event-thumb live">
+            <img src="{{ asset('images/home/event-live-class.jpg') }}" alt="" class="section-bg-img" loading="lazy">
             <span class="event-thumb-title">CAT Advice by IIM Convert</span>
             <span class="event-thumb-status live">Live Session</span>
             <span class="event-thumb-duration">31:44</span>
@@ -3679,42 +3619,34 @@
      12. COUNSELLING CTA
      ───────────────────────────────────────── -->
 <section class="theme-light counsel-section">
-  <div class="container">
-    <div class="counsel-banner reveal">
-      <div class="counsel-banner-content">
-        <span class="counsel-banner-eyebrow">Free 30-Min Counselling</span>
-        <h2 class="counsel-banner-title">Talk to an <em>IIM mentor</em><br>before you decide.</h2>
-        <p class="counsel-banner-sub">No sales pitch. Just a real conversation about your background, target schools, and whether CATKing is the right fit. A mentor will call you within 4 working hours.</p>
-        <div class="counsel-banner-stats">
-          <div class="counsel-banner-stat">
-            <span class="counsel-banner-stat-num">12,000+</span>
-            <span class="counsel-banner-stat-lbl">Calls in 2025</span>
-          </div>
-          <div class="counsel-banner-divider"></div>
-          <div class="counsel-banner-stat">
-            <span class="counsel-banner-stat-num">2,080+</span>
-            <span class="counsel-banner-stat-lbl">IIM Converts 2024-25</span>
-          </div>
-          <div class="counsel-banner-divider"></div>
-          <div class="counsel-banner-stat">
-            <span class="counsel-banner-stat-num">4.8★</span>
-            <span class="counsel-banner-stat-lbl">Mentor Rating</span>
-          </div>
+    <div class="container">
+        <div class="workshop-banner reveal">
+            <div class="workshop-banner-visual" aria-hidden="true">
+                <div class="workshop-cap">
+                    <div class="workshop-cap-mortarboard"></div>
+                    <div class="workshop-cap-band"></div>
+                    <div class="workshop-cap-base"></div>
+                    <div class="workshop-cap-button"></div>
+                    <div class="workshop-cap-tassel">
+                        <div class="workshop-cap-tassel-cord"></div>
+                        <div class="workshop-cap-tassel-fringe"></div>
+                    </div>
+                    <div class="workshop-cloud workshop-cloud-1"></div>
+                    <div class="workshop-cloud workshop-cloud-2"></div>
+                    <div class="workshop-cloud workshop-cloud-3"></div>
+                    <div class="workshop-cloud workshop-cloud-4"></div>
+                </div>
+            </div>
+            <div class="workshop-banner-content">
+                <h2 class="workshop-banner-title">Free CAT Workshop by <em>CATKing</em></h2>
+                <p class="workshop-banner-sub">Learn how to crack the CAT Exam. Tips and Tricks to crack the exam.</p>
+                <a href="https://catking.in/exam/cat-exam/free-cat-workshop" target="_blank" rel="noopener" class="workshop-banner-btn">
+                    Go to Free Workshop
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+            </div>
         </div>
-      </div>
-      <div class="counsel-banner-cta">
-        <a href="https://wa.me/918999118999?text=Hi%20I%20would%20like%20to%20book%20a%20free%20counselling%20call" target="_blank" rel="noopener" class="counsel-banner-btn-primary">
-          Book Free Counselling
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-        </a>
-        <a href="tel:+918999118999" class="counsel-banner-btn-secondary">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          Call +91-8999-11-8999
-        </a>
-        <span class="counsel-banner-trust">No spam · No obligation · Real mentors only</span>
-      </div>
     </div>
-  </div>
 </section>
 
 <!-- ─────────────────────────────────────────
@@ -3790,7 +3722,7 @@
 <div class="sticky-cta" id="stickyCta">
   <span class="sticky-msg">May 4 batch · <strong>43 seats remain</strong> · Block your seat with ₹999 (refundable)</span>
   <button class="btn btn-primary">Reserve My Seat →</button>
-  <button class="close" onclick="document.getElementById('stickyCta').classList.remove('show')">✕</button>
+  <button class="close" onclick="document.getElementById('stickyCta').classList.remove('show'); stickyClosed = true;">✕</button>
 </div>
 
 <div class="live-toast" id="liveToast">

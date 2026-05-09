@@ -447,8 +447,8 @@ if (muteBtn) {
     baseCycle();
   };
 
-  // Kick off
-  nextTimer = setTimeout(cycle, FIRST_DELAY_MS);
+  // Kick off (Disabled to prevent collision with new enrollment toast)
+  // nextTimer = setTimeout(cycle, FIRST_DELAY_MS);
 
   // Don't show if user has prefers-reduced-data (basic respect for slow connections)
   if (navigator.connection && navigator.connection.saveData) {
