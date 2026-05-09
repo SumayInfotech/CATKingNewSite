@@ -21,7 +21,9 @@
     @include('layouts.footer')
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    @unless(request()->routeIs('results'))
     <script src="{{ asset('js/cat-exam-landing.js') }}" defer></script>
+    @endunless
     @stack('scripts')
 
 
@@ -32,6 +34,25 @@
 <div class="toast-stack" id="toastStack" aria-live="polite" aria-atomic="false"></div>
 
     @include('layouts.modals')
+
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  var footerLogo = document.querySelector('.foot-brand > img');
+  if(!footerLogo) return;
+  footerLogo.style.cursor = 'pointer';
+  footerLogo.setAttribute('role', 'link');
+  footerLogo.setAttribute('tabindex', '0');
+  footerLogo.setAttribute('aria-label', 'CATKing - Home');
+  function goHome(){ window.location.href = '{{ url('/') }}'; }
+  footerLogo.addEventListener('click', goHome);
+  footerLogo.addEventListener('keydown', function(e){
+    if(e.key === 'Enter' || e.key === ' '){
+      e.preventDefault();
+      goHome();
+    }
+  });
+});
+</script>
 
 <!-- ============ STICKY MOBILE BAR ============ -->
 <div class="sticky-mobile">

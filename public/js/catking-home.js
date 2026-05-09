@@ -11,7 +11,7 @@
       }
     });
   }, { threshold: 0.15 });
-  
+
   function initReveal() {
     document.querySelectorAll('.reveal').forEach(el => {
       // If already in view (e.g. on page reload), add .in immediately
@@ -23,7 +23,7 @@
       }
     });
   }
-  
+
   // Run on load and after a short delay to catch late-renders
   initReveal();
   setTimeout(initReveal, 400);
@@ -344,7 +344,129 @@
     },
   ];
 
+  let apiScorecards = [];
+
+  function escapeHtml(value) {
+    return String(value || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  function safeImageUrl(value) {
+    const url = String(value || '').trim().replace(/\\/g, '/');
+    if (!url) return '';
+    if (/^(https?:)?\/\//i.test(url) || url.startsWith('/') || /^data:image\//i.test(url)) return url;
+    return '';
+  }
+
+  function stripTags(value) {
+    const holder = document.createElement('div');
+    holder.innerHTML = String(value || '');
+    return holder.textContent || holder.innerText || '';
+  }
+
+  function initialsFromName(name) {
+    const parts = String(name || 'Student').trim().split(/\s+/).filter(Boolean);
+    return ((parts[0] && parts[0][0]) || 'S') + ((parts[1] && parts[1][0]) || '');
+  }
+
+  function normalizePercentile(value) {
+    return String(value || '').replace(/%?ile/ig, '').replace(/%/g, '').trim();
+  }
+
+  function getApiAvatar(item) {
+    return safeImageUrl(item.user_profile_link || (item.user && item.user.avatar_url));
+  }
+
+  function toApiScorecard(item) {
+    const name = item.user_name || (item.user && item.user.name) || 'Student';
+    const percentile = normalizePercentile(item.user_percentile || item.percentile || item.score);
+    return {
+      initials: initialsFromName(name).toUpperCase(),
+      name,
+      label: item.user_label || 'CATKing CAT Topper',
+      exam: item.exam_label || item.exam || 'CAT 2025',
+      pct: percentile || '99+',
+      quote: stripTags(item.scorecard_description || item.description || ''),
+      avatar: getApiAvatar(item),
+      cardImage: safeImageUrl(item.scorecard_card_image || item.card_image),
+      fullImage: safeImageUrl(item.scorecard_full_image || item.full_image || item.scorecard_card_image || item.card_image)
+    };
+  }
+
+  function renderApiStoryCard(item, index, isDuplicate) {
+    const s = toApiScorecard(item);
+    const avatar = s.avatar
+      ? `<img src="${escapeHtml(s.avatar)}" alt="${escapeHtml(s.name)}" class="story-avatar-img" loading="lazy" onerror="this.remove()">`
+      : escapeHtml(s.initials);
+    const preview = s.cardImage
+      ? `<img src="${escapeHtml(s.cardImage)}" alt="${escapeHtml(s.name)} scorecard" class="story-scorecard-img" loading="lazy">`
+      : `<div class="story-sections-header"><div>VARC</div><div>DILR</div><div>QA</div><div>Total</div></div><div class="story-sec-grid values"><div><span>-</span><span>-</span></div><div><span>-</span><span>-</span></div><div><span>-</span><span>-</span></div><div><span>-</span><span>${escapeHtml(s.pct)}</span></div></div>`;
+    const quote = s.quote || 'Verified CATKing scorecard and success story.';
+
+    return `
+      <article class="story-card"${isDuplicate ? ' aria-hidden="true"' : ''}>
+        <div class="story-head">
+          <div class="story-avatar">${avatar}</div>
+          <div class="story-head-info">
+            <div class="story-name">${escapeHtml(s.name)}</div>
+            <div class="story-sub">${escapeHtml(s.label)}</div>
+          </div>
+        </div>
+        <div class="story-score-banner">
+          <div class="story-score-pct">${escapeHtml(s.pct)}<sup>%ile</sup></div>
+          <div class="story-score-lbl">CAT Percentile Score</div>
+        </div>
+        <div class="story-sections api-scorecard-preview">${preview}</div>
+        <div class="story-quote">${escapeHtml(quote)}</div>
+        <button class="story-btn" type="button" onclick="openScorecard(${index})">View scorecard</button>
+      </article>`;
+  }
+
+  function setScorecardImageMode(showImage) {
+    const wrap = document.getElementById('scoreImageWrap');
+    const table = document.querySelector('#scoreSections')?.closest('table');
+    const quote = document.getElementById('scoreQuote');
+    const meta = document.querySelector('.scorecard-meta-row');
+    if (wrap) wrap.hidden = !showImage;
+    if (table) table.style.display = showImage ? 'none' : '';
+    if (quote) quote.style.display = showImage ? 'none' : '';
+    if (meta) meta.style.display = showImage ? 'none' : '';
+  }
+
+  function openApiScorecard(idx) {
+    const item = apiScorecards[idx];
+    if (!item) return false;
+    const s = toApiScorecard(item);
+    const exam = document.getElementById('scoreExam');
+    const av = document.getElementById('scoreAvatar');
+    const title = document.getElementById('scorecardModalTitle');
+    const pct = document.getElementById('scorePct');
+    const image = document.getElementById('scoreFullImage');
+    const modal = document.getElementById('scorecardModal');
+
+    if (exam) exam.textContent = 'Score Card · ' + s.exam;
+    if (av) {
+      av.innerHTML = s.avatar
+        ? `<img src="${escapeHtml(s.avatar)}" alt="${escapeHtml(s.name)}">`
+        : escapeHtml(s.initials);
+    }
+    if (title) title.textContent = s.name;
+    if (pct) pct.innerHTML = escapeHtml(s.pct) + '<sup>%ile</sup>';
+    if (image) image.src = s.fullImage || s.cardImage || '';
+    setScorecardImageMode(Boolean(s.fullImage || s.cardImage));
+    if (modal) {
+      modal.classList.add('show');
+      document.body.style.overflow = 'hidden';
+    }
+    return true;
+  }
+
   window.openScorecard = function (idx) {
+    if (openApiScorecard(idx)) return;
     const s = STUDENT_SCORECARDS[idx];
     if (!s) return;
     const exam = document.getElementById('scoreExam');
@@ -369,6 +491,7 @@
     if (quote) quote.textContent = '"' + s.quote + '"';
     if (converts) converts.textContent = s.converts;
     if (addl) addl.textContent = s.addl;
+    setScorecardImageMode(false);
     if (modal) {
       modal.classList.add('show');
       document.body.style.overflow = 'hidden';
@@ -378,8 +501,53 @@
   window.closeScorecardModal = function () {
     const modal = document.getElementById('scorecardModal');
     if (modal) modal.classList.remove('show');
+    const image = document.getElementById('scoreFullImage');
+    if (image) image.src = '';
     document.body.style.overflow = '';
   };
+
+  function fetchScorecardPage(page, collected) {
+    return fetch('/api/scorecards-proxy?base_course_id=56&page=' + page)
+      .then(res => {
+        if (!res.ok) throw new Error('Scorecards request failed');
+        return res.json();
+      })
+      .then(response => {
+        const pageData = response && response.data;
+        const rows = pageData && Array.isArray(pageData.data) ? pageData.data : [];
+        rows.forEach(row => collected.push(row));
+        if (pageData && pageData.current_page < pageData.last_page) {
+          return fetchScorecardPage(pageData.current_page + 1, collected);
+        }
+        return collected;
+      });
+  }
+
+  function loadApiScorecards() {
+    const track = document.getElementById('storiesTrack');
+    if (!track) return;
+
+    fetchScorecardPage(1, [])
+      .then(items => {
+        const usable = items.filter(item => {
+          const s = toApiScorecard(item);
+          return s.name && (s.fullImage || s.cardImage);
+        });
+        if (!usable.length) return;
+
+        apiScorecards = usable;
+        const cards = usable.map((item, index) => renderApiStoryCard(item, index, false)).join('');
+        const duplicateCards = usable.map((item, index) => renderApiStoryCard(item, index, true)).join('');
+        track.innerHTML = cards + duplicateCards;
+        track.style.setProperty('--visible-cards', usable.length);
+        initReveal();
+      })
+      .catch(err => {
+        console.warn('Scorecard API unavailable; using static scorecards.', err);
+      });
+  }
+
+  loadApiScorecards();
 
   // Click backdrop to close + Esc
   const sm = document.getElementById('scorecardModal');

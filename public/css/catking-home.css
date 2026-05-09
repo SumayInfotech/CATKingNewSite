@@ -51,8 +51,8 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { 
-    scroll-behavior: smooth; 
+html {
+    scroll-behavior: smooth;
     overflow-x: clip !important;
 }
 
@@ -616,189 +616,10 @@ a { color: inherit; text-decoration: none; }
     line-height: 1.2;
 }
 
-/* ─── Standard hover dropdown (Explore) ─── */
-.dropdown {
-    position: absolute;
-    top: calc(100% + 6px);
-    right: 0;
-    background: var(--white);
-    border: 1px solid var(--line);
-    border-radius: 6px;
-    box-shadow: 0 14px 40px rgba(0,0,0,0.09);
-    min-width: 220px;
-    padding: 8px;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-4px);
-    transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
-    z-index: 100;
-}
-.nav-item:hover > .dropdown,
-.dropdown:hover { opacity: 1; visibility: visible; transform: translateY(0); }
-.nav-item:hover::after {
-    content: '';
-    position: absolute;
-    left: 0; right: 0;
-    top: 100%;
-    height: 8px;
-}
-.dropdown a {
-    display: block;
-    padding: 8px 12px;
-    font-size: 13px;
-    color: var(--slate);
-    border-radius: 4px;
-    font-weight: 500;
-    white-space: nowrap;
-    transition: background 0.12s, color 0.12s;
-}
-.dropdown a:hover { background: var(--orange-pale); color: var(--ink); }
 
-/* ─── Mega menu (Courses) — single 7-column panel ─── */
-.nav-item--mega { position: relative; }
-.mega {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    margin-top: 6px;
-    background: var(--white);
-    border: 1px solid var(--line);
-    border-top: 3px solid var(--orange);
-    border-radius: 0 0 8px 8px;
-    box-shadow: 0 18px 50px rgba(0,0,0,0.16);
-    padding: 0;
-    width: 1080px;
-    max-width: calc(100vw - 60px);
-    height: 380px;
-    display: grid;
-    grid-template-columns: 240px 320px 1fr;
-    overflow: hidden;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-4px);
-    transition: opacity 0.22s ease, transform 0.22s ease, visibility 0.22s;
-    z-index: 95;
-}
-.nav-item--mega:hover .mega,
-.mega:hover { opacity: 1; visibility: visible; transform: translateY(0); }
-.nav-item--mega:hover::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 100%;
-    width: 1080px;
-    max-width: calc(100vw - 60px);
-    height: 10px;
-    z-index: 94;
-}
+/* Standard hover dropdown (Explore) — Removed to use global cat-exam-landing.css */
+/* Mega menu (Courses) — Removed to use global cat-exam-landing.css */
 
-/* Column 1 — main categories (vertical list) */
-.mega-cats {
-    background: #FAFAF7;
-    border-right: 1px solid var(--line);
-    padding: 16px 0;
-    overflow-y: auto;
-}
-.mega-cat {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 11px 22px;
-    font-size: 13.5px;
-    font-weight: 700;
-    color: var(--ink);
-    cursor: pointer;
-    border-left: 3px solid transparent;
-    transition: all 0.16s ease;
-    background: none;
-    border-top: none;
-    border-right: none;
-    border-bottom: none;
-    width: 100%;
-    text-align: left;
-    font-family: inherit;
-}
-.mega-cat::after {
-    content: '›';
-    color: var(--slate-soft);
-    font-size: 18px;
-    font-weight: 400;
-    transition: color 0.16s, transform 0.16s;
-}
-.mega-cat:hover,
-.mega-cat.active {
-    background: rgba(232,149,31,0.1);
-    color: var(--orange-deep);
-    border-left-color: var(--orange);
-}
-.mega-cat:hover::after,
-.mega-cat.active::after {
-    color: var(--orange);
-    transform: translateX(2px);
-}
-
-/* Column 2 — sub-options (only one panel shown at a time) */
-.mega-subs {
-    padding: 24px 28px;
-    border-right: 1px solid var(--line);
-    overflow-y: auto;
-}
-.mega-sub-panel {
-    display: none;
-    flex-direction: column;
-    gap: 2px;
-}
-.mega-sub-panel.active { display: flex; }
-.mega-sub-panel h6 {
-    font-family: inherit;
-    font-size: 11px;
-    font-weight: 800;
-    color: var(--orange);
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    padding-bottom: 10px;
-    margin-bottom: 8px;
-    border-bottom: 1.5px solid var(--line);
-    line-height: 1.2;
-}
-.mega-sub-panel a {
-    display: block;
-    font-size: 13px;
-    color: var(--ink);
-    padding: 7px 8px 7px 0;
-    font-weight: 500;
-    line-height: 1.4;
-    transition: color 0.12s, padding 0.12s, background 0.12s;
-    border-radius: 4px;
-}
-.mega-sub-panel a:hover {
-    color: var(--orange-deep);
-    background: rgba(232,149,31,0.06);
-    padding-left: 8px;
-}
-
-/* Column 3 — image preview */
-.mega-preview {
-    position: relative;
-    background: var(--white);
-    padding: 24px 22px;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    overflow: hidden;
-}
-.mega-preview-img {
-    width: 100%;
-    height: 180px;
-    border-radius: 10px;
-    background-color: var(--ink);
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 8px 22px rgba(0,0,0,0.12);
-    flex-shrink: 0;
-    margin-bottom: 16px;
-    position: relative;
-}
 .mega-preview-img::after {
     content: '';
     position: absolute;
@@ -3894,6 +3715,13 @@ a { color: inherit; text-decoration: none; }
     font-weight: 900;
     line-height: 1;
 }
+.story-avatar-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
 .story-head-info { min-width: 0; flex: 1; }
 .story-name {
     font-size: 16px;
@@ -3981,6 +3809,21 @@ a { color: inherit; text-decoration: none; }
     border-radius: 6px;
     overflow: hidden;
     background: var(--white);
+}
+.story-sections.api-scorecard-preview {
+    border-radius: 8px;
+    background: #fff;
+    padding: 8px;
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.story-scorecard-img {
+    width: 100%;
+    max-height: 96px;
+    object-fit: contain;
+    display: block;
 }
 .story-sections-header {
     display: grid;
@@ -4157,6 +4000,13 @@ a { color: inherit; text-decoration: none; }
     font-size: 22px;
     flex-shrink: 0;
     box-shadow: 0 6px 18px rgba(232,149,31,0.35);
+    overflow: hidden;
+}
+.scorecard-modal-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 .scorecard-modal-name {
     font-family: inherit;
@@ -4187,6 +4037,21 @@ a { color: inherit; text-decoration: none; }
 .scorecard-modal-body {
     padding: 24px 28px 26px;
     overflow-y: auto;
+}
+.scorecard-modal-image-wrap {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+.scorecard-modal-full-img {
+    max-width: 100%;
+    max-height: 72vh;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
 .scorecard-modal-body .scorecard-table {
     width: 100%;
@@ -4522,6 +4387,7 @@ a { color: inherit; text-decoration: none; }
     font-weight: 800;
 }
 .enquiry-banner {
+    position: relative;
     width: 100%;
     aspect-ratio: 992 / 284;
     background-color: var(--paper-warm);
@@ -4530,6 +4396,14 @@ a { color: inherit; text-decoration: none; }
     background-position: center;
     border-bottom: 3px solid var(--orange);
     flex-shrink: 0;
+    overflow: hidden;
+}
+.enquiry-banner .section-bg-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .enquiry-body {
     padding: 22px 26px 26px;
@@ -5037,7 +4911,7 @@ a { color: inherit; text-decoration: none; }
     border-radius: 8px;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 1fr 0.85fr;
+    /*grid-template-columns: 1fr 0.85fr;*/
 }
 .course-left { padding: 44px 44px 40px; }
 .course-tag {
@@ -6524,9 +6398,9 @@ a { color: inherit; text-decoration: none; }
     transition: opacity 0.8s cubic-bezier(0.21, 0.6, 0.35, 1), transform 0.8s cubic-bezier(0.21, 0.6, 0.35, 1);
     will-change: opacity, transform;
 }
-.reveal.in { 
-    opacity: 1; 
-    transform: translateY(0); 
+.reveal.in {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* Responsive */
@@ -6579,3 +6453,374 @@ a { color: inherit; text-decoration: none; }
     .founder-block { padding: 28px; }
     .founder-avatar { width: 100px; height: 100px; font-size: 32px; margin: 0 auto; }
 }
+
+    /* ==========================================
+       FIX CARD ALIGNMENT + CLEAN TAB DESIGN
+    ========================================== */
+
+    /* ==========================================
+       GRID
+    ========================================== */
+
+    .course-grid{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        gap:22px;
+    }
+
+    /* ==========================================
+       CARD
+    ========================================== */
+
+    .course-card{
+        background:#fff;
+        border:1px solid #E8ECF2;
+        border-radius:18px;
+        overflow:hidden;
+        transition:all .25s ease;
+        box-shadow:
+            0 1px 2px rgba(16,24,40,.03),
+            0 8px 24px rgba(16,24,40,.04);
+    }
+
+    .course-card:hover{
+        transform:translateY(-4px);
+        border-color:rgba(232,149,31,.4);
+
+        box-shadow:
+            0 12px 30px rgba(16,24,40,.08),
+            0 6px 18px rgba(232,149,31,.08);
+    }
+
+    .course-card-body{
+        padding:18px;
+        display:flex;
+        flex-direction:column;
+        height:100%;
+    }
+
+    /* ==========================================
+       TITLE
+    ========================================== */
+
+    .course-card-title{
+        text-align:center;
+        font-size:18px;
+        font-weight:800;
+        color:#111827;
+        line-height:1.3;
+        margin:0 0 16px;
+    }
+
+    /* ==========================================
+       IMAGE
+    ========================================== */
+
+    .course-card-image{
+        position:relative;
+
+        /* remove side blank spacing */
+        width:calc(100% + 36px);
+        margin-left:-18px;
+        margin-right:-18px;
+
+        height:180px;
+        overflow:hidden;
+
+        background-size:cover;
+        background-position:center;
+
+        margin-bottom:18px;
+    }
+
+    .course-card-image::before{
+        content:'';
+        position:absolute;
+        inset:0;
+
+        background:
+            linear-gradient(
+                180deg,
+                rgba(0,0,0,.05) 0%,
+                rgba(0,0,0,.58) 100%
+            );
+    }
+
+    /* ==========================================
+       IMAGE BADGE
+    ========================================== */
+
+    .course-card-image-badge{
+        position:absolute;
+        left:18px;
+        bottom:18px;
+        z-index:2;
+
+        color:#fff;
+        font-size:22px;
+        font-weight:900;
+        line-height:1;
+        letter-spacing:-0.7px;
+
+        text-shadow:
+            0 3px 12px rgba(0,0,0,.35);
+    }
+
+    .course-card-image-badge small{
+        display:inline-flex;
+        align-items:center;
+
+        margin-top:8px;
+        padding:5px 10px;
+
+        border-radius:999px;
+
+        background:rgba(255,255,255,.16);
+
+        font-size:10px;
+        font-weight:700;
+        letter-spacing:1px;
+
+        color:#FFE0A1;
+    }
+
+    /* ==========================================
+       FEATURES
+    ========================================== */
+
+    .course-card-features{
+        list-style:none;
+        margin:0;
+        padding:0;
+
+        display:flex;
+        flex-direction:column;
+        gap:11px;
+
+        flex:1;
+    }
+
+    .course-card-features li{
+        position:relative;
+
+        padding-left:22px;
+
+        font-size:14px;
+        font-weight:500;
+        line-height:1.45;
+
+        color:#667085;
+    }
+
+    .course-card-features li::before{
+        content:'✓';
+
+        position:absolute;
+        left:0;
+        top:0;
+
+        color:#E8951F;
+        font-size:14px;
+        font-weight:900;
+    }
+
+    /* ==========================================
+       PRICE
+    ========================================== */
+
+    .course-card-price{
+        display:flex;
+        align-items:center;
+        flex-wrap:wrap;
+        gap:8px;
+
+        margin-top:18px;
+        padding-top:16px;
+
+        border-top:1px solid #EEF2F6;
+    }
+
+    .course-price-now{
+        font-size:24px;
+        font-weight:900;
+        line-height:1;
+        letter-spacing:-1px;
+
+        color:#111827;
+    }
+
+    .course-price-was{
+        font-size:14px;
+        font-weight:700;
+        color:#98A2B3;
+        text-decoration:line-through;
+    }
+
+    .course-price-tag{
+        margin-left:auto;
+
+        padding:5px 10px;
+
+        border-radius:999px;
+
+        background:#FFF4E7;
+
+        color:#D17F0F;
+        font-size:10px;
+        font-weight:800;
+        letter-spacing:.5px;
+    }
+
+    /* ==========================================
+       BUTTONS
+    ========================================== */
+
+    .course-card-ctas{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:10px;
+
+        margin-top:18px;
+    }
+
+    .course-card-ctas .btn{
+        height:44px;
+
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+        border-radius:12px;
+
+        font-size:14px;
+        font-weight:800;
+
+        transition:all .2s ease;
+    }
+
+    /* Secondary */
+
+    .course-btn-secondary{
+        background:#fff;
+        border:1px solid #D7DFE8;
+        color:#111827;
+    }
+
+    .course-btn-secondary:hover{
+        border-color:#E8951F;
+        background:#FFF9F1;
+        color:#D17F0F;
+    }
+
+    /* Primary */
+
+    .course-btn-primary{
+        border:none;
+
+        background:linear-gradient(
+            135deg,
+            #F5B13A 0%,
+            #E8951F 100%
+        );
+
+        color:#111827;
+
+        box-shadow:
+            0 8px 18px rgba(232,149,31,.18);
+    }
+
+    .course-btn-primary:hover{
+        transform:translateY(-1px);
+
+        box-shadow:
+            0 12px 24px rgba(232,149,31,.28);
+    }
+
+    /* ==========================================
+       ACTIVE CARD BORDER
+    ========================================== */
+
+    .course-card:nth-child(2){
+        border-color:rgba(232,149,31,.45);
+    }
+
+    /* ==========================================
+       CLEAN TAB DESIGN
+    ========================================== */
+
+    .courses-tabs{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:34px;
+
+        margin-bottom:34px;
+
+        border-bottom:1px solid #E8ECF2;
+    }
+
+    .courses-tab{
+        position:relative;
+
+        background:transparent !important;
+        border:none !important;
+        box-shadow:none !important;
+
+        height:auto;
+        padding:0 0 16px;
+
+        border-radius:0;
+
+        font-size:15px;
+        font-weight:800;
+        letter-spacing:1px;
+        text-transform:uppercase;
+
+        color:#667085;
+
+        transition:all .2s ease;
+    }
+
+    .courses-tab:hover{
+        color:#E8951F;
+    }
+
+    /* active underline */
+
+    .courses-tab.active{
+        color:#E8951F;
+    }
+
+    .courses-tab.active::after{
+        content:'';
+
+        position:absolute;
+        left:0;
+        bottom:-1px;
+
+        width:100%;
+        height:3px;
+
+        background:#E8951F;
+        border-radius:10px 10px 0 0;
+    }
+
+    /* ==========================================
+       RESPONSIVE
+    ========================================== */
+
+    @media(max-width:1024px){
+
+        .course-grid{
+            grid-template-columns:repeat(2,1fr);
+        }
+
+    }
+
+    @media(max-width:768px){
+
+        .course-grid{
+            grid-template-columns:1fr;
+        }
+
+    }

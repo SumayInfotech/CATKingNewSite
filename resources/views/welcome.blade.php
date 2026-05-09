@@ -48,6 +48,81 @@
     </div>
 </section>
 
+<section class="theme-light section promise-section">
+    <div class="container">
+        <div class="promise-grid reveal">
+            <div class="promise-content">
+                <div class="promise-eyebrow">
+                    <span class="promise-eyebrow-text">THE CATKING PROMISE</span>
+                </div>
+                <div class="promise-equation">
+                    <div class="promise-equation-row promise-row-1">
+                        <span class="promise-word promise-word-italic">CATKing</span>
+                        <span class="promise-word promise-word-bold">Topper</span>
+                        <span class="promise-equals">=</span>
+                    </div>
+                    <div class="promise-equation-row promise-row-2">
+                        <span class="promise-word promise-word-italic">CAT</span>
+                        <span class="promise-word promise-word-bold">Topper</span>
+                    </div>
+                </div>
+                <p class="promise-body">Every student who tops CATKing's internal mocks goes on to top the real CAT. This isn't a tagline,it's a <strong>documented track record</strong> built over 12 years of IIM-A/B/C alumni mentorship. Our toppers don't just crack CAT; they consistently <strong>outperform national percentile benchmarks</strong>.</p>
+                <div class="promise-pills">
+                    <span class="promise-pill"><span class="promise-pill-tick">✓</span>460+ Black IIM converts</span>
+                    <span class="promise-pill"><span class="promise-pill-tick">✓</span>2,080+ IIM converts</span>
+                    <span class="promise-pill"><span class="promise-pill-tick">✓</span>15+ students scored 99.5+ %ile</span>
+                    <span class="promise-pill"><span class="promise-pill-tick">✓</span>200+ NMIMS converts</span>
+                </div>
+                <div class="promise-cta-row">
+                    <a href="https://courses.catking.in/courses/cat-2026-turbo" target="_blank" rel="noopener" class="promise-btn">Buy Course →</a>
+                    <a href="https://catking.in/student/results" target="_blank" rel="noopener" class="promise-btn-secondary">View All Results →</a>
+                </div>
+            </div>
+
+            <div class="promise-card">
+                <div class="promise-card-header">
+                    <span class="promise-card-title">CATKing → CAT TOPPERS HALL OF FAME</span>
+                </div>
+                <div class="promise-toppers-headrow">
+                    <div class="promise-toppers-h promise-toppers-h-name">Student</div>
+                    <div class="promise-toppers-h promise-toppers-h-mock">CATKing Mock Score</div>
+                    <div class="promise-toppers-h promise-toppers-h-pct">Actual CAT %ile</div>
+                </div>
+                <ul class="promise-toppers">
+                    <li class="promise-topper">
+                        <div class="promise-topper-info">
+                            <div class="promise-topper-name">Protham Chowdhury</div>
+                        </div>
+                        <div class="promise-topper-mock">135</div>
+                        <div class="promise-topper-score">99.91<small>%</small></div>
+                    </li>
+                    <li class="promise-topper">
+                        <div class="promise-topper-info">
+                            <div class="promise-topper-name">Pranav Batra</div>
+                        </div>
+                        <div class="promise-topper-mock">110</div>
+                        <div class="promise-topper-score">99.22<small>%</small></div>
+                    </li>
+                    <li class="promise-topper">
+                        <div class="promise-topper-info">
+                            <div class="promise-topper-name">Aashna Batra</div>
+                        </div>
+                        <div class="promise-topper-mock">104</div>
+                        <div class="promise-topper-score">98.48<small>%</small></div>
+                    </li>
+                    <li class="promise-topper">
+                        <div class="promise-topper-info">
+                            <div class="promise-topper-name">Anssh Sharma</div>
+                        </div>
+                        <div class="promise-topper-mock">101</div>
+                        <div class="promise-topper-score">99.53<small>%</small></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- ─────────────────────────────────────────
      1.5 WHAT YOU'LL GET — Platform overview
      ───────────────────────────────────────── -->
@@ -139,454 +214,599 @@
      COURSES — Tabbed catalog
      ───────────────────────────────────────── -->
 <section class="theme-light section courses-section" id="courses">
-  <div class="container">
-    <div class="section-head reveal courses-head">
-      <h2 class="section-title">CAT Courses and other MBA Courses</h2>
+    <div class="container">
+        <div class="section-head reveal courses-head">
+            <h2 class="section-title">CAT Courses and other <em>MBA Courses</em>.</h2>
+        </div>
+
+        <div class="courses-tabs reveal" role="tablist">
+            <button class="courses-tab active" data-cat="cat" type="button" role="tab" aria-selected="true">CAT</button>
+            <button class="courses-tab" data-cat="noncat" type="button" role="tab" aria-selected="false">Non-CAT</button>
+            <button class="courses-tab" data-cat="mocks" type="button" role="tab" aria-selected="false">Mocks</button>
+            <button class="courses-tab" data-cat="gdpi" type="button" role="tab" aria-selected="false">GDPI</button>
+        </div>
+
+        <!-- CAT panel -->
+        <div class="courses-panel active reveal" data-panel="cat" role="tabpanel">
+            <div class="course-grid">
+
+                <article class="course-card">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">CAT Self Study 2026</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/Bc6G0H3kLko/mqdefault.jpg');">
+                            <div class="course-card-image-badge">CAT 2026<small>SELF STUDY</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>Concept Builder Videos</li>
+                            <li>E-books + 200+ Mocks</li>
+                            <li>130+ LOD1 & LOD2 E-books</li>
+                            <li>Sectional & Topic Tests</li>
+                            <li>CAT 2024 Solved Papers</li>
+                            <li>24×7 Doubt Forum Access</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 9,999</span>
+                            <span class="course-price-was">₹ 19,999</span>
+                            <span class="course-price-tag">50% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/cat-2026-self-study" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/cat-2026-self-study" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">CAT Turbo 2026</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/Bc6G0H3kLko/mqdefault.jpg');">
+                            <div class="course-card-image-badge">CAT 2026<small>TURBO</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>Daily Live Classes</li>
+                            <li>IIM-A/B/C Alumni Mentors</li>
+                            <li>Full Self-Study Library</li>
+                            <li>1-on-1 Mentor Calls Monthly</li>
+                            <li>Weekend Strategy Sessions</li>
+                            <li>GD/WAT/PI Add-on Available</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 29,999</span>
+                            <span class="course-price-was">₹ 49,999</span>
+                            <span class="course-price-tag">40% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/cat-2026-turbo" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/cat-2026-turbo" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">CAT Intensive 2026</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/Bc6G0H3kLko/mqdefault.jpg');">
+                            <div class="course-card-image-badge">CAT 2026<small>INTENSIVE</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>Capped Small-Batch Prep</li>
+                            <li>Daily Targets + Strategy</li>
+                            <li>SPJIMR-Alumni Profile Reviews</li>
+                            <li>Priority Doubt-Solving</li>
+                            <li>GD/WAT/PI Included</li>
+                            <li>NMAT/SNAP/CMAT Coverage</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 49,999</span>
+                            <span class="course-price-was">₹ 79,999</span>
+                            <span class="course-price-tag">38% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/cat-intensive-2026" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/cat-intensive-2026" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+
+        <!-- Non-CAT panel -->
+        <div class="courses-panel reveal" data-panel="noncat" role="tabpanel">
+            <div class="course-grid">
+
+                <article class="course-card">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">SNAP 2026</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/Y9w-C_YjlXE/mqdefault.jpg');">
+                            <div class="course-card-image-badge">SNAP<small>2026</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>QA, GA, Reasoning & Verbal</li>
+                            <li>12+ Mocks with Analytics</li>
+                            <li>SIBM, SCMHRD, SIIB Targeted</li>
+                            <li>Speed Test Strategies</li>
+                            <li>GE-PI Prep Sessions</li>
+                            <li>Sectional Cutoff Tracker</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 9,999</span>
+                            <span class="course-price-was">₹ 19,999</span>
+                            <span class="course-price-tag">50% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/snap-nmat-combo-2026" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/snap-nmat-combo-2026" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">NMAT 2026</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/vw9XFqvcC5g/mqdefault.jpg');">
+                            <div class="course-card-image-badge">NMAT<small>2026</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>Adaptive 3-Attempt Simulation</li>
+                            <li>Sectional Drills + Cutoffs</li>
+                            <li>NMIMS Mumbai Calling Tips</li>
+                            <li>Real Exam Pattern Mocks</li>
+                            <li>Live Doubt-Solving Classes</li>
+                            <li>Score Booster Strategy</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 11,999</span>
+                            <span class="course-price-was">₹ 22,999</span>
+                            <span class="course-price-tag">48% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/nmat-snap-combo-2026" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/nmat-snap-combo-2026" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">XAT 2027</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/RqC_IcUMR5k/mqdefault.jpg');">
+                            <div class="course-card-image-badge">XAT<small>2027</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>Decision-Making Module</li>
+                            <li>XLRI Calling Strategy</li>
+                            <li>20+ XAT-Pattern Mocks</li>
+                            <li>Essay Writing Practice</li>
+                            <li>GK Compendium Updated</li>
+                            <li>XAT 2025 Paper Walkthrough</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 12,999</span>
+                            <span class="course-price-was">₹ 22,999</span>
+                            <span class="course-price-tag">43% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/xat-turbo" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/xat-turbo" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card is-extra">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">MICAT 2026-27</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/-Vav_sQCI4k/mqdefault.jpg');">
+                            <div class="course-card-image-badge">MICAT<small>2026-27</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>Storytelling & Visual Reasoning</li>
+                            <li>Psychometric Test Prep</li>
+                            <li>MICA-Alumni Mock Interviews</li>
+                            <li>Creative Writing Drills</li>
+                            <li>Descriptive Tests + Feedback</li>
+                            <li>Group Exercise Practice</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 8,999</span>
+                            <span class="course-price-was">₹ 16,999</span>
+                            <span class="course-price-tag">47% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/micat" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/micat" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card is-extra">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">CMAT 2026 & 27</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/unCq_IdmARw/mqdefault.jpg');">
+                            <div class="course-card-image-badge">CMAT<small>2026 & 27</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>GK + Innovation Module</li>
+                            <li>AICTE Pattern Mocks</li>
+                            <li>JBIMS, K J Somaiya Calling</li>
+                            <li>Quant Speed Drills</li>
+                            <li>Logical Reasoning Library</li>
+                            <li>Verbal Comprehension Tests</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 7,999</span>
+                            <span class="course-price-was">₹ 14,999</span>
+                            <span class="course-price-tag">47% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/cmat-cet-combo-2026" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/cmat-cet-combo-2026" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card is-extra">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">CET 2026</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/IeEBiBVkTlQ/mqdefault.jpg');">
+                            <div class="course-card-image-badge">CET<small>2026</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>Maharashtra-Specific Coverage</li>
+                            <li>Speed Test Strategies</li>
+                            <li>JBIMS, SIMSREE Targeted</li>
+                            <li>Visual Reasoning Module</li>
+                            <li>15+ Full-Length Mocks</li>
+                            <li>Live Sectional Sessions</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 8,999</span>
+                            <span class="course-price-was">₹ 15,999</span>
+                            <span class="course-price-tag">44% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/cet-turbo-1" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/cet-turbo-1" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card is-extra">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">MAT 2026</h3>
+                        <div class="course-card-image" style="background-image: url('college-imt.jpg');">
+                            <div class="course-card-image-badge">MAT<small>2026</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>AIMA Official Format</li>
+                            <li>Intelligence + GK Module</li>
+                            <li>8+ Pattern Mocks</li>
+                            <li>Multi-Slot Adaptive Prep</li>
+                            <li>Sectional Speed Drills</li>
+                            <li>PBT + IBT Coverage</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 5,999</span>
+                            <span class="course-price-was">₹ 10,999</span>
+                            <span class="course-price-tag">45% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/mat-turbo" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/mat-turbo" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card is-extra">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">ATMA 2026</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/a18swlpido4/mqdefault.jpg');">
+                            <div class="course-card-image-badge">ATMA<small>2026</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>Verbal-Quant-Analytical</li>
+                            <li>Multiple Slot Practice</li>
+                            <li>180-Min Time Strategy</li>
+                            <li>AIMS Pattern Mocks</li>
+                            <li>Sectional Cut-off Tracker</li>
+                            <li>Detailed Solution Videos</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 4,999</span>
+                            <span class="course-price-was">₹ 9,999</span>
+                            <span class="course-price-tag">50% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/atma-turbo" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/atma-turbo" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+            <div class="courses-viewall">
+                <a href="#" class="courses-viewall-link" data-target="noncat">View all Non-CAT courses →</a>
+            </div>
+        </div>
+
+        <!-- Mocks panel -->
+        <div class="courses-panel reveal" data-panel="mocks" role="tabpanel">
+            <div class="course-grid">
+
+                <article class="course-card">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">SNAP Mock Series</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/Y9w-C_YjlXE/mqdefault.jpg');">
+                            <div class="course-card-image-badge">SNAP<small>MOCK SERIES</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>12 Full-Length SNAP Mocks</li>
+                            <li>Sectional Analysis Reports</li>
+                            <li>Speed Strategy Sessions</li>
+                            <li>Real Exam-Like Interface</li>
+                            <li>Question-Bank Library</li>
+                            <li>Live Mock Discussion Calls</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 1,999</span>
+                            <span class="course-price-was">₹ 3,999</span>
+                            <span class="course-price-tag">50% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/snap-mocks-2026" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/snap-mocks-2026" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">NMAT Mock Series</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/vw9XFqvcC5g/mqdefault.jpg');">
+                            <div class="course-card-image-badge">NMAT<small>MOCK SERIES</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>15 Adaptive NMAT Mocks</li>
+                            <li>3-Attempt Strategy Drills</li>
+                            <li>Section-Wise Cut-Offs</li>
+                            <li>Time Management Coaching</li>
+                            <li>Live Mock Analysis Videos</li>
+                            <li>Topic-Wise Test Library</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 2,499</span>
+                            <span class="course-price-was">₹ 4,499</span>
+                            <span class="course-price-tag">44% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/nmat-mocks" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/nmat-mocks" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">XAT Mock Series</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/RqC_IcUMR5k/mqdefault.jpg');">
+                            <div class="course-card-image-badge">XAT<small>MOCK SERIES</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>10 XAT-Pattern Mocks</li>
+                            <li>Decision-Making Focus</li>
+                            <li>Essay & GK Practice</li>
+                            <li>Sectional Test Library</li>
+                            <li>Mock Analytics Dashboard</li>
+                            <li>XAT-Specific Strategy</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 2,499</span>
+                            <span class="course-price-was">₹ 4,499</span>
+                            <span class="course-price-tag">44% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/xat-mocks" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/xat-mocks" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card is-extra">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">MICAT Mock Series</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/-Vav_sQCI4k/mqdefault.jpg');">
+                            <div class="course-card-image-badge">MICAT<small>MOCK SERIES</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>MICAT Phase-1 Mocks</li>
+                            <li>PSY + Descriptive Drills</li>
+                            <li>Creative Writing Practice</li>
+                            <li>Visual Reasoning Sets</li>
+                            <li>Topic-Wise Tests</li>
+                            <li>Sectional Score Reports</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 1,799</span>
+                            <span class="course-price-was">₹ 3,499</span>
+                            <span class="course-price-tag">49% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/micat-mocks" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/micat-mocks" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card is-extra">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">CMAT Mock Series</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/unCq_IdmARw/mqdefault.jpg');">
+                            <div class="course-card-image-badge">CMAT<small>MOCK SERIES</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>10 Full CMAT Mocks</li>
+                            <li>GK + Innovation Tests</li>
+                            <li>Sectional Analytics</li>
+                            <li>Speed Drill Sessions</li>
+                            <li>AICTE Pattern Coverage</li>
+                            <li>Live Doubt-Solving</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 1,499</span>
+                            <span class="course-price-was">₹ 2,999</span>
+                            <span class="course-price-tag">50% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/cat-advance-mocks" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/cat-advance-mocks" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card is-extra">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">CET Mock Series</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/IeEBiBVkTlQ/mqdefault.jpg');">
+                            <div class="course-card-image-badge">CET<small>MOCK SERIES</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>15 CET Pattern Mocks</li>
+                            <li>Visual Reasoning Drills</li>
+                            <li>Speed-Test Strategies</li>
+                            <li>Sectional Test Library</li>
+                            <li>Live Mock Analysis</li>
+                            <li>JBIMS Cut-Off Strategy</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 1,499</span>
+                            <span class="course-price-was">₹ 2,999</span>
+                            <span class="course-price-tag">50% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/cet-mocks" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/cet-mocks" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card is-extra">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">MAT Mock Series</h3>
+                        <div class="course-card-image" style="background-image: url('college-imt.jpg');">
+                            <div class="course-card-image-badge">MAT<small>MOCK SERIES</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>8 MAT Pattern Mocks</li>
+                            <li>Intelligence + GK Tests</li>
+                            <li>PBT + IBT Coverage</li>
+                            <li>Sectional Score Reports</li>
+                            <li>AIMA Official Format</li>
+                            <li>Speed Strategy Drills</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 1,299</span>
+                            <span class="course-price-was">₹ 2,499</span>
+                            <span class="course-price-tag">48% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/mat-mock" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/mat-mock" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card is-extra">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">ATMA Mock Series</h3>
+                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/a18swlpido4/mqdefault.jpg');">
+                            <div class="course-card-image-badge">ATMA<small>MOCK SERIES</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>10 ATMA Pattern Mocks</li>
+                            <li>Verbal-Quant-Analytical</li>
+                            <li>180-Min Time Strategy</li>
+                            <li>Sectional Analytics</li>
+                            <li>Multi-Slot Practice</li>
+                            <li>Detailed Solutions Library</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 999</span>
+                            <span class="course-price-was">₹ 1,999</span>
+                            <span class="course-price-tag">50% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/atma-mock" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/atma-mock" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+            <div class="courses-viewall">
+                <a href="#" class="courses-viewall-link" data-target="mocks">View all Mocks →</a>
+            </div>
+        </div>
+
+        <!-- GDPI panel -->
+        <div class="courses-panel reveal" data-panel="gdpi" role="tabpanel">
+            <div class="course-grid">
+
+                <article class="course-card">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">IIM Top B-School</h3>
+                        <div class="course-card-image" style="background-image: url('college-iima.jpg');">
+                            <div class="course-card-image-badge">GD · WAT · PI<small>IIM PREMIUM</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>GD Strategy Sessions</li>
+                            <li>WAT Writing Drills</li>
+                            <li>Mock Personal Interviews</li>
+                            <li>IIM-A/B/C/L/I/K Coverage</li>
+                            <li>Profile-Building Sessions</li>
+                            <li>Alumni Panel Practice</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 14,999</span>
+                            <span class="course-price-was">₹ 24,999</span>
+                            <span class="course-price-tag">40% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/iimwatpi" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/iimwatpi" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <div class="course-card-body">
+                        <h3 class="course-card-title">Additional Mocks PI / GD</h3>
+                        <div class="course-card-image" style="background-image: url('college-jbims.jpg');">
+                            <div class="course-card-image-badge">PI · GD<small>ADD-ON MOCKS</small></div>
+                        </div>
+                        <ul class="course-card-features">
+                            <li>10+ Mock Interviews</li>
+                            <li>1-on-1 Feedback Reports</li>
+                            <li>IIM-Alumni Panellists</li>
+                            <li>GD Topic Library</li>
+                            <li>Recorded Sessions Access</li>
+                            <li>Profile Improvement Tips</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 4,999</span>
+                            <span class="course-price-was">₹ 8,999</span>
+                            <span class="course-price-tag">44% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/additonal-mock-interview" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/additonal-mock-interview" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+
     </div>
-
-    <div class="courses-tabs reveal" role="tablist">
-      <button class="courses-tab active" data-cat="cat" type="button" role="tab" aria-selected="true">CAT</button>
-      <button class="courses-tab" data-cat="noncat" type="button" role="tab" aria-selected="false">Non-CAT</button>
-      <button class="courses-tab" data-cat="mocks" type="button" role="tab" aria-selected="false">Mocks</button>
-      <button class="courses-tab" data-cat="gdpi" type="button" role="tab" aria-selected="false">GDPI</button>
-    </div>
-
-    <!-- CAT panel -->
-    <div class="courses-panel active reveal" data-panel="cat" role="tabpanel">
-      <div class="course-grid">
-
-        <article class="course-card">
-          <div class="course-card-body">
-            <h3 class="course-card-title">CAT Self Study 2026</h3>
-            <ul class="course-card-features">
-              <li>Concept Builder Videos</li>
-              <li>E-books + 200+ Mocks</li>
-              <li>130+ LOD1 & LOD2 Practice E-books</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 9,999</span>
-              <span class="course-price-was">₹ 19,999</span>
-              <span class="course-price-tag">50% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <a href="https://courses.catking.in/courses/cat-2026-self-study" target="_blank" rel="noopener" class="btn course-btn-primary">View Course Page</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card">
-          <div class="course-card-body">
-            <h3 class="course-card-title">CAT Turbo 2026</h3>
-            <ul class="course-card-features">
-              <li>Daily Live Classes</li>
-              <li>IIM-A/B/C Alumni Mentors</li>
-              <li>Full Self-Study Library Included</li>
-              <li>1-on-1 Mentor Calls Monthly</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 29,999</span>
-              <span class="course-price-was">₹ 49,999</span>
-              <span class="course-price-tag">40% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <a href="https://courses.catking.in/courses/cat-2026-turbo" target="_blank" rel="noopener" class="btn course-btn-primary">View Course Page</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card">
-          <div class="course-card-body">
-            <h3 class="course-card-title">CAT Intensive 2026</h3>
-            <ul class="course-card-features">
-              <li>Capped Small-Batch Prep</li>
-              <li>Daily Targets + Weekend Strategy</li>
-              <li>SPJIMR-Alumni Profile Reviews</li>
-              <li>Priority Doubt-Solving</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 49,999</span>
-              <span class="course-price-was">₹ 79,999</span>
-              <span class="course-price-tag">38% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <a href="https://courses.catking.in/courses/cat-intensive-2026" target="_blank" rel="noopener" class="btn course-btn-primary">View Course Page</a>
-            </div>
-          </div>
-        </article>
-
-      </div>
-    </div>
-
-    <!-- Non-CAT panel -->
-    <div class="courses-panel reveal" data-panel="noncat" role="tabpanel">
-      <div class="course-grid">
-
-        <article class="course-card">
-          <div class="course-card-body">
-            <h3 class="course-card-title">SNAP 2026</h3>
-            <ul class="course-card-features">
-              <li>QA, GA, Reasoning & Verbal</li>
-              <li>12+ Mocks with Analytics</li>
-              <li>SIBM, SCMHRD, SIIB Targeted</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 9,999</span>
-              <span class="course-price-was">₹ 19,999</span>
-              <span class="course-price-tag">50% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card">
-          <div class="course-card-body">
-            <h3 class="course-card-title">NMAT 2026</h3>
-            <ul class="course-card-features">
-              <li>Adaptive 3-Attempt Simulation</li>
-              <li>Sectional Drills + Cutoffs</li>
-              <li>NMIMS Mumbai Calling Tips</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 11,999</span>
-              <span class="course-price-was">₹ 22,999</span>
-              <span class="course-price-tag">48% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card">
-          <div class="course-card-body">
-            <h3 class="course-card-title">XAT 2027</h3>
-            <ul class="course-card-features">
-              <li>Decision Making Module</li>
-              <li>GK Practice + Essay Writing</li>
-              <li>XLRI / XIMB / SPJIMR Mocks</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 12,999</span>
-              <span class="course-price-was">₹ 22,999</span>
-              <span class="course-price-tag">43% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card is-extra">
-          <div class="course-card-body">
-            <h3 class="course-card-title">MICAT 2026-27</h3>
-            <ul class="course-card-features">
-              <li>Storytelling & Visual Reasoning</li>
-              <li>Psychometric Test Prep</li>
-              <li>MICA-Alumni Mock Interviews</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 8,999</span>
-              <span class="course-price-was">₹ 16,999</span>
-              <span class="course-price-tag">47% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card is-extra">
-          <div class="course-card-body">
-            <h3 class="course-card-title">CMAT 2026 & 27</h3>
-            <ul class="course-card-features">
-              <li>High-Scoring Strategy Guide</li>
-              <li>JBIMS, SIMSREE Shortlist Tips</li>
-              <li>Sectional Drills + Mocks</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 7,999</span>
-              <span class="course-price-was">₹ 14,999</span>
-              <span class="course-price-tag">47% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card is-extra">
-          <div class="course-card-body">
-            <h3 class="course-card-title">CET 2026</h3>
-            <ul class="course-card-features">
-              <li>Speed-Focused Strategy</li>
-              <li>100+ Mocks + Doubt Sessions</li>
-              <li>JBIMS / SIMSREE / PUMBA Prep</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 8,999</span>
-              <span class="course-price-was">₹ 15,999</span>
-              <span class="course-price-tag">44% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card is-extra">
-          <div class="course-card-body">
-            <h3 class="course-card-title">MAT 2026</h3>
-            <ul class="course-card-features">
-              <li>AIMA Pattern-Based Prep</li>
-              <li>4-Attempt Scheduling Guide</li>
-              <li>IMT, BIMTECH, KJS Shortlist</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 5,999</span>
-              <span class="course-price-was">₹ 10,999</span>
-              <span class="course-price-tag">45% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card is-extra">
-          <div class="course-card-body">
-            <h3 class="course-card-title">ATMA 2026</h3>
-            <ul class="course-card-features">
-              <li>AIMS Pattern-Based Prep</li>
-              <li>Welingkar, SIES, IFIM Targeted</li>
-              <li>6 Full-Length Mocks</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 4,999</span>
-              <span class="course-price-was">₹ 9,999</span>
-              <span class="course-price-tag">50% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-      </div>
-      <div class="courses-viewall">
-        <a href="#" class="courses-viewall-link" data-target="noncat">View all Non-CAT courses →</a>
-      </div>
-    </div>
-
-    <!-- Mocks panel -->
-    <div class="courses-panel reveal" data-panel="mocks" role="tabpanel">
-      <div class="course-grid">
-
-        <article class="course-card">
-          <div class="course-card-body">
-            <h3 class="course-card-title">SNAP Mock Series</h3>
-            <ul class="course-card-features">
-              <li>10 SNAP-Pattern Mocks</li>
-              <li>Video Solutions + Analytics</li>
-              <li>Percentile Predictor Tool</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 1,999</span>
-              <span class="course-price-was">₹ 3,999</span>
-              <span class="course-price-tag">50% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card">
-          <div class="course-card-body">
-            <h3 class="course-card-title">NMAT Mock Series</h3>
-            <ul class="course-card-features">
-              <li>Adaptive 3-Attempt Simulation</li>
-              <li>Sectional Cutoff Predictor</li>
-              <li>Detailed Analytics Dashboard</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 2,499</span>
-              <span class="course-price-was">₹ 4,499</span>
-              <span class="course-price-tag">44% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card">
-          <div class="course-card-body">
-            <h3 class="course-card-title">XAT Mock Series</h3>
-            <ul class="course-card-features">
-              <li>12 XAT-Pattern Mocks</li>
-              <li>Decision Making Sets + GK</li>
-              <li>Essay Evaluation Rubric</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 2,499</span>
-              <span class="course-price-was">₹ 4,499</span>
-              <span class="course-price-tag">44% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card is-extra">
-          <div class="course-card-body">
-            <h3 class="course-card-title">MICAT Mock Series</h3>
-            <ul class="course-card-features">
-              <li>Visual Reasoning Drills</li>
-              <li>Story Writing Prompts</li>
-              <li>Psychometric Simulation</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 1,799</span>
-              <span class="course-price-was">₹ 3,499</span>
-              <span class="course-price-tag">49% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card is-extra">
-          <div class="course-card-body">
-            <h3 class="course-card-title">CMAT Mock Series</h3>
-            <ul class="course-card-features">
-              <li>10 CMAT-Pattern Mocks</li>
-              <li>QA, LR, LC & GK Coverage</li>
-              <li>Cutoff Predictor</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 1,499</span>
-              <span class="course-price-was">₹ 2,999</span>
-              <span class="course-price-tag">50% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card is-extra">
-          <div class="course-card-body">
-            <h3 class="course-card-title">CET Mock Series</h3>
-            <ul class="course-card-features">
-              <li>Speed-Focused 12 Mocks</li>
-              <li>JBIMS-Pattern Questions</li>
-              <li>Calling-Tip Videos</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 1,499</span>
-              <span class="course-price-was">₹ 2,999</span>
-              <span class="course-price-tag">50% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card is-extra">
-          <div class="course-card-body">
-            <h3 class="course-card-title">MAT Mock Series</h3>
-            <ul class="course-card-features">
-              <li>8 MAT-Pattern Mocks</li>
-              <li>AIMA Official Format</li>
-              <li>Intelligence + GK Module</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 1,299</span>
-              <span class="course-price-was">₹ 2,499</span>
-              <span class="course-price-tag">48% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card is-extra">
-          <div class="course-card-body">
-            <h3 class="course-card-title">ATMA Mock Series</h3>
-            <ul class="course-card-features">
-              <li>6 Full-Length ATMA Mocks</li>
-              <li>AIMS-Affiliated B-School Prep</li>
-              <li>Doubt-Clear Calls Included</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 999</span>
-              <span class="course-price-was">₹ 1,999</span>
-              <span class="course-price-tag">50% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-      </div>
-      <div class="courses-viewall">
-        <a href="#" class="courses-viewall-link" data-target="mocks">View all Mocks →</a>
-      </div>
-    </div>
-
-    <!-- GDPI panel -->
-    <div class="courses-panel reveal" data-panel="gdpi" role="tabpanel">
-      <div class="course-grid">
-
-        <article class="course-card">
-          <div class="course-card-body">
-            <h3 class="course-card-title">IIM Top B-School</h3>
-            <ul class="course-card-features">
-              <li>WAT + Profile-Based Prep</li>
-              <li>IIM-A/B/C/L/K Alumni Interviewers</li>
-              <li>Current Affairs + Mock PI Rounds</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 14,999</span>
-              <span class="course-price-was">₹ 24,999</span>
-              <span class="course-price-tag">40% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="course-card">
-          <div class="course-card-body">
-            <h3 class="course-card-title">Additional Mocks PI / GD</h3>
-            <ul class="course-card-features">
-              <li>Top-up Mock GD/PI Rounds</li>
-              <li>Peer Feedback + Panel Critique</li>
-              <li>Recorded Playback for Review</li>
-            </ul>
-            <div class="course-card-price">
-              <span class="course-price-now">₹ 4,999</span>
-              <span class="course-price-was">₹ 8,999</span>
-              <span class="course-price-tag">44% OFF</span>
-            </div>
-            <div class="course-card-ctas course-card-ctas--single">
-              <button class="btn course-btn-primary" type="button">View Course Page</button>
-            </div>
-          </div>
-        </article>
-
-      </div>
-    </div>
-
-  </div>
 </section>
 
 
@@ -3752,6 +3972,9 @@
       </div>
     </div>
     <div class="scorecard-modal-body">
+      <div class="scorecard-modal-image-wrap" id="scoreImageWrap" hidden>
+        <img id="scoreFullImage" class="scorecard-modal-full-img" src="" alt="Full scorecard">
+      </div>
       <table class="scorecard-table">
         <thead><tr><th>Section</th><th>Scaled Score</th><th>Percentile</th></tr></thead>
         <tbody id="scoreSections">
