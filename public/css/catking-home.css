@@ -99,11 +99,11 @@ a { color: inherit; text-decoration: none; }
 
 /* Background image conversion utility */
 .section-bg-img {
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
     object-fit: cover;
     z-index: 0;
     pointer-events: none;
@@ -946,6 +946,7 @@ a { color: inherit; text-decoration: none; }
     animation: modalFade 0.22s ease;
 }
 .modal-backdrop.show { display: flex; }
+#enquiryModal { display: none !important; }
 @keyframes modalFade { from { opacity: 0; } to { opacity: 1; } }
 @keyframes modalScale { from { transform: scale(0.96); opacity: 0; } to { transform: scale(1); opacity: 1; } }
 

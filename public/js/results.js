@@ -1,18 +1,18 @@
 /* ============================================================
    v18: NAV & DRAWER (REMOVED - HANDLED BY LARAVEL LAYOUT)
 ============================================================ */
-(function(){
-  document.addEventListener('error', function(e){
+(function () {
+  document.addEventListener('error', function (e) {
     var t = e.target;
-    if(!t || t.tagName !== 'IMG') return;
+    if (!t || t.tagName !== 'IMG') return;
     var init = t.getAttribute('data-fallback-init');
-    if(init === null) return;
+    if (init === null) return;
     var parent = t.parentElement;
-    if(parent){
+    if (parent) {
       var cls = parent.className;
-      if(/t-photo\b/.test(cls)){ parent.className = cls.replace(/\bt-photo\b/, 't-photo-init'); }
-      else if(/lc-img\b/.test(cls)){ parent.classList.add('lc-img-init'); }
-      else if(/stm-ava\b/.test(cls)){ parent.className = cls.replace(/\bstm-ava\b/, 'stm-ava-init'); }
+      if (/t-photo\b/.test(cls)) { parent.className = cls.replace(/\bt-photo\b/, 't-photo-init'); }
+      else if (/lc-img\b/.test(cls)) { parent.classList.add('lc-img-init'); }
+      else if (/stm-ava\b/.test(cls)) { parent.className = cls.replace(/\bstm-ava\b/, 'stm-ava-init'); }
       parent.textContent = init;
     }
   }, true);
@@ -99,268 +99,268 @@ var COLLEGES = {
   "iim-a": {
     name: "IIM Ahmedabad",
     tag: "BLACKI · A",
-    tagClass: "premier", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M8 38h32v2H8zm6-2V18l10-8 10 8v18M18 36V26h12v10M22 22h4m-4-4h4M24 10V6\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",  logoClass: "",
+    tagClass: "premier", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M8 38h32v2H8zm6-2V18l10-8 10 8v18M18 36V26h12v10M22 22h4m-4-4h4M24 10V6\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>", logoClass: "",
     sub: "PGP Flagship",
     years: {
       "2024-25": [
-        {name:"Aniruddha Sharma", img:"https://catking.in/file/media_library/8780/68013909e87e1.png", score:"CAT 2024 · IIM-A Convert"},
-        {name:"Priyanshu Tiwari", img:"https://catking.in/file/media_library/8787/68013d7802e8b.png", score:"CAT 2024 · IIM-A Convert"},
-        {name:"Prafull Sharma", img:"https://catking.in/file/media_library/8786/68013d3d83e3c.png", score:"CAT 2024 · IIM-A Convert"},
-        {name:"Manshu Khinchyal", img:"https://catking.in/file/media_library/8785/68013cac7e762.png", score:"CAT 2024 · IIM-A Convert"},
-        {name:"Akshat Toolaj Sinha", img:"https://catking.in/file/media_library/8784/68013c3cd17bd.png", score:"CAT 2024 · IIM-A Convert"},
-        {name:"Shivam Rajput", img:"https://catking.in/file/media_library/8783/68013bbcd1f37.png", score:"CAT 2024 · IIM-A Convert"},
-        {name:"Hunney Kotiya", img:"https://catking.in/file/media_library/8782/68013b8abbcae.png", score:"CAT 2024 · IIM-A Convert"},
-        {name:"Vishwaraj Vilankar", img:"https://catking.in/file/media_library/8781/6801397b2eb0f.png", score:"CAT 2024 · IIM-A Convert"},
-        {name:"Suvarnaa", img:"https://catking.in/file/media_library/8779/6801386e88315.png", score:"CAT 2024 · IIM-A Convert"},
-        {name:"Aayush Pravin Mohod", img:"https://catking.in/file/media_library/8778/680137ce63b4d.png", score:"CAT 2024 · IIM-A Convert"}
+        { name: "Aniruddha Sharma", img: "https://catking.in/file/media_library/8780/68013909e87e1.png", score: "CAT 2024 · IIM-A Convert" },
+        { name: "Priyanshu Tiwari", img: "https://catking.in/file/media_library/8787/68013d7802e8b.png", score: "CAT 2024 · IIM-A Convert" },
+        { name: "Prafull Sharma", img: "https://catking.in/file/media_library/8786/68013d3d83e3c.png", score: "CAT 2024 · IIM-A Convert" },
+        { name: "Manshu Khinchyal", img: "https://catking.in/file/media_library/8785/68013cac7e762.png", score: "CAT 2024 · IIM-A Convert" },
+        { name: "Akshat Toolaj Sinha", img: "https://catking.in/file/media_library/8784/68013c3cd17bd.png", score: "CAT 2024 · IIM-A Convert" },
+        { name: "Shivam Rajput", img: "https://catking.in/file/media_library/8783/68013bbcd1f37.png", score: "CAT 2024 · IIM-A Convert" },
+        { name: "Hunney Kotiya", img: "https://catking.in/file/media_library/8782/68013b8abbcae.png", score: "CAT 2024 · IIM-A Convert" },
+        { name: "Vishwaraj Vilankar", img: "https://catking.in/file/media_library/8781/6801397b2eb0f.png", score: "CAT 2024 · IIM-A Convert" },
+        { name: "Suvarnaa", img: "https://catking.in/file/media_library/8779/6801386e88315.png", score: "CAT 2024 · IIM-A Convert" },
+        { name: "Aayush Pravin Mohod", img: "https://catking.in/file/media_library/8778/680137ce63b4d.png", score: "CAT 2024 · IIM-A Convert" }
       ],
       "2023-24": [
-        {name:"Jai", score:"CAT 2023 · 99.66 %ile", yt:"jdPUhiNhloc"},
-        {name:"Aravind", img:"https://catking.in/storage/media_library/7200/66fbf69dedebe.png", score:"CAT 2023 · IIM-A Convert"},
-        {name:"Daivik", img:"https://catking.in/storage/media_library/7201/66fbf7a39667c.png", score:"CAT 2023 · IIM-A Convert"},
-        {name:"Tridibesh", img:"https://catking.in/storage/media_library/7202/66fbf8d9c6db1.png", score:"CAT 2023 · IIM-A Convert"},
-        {name:"Vaibhav", img:"https://catking.in/storage/media_library/7203/66fbf8fb82907.png", score:"CAT 2023 · IIM-A Convert"},
-        {name:"Akshma", score:"CAT 2023 · 99.36 %ile", yt:"NT0F6t31heM"},
-        {name:"Ajmal", score:"CAT 2023 · 99.29 %ile", yt:"7_Tz4tkaQPo"}
+        { name: "Jai", score: "CAT 2023 · 99.66 %ile", yt: "jdPUhiNhloc" },
+        { name: "Aravind", img: "https://catking.in/storage/media_library/7200/66fbf69dedebe.png", score: "CAT 2023 · IIM-A Convert" },
+        { name: "Daivik", img: "https://catking.in/storage/media_library/7201/66fbf7a39667c.png", score: "CAT 2023 · IIM-A Convert" },
+        { name: "Tridibesh", img: "https://catking.in/storage/media_library/7202/66fbf8d9c6db1.png", score: "CAT 2023 · IIM-A Convert" },
+        { name: "Vaibhav", img: "https://catking.in/storage/media_library/7203/66fbf8fb82907.png", score: "CAT 2023 · IIM-A Convert" },
+        { name: "Akshma", score: "CAT 2023 · 99.36 %ile", yt: "NT0F6t31heM" },
+        { name: "Ajmal", score: "CAT 2023 · 99.29 %ile", yt: "7_Tz4tkaQPo" }
       ],
       "2022-23": [
-        {name:"Mayank", score:"CAT 2022 · 99 %ile", yt:"QV7HwpMVrXo"},
-        {name:"Sarthak", score:"CAT 2022 · 99 %ile", yt:"2T4myWfkQGQ"}
+        { name: "Mayank", score: "CAT 2022 · 99 %ile", yt: "QV7HwpMVrXo" },
+        { name: "Sarthak", score: "CAT 2022 · 99 %ile", yt: "2T4myWfkQGQ" }
       ],
       "2021-22": [
-        {name:"Muskan", score:"CATKing CAT Topper", yt:"X9CxNhGAqDM"}
+        { name: "Muskan", score: "CATKing CAT Topper", yt: "X9CxNhGAqDM" }
       ]
     }
   },
   "iim-b": {
     name: "IIM Bangalore",
     tag: "BLACKI · B",
-    tagClass: "premier", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><rect x=\"10\" y=\"10\" width=\"28\" height=\"28\" rx=\"3\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><path d=\"M16 30h16M16 24h12M16 18h14\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>",  logoClass: "",
+    tagClass: "premier", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><rect x=\"10\" y=\"10\" width=\"28\" height=\"28\" rx=\"3\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><path d=\"M16 30h16M16 24h12M16 18h14\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg>", logoClass: "",
     sub: "PGP Flagship",
     years: {
       "2024-25": [
-        {name:"Sai Dinesh", img:"https://catking.in/storage/media_library/7195/66fbf87712018.png", score:"CAT 2024 · IIM-B Convert"},
-        {name:"Sai", img:"https://catking.in/storage/media_library/7196/66fbf8909a302.png", score:"CAT 2024 · IIM-B Convert"},
-        {name:"Kiran Menon", score:"CAT 2024 · IIM-B Convert"},
-        {name:"Rahul Sharma", score:"CAT 2024 · IIM-B Convert"}
+        { name: "Sai Dinesh", img: "https://catking.in/storage/media_library/7195/66fbf87712018.png", score: "CAT 2024 · IIM-B Convert" },
+        { name: "Sai", img: "https://catking.in/storage/media_library/7196/66fbf8909a302.png", score: "CAT 2024 · IIM-B Convert" },
+        { name: "Kiran Menon", score: "CAT 2024 · IIM-B Convert" },
+        { name: "Rahul Sharma", score: "CAT 2024 · IIM-B Convert" }
       ],
       "2023-24": [
-        {name:"Rishi", score:"CAT 2023 · 99.22 %ile", yt:"ZdPtNvamYlA"},
-        {name:"Gourav", score:"CAT 2023 · 99 %ile", yt:"8bch7T_WFj0"}
+        { name: "Rishi", score: "CAT 2023 · 99.22 %ile", yt: "ZdPtNvamYlA" },
+        { name: "Gourav", score: "CAT 2023 · 99 %ile", yt: "8bch7T_WFj0" }
       ],
       "2022-23": [
-        {name:"Akshama", score:"CAT 2022 · 99 %ile", yt:"IlrURaX6-fI"}
+        { name: "Akshama", score: "CAT 2022 · 99 %ile", yt: "IlrURaX6-fI" }
       ],
       "2021-22": [],
       "2020-21": [
-        {name:"Rohit Nayyar", score:"CAT 2020 · IIM-B Convert"},
-        {name:"Meenal Desai", score:"CAT 2020 · IIM-B Convert"}
+        { name: "Rohit Nayyar", score: "CAT 2020 · IIM-B Convert" },
+        { name: "Meenal Desai", score: "CAT 2020 · IIM-B Convert" }
       ],
       "2019-20": [],
       "2018-19": [
-        {name:"Pooja Shetty", score:"CAT 2018 · IIM-B Convert"}
+        { name: "Pooja Shetty", score: "CAT 2018 · IIM-B Convert" }
       ],
       "2017-18": [],
       "2015-17": [
-        {name:"Bhuvan R", score:"CAT 2016 · IIM-B Convert"}
+        { name: "Bhuvan R", score: "CAT 2016 · IIM-B Convert" }
       ],
       "2012-15": [
-        {name:"Bhuvan R", score:"CAT 2013 · IIM-B Convert"}
+        { name: "Bhuvan R", score: "CAT 2013 · IIM-B Convert" }
       ],
       "2008-12": [
-        {name:"Bindu K", score:"CAT 2010 · IIM-B Convert"}
+        { name: "Bindu K", score: "CAT 2010 · IIM-B Convert" }
       ],
       "2020-21": [
-        {name:"Vikram Patil", score:"CAT 2020 · IIM-A Convert"},
-        {name:"Shreya Iyer", score:"CAT 2020 · IIM-A Convert"},
-        {name:"Karan Desai", score:"CAT 2020 · IIM-A Convert"}
+        { name: "Vikram Patil", score: "CAT 2020 · IIM-A Convert" },
+        { name: "Shreya Iyer", score: "CAT 2020 · IIM-A Convert" },
+        { name: "Karan Desai", score: "CAT 2020 · IIM-A Convert" }
       ],
       "2019-20": [],
       "2018-19": [
-        {name:"Aditya Verma", score:"CAT 2018 · IIM-A Convert"},
-        {name:"Pooja Shetty", score:"CAT 2018 · IIM-A Convert"}
+        { name: "Aditya Verma", score: "CAT 2018 · IIM-A Convert" },
+        { name: "Pooja Shetty", score: "CAT 2018 · IIM-A Convert" }
       ],
       "2017-18": [],
       "2015-17": [
-        {name:"Aman Saxena", score:"CAT 2016 · IIM-A Convert"},
-        {name:"Isha Raman", score:"CAT 2016 · IIM-A Convert"},
-        {name:"Nayan Rao", score:"CAT 2015 · IIM-A Convert"}
+        { name: "Aman Saxena", score: "CAT 2016 · IIM-A Convert" },
+        { name: "Isha Raman", score: "CAT 2016 · IIM-A Convert" },
+        { name: "Nayan Rao", score: "CAT 2015 · IIM-A Convert" }
       ],
       "2012-15": [
-        {name:"Arpita Sen", score:"CAT 2014 · IIM-A Convert"},
-        {name:"Bhuvan R", score:"CAT 2013 · IIM-A Convert"}
+        { name: "Arpita Sen", score: "CAT 2014 · IIM-A Convert" },
+        { name: "Bhuvan R", score: "CAT 2013 · IIM-A Convert" }
       ],
       "2008-12": [
-        {name:"Ashok B", score:"CAT 2011 · IIM-A Convert"},
-        {name:"Rajeev K", score:"CAT 2010 · IIM-A Convert"}
+        { name: "Ashok B", score: "CAT 2011 · IIM-A Convert" },
+        { name: "Rajeev K", score: "CAT 2010 · IIM-A Convert" }
       ]
     }
   },
   "iim-c": {
     name: "IIM Calcutta",
     tag: "BLACKI · C",
-    tagClass: "premier", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><circle cx=\"24\" cy=\"24\" r=\"18\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><path d=\"M14 24h20M24 14v20\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><circle cx=\"24\" cy=\"24\" r=\"6\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/></svg>",  logoClass: "",
+    tagClass: "premier", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><circle cx=\"24\" cy=\"24\" r=\"18\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/><path d=\"M14 24h20M24 14v20\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><circle cx=\"24\" cy=\"24\" r=\"6\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\"/></svg>", logoClass: "",
     sub: "PGP Flagship",
     years: {
       "2024-25": [
-        {name:"Aarjav", img:"https://catking.in/storage/media_library/7197/66fbf627a0f18.png", score:"CAT 2024 · IIM-C Convert"},
-        {name:"Pratik", img:"https://catking.in/storage/media_library/7198/66fbf80547621.png", score:"CAT 2024 · IIM-C Convert"},
-        {name:"Rohit Menon", score:"CAT 2024 · IIM-C Convert"},
-        {name:"Aastha Iyer", score:"CAT 2024 · IIM-C Convert"}
+        { name: "Aarjav", img: "https://catking.in/storage/media_library/7197/66fbf627a0f18.png", score: "CAT 2024 · IIM-C Convert" },
+        { name: "Pratik", img: "https://catking.in/storage/media_library/7198/66fbf80547621.png", score: "CAT 2024 · IIM-C Convert" },
+        { name: "Rohit Menon", score: "CAT 2024 · IIM-C Convert" },
+        { name: "Aastha Iyer", score: "CAT 2024 · IIM-C Convert" }
       ],
       "2023-24": [
-        {name:"Dhruvsingh", score:"CAT 2023 · 99.02 %ile", yt:"TV-bPh4KTXA"}
+        { name: "Dhruvsingh", score: "CAT 2023 · 99.02 %ile", yt: "TV-bPh4KTXA" }
       ],
       "2022-23": [],
       "2021-22": [],
       "2020-21": [
-        {name:"Rohan Mehta", score:"CAT 2020 · IIM-C Convert"},
-        {name:"Aditi Nair", score:"CAT 2020 · IIM-C Convert"}
+        { name: "Rohan Mehta", score: "CAT 2020 · IIM-C Convert" },
+        { name: "Aditi Nair", score: "CAT 2020 · IIM-C Convert" }
       ],
       "2019-20": [],
       "2018-19": [
-        {name:"Ravi Chandra", score:"CAT 2018 · IIM-C Convert"}
+        { name: "Ravi Chandra", score: "CAT 2018 · IIM-C Convert" }
       ],
       "2017-18": [],
       "2015-17": [
-        {name:"Jaideep S", score:"CAT 2015 · IIM-C Convert"}
+        { name: "Jaideep S", score: "CAT 2015 · IIM-C Convert" }
       ],
       "2012-15": [
-        {name:"Chaitra M", score:"CAT 2014 · IIM-C Convert"}
+        { name: "Chaitra M", score: "CAT 2014 · IIM-C Convert" }
       ],
       "2008-12": [
-        {name:"Chander R", score:"CAT 2011 · IIM-C Convert"}
+        { name: "Chander R", score: "CAT 2011 · IIM-C Convert" }
       ]
     }
   },
   "iim-l": {
     name: "IIM Lucknow",
     tag: "BLACKI · L",
-    tagClass: "premier", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M10 38V14l7-4 7 4 7-4 7 4v24M14 38V18m6 20V18m6 20V18m6 20V18\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",  logoClass: "",
+    tagClass: "premier", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M10 38V14l7-4 7 4 7-4 7 4v24M14 38V18m6 20V18m6 20V18m6 20V18\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>", logoClass: "",
     sub: "PGP Flagship",
     years: {
       "2024-25": [
-        {name:"Abhinav", img:"https://catking.in/storage/media_library/7199/66fbf64e7482c.png", score:"CAT 2024 · IIM-L Convert"},
-        {name:"Disha", img:"https://catking.in/storage/media_library/7205/66fbf7ddf1ac2.png", score:"CAT 2024 · IIM-L Convert"},
-        {name:"Kavya Reddy", score:"CAT 2024 · IIM-L Convert"},
-        {name:"Rahul Agrawal", score:"CAT 2024 · IIM-L Convert"}
+        { name: "Abhinav", img: "https://catking.in/storage/media_library/7199/66fbf64e7482c.png", score: "CAT 2024 · IIM-L Convert" },
+        { name: "Disha", img: "https://catking.in/storage/media_library/7205/66fbf7ddf1ac2.png", score: "CAT 2024 · IIM-L Convert" },
+        { name: "Kavya Reddy", score: "CAT 2024 · IIM-L Convert" },
+        { name: "Rahul Agrawal", score: "CAT 2024 · IIM-L Convert" }
       ],
       "2023-24": [],
       "2022-23": [],
       "2021-22": [],
       "2020-21": [
-        {name:"Anika Pandey", score:"CAT 2020 · IIM-L Convert"}
+        { name: "Anika Pandey", score: "CAT 2020 · IIM-L Convert" }
       ],
       "2019-20": [],
       "2018-19": [
-        {name:"Neha Thakur", score:"CAT 2018 · IIM-L Convert"}
+        { name: "Neha Thakur", score: "CAT 2018 · IIM-L Convert" }
       ],
       "2017-18": [],
       "2015-17": [
-        {name:"Kruti Mehta", score:"CAT 2016 · IIM-L Convert"}
+        { name: "Kruti Mehta", score: "CAT 2016 · IIM-L Convert" }
       ],
       "2012-15": [
-        {name:"Dhruv K", score:"CAT 2013 · IIM-L Convert"}
+        { name: "Dhruv K", score: "CAT 2013 · IIM-L Convert" }
       ],
       "2008-12": [
-        {name:"Deepak M", score:"CAT 2010 · IIM-L Convert"}
+        { name: "Deepak M", score: "CAT 2010 · IIM-L Convert" }
       ]
     }
   },
   "iim-i": {
     name: "IIM Indore",
     tag: "BLACKI · I",
-    tagClass: "premier", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M10 12h28M10 36h28M14 12v24M24 12v24M34 12v24\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/><path d=\"M14 20h20M14 28h20\" stroke=\"currentColor\" stroke-width=\"1.6\"/></svg>",  logoClass: "",
+    tagClass: "premier", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M10 12h28M10 36h28M14 12v24M24 12v24M34 12v24\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/><path d=\"M14 20h20M14 28h20\" stroke=\"currentColor\" stroke-width=\"1.6\"/></svg>", logoClass: "",
     sub: "PGP Flagship",
     years: {
       "2024-25": [
-        {name:"Arjun Reddy", score:"CAT 2024 · IIM-I Convert"},
-        {name:"Megha Banerjee", score:"CAT 2024 · IIM-I Convert"},
-        {name:"Ankit Joshi", score:"CAT 2024 · IIM-I Convert"}
+        { name: "Arjun Reddy", score: "CAT 2024 · IIM-I Convert" },
+        { name: "Megha Banerjee", score: "CAT 2024 · IIM-I Convert" },
+        { name: "Ankit Joshi", score: "CAT 2024 · IIM-I Convert" }
       ],
       "2023-24": [],
       "2022-23": [],
       "2021-22": [],
       "2020-21": [
-        {name:"Pranav Kumar", score:"CAT 2020 · IIM-I Convert"}
+        { name: "Pranav Kumar", score: "CAT 2020 · IIM-I Convert" }
       ],
       "2019-20": [],
       "2018-19": [
-        {name:"Suresh M", score:"CAT 2018 · IIM-I Convert"}
+        { name: "Suresh M", score: "CAT 2018 · IIM-I Convert" }
       ],
       "2017-18": [],
       "2015-17": [
-        {name:"Qasim R", score:"CAT 2016 · IIM-I Convert"}
+        { name: "Qasim R", score: "CAT 2016 · IIM-I Convert" }
       ],
       "2012-15": [
-        {name:"Imran S", score:"CAT 2014 · IIM-I Convert"}
+        { name: "Imran S", score: "CAT 2014 · IIM-I Convert" }
       ],
       "2008-12": [
-        {name:"Ishwar K", score:"CAT 2010 · IIM-I Convert"}
+        { name: "Ishwar K", score: "CAT 2010 · IIM-I Convert" }
       ]
     }
   },
   "iim-k": {
     name: "IIM Kozhikode",
     tag: "TOP IIM",
-    tagClass: "", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M12 8v32M12 24l18-16v32L12 24z\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"currentColor\" fill-opacity=\".1\"/></svg>",  logoClass: "blue",
+    tagClass: "", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M12 8v32M12 24l18-16v32L12 24z\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"currentColor\" fill-opacity=\".1\"/></svg>", logoClass: "blue",
     sub: "PGP Flagship",
     years: {
       "2024-25": [
-        {name:"Subha", img:"https://catking.in/storage/media_library/7206/66fbf8b63e70a.png", score:"CAT 2024 · IIM-K Convert"},
-        {name:"Sneha Kulkarni", score:"CAT 2024 · IIM-K Convert"},
-        {name:"Adarsh Pillai", score:"CAT 2024 · IIM-K Convert"},
-        {name:"Tanvi Rao", score:"CAT 2024 · IIM-K Convert"}
+        { name: "Subha", img: "https://catking.in/storage/media_library/7206/66fbf8b63e70a.png", score: "CAT 2024 · IIM-K Convert" },
+        { name: "Sneha Kulkarni", score: "CAT 2024 · IIM-K Convert" },
+        { name: "Adarsh Pillai", score: "CAT 2024 · IIM-K Convert" },
+        { name: "Tanvi Rao", score: "CAT 2024 · IIM-K Convert" }
       ],
       "2023-24": [],
       "2022-23": [],
       "2021-22": [],
       "2020-21": [
-        {name:"Lavanya S", score:"CAT 2020 · IIM-K Convert"}
+        { name: "Lavanya S", score: "CAT 2020 · IIM-K Convert" }
       ],
       "2019-20": [],
       "2018-19": [
-        {name:"Farah Khan", score:"CAT 2018 · IIM-K Convert"}
+        { name: "Farah Khan", score: "CAT 2018 · IIM-K Convert" }
       ],
       "2017-18": [],
       "2015-17": [
-        {name:"Tushar V", score:"CAT 2016 · IIM-K Convert"}
+        { name: "Tushar V", score: "CAT 2016 · IIM-K Convert" }
       ],
       "2012-15": [
-        {name:"Lalita M", score:"CAT 2013 · IIM-K Convert"}
+        { name: "Lalita M", score: "CAT 2013 · IIM-K Convert" }
       ],
       "2008-12": [
-        {name:"Latika Rao", score:"CAT 2010 · IIM-K Convert"}
+        { name: "Latika Rao", score: "CAT 2010 · IIM-K Convert" }
       ]
     }
   },
   "iim-m": {
     name: "IIM Mumbai",
     tag: "IIM",
-    tagClass: "", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M8 38V14l10 14 6-8 6 8 10-14v24\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/></svg>",  logoClass: "blue",
+    tagClass: "", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M8 38V14l10 14 6-8 6 8 10-14v24\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/></svg>", logoClass: "blue",
     sub: "formerly NITIE",
     years: {
       "2024-25": [
-        {name:"Vikram Shah", score:"CAT 2024 · IIM Mumbai Convert"},
-        {name:"Ramesh Iyengar", score:"CAT 2024 · IIM Mumbai Convert"},
-        {name:"Nitya Kapoor", score:"CAT 2024 · IIM Mumbai Convert"}
+        { name: "Vikram Shah", score: "CAT 2024 · IIM Mumbai Convert" },
+        { name: "Ramesh Iyengar", score: "CAT 2024 · IIM Mumbai Convert" },
+        { name: "Nitya Kapoor", score: "CAT 2024 · IIM Mumbai Convert" }
       ],
       "2023-24": [],
       "2022-23": [],
       "2021-22": [],
       "2020-21": [
-        {name:"Priya Reddy", score:"CAT 2020 · IIM-M Convert"}
+        { name: "Priya Reddy", score: "CAT 2020 · IIM-M Convert" }
       ],
       "2019-20": [],
       "2018-19": [
-        {name:"Rahul Joshi", score:"CAT 2018 · IIM-M Convert"}
+        { name: "Rahul Joshi", score: "CAT 2018 · IIM-M Convert" }
       ],
       "2017-18": [],
       "2015-17": [
-        {name:"Arnav Banerjee", score:"CAT 2016 · IIM-M Convert"}
+        { name: "Arnav Banerjee", score: "CAT 2016 · IIM-M Convert" }
       ],
       "2012-15": [
-        {name:"Tanvi Jain", score:"CAT 2014 · IIM-M Convert"}
+        { name: "Tanvi Jain", score: "CAT 2014 · IIM-M Convert" }
       ],
       "2008-12": []
     }
@@ -368,219 +368,219 @@ var COLLEGES = {
   "spjimr": {
     name: "SPJIMR Mumbai",
     tag: "TOP B-SCHOOL",
-    tagClass: "mint", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M12 36V12h8c5 0 8 3 8 7s-3 7-8 7h-4m10 10V12m0 0h4c5 0 8 3 8 7s-3 7-8 7\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/></svg>",  logoClass: "mint",
+    tagClass: "mint", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M12 36V12h8c5 0 8 3 8 7s-3 7-8 7h-4m10 10V12m0 0h4c5 0 8 3 8 7s-3 7-8 7\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/></svg>", logoClass: "mint",
     sub: "PGDM Flagship",
     years: {
       "2024-25": [
-        {name:"Sahil", img:"https://catking.in/storage/media_library/7207/66fbf832e8aed.png", score:"CAT 2024 · SPJIMR Convert"},
-        {name:"Pratyasha Panigrahi", score:"SPJIMR Convert · 2026 Batch"}
+        { name: "Sahil", img: "https://catking.in/storage/media_library/7207/66fbf832e8aed.png", score: "CAT 2024 · SPJIMR Convert" },
+        { name: "Pratyasha Panigrahi", score: "SPJIMR Convert · 2026 Batch" }
       ],
       "2023-24": [],
       "2022-23": [],
       "2021-22": [],
       "2020-21": [
-        {name:"Karthik Rao", score:"SPJIMR PGDM · 2020"}
+        { name: "Karthik Rao", score: "SPJIMR PGDM · 2020" }
       ],
       "2019-20": [],
       "2018-19": [
-        {name:"Tanvi Gupta", score:"SPJIMR PGDM · 2018"}
+        { name: "Tanvi Gupta", score: "SPJIMR PGDM · 2018" }
       ],
       "2017-18": [],
       "2015-17": [
-        {name:"Mohit Bansal", score:"SPJIMR PGDM · 2015"}
+        { name: "Mohit Bansal", score: "SPJIMR PGDM · 2015" }
       ],
       "2012-15": [
-        {name:"Ekta Rao", score:"SPJIMR PGDM · 2013"}
+        { name: "Ekta Rao", score: "SPJIMR PGDM · 2013" }
       ],
       "2008-12": [
-        {name:"Esha V", score:"SPJIMR PGDM · 2010"}
+        { name: "Esha V", score: "SPJIMR PGDM · 2010" }
       ]
     }
   },
   "fms": {
     name: "FMS Delhi",
     tag: "TOP B-SCHOOL",
-    tagClass: "mint", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M10 36V12h14m-14 12h10M28 36V12l6 12 6-12v24\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/></svg>",  logoClass: "mint",
+    tagClass: "mint", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M10 36V12h14m-14 12h10M28 36V12l6 12 6-12v24\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/></svg>", logoClass: "mint",
     sub: "MBA Full-Time",
     years: {
       "2024-25": [
-        {name:"Akash", img:"https://catking.in/storage/media_library/7208/66fbf5e490de0.png", score:"CAT 2024 · FMS Convert"},
-        {name:"Ishita Bhatia", score:"CAT 2024 · FMS Delhi Convert"},
-        {name:"Siddharth Jain", score:"CAT 2024 · FMS Delhi Convert"}
+        { name: "Akash", img: "https://catking.in/storage/media_library/7208/66fbf5e490de0.png", score: "CAT 2024 · FMS Convert" },
+        { name: "Ishita Bhatia", score: "CAT 2024 · FMS Delhi Convert" },
+        { name: "Siddharth Jain", score: "CAT 2024 · FMS Delhi Convert" }
       ],
       "2023-24": [],
       "2022-23": [],
       "2021-22": [],
       "2020-21": [
-        {name:"Meera Nair", score:"CAT 2020 · FMS Delhi"}
+        { name: "Meera Nair", score: "CAT 2020 · FMS Delhi" }
       ],
       "2019-20": [],
       "2018-19": [
-        {name:"Yash Mehra", score:"CAT 2018 · FMS Delhi"}
+        { name: "Yash Mehra", score: "CAT 2018 · FMS Delhi" }
       ],
       "2017-18": [],
       "2015-17": [
-        {name:"Nidhi P", score:"CAT 2016 · FMS Delhi"}
+        { name: "Nidhi P", score: "CAT 2016 · FMS Delhi" }
       ],
       "2012-15": [
-        {name:"Faiz Ahmed", score:"CAT 2014 · FMS Delhi"}
+        { name: "Faiz Ahmed", score: "CAT 2014 · FMS Delhi" }
       ],
       "2008-12": [
-        {name:"Farhan S", score:"CAT 2011 · FMS Delhi"}
+        { name: "Farhan S", score: "CAT 2011 · FMS Delhi" }
       ]
     }
   },
   "nmims": {
     name: "NMIMS Mumbai",
     tag: "NMAT",
-    tagClass: "mint", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M8 36V12l8 16V12m6 24V12m8 24V12l4 12 4-12v24M6 30h12\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/></svg>",  logoClass: "mint",
+    tagClass: "mint", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M8 36V12l8 16V12m6 24V12m8 24V12l4 12 4-12v24M6 30h12\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/></svg>", logoClass: "mint",
     sub: "MBA Core / HR / Finance",
     years: {
       "2024-25": [
-        {name:"Romit", score:"NMAT · Score 262", yt:"pKEQ3zC_6V4"},
-        {name:"Pratik Mulik", score:"NMIMS Mumbai · MBA BA 2026"},
-        {name:"Hardik Kacha", score:"NMIMS · 22 mo journey"},
-        {name:"Nihit Pingala", score:"NMIMS Merit 79 + SCMHRD"},
-        {name:"Kenneth Sequeira", score:"NMIMS Pharma + MBA Hyd"},
-        {name:"Aayush Rathi", score:"NMIMS MBA Core · 2026"},
-        {name:"Debasish Sahoo", score:"NMIMS Mumbai Core · 2026"},
-        {name:"Vaishnavi Talan", score:"NMIMS MBA Mumbai · 2026"},
-        {name:"Sakshi Rohra", score:"NMIMS Core Finance · 2026"},
-        {name:"Agastya Anand", score:"NMIMS Merit Rank 153"},
-        {name:"Greeshma Asutkar", score:"NMIMS Mumbai · 2026"},
-        {name:"Manav Goyal", score:"NMIMS Digital Transform"},
-        {name:"Anamika Arora", score:"NMIMS MBA Mumbai · 2026"},
-        {name:"Harshla Pandey", score:"NMIMS Pharma MBA · 2026"},
-        {name:"Rutuja Kokate", score:"NMIMS MBA Mumbai · 2026"},
-        {name:"Vidhi Verma", score:"NMIMS Navi Mumbai · 2026"},
-        {name:"Chaitanya Bisen", score:"NMIMS MBA BA · 2026"},
-        {name:"Raunak", score:"NMIMS MBA BA · 2026"},
-        {name:"Kabir", score:"NMIMS MBA BA Mumbai · 2026"},
-        {name:"Srija", score:"NMIMS BA Mumbai · 2026"},
-        {name:"Aditi Shukla", score:"NMIMS · 2026 Convert"},
-        {name:"Aditi", score:"NMIMS · 2026 Convert"}
+        { name: "Romit", score: "NMAT · Score 262", yt: "pKEQ3zC_6V4" },
+        { name: "Pratik Mulik", score: "NMIMS Mumbai · MBA BA 2026" },
+        { name: "Hardik Kacha", score: "NMIMS · 22 mo journey" },
+        { name: "Nihit Pingala", score: "NMIMS Merit 79 + SCMHRD" },
+        { name: "Kenneth Sequeira", score: "NMIMS Pharma + MBA Hyd" },
+        { name: "Aayush Rathi", score: "NMIMS MBA Core · 2026" },
+        { name: "Debasish Sahoo", score: "NMIMS Mumbai Core · 2026" },
+        { name: "Vaishnavi Talan", score: "NMIMS MBA Mumbai · 2026" },
+        { name: "Sakshi Rohra", score: "NMIMS Core Finance · 2026" },
+        { name: "Agastya Anand", score: "NMIMS Merit Rank 153" },
+        { name: "Greeshma Asutkar", score: "NMIMS Mumbai · 2026" },
+        { name: "Manav Goyal", score: "NMIMS Digital Transform" },
+        { name: "Anamika Arora", score: "NMIMS MBA Mumbai · 2026" },
+        { name: "Harshla Pandey", score: "NMIMS Pharma MBA · 2026" },
+        { name: "Rutuja Kokate", score: "NMIMS MBA Mumbai · 2026" },
+        { name: "Vidhi Verma", score: "NMIMS Navi Mumbai · 2026" },
+        { name: "Chaitanya Bisen", score: "NMIMS MBA BA · 2026" },
+        { name: "Raunak", score: "NMIMS MBA BA · 2026" },
+        { name: "Kabir", score: "NMIMS MBA BA Mumbai · 2026" },
+        { name: "Srija", score: "NMIMS BA Mumbai · 2026" },
+        { name: "Aditi Shukla", score: "NMIMS · 2026 Convert" },
+        { name: "Aditi", score: "NMIMS · 2026 Convert" }
       ],
       "2023-24": [
-        {name:"Kapil Dev Singh", img:"https://catking.in/file/media_library/5186/65ec795e6d097.jpg", score:"NMAT 2023 · Score 243"},
-        {name:"Priyam Shah", img:"https://catking.in/file/media_library/5187/65ec7b0575f5b.jpg", score:"NMAT 2023 · Score 240"},
-        {name:"Paranjay Kukreti", img:"https://catking.in/file/media_library/5188/65eeecb258f75.jpg", score:"NMAT 2023 · Score 239"},
-        {name:"Bheem Varkhedi", img:"https://catking.in/file/media_library/5189/65f0795d41ab6.jpg", score:"NMAT 2023 · Score 237"},
-        {name:"Sanyam", img:"https://catking.in/file/media_library/5190/65f07a6517ea8.jpg", score:"NMAT 2023 · Score 236"},
-        {name:"Giridhar S Shenoy", img:"https://catking.in/file/media_library/5191/65f07b0fc3dca.jpg", score:"NMAT 2023 · Score 236"},
-        {name:"Shubham Jhunjhunwala", img:"https://catking.in/file/media_library/5192/65f07ba54fb3f.jpg", score:"NMAT 2023 · Score 236"},
-        {name:"Punita", img:"https://catking.in/file/media_library/5194/65f07c3f99fea.jpg", score:"NMAT 2023 · Score 235"}
+        { name: "Kapil Dev Singh", img: "https://catking.in/file/media_library/5186/65ec795e6d097.jpg", score: "NMAT 2023 · Score 243" },
+        { name: "Priyam Shah", img: "https://catking.in/file/media_library/5187/65ec7b0575f5b.jpg", score: "NMAT 2023 · Score 240" },
+        { name: "Paranjay Kukreti", img: "https://catking.in/file/media_library/5188/65eeecb258f75.jpg", score: "NMAT 2023 · Score 239" },
+        { name: "Bheem Varkhedi", img: "https://catking.in/file/media_library/5189/65f0795d41ab6.jpg", score: "NMAT 2023 · Score 237" },
+        { name: "Sanyam", img: "https://catking.in/file/media_library/5190/65f07a6517ea8.jpg", score: "NMAT 2023 · Score 236" },
+        { name: "Giridhar S Shenoy", img: "https://catking.in/file/media_library/5191/65f07b0fc3dca.jpg", score: "NMAT 2023 · Score 236" },
+        { name: "Shubham Jhunjhunwala", img: "https://catking.in/file/media_library/5192/65f07ba54fb3f.jpg", score: "NMAT 2023 · Score 236" },
+        { name: "Punita", img: "https://catking.in/file/media_library/5194/65f07c3f99fea.jpg", score: "NMAT 2023 · Score 235" }
       ],
       "2022-23": [],
       "2021-22": [],
       "2020-21": [
-        {name:"Siddharth Jain", score:"NMAT 240 · NMIMS Mumbai"},
-        {name:"Divya Singh", score:"NMAT 236"}
+        { name: "Siddharth Jain", score: "NMAT 240 · NMIMS Mumbai" },
+        { name: "Divya Singh", score: "NMAT 236" }
       ],
       "2019-20": [],
       "2018-19": [
-        {name:"Bhavya P", score:"NMAT 244 · NMIMS"},
-        {name:"Chirag Jain", score:"NMAT 238"}
+        { name: "Bhavya P", score: "NMAT 244 · NMIMS" },
+        { name: "Chirag Jain", score: "NMAT 238" }
       ],
       "2017-18": [],
       "2015-17": [
-        {name:"Omkar Rao", score:"NMAT 242 · NMIMS"},
-        {name:"Priyanka Jha", score:"NMAT 238"}
+        { name: "Omkar Rao", score: "NMAT 242 · NMIMS" },
+        { name: "Priyanka Jha", score: "NMAT 238" }
       ],
       "2012-15": [
-        {name:"Gopal T", score:"NMAT 236 · NMIMS"},
-        {name:"Heena Nair", score:"NMAT 232"}
+        { name: "Gopal T", score: "NMAT 236 · NMIMS" },
+        { name: "Heena Nair", score: "NMAT 232" }
       ],
       "2008-12": [
-        {name:"Girish T", score:"NMAT 228 · NMIMS"},
-        {name:"Hasita Rao", score:"NMAT 224"}
+        { name: "Girish T", score: "NMAT 228 · NMIMS" },
+        { name: "Hasita Rao", score: "NMAT 224" }
       ]
     }
   },
   "snap": {
     name: "SNAP Scorers",
     tag: "SNAP",
-    tagClass: "", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M12 36c4 0 6-2 6-5s-2-5-6-5-6-2-6-5 2-5 6-5h8m6 20V12m8 0h-4v10h4m4 14V12h4c3 0 5 2 5 4\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/></svg>",  logoClass: "navy",
+    tagClass: "", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M12 36c4 0 6-2 6-5s-2-5-6-5-6-2-6-5 2-5 6-5h8m6 20V12m8 0h-4v10h4m4 14V12h4c3 0 5 2 5 4\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/></svg>", logoClass: "navy",
     sub: "Symbiosis Institutes",
     years: {
       "2024-25": [
-        {name:"Ashish Ranjan", score:"SCMHRD Pune · MBA BA 2026"},
-        {name:"Nandini", score:"SCMHRD Pune · 2026"}
+        { name: "Ashish Ranjan", score: "SCMHRD Pune · MBA BA 2026" },
+        { name: "Nandini", score: "SCMHRD Pune · 2026" }
       ],
       "2023-24": [
-        {name:"Braj Kishan Singh", img:"https://catking.in/file/media_library/5180/65f07d3d37ee4.jpg", score:"SNAP 2023 · 97.71 %ile"},
-        {name:"Varad Deshpande", img:"https://catking.in/file/media_library/5181/65f07dc35c0f9.jpg", score:"SNAP 2023 · 96.96 %ile"}
+        { name: "Braj Kishan Singh", img: "https://catking.in/file/media_library/5180/65f07d3d37ee4.jpg", score: "SNAP 2023 · 97.71 %ile" },
+        { name: "Varad Deshpande", img: "https://catking.in/file/media_library/5181/65f07dc35c0f9.jpg", score: "SNAP 2023 · 96.96 %ile" }
       ],
       "2022-23": [],
       "2021-22": [],
       "2020-21": [
-        {name:"Harsh Vardhan", score:"SNAP 98.12 · SCMHRD"}
+        { name: "Harsh Vardhan", score: "SNAP 98.12 · SCMHRD" }
       ],
       "2019-20": [],
       "2018-19": [
-        {name:"Eshaan Shah", score:"SNAP 98.28 · SCMHRD"}
+        { name: "Eshaan Shah", score: "SNAP 98.28 · SCMHRD" }
       ],
       "2017-18": [],
       "2015-17": [
-        {name:"Swati Nair", score:"SNAP 98.44 · SCMHRD"}
+        { name: "Swati Nair", score: "SNAP 98.44 · SCMHRD" }
       ],
       "2012-15": [
-        {name:"Kunal G", score:"SNAP 97.82 · SCMHRD"}
+        { name: "Kunal G", score: "SNAP 97.82 · SCMHRD" }
       ],
       "2008-12": [
-        {name:"Karim A", score:"SNAP 97.28 · SCMHRD"}
+        { name: "Karim A", score: "SNAP 97.28 · SCMHRD" }
       ]
     }
   },
   "cat-99": {
     name: "CAT %ile Scorers",
     tag: "CAT TOP %ILE",
-    tagClass: "", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M24 6l4 12h12l-10 8 4 14-10-8-10 8 4-14-10-8h12z\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"currentColor\" fill-opacity=\".1\"/></svg>",  logoClass: "navy",
+    tagClass: "", logo: "<svg viewBox=\"0 0 48 48\" fill=\"none\"><path d=\"M24 6l4 12h12l-10 8 4 14-10-8-10 8 4-14-10-8h12z\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"currentColor\" fill-opacity=\".1\"/></svg>", logoClass: "navy",
     sub: "Verified by KPMG / Brickworks",
     years: {
       "2024-25": [
-        {name:"Karthik Nair", score:"CAT 2024 · 99.78 %ile"},
-        {name:"Sanya Gupta", score:"CAT 2024 · 99.45 %ile · First Attempt"},
-        {name:"Meenal Desai", score:"CAT 2024 · 99.23 %ile"},
-        {name:"Varun Kumar", score:"CAT 2024 · 99.11 %ile"}
+        { name: "Karthik Nair", score: "CAT 2024 · 99.78 %ile" },
+        { name: "Sanya Gupta", score: "CAT 2024 · 99.45 %ile · First Attempt" },
+        { name: "Meenal Desai", score: "CAT 2024 · 99.23 %ile" },
+        { name: "Varun Kumar", score: "CAT 2024 · 99.11 %ile" }
       ],
       "2023-24": [
-        {name:"Gaurav", img:"https://catking.in/file/media_library/5197/65eee10445a7a.jpg", score:"CAT 2023 · 99.69 %ile"},
-        {name:"Neelanshu", img:"https://catking.in/file/media_library/5193/65eedf2556a60.jpg", score:"CAT 2023 · 99.06 %ile"},
-        {name:"Avisha", img:"https://catking.in/file/media_library/5196/65eee0a051c7c.jpg", score:"CAT 2023 · 99.01 %ile"},
-        {name:"Paras", img:"https://catking.in/file/media_library/5176/65eb576e26067.jpg", score:"CAT 2023 · 97.92 %ile"},
-        {name:"Jai", score:"CAT 2023 · 99.66 %ile", yt:"jdPUhiNhloc"},
-        {name:"Akshma", score:"CAT 2023 · 99.36 %ile", yt:"NT0F6t31heM"},
-        {name:"Ajmal", score:"CAT 2023 · 99.29 %ile", yt:"7_Tz4tkaQPo"},
-        {name:"Rishi", score:"CAT 2023 · 99.22 %ile", yt:"ZdPtNvamYlA"},
-        {name:"Dhruvsingh", score:"CAT 2023 · 99.02 %ile", yt:"TV-bPh4KTXA"},
-        {name:"Mayank", score:"CAT 2023 · 99 %ile", yt:"QV7HwpMVrXo"},
-        {name:"Sarthak", score:"CAT 2023 · 99 %ile", yt:"2T4myWfkQGQ"},
-        {name:"Gourav", score:"CAT 2023 · 99 %ile", yt:"8bch7T_WFj0"}
+        { name: "Gaurav", img: "https://catking.in/file/media_library/5197/65eee10445a7a.jpg", score: "CAT 2023 · 99.69 %ile" },
+        { name: "Neelanshu", img: "https://catking.in/file/media_library/5193/65eedf2556a60.jpg", score: "CAT 2023 · 99.06 %ile" },
+        { name: "Avisha", img: "https://catking.in/file/media_library/5196/65eee0a051c7c.jpg", score: "CAT 2023 · 99.01 %ile" },
+        { name: "Paras", img: "https://catking.in/file/media_library/5176/65eb576e26067.jpg", score: "CAT 2023 · 97.92 %ile" },
+        { name: "Jai", score: "CAT 2023 · 99.66 %ile", yt: "jdPUhiNhloc" },
+        { name: "Akshma", score: "CAT 2023 · 99.36 %ile", yt: "NT0F6t31heM" },
+        { name: "Ajmal", score: "CAT 2023 · 99.29 %ile", yt: "7_Tz4tkaQPo" },
+        { name: "Rishi", score: "CAT 2023 · 99.22 %ile", yt: "ZdPtNvamYlA" },
+        { name: "Dhruvsingh", score: "CAT 2023 · 99.02 %ile", yt: "TV-bPh4KTXA" },
+        { name: "Mayank", score: "CAT 2023 · 99 %ile", yt: "QV7HwpMVrXo" },
+        { name: "Sarthak", score: "CAT 2023 · 99 %ile", yt: "2T4myWfkQGQ" },
+        { name: "Gourav", score: "CAT 2023 · 99 %ile", yt: "8bch7T_WFj0" }
       ],
       "2022-23": [],
       "2021-22": [],
       "2020-21": [
-        {name:"Vikram Patil", score:"CAT 2020 · 99.78 %ile"},
-        {name:"Shreya Iyer", score:"CAT 2020 · 99.66 %ile"},
-        {name:"Rhea Kapoor", score:"CAT 2020 · 99.38 %ile"}
+        { name: "Vikram Patil", score: "CAT 2020 · 99.78 %ile" },
+        { name: "Shreya Iyer", score: "CAT 2020 · 99.66 %ile" },
+        { name: "Rhea Kapoor", score: "CAT 2020 · 99.38 %ile" }
       ],
       "2019-20": [],
       "2018-19": [
-        {name:"Aditya Verma", score:"CAT 2018 · 99.92 %ile"},
-        {name:"Devika Rao", score:"CAT 2018 · 99.36 %ile"}
+        { name: "Aditya Verma", score: "CAT 2018 · 99.92 %ile" },
+        { name: "Devika Rao", score: "CAT 2018 · 99.36 %ile" }
       ],
       "2017-18": [],
       "2015-17": [
-        {name:"Aman Saxena", score:"CAT 2016 · 99.88 %ile"},
-        {name:"Ravi Shankar", score:"CAT 2016 · 99.42 %ile"}
+        { name: "Aman Saxena", score: "CAT 2016 · 99.88 %ile" },
+        { name: "Ravi Shankar", score: "CAT 2016 · 99.42 %ile" }
       ],
       "2012-15": [
-        {name:"Arpita Sen", score:"CAT 2014 · 99.76 %ile"},
-        {name:"Jyoti R", score:"CAT 2013 · 99.18 %ile"}
+        { name: "Arpita Sen", score: "CAT 2014 · 99.76 %ile" },
+        { name: "Jyoti R", score: "CAT 2013 · 99.18 %ile" }
       ],
       "2008-12": [
-        {name:"Ashok B", score:"CAT 2011 · 99.64 %ile"},
-        {name:"Jyoti N", score:"CAT 2009 · 99.02 %ile"}
+        { name: "Ashok B", score: "CAT 2011 · 99.64 %ile" },
+        { name: "Jyoti N", score: "CAT 2009 · 99.02 %ile" }
       ]
     }
   },
@@ -588,18 +588,18 @@ var COLLEGES = {
 
 // Totals shown on each card (cumulative, audited)
 var COLLEGE_TOTALS = {
-  "iim-a":{"2024-25":92,"2023-24":78,"2022-23":65,"2021-22":54,"2020-21":46,"2019-20":40,"2018-19":35,"2017-18":30,"2015-17":56,"2012-15":72,"2008-12":38},
-  "iim-b":{"2024-25":104,"2023-24":88,"2022-23":72,"2021-22":61,"2020-21":52,"2019-20":44,"2018-19":38,"2017-18":33,"2015-17":62,"2012-15":78,"2008-12":42},
-  "iim-c":{"2024-25":88,"2023-24":74,"2022-23":60,"2021-22":48,"2020-21":41,"2019-20":36,"2018-19":31,"2017-18":27,"2015-17":50,"2012-15":64,"2008-12":34},
-  "iim-l":{"2024-25":96,"2023-24":82,"2022-23":68,"2021-22":57,"2020-21":49,"2019-20":42,"2018-19":36,"2017-18":31,"2015-17":58,"2012-15":74,"2008-12":40},
-  "iim-i":{"2024-25":80,"2023-24":66,"2022-23":52,"2021-22":42,"2020-21":35,"2019-20":30,"2018-19":26,"2017-18":22,"2015-17":40,"2012-15":52,"2008-12":0},
-  "iim-k":{"2024-25":110,"2023-24":94,"2022-23":78,"2021-22":65,"2020-21":56,"2019-20":48,"2018-19":41,"2017-18":35,"2015-17":64,"2012-15":84,"2008-12":22},
-  "iim-m":{"2024-25":72,"2023-24":58,"2022-23":44,"2021-22":32,"2020-21":26,"2019-20":22,"2018-19":18,"2017-18":15,"2015-17":28,"2012-15":38,"2008-12":0},
-  "spjimr":{"2024-25":65,"2023-24":52,"2022-23":40,"2021-22":30,"2020-21":26,"2019-20":22,"2018-19":19,"2017-18":16,"2015-17":30,"2012-15":38,"2008-12":20},
-  "fms":{"2024-25":48,"2023-24":36,"2022-23":28,"2021-22":20,"2020-21":17,"2019-20":14,"2018-19":12,"2017-18":10,"2015-17":18,"2012-15":24,"2008-12":13},
-  "nmims":{"2024-25":234,"2023-24":188,"2022-23":160,"2021-22":130,"2020-21":108,"2019-20":92,"2018-19":78,"2017-18":66,"2015-17":124,"2012-15":158,"2008-12":82},
-  "snap":{"2024-25":90,"2023-24":72,"2022-23":60,"2021-22":48,"2020-21":41,"2019-20":35,"2018-19":30,"2017-18":26,"2015-17":48,"2012-15":62,"2008-12":32},
-  "cat-99":{"2024-25":620,"2023-24":540,"2022-23":460,"2021-22":390,"2020-21":330,"2019-20":280,"2018-19":240,"2017-18":205,"2015-17":380,"2012-15":480,"2008-12":240}
+  "iim-a": { "2024-25": 92, "2023-24": 78, "2022-23": 65, "2021-22": 54, "2020-21": 46, "2019-20": 40, "2018-19": 35, "2017-18": 30, "2015-17": 56, "2012-15": 72, "2008-12": 38 },
+  "iim-b": { "2024-25": 104, "2023-24": 88, "2022-23": 72, "2021-22": 61, "2020-21": 52, "2019-20": 44, "2018-19": 38, "2017-18": 33, "2015-17": 62, "2012-15": 78, "2008-12": 42 },
+  "iim-c": { "2024-25": 88, "2023-24": 74, "2022-23": 60, "2021-22": 48, "2020-21": 41, "2019-20": 36, "2018-19": 31, "2017-18": 27, "2015-17": 50, "2012-15": 64, "2008-12": 34 },
+  "iim-l": { "2024-25": 96, "2023-24": 82, "2022-23": 68, "2021-22": 57, "2020-21": 49, "2019-20": 42, "2018-19": 36, "2017-18": 31, "2015-17": 58, "2012-15": 74, "2008-12": 40 },
+  "iim-i": { "2024-25": 80, "2023-24": 66, "2022-23": 52, "2021-22": 42, "2020-21": 35, "2019-20": 30, "2018-19": 26, "2017-18": 22, "2015-17": 40, "2012-15": 52, "2008-12": 0 },
+  "iim-k": { "2024-25": 110, "2023-24": 94, "2022-23": 78, "2021-22": 65, "2020-21": 56, "2019-20": 48, "2018-19": 41, "2017-18": 35, "2015-17": 64, "2012-15": 84, "2008-12": 22 },
+  "iim-m": { "2024-25": 72, "2023-24": 58, "2022-23": 44, "2021-22": 32, "2020-21": 26, "2019-20": 22, "2018-19": 18, "2017-18": 15, "2015-17": 28, "2012-15": 38, "2008-12": 0 },
+  "spjimr": { "2024-25": 65, "2023-24": 52, "2022-23": 40, "2021-22": 30, "2020-21": 26, "2019-20": 22, "2018-19": 19, "2017-18": 16, "2015-17": 30, "2012-15": 38, "2008-12": 20 },
+  "fms": { "2024-25": 48, "2023-24": 36, "2022-23": 28, "2021-22": 20, "2020-21": 17, "2019-20": 14, "2018-19": 12, "2017-18": 10, "2015-17": 18, "2012-15": 24, "2008-12": 13 },
+  "nmims": { "2024-25": 234, "2023-24": 188, "2022-23": 160, "2021-22": 130, "2020-21": 108, "2019-20": 92, "2018-19": 78, "2017-18": 66, "2015-17": 124, "2012-15": 158, "2008-12": 82 },
+  "snap": { "2024-25": 90, "2023-24": 72, "2022-23": 60, "2021-22": 48, "2020-21": 41, "2019-20": 35, "2018-19": 30, "2017-18": 26, "2015-17": 48, "2012-15": 62, "2008-12": 32 },
+  "cat-99": { "2024-25": 620, "2023-24": 540, "2022-23": 460, "2021-22": 390, "2020-21": 330, "2019-20": 280, "2018-19": 240, "2017-18": 205, "2015-17": 380, "2012-15": 480, "2008-12": 240 }
 };
 
 /* ============================================================
@@ -1184,48 +1184,48 @@ var STUDENTS = {
 var LIVE_RESULTS = {
   "all": [],  // auto-populated
   "iim-a": [
-    {name:"Rishabh Agarwal", sid:"aniruddha-sharma", score:"Convert", isNew:true, date:"Today"},
-    {name:"Vidhi Mehta", sid:"priyanshu-tiwari", score:"Convert", isNew:true, date:"Yesterday"},
-    {name:"Arjun Reddy", sid:"prafull-sharma", score:"Convert", date:"2 days ago"},
-    {name:"Sneha Kulkarni", sid:"manshu-khinchyal", score:"Convert", date:"3 days ago"}
+    { name: "Rishabh Agarwal", sid: "aniruddha-sharma", score: "Convert", isNew: true, date: "Today" },
+    { name: "Vidhi Mehta", sid: "priyanshu-tiwari", score: "Convert", isNew: true, date: "Yesterday" },
+    { name: "Arjun Reddy", sid: "prafull-sharma", score: "Convert", date: "2 days ago" },
+    { name: "Sneha Kulkarni", sid: "manshu-khinchyal", score: "Convert", date: "3 days ago" }
   ],
   "iim-b": [
-    {name:"Karthik Iyer", sid:"jai", score:"Convert", isNew:true, date:"Today"},
-    {name:"Pooja Nair", sid:"dhruvsingh", score:"Convert", date:"2 days ago"},
-    {name:"Rohit Malhotra", sid:"gourav", score:"Convert", date:"4 days ago"}
+    { name: "Karthik Iyer", sid: "jai", score: "Convert", isNew: true, date: "Today" },
+    { name: "Pooja Nair", sid: "dhruvsingh", score: "Convert", date: "2 days ago" },
+    { name: "Rohit Malhotra", sid: "gourav", score: "Convert", date: "4 days ago" }
   ],
   "iim-c": [
-    {name:"Ananya Ghosh", sid:"rishi", score:"Convert", isNew:true, date:"Today"},
-    {name:"Siddharth Banerjee", sid:"akshat-toolaj-sinha", score:"Convert", date:"3 days ago"}
+    { name: "Ananya Ghosh", sid: "rishi", score: "Convert", isNew: true, date: "Today" },
+    { name: "Siddharth Banerjee", sid: "akshat-toolaj-sinha", score: "Convert", date: "3 days ago" }
   ],
   "iim-l": [
-    {name:"Divya Srivastava", sid:"akshma", score:"Convert", isNew:true, date:"Yesterday"},
-    {name:"Rahul Yadav", sid:"shivam-rajput", score:"Convert", date:"3 days ago"},
-    {name:"Priya Sharma", sid:"hunney-kotiya", score:"Convert", date:"5 days ago"}
+    { name: "Divya Srivastava", sid: "akshma", score: "Convert", isNew: true, date: "Yesterday" },
+    { name: "Rahul Yadav", sid: "shivam-rajput", score: "Convert", date: "3 days ago" },
+    { name: "Priya Sharma", sid: "hunney-kotiya", score: "Convert", date: "5 days ago" }
   ],
   "iim-k": [
-    {name:"Aditya Menon", sid:"ajmal", score:"Convert", isNew:true, date:"Today"},
-    {name:"Lakshmi Pillai", sid:"mayank", score:"Convert", date:"4 days ago"}
+    { name: "Aditya Menon", sid: "ajmal", score: "Convert", isNew: true, date: "Today" },
+    { name: "Lakshmi Pillai", sid: "mayank", score: "Convert", date: "4 days ago" }
   ],
   "iim-i": [
-    {name:"Nikhil Chauhan", sid:"sarthak", score:"Convert", date:"2 days ago"},
-    {name:"Riya Kapoor", sid:"aayush-mohod", score:"Convert", date:"5 days ago"}
+    { name: "Nikhil Chauhan", sid: "sarthak", score: "Convert", date: "2 days ago" },
+    { name: "Riya Kapoor", sid: "aayush-mohod", score: "Convert", date: "5 days ago" }
   ],
   "iim-m": [
-    {name:"Harsh Vardhan", sid:"vishwaraj-vilankar", score:"Convert", isNew:true, date:"Yesterday"},
-    {name:"Ishika Jain", sid:"suvarnaa", score:"Convert", date:"4 days ago"}
+    { name: "Harsh Vardhan", sid: "vishwaraj-vilankar", score: "Convert", isNew: true, date: "Yesterday" },
+    { name: "Ishika Jain", sid: "suvarnaa", score: "Convert", date: "4 days ago" }
   ],
   "spjimr": [
-    {name:"Tanvi Shah", sid:"muskan", score:"Convert", isNew:true, date:"Today"},
-    {name:"Abhishek Gupta", sid:"jai", score:"Convert", date:"3 days ago"}
+    { name: "Tanvi Shah", sid: "muskan", score: "Convert", isNew: true, date: "Today" },
+    { name: "Abhishek Gupta", sid: "jai", score: "Convert", date: "3 days ago" }
   ],
   "fms": [
-    {name:"Vikram Singh", sid:"neelanshu", score:"Convert", date:"2 days ago"}
+    { name: "Vikram Singh", sid: "neelanshu", score: "Convert", date: "2 days ago" }
   ],
   "nmims": [
-    {name:"Kavya Reddy", sid:"romit", score:"Convert", isNew:true, date:"Today"},
-    {name:"Yash Patel", sid:"avisha", score:"Convert", date:"3 days ago"},
-    {name:"Sanjana Rao", sid:"paras", score:"Convert", date:"5 days ago"}
+    { name: "Kavya Reddy", sid: "romit", score: "Convert", isNew: true, date: "Today" },
+    { name: "Yash Patel", sid: "avisha", score: "Convert", date: "3 days ago" },
+    { name: "Sanjana Rao", sid: "paras", score: "Convert", date: "5 days ago" }
   ]
 };
 
@@ -1233,40 +1233,40 @@ var LIVE_RESULTS = {
 // v16: Institute group tabs (consolidates individual IIMs into category groups)
 // Naming: BLACKI = IIM-A,B,C,L,K,I  +  S = SPJIMR + M = FMS (informally "BLACKI-SM" but page label is just "BLACKI-SM")
 var LIVE_GROUPS = {
-  "blacki-sm": {label:"IIM BLACKI-SM",   members:["iim-a","iim-b","iim-c","iim-l","iim-k","iim-i","spjimr","fms"]},
-  "other-iim": {label:"Other IIMs",      members:["iim-m"]},
-  "nmims":     {label:"NMIMS",           members:["nmims"]},
-  "other-top": {label:"Other Top B-Schools", members:["scmhrd","sibm","mdi","iift","xim"]}
+  "blacki-sm": { label: "IIM BLACKI-SM", members: ["iim-a", "iim-b", "iim-c", "iim-l", "iim-k", "iim-i", "spjimr", "fms"] },
+  "other-iim": { label: "Other IIMs", members: ["iim-m"] },
+  "nmims": { label: "NMIMS", members: ["nmims"] },
+  "other-top": { label: "Other Top B-Schools", members: ["scmhrd", "sibm", "mdi", "iift", "xim"] }
 };
 
 var LIVE_TABS = [
-  {key:"all",         label:"All Converts"},
-  {key:"blacki-sm",   label:"IIM BLACKI-SM"},
-  {key:"other-iim",   label:"Other IIMs"},
-  {key:"nmims",       label:"NMIMS"},
-  {key:"other-top",   label:"Other Top B-Schools"}
+  { key: "all", label: "All Converts" },
+  { key: "blacki-sm", label: "IIM BLACKI-SM" },
+  { key: "other-iim", label: "Other IIMs" },
+  { key: "nmims", label: "NMIMS" },
+  { key: "other-top", label: "Other Top B-Schools" }
 ];
 
 // Pre-tag every record with its group so we can filter consistently
 var INSTITUTE_TO_GROUP = {};
-Object.keys(LIVE_GROUPS).forEach(function(gKey){
-  LIVE_GROUPS[gKey].members.forEach(function(inst){
+Object.keys(LIVE_GROUPS).forEach(function (gKey) {
+  LIVE_GROUPS[gKey].members.forEach(function (inst) {
     INSTITUTE_TO_GROUP[inst] = gKey;
   });
 });
 
 // Flatten everything to LIVE_RESULTS.all with _inst (institute key) and _group (group key) set
 LIVE_RESULTS.all = [];
-Object.keys(LIVE_RESULTS).forEach(function(instKey){
-  if(instKey === "all") return;
+Object.keys(LIVE_RESULTS).forEach(function (instKey) {
+  if (instKey === "all") return;
   var grpKey = INSTITUTE_TO_GROUP[instKey] || "other-top";
-  (LIVE_RESULTS[instKey] || []).forEach(function(r){
-    LIVE_RESULTS.all.push(Object.assign({}, r, {_inst: instKey, _group: grpKey}));
+  (LIVE_RESULTS[instKey] || []).forEach(function (r) {
+    LIVE_RESULTS.all.push(Object.assign({}, r, { _inst: instKey, _group: grpKey }));
   });
 });
 
-function ensureStaticStudent(d){
-  if(!d || typeof STUDENTS === "undefined" || STUDENTS[d.sid]) return;
+function ensureStaticStudent(d) {
+  if (!d || typeof STUDENTS === "undefined" || STUDENTS[d.sid]) return;
   STUDENTS[d.sid] = {
     name: d.name,
     score: d.score,
@@ -1284,17 +1284,17 @@ function ensureStaticStudent(d){
   };
 }
 
-if(Array.isArray(window.RESULTS_STATIC_RESULTS) && window.RESULTS_STATIC_RESULTS.length){
+if (Array.isArray(window.RESULTS_STATIC_RESULTS) && window.RESULTS_STATIC_RESULTS.length) {
   LIVE_RESULTS.all = window.RESULTS_STATIC_RESULTS
     .slice()
-    .sort(function(a, b){
+    .sort(function (a, b) {
       return (a.sortOrder || 999) - (b.sortOrder || 999) ||
         new Date(b.createdAt || 0) - new Date(a.createdAt || 0) ||
         (b.id || 0) - (a.id || 0);
     })
-    .map(function(d){
+    .map(function (d) {
       ensureStaticStudent(d);
-      return Object.assign({}, d, {_inst: d.instKey, _group: d.group});
+      return Object.assign({}, d, { _inst: d.instKey, _group: d.group });
     });
 }
 
@@ -1302,88 +1302,88 @@ if(Array.isArray(window.RESULTS_STATIC_RESULTS) && window.RESULTS_STATIC_RESULTS
    STUDENT REVIEWS DATA (marquee)
 ============================================================ */
 var REVIEWS = [
-  {name:"Rohit Sharma",     loc:"Mumbai · NMIMS Convert",         rating:5, course:"CAT Turbo 2024",      text:"Sumit Sir\'s LRDI framework is genuinely the best I have seen. Went from 78 to 96 in 7 months. Worth every rupee."},
-  {name:"Priyanka Desai",   loc:"Pune · IIM-K Convert",           rating:5, course:"CAT Intensive 2024",  text:"The Sunday mentor calls were my weekly reset. Even during my lowest weeks, my mentor kept me accountable."},
-  {name:"Arjun Mehta",      loc:"Delhi · FMS Delhi Convert",      rating:5, course:"CAT Intensive 2024",  text:"Second attempt. First one I scored 91. CATKing rebuilt my approach. Cracked 99+ and FMS."},
-  {name:"Sneha Iyer",       loc:"Chennai · IIM-L Convert",        rating:5, course:"CAT Self Study 2024", text:"Working professional, 2 hours a day. The recorded lectures were perfect. Materials are the highest quality I found."},
-  {name:"Vikram Rao",       loc:"Bengaluru · IIM-B Convert",      rating:5, course:"IIM WAT-PI 2024",     text:"The WAT-PI module was a game changer. My mock interviews prepared me for exactly the questions I got in IIM-B."},
-  {name:"Anjali Kumar",     loc:"Hyderabad · NMIMS Convert",      rating:5, course:"NMAT Combo 2024",     text:"NMAT prep here is underrated. The speed-accuracy drills made a big difference. 235 on NMAT."},
-  {name:"Rahul Gupta",      loc:"Kolkata · SPJIMR Convert",       rating:5, course:"CAT Turbo 2024",      text:"The content library alone is worth the fee. 20 hours of recorded lectures per section, all updated for latest CAT pattern."},
-  {name:"Shruti Pandey",    loc:"Jaipur · MDI Gurgaon Convert",   rating:5, course:"CAT Intensive 2024",  text:"I was worried about being in a tier-3 college. CATKing mentors never made me feel out of place. Got MDI Gurgaon."},
-  {name:"Karan Malhotra",   loc:"Ahmedabad · IIM-I Convert",      rating:5, course:"CAT Intensive 2024",  text:"The mock analysis sessions are where 95 becomes 99. Everyone does mocks. Nobody analyzes them this well."},
-  {name:"Divya Krishnan",   loc:"Bengaluru · IIM-A Convert",      rating:5, course:"CAT Intensive + WAT", text:"Came from non-target college. CATKing rebuilt my confidence. IIM-A final interview was the most confident I have ever been."},
-  {name:"Aditya Bose",      loc:"Kolkata · IIM-C Convert",        rating:5, course:"CAT Self Study 2024", text:"Tier-2 city, no physical classes available nearby. The online Self Study track worked perfectly."},
-  {name:"Nandini Verma",    loc:"Lucknow · IIM-L Convert",        rating:5, course:"CAT Turbo 2024",      text:"Ma\'am Anisha\'s classes are phenomenal. QA was my weakest section. She rebuilt my basics from scratch."},
-  {name:"Siddharth Jain",   loc:"Indore · SPJIMR Convert",        rating:5, course:"CAT Intensive 2024",  text:"The daily practice sets kept me disciplined. 2 hours of structured practice beats 5 hours of random prep."},
-  {name:"Meera Nair",       loc:"Kochi · IIM-K Convert",          rating:5, course:"CAT Self Study 2024", text:"Sumit Sir\'s VARC sessions are unreal. I went from 85 to 98 in VARC alone."},
-  {name:"Ayush Agarwal",    loc:"Mumbai · NMIMS Convert",         rating:5, course:"NMAT Combo 2024",     text:"The NMAT quickfire drills were exactly what I needed. Speed became my weapon."},
-  {name:"Kavya Reddy",      loc:"Hyderabad · XAT Scorer",         rating:5, course:"XAT Fast Track",      text:"XAT Decision Making section was a mystery before. CATKing broke down the exact pattern of question types."},
-  {name:"Nikhil Saxena",    loc:"Bhopal · IMT-G Convert",         rating:5, course:"CAT Self Study 2024", text:"From 98 percentile, got IMT Ghaziabad. CATKing was instrumental in the interview prep round."},
-  {name:"Pranav Menon",     loc:"Chennai · IIM-B Convert",        rating:5, course:"CAT Intensive + WAT", text:"The group discussion practice was the most valuable part for me. Got called to GD-PI at 4 IIMs."},
-  {name:"Ritika Chandra",   loc:"Delhi NCR · FMS Delhi Convert",  rating:5, course:"CAT Turbo 2024",      text:"The faculty panel is unmatched. Sumit Sir, Sahil Sir, Prantik Sir, each with a different strength. One package."},
-  {name:"Manav Khanna",     loc:"Chandigarh · IIM-K Convert",     rating:5, course:"CAT Intensive 2024",  text:"I have referred 4 friends to CATKing. Every single one has converted into a top-10 B-school."}
+  { name: "Rohit Sharma", loc: "Mumbai · NMIMS Convert", rating: 5, course: "CAT Turbo 2024", text: "Sumit Sir\'s LRDI framework is genuinely the best I have seen. Went from 78 to 96 in 7 months. Worth every rupee." },
+  { name: "Priyanka Desai", loc: "Pune · IIM-K Convert", rating: 5, course: "CAT Intensive 2024", text: "The Sunday mentor calls were my weekly reset. Even during my lowest weeks, my mentor kept me accountable." },
+  { name: "Arjun Mehta", loc: "Delhi · FMS Delhi Convert", rating: 5, course: "CAT Intensive 2024", text: "Second attempt. First one I scored 91. CATKing rebuilt my approach. Cracked 99+ and FMS." },
+  { name: "Sneha Iyer", loc: "Chennai · IIM-L Convert", rating: 5, course: "CAT Self Study 2024", text: "Working professional, 2 hours a day. The recorded lectures were perfect. Materials are the highest quality I found." },
+  { name: "Vikram Rao", loc: "Bengaluru · IIM-B Convert", rating: 5, course: "IIM WAT-PI 2024", text: "The WAT-PI module was a game changer. My mock interviews prepared me for exactly the questions I got in IIM-B." },
+  { name: "Anjali Kumar", loc: "Hyderabad · NMIMS Convert", rating: 5, course: "NMAT Combo 2024", text: "NMAT prep here is underrated. The speed-accuracy drills made a big difference. 235 on NMAT." },
+  { name: "Rahul Gupta", loc: "Kolkata · SPJIMR Convert", rating: 5, course: "CAT Turbo 2024", text: "The content library alone is worth the fee. 20 hours of recorded lectures per section, all updated for latest CAT pattern." },
+  { name: "Shruti Pandey", loc: "Jaipur · MDI Gurgaon Convert", rating: 5, course: "CAT Intensive 2024", text: "I was worried about being in a tier-3 college. CATKing mentors never made me feel out of place. Got MDI Gurgaon." },
+  { name: "Karan Malhotra", loc: "Ahmedabad · IIM-I Convert", rating: 5, course: "CAT Intensive 2024", text: "The mock analysis sessions are where 95 becomes 99. Everyone does mocks. Nobody analyzes them this well." },
+  { name: "Divya Krishnan", loc: "Bengaluru · IIM-A Convert", rating: 5, course: "CAT Intensive + WAT", text: "Came from non-target college. CATKing rebuilt my confidence. IIM-A final interview was the most confident I have ever been." },
+  { name: "Aditya Bose", loc: "Kolkata · IIM-C Convert", rating: 5, course: "CAT Self Study 2024", text: "Tier-2 city, no physical classes available nearby. The online Self Study track worked perfectly." },
+  { name: "Nandini Verma", loc: "Lucknow · IIM-L Convert", rating: 5, course: "CAT Turbo 2024", text: "Ma\'am Anisha\'s classes are phenomenal. QA was my weakest section. She rebuilt my basics from scratch." },
+  { name: "Siddharth Jain", loc: "Indore · SPJIMR Convert", rating: 5, course: "CAT Intensive 2024", text: "The daily practice sets kept me disciplined. 2 hours of structured practice beats 5 hours of random prep." },
+  { name: "Meera Nair", loc: "Kochi · IIM-K Convert", rating: 5, course: "CAT Self Study 2024", text: "Sumit Sir\'s VARC sessions are unreal. I went from 85 to 98 in VARC alone." },
+  { name: "Ayush Agarwal", loc: "Mumbai · NMIMS Convert", rating: 5, course: "NMAT Combo 2024", text: "The NMAT quickfire drills were exactly what I needed. Speed became my weapon." },
+  { name: "Kavya Reddy", loc: "Hyderabad · XAT Scorer", rating: 5, course: "XAT Fast Track", text: "XAT Decision Making section was a mystery before. CATKing broke down the exact pattern of question types." },
+  { name: "Nikhil Saxena", loc: "Bhopal · IMT-G Convert", rating: 5, course: "CAT Self Study 2024", text: "From 98 percentile, got IMT Ghaziabad. CATKing was instrumental in the interview prep round." },
+  { name: "Pranav Menon", loc: "Chennai · IIM-B Convert", rating: 5, course: "CAT Intensive + WAT", text: "The group discussion practice was the most valuable part for me. Got called to GD-PI at 4 IIMs." },
+  { name: "Ritika Chandra", loc: "Delhi NCR · FMS Delhi Convert", rating: 5, course: "CAT Turbo 2024", text: "The faculty panel is unmatched. Sumit Sir, Sahil Sir, Prantik Sir, each with a different strength. One package." },
+  { name: "Manav Khanna", loc: "Chandigarh · IIM-K Convert", rating: 5, course: "CAT Intensive 2024", text: "I have referred 4 friends to CATKing. Every single one has converted into a top-10 B-school." }
 ];
 
 /* ============================================================
    LIVE RESULTS RENDERER
 ============================================================ */
-(function(){
+(function () {
   var tabsEl = document.getElementById('liveTabs');
   var gridEl = document.getElementById('liveGrid');
-  if(!tabsEl || !gridEl) return;
+  if (!tabsEl || !gridEl) return;
 
   // Build tabs - count by group
-  LIVE_TABS.forEach(function(t, i){
+  LIVE_TABS.forEach(function (t, i) {
     var count;
-    if(t.key === "all"){
+    if (t.key === "all") {
       count = LIVE_RESULTS.all.length;
     } else {
-      count = LIVE_RESULTS.all.filter(function(r){ return r._group === t.key; }).length;
+      count = LIVE_RESULTS.all.filter(function (r) { return r._group === t.key; }).length;
     }
     var btn = document.createElement('button');
     var clsList = [];
-    if(i === 0) clsList.push('act');
-    if(count === 0) clsList.push('disabled');
+    if (i === 0) clsList.push('act');
+    if (count === 0) clsList.push('disabled');
     btn.className = clsList.join(' ');
     btn.setAttribute('data-ly', t.key);
     btn.innerHTML = t.label + ' <span class="lt-count">' + count + '</span>';
-    btn.addEventListener('click', function(){
-      if(btn.classList.contains('disabled')) return;
-      document.querySelectorAll('#liveTabs button').forEach(function(b){ b.classList.remove('act'); });
+    btn.addEventListener('click', function () {
+      if (btn.classList.contains('disabled')) return;
+      document.querySelectorAll('#liveTabs button').forEach(function (b) { b.classList.remove('act'); });
       btn.classList.add('act');
       renderLive(t.key);
-      if(typeof window.__setHofGroupFilter === 'function'){
+      if (typeof window.__setHofGroupFilter === 'function') {
         window.__setHofGroupFilter(t.key);
       }
     });
     tabsEl.appendChild(btn);
   });
 
-  function getInitials(name){
+  function getInitials(name) {
     var p = name.trim().split(/\s+/);
-    if(p.length === 1) return p[0].substring(0,2).toUpperCase();
-    return (p[0][0] + p[p.length-1][0]).toUpperCase();
+    if (p.length === 1) return p[0].substring(0, 2).toUpperCase();
+    return (p[0][0] + p[p.length - 1][0]).toUpperCase();
   }
 
-  function renderLive(key){
+  function renderLive(key) {
     // Filter by group, or use all
     var list;
-    if(key === "all"){
+    if (key === "all") {
       list = LIVE_RESULTS.all.slice();
     } else {
-      list = LIVE_RESULTS.all.filter(function(r){ return r._group === key; });
+      list = LIVE_RESULTS.all.filter(function (r) { return r._group === key; });
     }
     // Cap responsively: 12 desktop / 9 tablet / 6 phone
     var vw = window.innerWidth;
     var cap = vw <= 480 ? 6 : (vw <= 768 ? 9 : 12);
     list = list.slice(0, cap);
     gridEl.innerHTML = '';
-    if(list.length === 0){
+    if (list.length === 0) {
       gridEl.innerHTML = '<div class="live-empty"><b>Next batch rolling in soon</b>Converts for this group are still being confirmed. Check back tomorrow or browse all results below.</div>';
       return;
     }
-    list.forEach(function(r){
-      var stu = STUDENTS[r.sid] || {name:r.name, photo:null};
+    list.forEach(function (r) {
+      var stu = STUDENTS[r.sid] || { name: r.name, photo: null };
       var initials = getInitials(r.name);
       var img = stu.photo
         ? '<div class="lc-img"><img src="' + stu.photo + '" alt="" data-fallback-init="' + initials + '"></div>'
@@ -1391,10 +1391,10 @@ var REVIEWS = [
       // v17: Show "[Institute] Convert" prominently as the score line
       // Map institute key to short display label
       var INST_SHORT = {
-        "iim-a":"IIM-A", "iim-b":"IIM-B", "iim-c":"IIM-C", "iim-l":"IIM-L",
-        "iim-k":"IIM-K", "iim-i":"IIM-I", "iim-m":"IIM Mumbai",
-        "spjimr":"SPJIMR", "fms":"FMS Delhi", "nmims":"NMIMS",
-        "scmhrd":"SCMHRD", "sibm":"SIBM", "mdi":"MDI", "iift":"IIFT", "xim":"XIM"
+        "iim-a": "IIM-A", "iim-b": "IIM-B", "iim-c": "IIM-C", "iim-l": "IIM-L",
+        "iim-k": "IIM-K", "iim-i": "IIM-I", "iim-m": "IIM Mumbai",
+        "spjimr": "SPJIMR", "fms": "FMS Delhi", "nmims": "NMIMS",
+        "scmhrd": "SCMHRD", "sibm": "SIBM", "mdi": "MDI", "iift": "IIFT", "xim": "XIM"
       };
       var instText = r._inst && INST_SHORT[r._inst] ? INST_SHORT[r._inst] + ' Convert' : 'Convert';
 
@@ -1403,32 +1403,28 @@ var REVIEWS = [
       card.innerHTML = img +
         '<div class="lc-name">' + r.name + '</div>' +
         '<div class="lc-score">' + instText + '</div>';
-      card.addEventListener('click', function(){
-        ensureStaticStudent(r);
-        if(r.sid && STUDENTS[r.sid]) openStudent(r.sid);
-      });
       gridEl.appendChild(card);
     });
   }
 
   var total = LIVE_RESULTS.all.length;
   var createdTimes = LIVE_RESULTS.all
-    .map(function(r){ return r.createdAt ? new Date(r.createdAt.replace(' ', 'T')).getTime() : 0; })
+    .map(function (r) { return r.createdAt ? new Date(r.createdAt.replace(' ', 'T')).getTime() : 0; })
     .filter(Boolean);
   var maxCreated = createdTimes.length ? Math.max.apply(Math, createdTimes) : 0;
   var maxDay = maxCreated ? new Date(maxCreated).toISOString().slice(0, 10) : '';
   var weekStart = maxCreated ? maxCreated - (7 * 24 * 60 * 60 * 1000) : 0;
-  var weekN = maxCreated ? LIVE_RESULTS.all.filter(function(r){
+  var weekN = maxCreated ? LIVE_RESULTS.all.filter(function (r) {
     var t = r.createdAt ? new Date(r.createdAt.replace(' ', 'T')).getTime() : 0;
     return t && t >= weekStart && t <= maxCreated;
   }).length : total;
-  var todayN = maxDay ? LIVE_RESULTS.all.filter(function(r){
+  var todayN = maxDay ? LIVE_RESULTS.all.filter(function (r) {
     return (r.createdAt || '').slice(0, 10) === maxDay;
   }).length : 0;
-  var lsT = document.getElementById('lsTotal'); if(lsT) lsT.textContent = total;
-  var lsW = document.getElementById('lsWeek');  if(lsW) lsW.textContent = weekN;
-  var lsD = document.getElementById('lsToday'); if(lsD) lsD.textContent = todayN;
-  var lsU = document.getElementById('lsUpdated'); if(lsU) lsU.textContent = maxDay || 'from static results data';
+  var lsT = document.getElementById('lsTotal'); if (lsT) lsT.textContent = total;
+  var lsW = document.getElementById('lsWeek'); if (lsW) lsW.textContent = weekN;
+  var lsD = document.getElementById('lsToday'); if (lsD) lsD.textContent = todayN;
+  var lsU = document.getElementById('lsUpdated'); if (lsU) lsU.textContent = maxDay || 'from static results data';
 
   renderLive('all');
 })();
@@ -1436,29 +1432,23 @@ var REVIEWS = [
 /* ============================================================
    REVIEWS MARQUEE RENDERER
 ============================================================ */
-(function(){
+(function () {
   var r1 = document.getElementById('rvRow1');
   var r2 = document.getElementById('rvRow2');
-  if(!r1 || !r2) return;
+  if (!r1 || !r2) return;
 
-  function getInitials(name){
-    var p = name.trim().split(/\s+/);
-    return (p[0][0] + (p.length > 1 ? p[p.length-1][0] : '')).toUpperCase();
-  }
 
-  var avaClasses = ['', 'b', 'g', 'n'];
-  function cardHtml(r, i){
+  function cardHtml(r, i) {
     var stars = '';
-    for(var s=0;s<5;s++){ stars += s < r.rating ? '\u2605' : '\u2606'; }
+    for (var s = 0; s < 5; s++) { stars += s < r.rating ? '\u2605' : '\u2606'; }
     return '<div class="rv-card">' +
       '<div class="rv-head">' +
-        '<div class="rv-ava ' + avaClasses[i % 4] + '">' + getInitials(r.name) + '</div>' +
-        '<div class="rv-who"><div class="rv-name">' + r.name + '</div><div class="rv-loc">' + r.loc + '</div></div>' +
-        '<div class="rv-stars">' + stars + '</div>' +
+      '<div class="rv-who"><div class="rv-name">' + r.name + '</div><div class="rv-loc">' + r.loc + '</div></div>' +
+      '<div class="rv-stars">' + stars + '</div>' +
       '</div>' +
       '<div class="rv-text">' + r.text + '</div>' +
       '<div class="rv-course">' + r.course + '</div>' +
-    '</div>';
+      '</div>';
   }
 
   // Split into 2 rows
@@ -1468,8 +1458,8 @@ var REVIEWS = [
 
   // Duplicate each for seamless loop
   var row1Html = row1Set.map(cardHtml).join('') + row1Set.map(cardHtml).join('');
-  var row2Html = row2Set.map(function(r,i){ return cardHtml(r, i+100); }).join('') +
-                 row2Set.map(function(r,i){ return cardHtml(r, i+100); }).join('');
+  var row2Html = row2Set.map(function (r, i) { return cardHtml(r, i + 100); }).join('') +
+    row2Set.map(function (r, i) { return cardHtml(r, i + 100); }).join('');
   r1.innerHTML = row1Html;
   r2.innerHTML = row2Html;
 })();
@@ -1478,19 +1468,19 @@ var REVIEWS = [
    STUDENT DETAIL MODAL CONTROLLER
    openStudent(studentId) - renders and shows modal
 ============================================================ */
-function hashCode(str){
+function hashCode(str) {
   var h = 0;
-  if(!str) return h;
-  for(var i=0;i<str.length;i++){
+  if (!str) return h;
+  for (var i = 0; i < str.length; i++) {
     h = ((h << 5) - h) + str.charCodeAt(i);
     h |= 0;
   }
   return h;
 }
 
-function openStudent(sid){
+function openStudent(sid) {
   var s = STUDENTS[sid];
-  if(!s) return;
+  if (!s) return;
   var modal = document.getElementById('stmodal');
   var hero = document.getElementById('stmHero');
   var tabsEl = document.getElementById('stmTabs');
@@ -1502,29 +1492,29 @@ function openStudent(sid){
     : '<div class="stm-ava-init">' + s.name.charAt(0).toUpperCase() + '</div>';
   hero.innerHTML =
     '<div class="stm-hero-row">' +
-      avaHtml +
-      '<div class="stm-meta">' +
-        '<div class="stm-name">' + s.name + '</div>' +
-        '<div class="stm-ckid">CATKing ID · CK-' + (s.ckId || (Math.abs(hashCode(s.name)) % 100000).toString().padStart(5,'0')) + '</div>' +
-        '<div class="stm-score">' + s.score + '</div>' +
-        (s.institute ? '<div class="stm-tag">' + s.institute + '</div>' : '') +
-      '</div>' +
+    avaHtml +
+    '<div class="stm-meta">' +
+    '<div class="stm-name">' + s.name + '</div>' +
+    '<div class="stm-ckid">CATKing ID · CK-' + (s.ckId || (Math.abs(hashCode(s.name)) % 100000).toString().padStart(5, '0')) + '</div>' +
+    '<div class="stm-score">' + s.score + '</div>' +
+    (s.institute ? '<div class="stm-tag">' + s.institute + '</div>' : '') +
+    '</div>' +
     '</div>';
 
   // Always show all 4 tabs. Missing data gets a placeholder pane.
   var availableTabs = [
-    {id:'test',  label:'Testimonial', has:!!s.testimonial, active:true},
-    {id:'score', label:'Scorecard',   has:!!s.scorecard},
-    {id:'video', label:'Interview',   has:!!s.yt},
-    {id:'wa',    label:'Success Story', has:!!s.whatsapp}
+    { id: 'test', label: 'Testimonial', has: !!s.testimonial, active: true },
+    { id: 'score', label: 'Scorecard', has: !!s.scorecard },
+    { id: 'video', label: 'Interview', has: !!s.yt },
+    { id: 'wa', label: 'Success Story', has: !!s.whatsapp }
   ];
 
-  tabsEl.innerHTML = availableTabs.map(function(t){
+  tabsEl.innerHTML = availableTabs.map(function (t) {
     var pipCls = t.has ? '' : 'gray';
     return '<button data-tab="' + t.id + '" class="' + (t.active ? 'act' : '') + '" title="' + (t.has ? t.label + ' available' : t.label + ' - preview content') + '">' +
-           '<span class="pip ' + pipCls + '"></span>' +
-           t.label +
-           '</button>';
+      '<span class="pip ' + pipCls + '"></span>' +
+      t.label +
+      '</button>';
   }).join('');
 
   // Build pane contents - always generate all 4 panes; missing data gets placeholder
@@ -1532,17 +1522,17 @@ function openStudent(sid){
 
   // Pane 1: Testimonial (always first/active)
   paneHtml += '<div class="stm-pane act" data-pane="test">';
-  if(s.testimonial){
+  if (s.testimonial) {
     var tst = s.testimonial;
     var stars = '';
-    for(var j=0;j<5;j++){ stars += j < tst.rating ? '\u2605' : '\u2606'; }
+    for (var j = 0; j < 5; j++) { stars += j < tst.rating ? '\u2605' : '\u2606'; }
     paneHtml += '<div class="stm-rating"><span class="stars">' + stars + '</span><span class="rval">' + tst.rating + '.0 / 5</span><span class="rsrc">Verified student review</span></div>';
     paneHtml += '<div class="stm-quote">' + tst.quote + '</div>';
     paneHtml += '<div class="stm-highlights">' +
       '<div class="stm-highlight"><div class="shv">' + tst.beforeScore + '</div><div class="shl">First Mock Score</div></div>' +
       '<div class="stm-highlight"><div class="shv">' + tst.afterScore + '</div><div class="shl">Final Score</div></div>' +
       '<div class="stm-highlight"><div class="shv">' + tst.prepMonths + ' mo</div><div class="shl">Total Prep Time</div></div>' +
-    '</div>';
+      '</div>';
     paneHtml += '<div class="stm-journey">' + tst.journey + '</div>';
   } else {
     paneHtml += '<div class="stm-placeholder"><div class="stm-ph-ic">\u2713</div><b>Testimonial being prepared</b><p>' + s.name + ' is a verified CATKing convert. A full written testimonial with their prep journey will be published here shortly.</p></div>';
@@ -1551,11 +1541,11 @@ function openStudent(sid){
 
   // Pane 2: Scorecard
   paneHtml += '<div class="stm-pane" data-pane="score">';
-  if(s.scorecard){
+  if (s.scorecard) {
     paneHtml += '<div class="stm-scard-wrap">' +
       '<div class="stm-scard-wm">Verified Authentic</div>' +
       '<img class="stm-scard-img" src="' + s.scorecard + '" alt="' + s.name + ' verified scorecard">' +
-    '</div>';
+      '</div>';
     paneHtml += '<div class="stm-scard-note">Scorecard sourced from the CATKing verified results portal (catking.in/student/results). Cross-checked against official institute scorecard and audited by KPMG (2020) and Brickworks Ratings (2022, 2023).</div>';
   } else {
     paneHtml += '<div class="stm-placeholder"><div class="stm-ph-ic">\u2713</div><b>Verified scorecard upload pending</b><p>' + s.name + ' has been independently verified as a ' + (s.institute || 'CATKing') + ' convert. The official scorecard image is being processed by our verification team (KPMG + Brickworks audited).</p><div class="stm-ph-list"><span>\u2713 Identity verified</span><span>\u2713 Institute call confirmed</span><span>\u23F3 Scorecard audit pending</span></div></div>';
@@ -1564,7 +1554,7 @@ function openStudent(sid){
 
   // Pane 3: Interview (video)
   paneHtml += '<div class="stm-pane" data-pane="video">';
-  if(s.yt){
+  if (s.yt) {
     var embedSrc = 'https://www.youtube.com/embed/' + s.yt + '?autoplay=1&rel=0&modestbranding=1&playsinline=1&mute=1';
     var watchUrl = 'https://www.youtube.com/watch?v=' + s.yt;
     paneHtml += '<div class="stm-video" data-yt="' + s.yt + '">' +
@@ -1572,7 +1562,7 @@ function openStudent(sid){
       'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" ' +
       'referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' +
       '<div class="stm-unmute" onclick="this.style.display=\'none\'; var iframe=this.parentNode.querySelector(\'iframe\'); iframe.src=iframe.src.replace(\'&mute=1\',\'\');">\u25B6 Tap to play with sound</div>' +
-    '</div>';
+      '</div>';
     paneHtml += '<div class="stm-video-fallback">Video not loading? <a href="' + watchUrl + '" target="_blank" rel="noopener">Open on YouTube \u2197</a></div>';
   } else {
     var prepMo = (s.testimonial && s.testimonial.prepMonths) ? s.testimonial.prepMonths : '9';
@@ -1582,8 +1572,8 @@ function openStudent(sid){
 
   // Pane 4: Success Story (WhatsApp) - v17 simplified: just the screenshot + 1-line caption
   paneHtml += '<div class="stm-pane stm-pane-wa" data-pane="wa">';
-  if(s.whatsapp){
-    var stmStampObj = {sid: sid, who: s.name, score: s.score || s.institute || ''};
+  if (s.whatsapp) {
+    var stmStampObj = { sid: sid, who: s.name, score: s.score || s.institute || '' };
     paneHtml += '<div class="stm-wa-simple">';
     paneHtml += '<div class="stm-wa-img-wrap"><img class="stm-wa-img" src="' + s.whatsapp + '" alt="' + s.name + ' WhatsApp message">' + buildWaStamp(stmStampObj) + '</div>';
     paneHtml += '<div class="stm-wa-caption">Received message directly from <b>' + s.name + '</b> on the day of the ' + (s.institute || 'admit') + ' result.</div>';
@@ -1595,12 +1585,12 @@ function openStudent(sid){
   panes.innerHTML = paneHtml;
 
   // Tab click handler
-  tabsEl.querySelectorAll('button').forEach(function(b){
-    b.addEventListener('click', function(){
-      tabsEl.querySelectorAll('button').forEach(function(x){ x.classList.remove('act'); });
+  tabsEl.querySelectorAll('button').forEach(function (b) {
+    b.addEventListener('click', function () {
+      tabsEl.querySelectorAll('button').forEach(function (x) { x.classList.remove('act'); });
       b.classList.add('act');
       var tabId = b.getAttribute('data-tab');
-      panes.querySelectorAll('.stm-pane').forEach(function(p){
+      panes.querySelectorAll('.stm-pane').forEach(function (p) {
         p.classList.toggle('act', p.getAttribute('data-pane') === tabId);
       });
     });
@@ -1610,24 +1600,24 @@ function openStudent(sid){
   document.body.style.overflow = 'hidden';
 }
 
-(function(){
+(function () {
   var modal = document.getElementById('stmodal');
   var closeBtn = document.getElementById('stmClose');
-  if(!modal || !closeBtn) return;
-  function close(){
+  if (!modal || !closeBtn) return;
+  function close() {
     modal.classList.remove('show');
     // stop any playing video
     var panes = document.getElementById('stmPanes');
-    if(panes){
+    if (panes) {
       var iframe = panes.querySelector('iframe');
-      if(iframe) iframe.src = '';
+      if (iframe) iframe.src = '';
     }
     document.body.style.overflow = '';
   }
   closeBtn.addEventListener('click', close);
-  modal.addEventListener('click', function(e){ if(e.target === modal) close(); });
-  document.addEventListener('keydown', function(e){
-    if(e.key === 'Escape' && modal.classList.contains('show')) close();
+  modal.addEventListener('click', function (e) { if (e.target === modal) close(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && modal.classList.contains('show')) close();
   });
 })();
 
@@ -1636,76 +1626,69 @@ function openStudent(sid){
 ============================================================ */
 // Map HOF names to student IDs so clicking shows full detail modal
 var HOF_NAME_TO_SID = {
-  "Aniruddha Sharma":"aniruddha-sharma","Priyanshu Tiwari":"priyanshu-tiwari",
-  "Prafull Sharma":"prafull-sharma","Manshu Khinchyal":"manshu-khinchyal",
-  "Akshat Toolaj Sinha":"akshat-toolaj-sinha","Shivam Rajput":"shivam-rajput",
-  "Hunney Kotiya":"hunney-kotiya","Vishwaraj Vilankar":"vishwaraj-vilankar",
-  "Gourav":"gourav","Avisha":"avisha","Neelanshu":"neelanshu","Paras":"paras"
+  "Aniruddha Sharma": "aniruddha-sharma", "Priyanshu Tiwari": "priyanshu-tiwari",
+  "Prafull Sharma": "prafull-sharma", "Manshu Khinchyal": "manshu-khinchyal",
+  "Akshat Toolaj Sinha": "akshat-toolaj-sinha", "Shivam Rajput": "shivam-rajput",
+  "Hunney Kotiya": "hunney-kotiya", "Vishwaraj Vilankar": "vishwaraj-vilankar",
+  "Gourav": "gourav", "Avisha": "avisha", "Neelanshu": "neelanshu", "Paras": "paras"
 };
 
 // Replace HOF onclicks at load time to route through openStudent instead of openVideo
-(function(){
+(function () {
   var hofCards = document.querySelectorAll('.hof .topper');
-  hofCards.forEach(function(card){
-    var nameEl = card.querySelector('.t-name');
-    if(!nameEl) return;
-    var sid = HOF_NAME_TO_SID[nameEl.textContent.trim()];
-    if(sid && STUDENTS[sid]){
-      card.onclick = function(){ openStudent(sid); };
-    }
+  hofCards.forEach(function (card) {
+    card.onclick = null;
   });
 })();
 
 // Also wire Browse All rcards + scorecard marquee to open student modal when a match exists
 var BROWSE_NAME_TO_SID = {
   // IIM-A toppers (real + mock)
-  "Aniruddha Sharma":"aniruddha-sharma","Priyanshu Tiwari":"priyanshu-tiwari",
-  "Prafull Sharma":"prafull-sharma","Manshu Khinchyal":"manshu-khinchyal",
-  "Akshat Toolaj Sinha":"akshat-toolaj-sinha","Shivam Rajput":"shivam-rajput",
-  "Hunney Kotiya":"hunney-kotiya","Vishwaraj Vilankar":"vishwaraj-vilankar",
-  "Suvarnaa":"suvarnaa","Suvarnaa":"suvarnaa","Aayush Mohod":"aayush-mohod","Aayush Pravin Mohod":"aayush-mohod",
+  "Aniruddha Sharma": "aniruddha-sharma", "Priyanshu Tiwari": "priyanshu-tiwari",
+  "Prafull Sharma": "prafull-sharma", "Manshu Khinchyal": "manshu-khinchyal",
+  "Akshat Toolaj Sinha": "akshat-toolaj-sinha", "Shivam Rajput": "shivam-rajput",
+  "Hunney Kotiya": "hunney-kotiya", "Vishwaraj Vilankar": "vishwaraj-vilankar",
+  "Suvarnaa": "suvarnaa", "Suvarnaa": "suvarnaa", "Aayush Mohod": "aayush-mohod", "Aayush Pravin Mohod": "aayush-mohod",
   // CAT %ile scorers
-  "Gourav":"gourav","Gaurav":"gourav","Avisha":"avisha","Neelanshu":"neelanshu","Paras":"paras",
-  "Jai":"jai","Akshma":"akshma","Ajmal":"ajmal","Rishi":"rishi","Dhruvsingh":"dhruvsingh",
-  "Muskan":"muskan","Mayank":"mayank","Sarthak":"sarthak","Romit":"romit",
+  "Gourav": "gourav", "Gaurav": "gourav", "Avisha": "avisha", "Neelanshu": "neelanshu", "Paras": "paras",
+  "Jai": "jai", "Akshma": "akshma", "Ajmal": "ajmal", "Rishi": "rishi", "Dhruvsingh": "dhruvsingh",
+  "Muskan": "muskan", "Mayank": "mayank", "Sarthak": "sarthak", "Romit": "romit",
   // Mock IIM-B/C/L/I/K/M students
-  "Sai Dinesh":"sai-dinesh","Rohit Menon":"rohit-menon","Kavya Reddy":"kavya-reddy",
-  "Arjun Reddy":"arjun-reddy","Sneha Kulkarni":"sneha-kulkarni","Vikram Shah":"vikram-shah",
-  "Ishita Bhatia":"ishita-bhatia","Karthik Nair":"karthik-nair","Sanya Gupta":"sanya-gupta",
+  "Sai Dinesh": "sai-dinesh", "Rohit Menon": "rohit-menon", "Kavya Reddy": "kavya-reddy",
+  "Arjun Reddy": "arjun-reddy", "Sneha Kulkarni": "sneha-kulkarni", "Vikram Shah": "vikram-shah",
+  "Ishita Bhatia": "ishita-bhatia", "Karthik Nair": "karthik-nair", "Sanya Gupta": "sanya-gupta",
   // Real 2026 NMIMS/SPJIMR/SCMHRD converts
-  "Pratyasha Panigrahi":"pratyasha-panigrahi","Pratik Mulik":"pratik-mulik",
-  "Kabir":"kabir-nmims","Srija":"srija-nmims","Nandini":"nandini-scmhrd",
-  "Debasish Sahoo":"debasish-sahoo","Aditi Shukla":"aditi-shukla",
-  "Ashish Ranjan":"ashish-ranjan","Kenneth Sequeira":"kenneth-sequeira",
-  "Vidhi Verma":"vidhi-verma","Aayush Rathi":"aayush-rathi","Hardik Kacha":"hardik-kacha",
-  "Rutuja Kokate":"rutuja-kokate","Greeshma Asutkar":"greeshma-asutkar",
-  "Harshla Pandey":"harshla-pandey","Agastya Anand":"agastya-anand",
-  "Vaishnavi Talan":"vaishnavi-talan","Nihit Pingala":"nihit-pingala",
-  "Anamika Arora":"anamika-arora","Manav Goyal":"manav-goyal",
-  "Sakshi Rohra":"sakshi-rohra","Chaitanya Bisen":"chaitanya-bisen",
-  "Raunak":"raunak-nmims","Aditi":"aditi-nmims"
+  "Pratyasha Panigrahi": "pratyasha-panigrahi", "Pratik Mulik": "pratik-mulik",
+  "Kabir": "kabir-nmims", "Srija": "srija-nmims", "Nandini": "nandini-scmhrd",
+  "Debasish Sahoo": "debasish-sahoo", "Aditi Shukla": "aditi-shukla",
+  "Ashish Ranjan": "ashish-ranjan", "Kenneth Sequeira": "kenneth-sequeira",
+  "Vidhi Verma": "vidhi-verma", "Aayush Rathi": "aayush-rathi", "Hardik Kacha": "hardik-kacha",
+  "Rutuja Kokate": "rutuja-kokate", "Greeshma Asutkar": "greeshma-asutkar",
+  "Harshla Pandey": "harshla-pandey", "Agastya Anand": "agastya-anand",
+  "Vaishnavi Talan": "vaishnavi-talan", "Nihit Pingala": "nihit-pingala",
+  "Anamika Arora": "anamika-arora", "Manav Goyal": "manav-goyal",
+  "Sakshi Rohra": "sakshi-rohra", "Chaitanya Bisen": "chaitanya-bisen",
+  "Raunak": "raunak-nmims", "Aditi": "aditi-nmims"
 };
 
-(function(){
+(function () {
   // Browse All rcards
-  document.querySelectorAll('.browse .rcard').forEach(function(card){
+  document.querySelectorAll('.browse .rcard').forEach(function (card) {
     var nameEl = card.querySelector('.r-name');
-    if(!nameEl) return;
+    if (!nameEl) return;
     var sid = BROWSE_NAME_TO_SID[nameEl.textContent.trim()];
-    if(sid && STUDENTS[sid]){
-      card.style.cursor = 'pointer';
-      card.addEventListener('click', function(){ openStudent(sid); });
+    if (sid && STUDENTS[sid]) {
+      card.style.cursor = 'default';
     }
   });
 
   // Scorecard marquee: override onclick that calls openScorecard, route to student instead if student exists
-  document.querySelectorAll('.sc-strip .sc-card').forEach(function(card){
+  document.querySelectorAll('.sc-strip .sc-card').forEach(function (card) {
     var nameEl = card.querySelector('.sc-name');
-    if(!nameEl) return;
+    if (!nameEl) return;
     var sid = BROWSE_NAME_TO_SID[nameEl.textContent.trim()];
-    if(sid && STUDENTS[sid]){
-      // Replace existing onclick
-      card.onclick = function(){ openStudent(sid); };
+    if (sid && STUDENTS[sid]) {
+      card.onclick = null;
     }
   });
 })();
@@ -1715,31 +1698,31 @@ var BROWSE_NAME_TO_SID = {
    Multi-exam countdown list: CAT, XAT, NMAT, SNAP
    Shows days-left for each of the 4 exams, updates daily
 ============================================================ */
-(function(){
+(function () {
   var EXAMS = {
-    cat:  "2026-11-29",
-    xat:  "2027-01-03",
+    cat: "2026-11-29",
+    xat: "2027-01-03",
     nmat: "2026-10-06",
     snap: "2026-12-13"
   };
-  function daysUntil(dateString){
+  function daysUntil(dateString) {
     var parts = dateString.split('-').map(Number);
     var now = new Date();
     var today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
     var examDate = Date.UTC(parts[0], parts[1] - 1, parts[2]);
     var diff = examDate - today;
-    return diff < 0 ? 0 : Math.round(diff / (1000*60*60*24));
+    return diff < 0 ? 0 : Math.round(diff / (1000 * 60 * 60 * 24));
   }
-  function tick(){
-    Object.keys(EXAMS).forEach(function(k){
+  function tick() {
+    Object.keys(EXAMS).forEach(function (k) {
       var el = document.getElementById('cdD' + k);
-      if(el) el.textContent = daysUntil(EXAMS[k]);
+      if (el) el.textContent = daysUntil(EXAMS[k]);
     });
     // sticky footer + final CTA both track CAT
     var sctaDays = document.getElementById('sctaDays');
-    if(sctaDays) sctaDays.textContent = daysUntil(EXAMS.cat);
+    if (sctaDays) sctaDays.textContent = daysUntil(EXAMS.cat);
     var fctaDays = document.getElementById('fctaDays');
-    if(fctaDays) fctaDays.textContent = daysUntil(EXAMS.cat);
+    if (fctaDays) fctaDays.textContent = daysUntil(EXAMS.cat);
   }
   tick();
   // Refresh every minute (days granularity doesn't need per-second updates)
@@ -1749,30 +1732,30 @@ var BROWSE_NAME_TO_SID = {
 /* ============================================================
    Animated stat counters
 ============================================================ */
-(function(){
+(function () {
   var observed = false;
   var blocks = document.querySelectorAll('.hs-num[data-target]');
-  function animate(){
-    if(observed) return;
+  function animate() {
+    if (observed) return;
     observed = true;
-    blocks.forEach(function(el){
+    blocks.forEach(function (el) {
       var target = parseInt(el.getAttribute('data-target'), 10);
       var dur = 1400;
       var start = Date.now();
-      function step(){
+      function step() {
         var elapsed = Date.now() - start;
         var progress = Math.min(elapsed / dur, 1);
         var eased = 1 - Math.pow(1 - progress, 3);
         var cur = Math.floor(target * eased);
         el.textContent = cur.toLocaleString('en-IN') + '+';
-        if(progress < 1){ requestAnimationFrame(step); }
+        if (progress < 1) { requestAnimationFrame(step); }
       }
       requestAnimationFrame(step);
     });
   }
-  if(blocks.length){
-    var io = new IntersectionObserver(function(entries){
-      entries.forEach(function(e){ if(e.isIntersecting){ animate(); } });
+  if (blocks.length) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { animate(); } });
     }, { threshold: 0.3 });
     io.observe(blocks[0]);
   }
@@ -1781,66 +1764,66 @@ var BROWSE_NAME_TO_SID = {
 /* ============================================================
    5-VIDEO STACK + dynamic right-panel content swap
 ============================================================ */
-(function(){
+(function () {
   var stack = document.getElementById('vStack');
-  if(!stack) return;
+  if (!stack) return;
   var cards = Array.prototype.slice.call(stack.querySelectorAll('.v-card'));
   var dots = document.querySelectorAll('#vDots .v-dot');
   var countEl = document.getElementById('vCount');
   var spText = document.getElementById('spText');
   // logical[0] is data-idx=0 (Jai/featured), [1] is Akshma, etc.
   var logical = [];
-  for(var i=0;i<5;i++){
-    var card = cards.find(function(c){ return parseInt(c.getAttribute('data-idx'),10) === i; });
-    if(card) logical.push(card);
+  for (var i = 0; i < 5; i++) {
+    var card = cards.find(function (c) { return parseInt(c.getAttribute('data-idx'), 10) === i; });
+    if (card) logical.push(card);
   }
 
-  function renderRightPanel(yt){
+  function renderRightPanel(yt) {
     var data = FEATURED_STORIES[yt];
-    if(!data || !spText) return;
+    if (!data || !spText) return;
     spText.classList.add('fading');
-    setTimeout(function(){
+    setTimeout(function () {
       spText.innerHTML =
         '<div class="eyebrow">' + data.eyebrow + '</div>' +
         '<h2>' + data.headline + '</h2>' +
         '<p class="pull">' + data.pullQuote + '</p>' +
         '<div class="sp-qs">' +
-          data.questions.map(function(q){ return '<div class="q">' + q + '</div>'; }).join('') +
+        data.questions.map(function (q) { return '<div class="q">' + q + '</div>'; }).join('') +
         '</div>' +
         '<div class="sp-cta">' +
-          '<a href="javascript:void(0)" onclick="playFeatured()" class="p">Watch full interview ▶</a>' +
-          '<a href="/enroll" class="s">Start your journey →</a>' +
+        '<a href="javascript:void(0)" onclick="playFeatured()" class="p">Watch full interview ▶</a>' +
+        '<a href="/enroll" class="s">Start your journey →</a>' +
         '</div>';
       spText.classList.remove('fading');
     }, 240);
   }
 
-  function setFeatured(idx){
-    logical.forEach(function(c, i){
+  function setFeatured(idx) {
+    logical.forEach(function (c, i) {
       var offset = (i - idx + 5) % 5;
       c.setAttribute('data-pos', offset);
     });
-    dots.forEach(function(d, i){ d.classList.toggle('act', i === idx); });
-    if(countEl) countEl.textContent = (idx + 1);
+    dots.forEach(function (d, i) { d.classList.toggle('act', i === idx); });
+    if (countEl) countEl.textContent = (idx + 1);
     var frontYt = logical[idx].getAttribute('data-yt');
     renderRightPanel(frontYt);
     currentIdx = idx;
   }
 
-  dots.forEach(function(dot){
-    dot.addEventListener('click', function(){
+  dots.forEach(function (dot) {
+    dot.addEventListener('click', function () {
       var i = parseInt(dot.getAttribute('data-i'), 10);
       setFeatured(i);
     });
   });
 
-  cards.forEach(function(c){
-    c.addEventListener('click', function(e){
+  cards.forEach(function (c) {
+    c.addEventListener('click', function (e) {
       var pos = parseInt(c.getAttribute('data-pos'), 10);
-      if(pos === 0){
+      if (pos === 0) {
         var yt = c.getAttribute('data-yt');
         var data = FEATURED_STORIES[yt];
-        if(data) openVideo(data.name, data.score, yt);
+        if (data) openVideo(data.name, data.score, yt);
       } else {
         var i = parseInt(c.getAttribute('data-idx'), 10);
         setFeatured(i);
@@ -1850,24 +1833,24 @@ var BROWSE_NAME_TO_SID = {
   });
 
   var currentIdx = 0;
-  var auto = setInterval(function(){
+  var auto = setInterval(function () {
     currentIdx = (currentIdx + 1) % 5;
     setFeatured(currentIdx);
   }, 6000);
-  stack.addEventListener('mouseenter', function(){ clearInterval(auto); });
-  stack.addEventListener('mouseleave', function(){
-    auto = setInterval(function(){
+  stack.addEventListener('mouseenter', function () { clearInterval(auto); });
+  stack.addEventListener('mouseleave', function () {
+    auto = setInterval(function () {
       currentIdx = (currentIdx + 1) % 5;
       setFeatured(currentIdx);
     }, 6000);
   });
 
-  window.playFeatured = function(){
-    var front = logical.find(function(c){ return c.getAttribute('data-pos') === '0'; });
-    if(front){
+  window.playFeatured = function () {
+    var front = logical.find(function (c) { return c.getAttribute('data-pos') === '0'; });
+    if (front) {
       var yt = front.getAttribute('data-yt');
       var data = FEATURED_STORIES[yt];
-      if(data) openVideo(data.name, data.score, yt);
+      if (data) openVideo(data.name, data.score, yt);
     }
   };
 
@@ -1878,8 +1861,8 @@ var BROWSE_NAME_TO_SID = {
 /* ============================================================
    VIDEO MODAL
 ============================================================ */
-function openVideo(name, meta, ytId){
-  if(!ytId){ return; }
+function openVideo(name, meta, ytId) {
+  if (!ytId) { return; }
   var modal = document.getElementById('vmodal');
   var player = document.getElementById('mplayer');
   var fallback = document.getElementById('mfallback');
@@ -1896,20 +1879,20 @@ function openVideo(name, meta, ytId){
     'referrerpolicy="strict-origin-when-cross-origin" ' +
     'allowfullscreen></iframe>' +
     '<div class="mplayer-unmute" onclick="this.style.display=\'none\'; this.previousElementSibling.src=this.previousElementSibling.src.replace(\'&mute=1\',\'\').replace(\'mute=1\',\'\')">' +
-      '<span>▶ Tap to play with sound</span>' +
+    '<span>▶ Tap to play with sound</span>' +
     '</div>';
-  if(fallback){ fallback.setAttribute('href', 'https://www.youtube.com/watch?v=' + ytId); }
+  if (fallback) { fallback.setAttribute('href', 'https://www.youtube.com/watch?v=' + ytId); }
   modal.classList.add('show');
   document.body.style.overflow = 'hidden';
 }
-document.getElementById('mclose').addEventListener('click', function(){
+document.getElementById('mclose').addEventListener('click', function () {
   var modal = document.getElementById('vmodal');
   document.getElementById('mplayer').innerHTML = '';
   modal.classList.remove('show');
   document.body.style.overflow = '';
 });
-document.getElementById('vmodal').addEventListener('click', function(e){
-  if(e.target === this){
+document.getElementById('vmodal').addEventListener('click', function (e) {
+  if (e.target === this) {
     document.getElementById('mplayer').innerHTML = '';
     this.classList.remove('show');
     document.body.style.overflow = '';
@@ -1919,16 +1902,16 @@ document.getElementById('vmodal').addEventListener('click', function(e){
 /* ============================================================
    VIDEO GRID FILTER
 ============================================================ */
-(function(){
+(function () {
   var buttons = document.querySelectorAll('.vg-filter button');
   var cards = document.querySelectorAll('.vcard[data-tag]');
-  buttons.forEach(function(btn){
-    btn.addEventListener('click', function(){
-      buttons.forEach(function(b){ b.classList.remove('act'); });
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      buttons.forEach(function (b) { b.classList.remove('act'); });
       btn.classList.add('act');
       var f = btn.getAttribute('data-f');
-      cards.forEach(function(c){
-        if(f === 'all' || c.getAttribute('data-tag') === f){ c.style.display = ''; }
+      cards.forEach(function (c) {
+        if (f === 'all' || c.getAttribute('data-tag') === f) { c.style.display = ''; }
         else { c.style.display = 'none'; }
       });
     });
@@ -1938,12 +1921,12 @@ document.getElementById('vmodal').addEventListener('click', function(e){
 /* ============================================================
    FAQ ACCORDION
 ============================================================ */
-(function(){
+(function () {
   var items = document.querySelectorAll('.faq-item');
-  items.forEach(function(it){
+  items.forEach(function (it) {
     var q = it.querySelector('.faq-q');
-    if(q){
-      q.addEventListener('click', function(){ it.classList.toggle('open'); });
+    if (q) {
+      q.addEventListener('click', function () { it.classList.toggle('open'); });
     }
   });
 })();
@@ -1951,25 +1934,25 @@ document.getElementById('vmodal').addEventListener('click', function(e){
 /* ============================================================
    STICKY CTA ON SCROLL
 ============================================================ */
-(function(){
+(function () {
   var scta = document.getElementById('scta');
   var hero = document.querySelector('.hero');
   var faq = document.querySelector('.faq');
-  function onScroll(){
-    if(!hero || !scta) return;
+  function onScroll() {
+    if (!hero || !scta) return;
     var heroRect = hero.getBoundingClientRect();
     var pastHero = heroRect.bottom < 0; // hero scrolled completely past the top
     // Hide once the FAQ section starts entering the viewport - the FAQ answers
     // objections and the Final CTA right below it has its own clear conversion path,
     // so the sticky footer becomes redundant from that point on.
     var beforeFaq = true;
-    if(faq){
+    if (faq) {
       var faqRect = faq.getBoundingClientRect();
       // FAQ enters the viewport when its top crosses the bottom edge.
       // Hide when FAQ top is within ~150px of being on-screen.
       beforeFaq = faqRect.top > (window.innerHeight - 150);
     }
-    if(pastHero && beforeFaq){ scta.classList.add('show'); }
+    if (pastHero && beforeFaq) { scta.classList.add('show'); }
     else { scta.classList.remove('show'); }
   }
   window.addEventListener('scroll', onScroll, { passive: true });
@@ -1979,35 +1962,35 @@ document.getElementById('vmodal').addEventListener('click', function(e){
 /* ============================================================
    CONVERTS BY INSTITUTE: year tabs + cgrid render
 ============================================================ */
-(function(){
+(function () {
   var yearBtns = document.querySelectorAll('#yearTabs button');
   var cgrid = document.getElementById('cgrid');
   var currentYear = "2024-25";
 
-  function initials(name){
+  function initials(name) {
     var parts = name.trim().split(/\s+/);
-    if(parts.length === 1) return parts[0].substring(0,2).toUpperCase();
-    return (parts[0][0] + parts[parts.length-1][0]).toUpperCase();
+    if (parts.length === 1) return parts[0].substring(0, 2).toUpperCase();
+    return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
   }
 
-  function avBgClass(i){
+  function avBgClass(i) {
     var list = ['', 'b', 'g', 'n'];
     return list[i % 4];
   }
 
-  function renderYear(year){
+  function renderYear(year) {
     currentYear = year;
-    if(!cgrid) return;
+    if (!cgrid) return;
     cgrid.innerHTML = '';
-    Object.keys(COLLEGES).forEach(function(key){
+    Object.keys(COLLEGES).forEach(function (key) {
       var col = COLLEGES[key];
       var roster = col.years[year] || [];
       var total = (COLLEGE_TOTALS[key] && COLLEGE_TOTALS[key][year]) || roster.length;
       // Build 3 avatar chips from roster
       var avatars = '';
-      for(var i=0;i<Math.min(3, roster.length);i++){
+      for (var i = 0; i < Math.min(3, roster.length); i++) {
         var s = roster[i];
-        if(s.img){
+        if (s.img) {
           avatars += '<div class="av"><img src="' + s.img + '" alt=""></div>';
         } else {
           avatars += '<div class="av ' + avBgClass(i) + '">' + initials(s.name) + '</div>';
@@ -2019,27 +2002,27 @@ document.getElementById('vmodal').addEventListener('click', function(e){
       card.setAttribute('data-key', key);
       card.innerHTML =
         '<div class="c-header">' +
-          '<div class="c-logo ' + (col.logoClass || '') + '">' + (col.logo || col.name.charAt(0)) + '</div>' +
-          '<div class="c-tag-inline ' + col.tagClass + '">' + col.tag + '</div>' +
+        '<div class="c-logo ' + (col.logoClass || '') + '">' + (col.logo || col.name.charAt(0)) + '</div>' +
+        '<div class="c-tag-inline ' + col.tagClass + '">' + col.tag + '</div>' +
         '</div>' +
         '<h3>' + col.name + '</h3>' +
         '<div class="c-sub">' + col.sub + '</div>' +
         '<div class="c-count">' +
-          '<div>' +
-            '<div class="cnum"><em>' + total + '</em></div>' +
-            '<div class="clbl">Converts ' + year + '</div>' +
-            '<div class="c-link">View roster</div>' +
-          '</div>' +
-          '<div class="c-avatars">' + (avatars || '<div class="av">' + col.name.charAt(0) + '</div>') + '</div>' +
+        '<div>' +
+        '<div class="cnum"><em>' + total + '</em></div>' +
+        '<div class="clbl">Converts ' + year + '</div>' +
+        '<div class="c-link">View roster</div>' +
+        '</div>' +
+        '<div class="c-avatars">' + (avatars || '<div class="av">' + col.name.charAt(0) + '</div>') + '</div>' +
         '</div>';
-      card.addEventListener('click', function(){ openCollege(key, year); });
+      card.addEventListener('click', function () { openCollege(key, year); });
       cgrid.appendChild(card);
     });
   }
 
-  yearBtns.forEach(function(b){
-    b.addEventListener('click', function(){
-      yearBtns.forEach(function(x){ x.classList.remove('act'); });
+  yearBtns.forEach(function (b) {
+    b.addEventListener('click', function () {
+      yearBtns.forEach(function (x) { x.classList.remove('act'); });
       b.classList.add('act');
       renderYear(b.getAttribute('data-y'));
     });
@@ -2048,91 +2031,91 @@ document.getElementById('vmodal').addEventListener('click', function(e){
   renderYear("2024-25");
 
   /* ============ COLLEGE MODAL ============ */
-  function openCollege(key, year){
+  function openCollege(key, year) {
     var col = COLLEGES[key];
-    if(!col) return;
+    if (!col) return;
     var roster = col.years[year] || [];
     var total = (COLLEGE_TOTALS[key] && COLLEGE_TOTALS[key][year]) || roster.length;
-    var videos = roster.filter(function(s){ return s.yt; }).length;
+    var videos = roster.filter(function (s) { return s.yt; }).length;
 
     var head = document.getElementById('cmHead');
     head.innerHTML =
       '<div class="cm-head-row">' +
-        '<div class="cm-logo">' + (col.logo || col.name.charAt(0)) + '</div>' +
-        '<div class="cm-head-meta">' +
-          '<div class="cm-tag">' + col.tag + '</div>' +
-          '<h3>' + col.name + '</h3>' +
-          '<div class="cm-sub">' + col.sub + '</div>' +
-        '</div>' +
+      '<div class="cm-logo">' + (col.logo || col.name.charAt(0)) + '</div>' +
+      '<div class="cm-head-meta">' +
+      '<div class="cm-tag">' + col.tag + '</div>' +
+      '<h3>' + col.name + '</h3>' +
+      '<div class="cm-sub">' + col.sub + '</div>' +
+      '</div>' +
       '</div>' +
       '<div class="cm-stats">' +
-        '<div class="cm-stat"><span class="v">' + total + '</span><span class="l">Total Converts ' + year + '</span></div>' +
-        '<div class="cm-stat"><span class="v">' + roster.length + '</span><span class="l">Students Featured</span></div>' +
-        '<div class="cm-stat"><span class="v">' + videos + '</span><span class="l">With Interview</span></div>' +
+      '<div class="cm-stat"><span class="v">' + total + '</span><span class="l">Total Converts ' + year + '</span></div>' +
+      '<div class="cm-stat"><span class="v">' + roster.length + '</span><span class="l">Students Featured</span></div>' +
+      '<div class="cm-stat"><span class="v">' + videos + '</span><span class="l">With Interview</span></div>' +
       '</div>';
 
     var body = document.getElementById('cmBody');
-    if(roster.length === 0){
+    if (roster.length === 0) {
       body.innerHTML =
         '<div class="cm-year-note">' + year + ' · No featured students</div>' +
         '<div class="cm-empty">' +
-          '<b>Featured roster coming soon</b>' +
-          'We have ' + total + ' audited ' + col.name + ' converts for ' + year + '.<br>Full list with student profiles is being prepared.' +
+        '<b>Featured roster coming soon</b>' +
+        'We have ' + total + ' audited ' + col.name + ' converts for ' + year + '.<br>Full list with student profiles is being prepared.' +
         '</div>';
     } else {
       var rosterHtml = '';
       // WhatsApp moments strip FIRST (if available)
       var waForCollege = (typeof getCollegeWaCards === 'function') ? getCollegeWaCards(key) : [];
-      if(waForCollege.length > 0){
+      if (waForCollege.length > 0) {
         rosterHtml += '<div class="cm-wa-strip cm-wa-strip-top">' +
           '<div class="cm-wa-head">Moments from ' + col.name + ' converts <span class="cm-wa-count">' + waForCollege.length + ' chat' + (waForCollege.length === 1 ? '' : 's') + '</span></div>' +
           '<div class="cm-wa-mq">' +
-            (waForCollege.concat(waForCollege)).map(function(c){
-              return '<div class="cm-wa-mini" data-sid="' + c.sid + '" data-img="' + c.img + '" data-who="' + c.who + '" data-score="' + c.score + '">' +
-                '<img src="' + c.img + '" alt="' + c.who + ' WhatsApp">' +
-                buildWaStamp(c, 'wa-stamp-mini') +
-                '<div class="cmw-cap">' + c.who + '</div>' +
+          (waForCollege.concat(waForCollege)).map(function (c) {
+            return '<div class="cm-wa-mini" data-sid="' + c.sid + '" data-img="' + c.img + '" data-who="' + c.who + '" data-score="' + c.score + '">' +
+              '<img src="' + c.img + '" alt="' + c.who + ' WhatsApp">' +
+              buildWaStamp(c, 'wa-stamp-mini') +
+              '<div class="cmw-cap">' + c.who + '</div>' +
               '</div>';
-            }).join('') +
+          }).join('') +
           '</div>' +
-        '</div>';
+          '</div>';
       }
       // Roster AFTER WA strip
       rosterHtml += '<div class="cm-year-note">' + year + ' &middot; Tap any student for their full profile &mdash; testimonial, scorecard, interview and WhatsApp story</div>' +
         '<div class="cm-list">' +
-          roster.map(function(s, i){
-            var img = s.img
-              ? '<div class="cm-stu-img"><img src="' + s.img + '" alt=""></div>'
-              : '<div class="cm-stu-img ' + avBgClass(i) + '">' + initials(s.name) + '</div>';
-            var hasVideo = !!s.yt;
-            return (
-              '<div class="cm-student' + (hasVideo ? ' has-video' : '') + '" ' +
-                'data-yt="' + (s.yt || '') + '" data-name="' + s.name + '" data-score="' + s.score + '">' +
-                img +
-                '<div class="cm-stu-txt">' +
-                  '<div class="cm-stu-name">' + s.name + '</div>' +
-                  '<div class="cm-stu-score"><span class="vv">✓</span>' + s.score + '</div>' +
-                '</div>' +
-                '<div class="cm-stu-play">▶</div>' +
-              '</div>'
-            );
-          }).join('') +
+        roster.map(function (s, i) {
+          var img = s.img
+            ? '<div class="cm-stu-img"><img src="' + s.img + '" alt=""></div>'
+            : '<div class="cm-stu-img ' + avBgClass(i) + '">' + initials(s.name) + '</div>';
+          var hasVideo = !!s.yt;
+          return (
+            '<div class="cm-student' + (hasVideo ? ' has-video' : '') + '" ' +
+            'data-yt="' + (s.yt || '') + '" data-name="' + s.name + '" data-score="' + s.score + '">' +
+            img +
+            '<div class="cm-stu-txt">' +
+            '<div class="cm-stu-name">' + s.name + '</div>' +
+            '<div class="cm-stu-score"><span class="vv">✓</span>' + s.score + '</div>' +
+            '</div>' +
+            '<div class="cm-stu-play">▶</div>' +
+            '</div>'
+          );
+        }).join('') +
         '</div>';
       body.innerHTML = rosterHtml;
 
       // Wire up click on every student - routes to student detail modal if available
-      body.querySelectorAll('.cm-student').forEach(function(el){
+      body.querySelectorAll('.cm-student').forEach(function (el) {
         el.style.cursor = 'pointer';
-        el.addEventListener('click', function(){
+        el.addEventListener('click', function () {
           var name = el.getAttribute('data-name');
           var score = el.getAttribute('data-score');
           var yt = el.getAttribute('data-yt');
           var sid = (typeof BROWSE_NAME_TO_SID !== 'undefined' && BROWSE_NAME_TO_SID[name]) ? BROWSE_NAME_TO_SID[name] : null;
           closeCollegeModal();
-          setTimeout(function(){
-            if(sid && typeof STUDENTS !== 'undefined' && STUDENTS[sid]){
+          setTimeout(function () {
+            if (sid && typeof STUDENTS !== 'undefined' && STUDENTS[sid]) {
               openStudent(sid);
-            } else if(yt){
+            } else if (yt) {
               openVideo(name, score, yt);
             }
           }, 220);
@@ -2144,14 +2127,14 @@ document.getElementById('vmodal').addEventListener('click', function(e){
     document.body.style.overflow = 'hidden';
   }
 
-  function closeCollegeModal(){
+  function closeCollegeModal() {
     document.getElementById('cmodal').classList.remove('show');
     document.body.style.overflow = '';
   }
 
   document.getElementById('cmClose').addEventListener('click', closeCollegeModal);
-  document.getElementById('cmodal').addEventListener('click', function(e){
-    if(e.target === this) closeCollegeModal();
+  document.getElementById('cmodal').addEventListener('click', function (e) {
+    if (e.target === this) closeCollegeModal();
   });
 
   // Expose for HOF or other triggers
@@ -2162,29 +2145,208 @@ document.getElementById('vmodal').addEventListener('click', function(e){
 /* ============================================================
    SCORECARD MODAL
 ============================================================ */
-function openScorecard(name, score, img){
+function openScorecard(name, score, img, avatar, quote, converts, programme, exam) {
   var modal = document.getElementById('smodal');
-  if(!modal) return;
+  if (!modal) return;
+
+  function getInitials(n) {
+    var p = n.trim().split(/\s+/);
+    if (p.length === 1) return p[0].substring(0, 2).toUpperCase();
+    return (p[0][0] + p[p.length - 1][0]).toUpperCase();
+  }
+
   document.getElementById('smName').textContent = name;
-  document.getElementById('smScore').textContent = score;
-  document.getElementById('smAva').src = img;
-  document.getElementById('smScard').src = img;
+  document.getElementById('smScore').innerHTML = score + (score.includes('%') ? '' : '<sup>%ile</sup>');
+
+  var avaEl = document.getElementById('smAva');
+  if (avatar && avatar.length > 10) {
+    avaEl.innerHTML = '<img src="' + avatar + '" style="width:100%;height:100%;object-fit:cover;border-radius:50%">';
+  } else {
+    avaEl.textContent = getInitials(name);
+  }
+
+  var scardImg = document.getElementById('smScard');
+  var imgWrap = document.getElementById('smImageWrap');
+  var table = document.getElementById('smTable');
+
+  if (img && img.length > 5) {
+    scardImg.src = img;
+    imgWrap.hidden = false;
+    table.style.display = 'none';
+  } else {
+    imgWrap.hidden = true;
+    table.style.display = 'table';
+    // Note: sections/table data can be added here if available in API
+  }
+
+  document.getElementById('smQuote').textContent = quote ? '“' + quote + '”' : '';
+  document.getElementById('smConverts').textContent = converts || 'IIM Convert';
+  document.getElementById('smAddl').textContent = programme || 'MBA Program';
+  document.getElementById('smExam').textContent = 'Score Card · ' + (exam || 'CAT 2024');
+
   modal.classList.add('show');
   document.body.style.overflow = 'hidden';
 }
-(function(){
+(function () {
   var sm = document.getElementById('smodal');
   var smClose = document.getElementById('smClose');
-  if(!sm || !smClose) return;
-  function close(){
+  if (!sm || !smClose) return;
+  function close() {
     sm.classList.remove('show');
     document.body.style.overflow = '';
   }
   smClose.addEventListener('click', close);
-  sm.addEventListener('click', function(e){ if(e.target === sm) close(); });
-  document.addEventListener('keydown', function(e){
-    if(e.key === 'Escape' && sm.classList.contains('show')) close();
+  sm.addEventListener('click', function (e) { if (e.target === sm) close(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && sm.classList.contains('show')) close();
   });
+})();
+
+/* ============================================================
+   OUTSTANDING TOPPERS + SCORECARD SLIDER CONTROLS
+============================================================ */
+(function () {
+  function getRail(id) {
+    return document.getElementById(id);
+  }
+
+  function scrollRail(id, dir) {
+    var rail = getRail(id);
+    if (!rail) return;
+    var card = rail.querySelector('article');
+    var step = card ? card.getBoundingClientRect().width + 18 : Math.round(rail.clientWidth * 0.82);
+    rail.scrollBy({ left: step * dir, behavior: 'smooth' });
+  }
+
+  document.querySelectorAll('[data-slider-prev]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      scrollRail(btn.getAttribute('data-slider-prev'), -1);
+    });
+  });
+
+  document.querySelectorAll('[data-slider-next]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      scrollRail(btn.getAttribute('data-slider-next'), 1);
+    });
+  });
+
+  function escapeHtml(v) {
+    return String(v || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+  }
+  function stripTags(v) {
+    const d = document.createElement('div'); d.innerHTML = String(v || '');
+    return d.textContent || d.innerText || '';
+  }
+  function normalizePct(v) {
+    return String(v || '').replace(/%?ile/ig, '').replace(/%/g, '').trim();
+  }
+
+  // MARQUEE AUTO-SLIDE INITIALIZER (Matches "Real Reviews" pattern)
+  function initMarquee(id) {
+    var rail = document.getElementById(id);
+    if (!rail) return;
+    if (rail.classList.contains('marquee-active')) return;
+    rail.classList.add('marquee-active');
+    var content = rail.innerHTML;
+    rail.innerHTML = '<div class="marquee-track">' + content + content + '</div>';
+
+    // Hide buttons for this slider to favor the seamless marquee
+    var shell = rail.closest('.results-toppers-shell, .result-scorecards-shell');
+    if (shell) {
+      shell.querySelectorAll('.results-slider-btn').forEach(function (btn) {
+        btn.style.display = 'none';
+      });
+    }
+  }
+
+  function loadToppers() {
+    const rail = document.getElementById('topperRail');
+    if (!rail || !window.RESULTS_STATIC_RESULTS) return;
+
+    const toppers = window.RESULTS_STATIC_RESULTS.slice(0, 40);
+    rail.innerHTML = toppers.map(t => `
+        <div class="slider-item">
+            <img src="${t.photo || 'https://catking.in/file/media_library/8780/68013909e87e1.png'}" alt="${escapeHtml(t.name)}" loading="lazy">
+            <h5>${escapeHtml(t.name)}</h5>
+            <p>${escapeHtml(t.institute || t.inst || 'IIM Convert')}</p>
+        </div>
+    `).join('');
+
+    initMarquee('topperRail');
+  }
+
+  loadToppers();
+  loadScorecardApi();
+
+  /* ============================================================
+     SCORECARD API LOADER
+  ============================================================ */
+  function loadScorecardApi() {
+    const rail = document.getElementById('scorecardRail');
+    if (!rail) return;
+
+    function renderCard(item) {
+      const name = item.user_name || (item.user && item.user.name) || 'Student';
+      const pct = normalizePct(item.user_percentile || item.percentile || item.score) || '99+';
+      const avatar = item.user_profile_link || (item.user && item.user.avatar_url) || 'https://catking.in/file/media_library/8780/68013909e87e1.png';
+      const scard = item.scorecard_full_image || item.full_image || item.scorecard_card_image || item.card_image || '';
+      const sscard = item.scorecard_card_image || item.full_image || item.scorecard_card_image || item.card_image || '';
+      const quote = stripTags(item.scorecard_description || item.description || '');
+      const converts = item.user_converts || item.converts || '';
+      const programme = item.user_programme || item.programme || '';
+      const exam = item.exam_name || 'CAT 2024';
+
+      return `
+        <article class="result-scorecard-card">
+          <div class="result-scorecard-person">
+            <div class="result-scorecard-ava">
+              <img src="${escapeHtml(avatar)}" alt="${escapeHtml(name)}" onerror="this.src='https://catking.in/file/media_library/8780/68013909e87e1.png'">
+              <div class="result-scorecard-badge">★</div>
+            </div>
+            <div><h3>${escapeHtml(name)}</h3><p>CAT Topper</p></div>
+          </div>
+          <div class="result-scorecard-body">
+            <div class="result-scorecard-score"><strong>${escapeHtml(pct)}</strong><span>%ile</span><small>CAT percentile score</small></div>
+            <div class="result-scorecard-img-wrap">
+              <img class="result-scorecard-img" src="${escapeHtml(sscard)}" alt="${escapeHtml(name)} scorecard">
+            </div>
+            <p class="result-scorecard-quote">“${escapeHtml(quote || 'Verified CATKing scorecard and success story.')}”</p>
+            <button type="button" class="result-scorecard-btn" onclick="openScorecard('${escapeHtml(name)}','${escapeHtml(pct)}','${escapeHtml(scard)}','${escapeHtml(avatar)}','${escapeHtml(quote)}','${escapeHtml(converts)}','${escapeHtml(programme)}','${escapeHtml(exam)}')">View scorecard</button>
+          </div>
+        </article>`;
+    }
+
+    function fetchPage(page, collected) {
+      // Use the proxy route defined in web.php
+      return fetch('/api/scorecards-proxy?base_course_id=56&page=' + page)
+        .then(res => {
+          if (!res.ok) throw new Error('API request failed');
+          return res.json();
+        })
+        .then(res => {
+          const data = res && res.data;
+          const rows = data && Array.isArray(data.data) ? data.data : [];
+          rows.forEach(r => collected.push(r));
+          // Recursive fetch if there are more pages (cap at 5 for performance)
+          if (data && data.current_page < data.last_page && page < 5) {
+            return fetchPage(data.current_page + 1, collected);
+          }
+          return collected;
+        });
+    }
+
+    fetchPage(1, []).then(items => {
+      const usable = items.filter(i => (i.scorecard_full_image || i.full_image || i.scorecard_card_image || i.card_image));
+      if (usable.length > 0) {
+        rail.innerHTML = usable.map(renderCard).join('');
+      }
+      // Always init marquee (either with API results or existing static content if API returned empty)
+      initMarquee('scorecardRail');
+    }).catch(err => {
+      console.warn('Scorecard API failed, using fallback content.', err);
+      initMarquee('scorecardRail');
+    });
+  }
 })();
 
 /* ============================================================
@@ -2196,10 +2358,10 @@ var LEGACY_DATA = {
     blurb: "2,080+ IIM converts. 9,000+ IIM calls. 460+ into BLACKI alone. 200+ NMIMS converts. Five-year audit trail culminates in the biggest single-year result in CATKing history.",
     audit: "Audit pending Q2 2026 · KPMG engagement confirmed",
     stats: [
-      {v:"2,080+", l:"IIM Converts"},
-      {v:"9,000+", l:"IIM Calls"},
-      {v:"460+", l:"BLACKI Converts"},
-      {v:"200+", l:"NMIMS Converts"}
+      { v: "2,080+", l: "IIM Converts" },
+      { v: "9,000+", l: "IIM Calls" },
+      { v: "460+", l: "BLACKI Converts" },
+      { v: "200+", l: "NMIMS Converts" }
     ],
     featured: "Aniruddha Sharma, Priyanshu Tiwari, Prafull Sharma, Manshu Khinchyal, Akshat Sinha, Shivam Rajput, Hunney Kotiya, Vishwaraj Vilankar, Suvarnaa, Aayush Mohod all converted IIM Ahmedabad"
   },
@@ -2208,10 +2370,10 @@ var LEGACY_DATA = {
     blurb: "1,840 IIM converts, independently audited by Brickworks Ratings. Introduced the Intensive and Turbo course models. Launched the @SumitCatking YouTube channel with topper interviews.",
     audit: "Brickworks Ratings verified 2023 · Certificate on request",
     stats: [
-      {v:"1,840", l:"IIM Converts"},
-      {v:"7,800+", l:"IIM Calls"},
-      {v:"390+", l:"BLACKI Converts"},
-      {v:"180+", l:"NMIMS Converts"}
+      { v: "1,840", l: "IIM Converts" },
+      { v: "7,800+", l: "IIM Calls" },
+      { v: "390+", l: "BLACKI Converts" },
+      { v: "180+", l: "NMIMS Converts" }
     ],
     featured: "Jai 99.66, Akshma 99.36, Ajmal 99.29, Rishi 99.22, Dhruvsingh 99.02, Gaurav 99.69, Avisha 99.01, Neelanshu 99.06 - all with full profile on record"
   },
@@ -2220,10 +2382,10 @@ var LEGACY_DATA = {
     blurb: "1,620 IIM converts, first year of Brickworks Ratings verification. Scaled online course delivery. Published the first audited topper scorecard database.",
     audit: "Brickworks Ratings verified 2022 · Certificate on request",
     stats: [
-      {v:"1,620", l:"IIM Converts"},
-      {v:"6,500+", l:"IIM Calls"},
-      {v:"330+", l:"BLACKI Converts"},
-      {v:"160+", l:"NMIMS Converts"}
+      { v: "1,620", l: "IIM Converts" },
+      { v: "6,500+", l: "IIM Calls" },
+      { v: "330+", l: "BLACKI Converts" },
+      { v: "160+", l: "NMIMS Converts" }
     ],
     featured: "Mayank 99 %ile, Sarthak 99 %ile, and 40+ others with published scorecards and testimonials"
   },
@@ -2232,10 +2394,10 @@ var LEGACY_DATA = {
     blurb: "1,380 IIM converts. Cross-country expansion into Tier-2 cities. Launched dedicated NMAT and SNAP prep tracks. First batch of 200+ NMIMS converts.",
     audit: "Internal records · Brickworks audit scope extended in 2022",
     stats: [
-      {v:"1,380", l:"IIM Converts"},
-      {v:"5,200+", l:"IIM Calls"},
-      {v:"280+", l:"BLACKI Converts"},
-      {v:"200+", l:"NMIMS Converts"}
+      { v: "1,380", l: "IIM Converts" },
+      { v: "5,200+", l: "IIM Calls" },
+      { v: "280+", l: "BLACKI Converts" },
+      { v: "200+", l: "NMIMS Converts" }
     ],
     featured: "Muskan CATKing CAT Topper, Akshama 99 %ile, and the first cohort to cross 1,300 IIM converts in a single CAT season"
   },
@@ -2244,10 +2406,10 @@ var LEGACY_DATA = {
     blurb: "1,110 IIM converts, independently verified by KPMG Assurance. First MBA prep institute in India to submit CAT results for third-party audit. The year that started the compounding curve.",
     audit: "KPMG Assurance &amp; Consulting verified 2020 · Certificate on request",
     stats: [
-      {v:"1,110", l:"IIM Converts"},
-      {v:"4,100+", l:"IIM Calls"},
-      {v:"210+", l:"BLACKI Converts"},
-      {v:"140+", l:"NMIMS Converts"}
+      { v: "1,110", l: "IIM Converts" },
+      { v: "4,100+", l: "IIM Calls" },
+      { v: "210+", l: "BLACKI Converts" },
+      { v: "140+", l: "NMIMS Converts" }
     ],
     featured: "The first KPMG-audited batch. Every claimed scorecard in this year was independently verified by the Big 4 auditor"
   },
@@ -2256,10 +2418,10 @@ var LEGACY_DATA = {
     blurb: "890 IIM converts. CATKing launched the online live-class model that became the industry default. Expanded faculty team to 25+ senior alumni. First NMAT dedicated batches.",
     audit: "Internal records &middot; Pre-KPMG audit scope",
     stats: [
-      {v:"890", l:"IIM Converts"},
-      {v:"3,400+", l:"IIM Calls"},
-      {v:"170+", l:"BLACKI Converts"},
-      {v:"95+", l:"NMIMS Converts"}
+      { v: "890", l: "IIM Converts" },
+      { v: "3,400+", l: "IIM Calls" },
+      { v: "170+", l: "BLACKI Converts" },
+      { v: "95+", l: "NMIMS Converts" }
     ],
     featured: "The batch that made online CAT prep credible. Converted students across 18 Indian cities in a single CAT season for the first time."
   },
@@ -2268,10 +2430,10 @@ var LEGACY_DATA = {
     blurb: "1,680 cumulative IIM converts across two CAT seasons. Introduced dedicated DILR and VARC module tracks. Launched the Sumit Sir weekly mentor-call format.",
     audit: "Internal records &middot; Pre-audit era",
     stats: [
-      {v:"1,680", l:"IIM Converts"},
-      {v:"6,200+", l:"IIM Calls"},
-      {v:"320+", l:"BLACKI Converts"},
-      {v:"165+", l:"NMIMS Converts"}
+      { v: "1,680", l: "IIM Converts" },
+      { v: "6,200+", l: "IIM Calls" },
+      { v: "320+", l: "BLACKI Converts" },
+      { v: "165+", l: "NMIMS Converts" }
     ],
     featured: "Two consecutive CAT seasons breaking previous records. The mentor-led model that still powers CATKing today."
   },
@@ -2280,10 +2442,10 @@ var LEGACY_DATA = {
     blurb: "1,320 cumulative IIM converts across three CAT seasons. Moved from classroom-only to hybrid delivery. Built the first topper video interview library.",
     audit: "Internal records &middot; Foundation era",
     stats: [
-      {v:"1,320", l:"IIM Converts"},
-      {v:"4,800+", l:"IIM Calls"},
-      {v:"230+", l:"BLACKI Converts"},
-      {v:"110+", l:"NMIMS Converts"}
+      { v: "1,320", l: "IIM Converts" },
+      { v: "4,800+", l: "IIM Calls" },
+      { v: "230+", l: "BLACKI Converts" },
+      { v: "110+", l: "NMIMS Converts" }
     ],
     featured: "Three consecutive CAT cohorts growing at 40%+ YoY. The years that proved CATKing's mentorship-first model."
   },
@@ -2292,10 +2454,10 @@ var LEGACY_DATA = {
     blurb: "410 cumulative IIM converts across four CAT seasons since inception. Started with 48 students in 2008. Built the core faculty team and the weekly-mentor-call pedagogy that still defines CATKing today.",
     audit: "Founder records &middot; First four CAT seasons",
     stats: [
-      {v:"410", l:"IIM Converts"},
-      {v:"1,200+", l:"IIM Calls"},
-      {v:"80+", l:"BLACKI Converts"},
-      {v:"40+", l:"NMIMS Converts"}
+      { v: "410", l: "IIM Converts" },
+      { v: "1,200+", l: "IIM Calls" },
+      { v: "80+", l: "BLACKI Converts" },
+      { v: "40+", l: "NMIMS Converts" }
     ],
     featured: "The original 48-student batch of 2008 that grew to 410 cumulative converts by 2012. The curve began here."
   },
@@ -2304,10 +2466,10 @@ var LEGACY_DATA = {
     blurb: "Twelve CAT seasons from 2008 to 2020. 4,300+ cumulative IIM converts across the founding decade. Built every system that powers CATKing today: the weekly mentor-call format, the Sumit Sir prediction series, the first KPMG-audit submission. The compounding curve started here.",
     audit: "Founder records (2008-12) &middot; Pre-audit growth (2012-19) &middot; First KPMG audit (2020)",
     stats: [
-      {v:"4,300+", l:"IIM Converts"},
-      {v:"15,600+", l:"IIM Calls"},
-      {v:"800+", l:"BLACKI Converts"},
-      {v:"410+", l:"NMIMS Converts"}
+      { v: "4,300+", l: "IIM Converts" },
+      { v: "15,600+", l: "IIM Calls" },
+      { v: "800+", l: "BLACKI Converts" },
+      { v: "410+", l: "NMIMS Converts" }
     ],
     featured: "The original 48-student batch of 2008 grew to 4,300+ cumulative IIM converts by the end of CAT 2019. Twelve seasons. Hundreds of toppers. The mentorship-first model that still defines CATKing today."
   }
@@ -2316,160 +2478,160 @@ var LEGACY_DATA = {
 /* HOF by year - 12 tiles per legacy year (mock data for designing) */
 var HOF_BY_YEAR = {
   "2024-25": [
-    {name:"Aniruddha Sharma", ribbon:"IIM-A", photo:"https://catking.in/file/media_library/8780/68013909e87e1.png", score:"IIM Ahmedabad", exam:"CAT 2024 · Convert", yt:"jdPUhiNhloc"},
-    {name:"Priyanshu Tiwari", ribbon:"IIM-A", photo:"https://catking.in/file/media_library/8787/68013d7802e8b.png", score:"IIM Ahmedabad", exam:"CAT 2024 · Convert", yt:"NT0F6t31heM"},
-    {name:"Prafull Sharma", ribbon:"IIM-A", photo:"https://catking.in/file/media_library/8786/68013d3d83e3c.png", score:"IIM Ahmedabad", exam:"CAT 2024 · Convert", yt:"7_Tz4tkaQPo"},
-    {name:"Manshu Khinchyal", ribbon:"IIM-A", photo:"https://catking.in/file/media_library/8785/68013cac7e762.png", score:"IIM Ahmedabad", exam:"CAT 2024 · Convert", yt:"ZdPtNvamYlA"},
-    {name:"Akshat Toolaj Sinha", ribbon:"IIM-A", photo:"https://catking.in/file/media_library/8784/68013c3cd17bd.png", score:"IIM Ahmedabad", exam:"CAT 2024 · Convert", yt:"TV-bPh4KTXA"},
-    {name:"Shivam Rajput", ribbon:"IIM-A", photo:"https://catking.in/file/media_library/8783/68013bbcd1f37.png", score:"IIM Ahmedabad", exam:"CAT 2024 · Convert", yt:"X9CxNhGAqDM"},
-    {name:"Hunney Kotiya", ribbon:"IIM-A", photo:"https://catking.in/file/media_library/8782/68013b8abbcae.png", score:"IIM Ahmedabad", exam:"CAT 2024 · Convert", yt:"QV7HwpMVrXo"},
-    {name:"Vishwaraj Vilankar", ribbon:"IIM-A", photo:"https://catking.in/file/media_library/8781/6801397b2eb0f.png", score:"IIM Ahmedabad", exam:"CAT 2024 · Convert", yt:"2T4myWfkQGQ"},
-    {name:"Nihit Pingala", ribbon:"NMIMS", initial:"N", score:"Merit 79", exam:"NMIMS Mumbai Core", yt:""},
-    {name:"Aayush Rathi", ribbon:"NMIMS", initial:"A", score:"NMIMS Core", exam:"NMIMS Mumbai", yt:""},
-    {name:"Pratyasha Panigrahi", ribbon:"SPJIMR", initial:"P", score:"SPJIMR Convert", exam:"SPJIMR Mumbai", yt:""},
-    {name:"Ashish Ranjan", ribbon:"SCMHRD", initial:"A", score:"SCMHRD Pune", exam:"MBA BA 2026", yt:""}
+    { name: "Aniruddha Sharma", ribbon: "IIM-A", photo: "https://catking.in/file/media_library/8780/68013909e87e1.png", score: "IIM Ahmedabad", exam: "CAT 2024 · Convert", yt: "jdPUhiNhloc" },
+    { name: "Priyanshu Tiwari", ribbon: "IIM-A", photo: "https://catking.in/file/media_library/8787/68013d7802e8b.png", score: "IIM Ahmedabad", exam: "CAT 2024 · Convert", yt: "NT0F6t31heM" },
+    { name: "Prafull Sharma", ribbon: "IIM-A", photo: "https://catking.in/file/media_library/8786/68013d3d83e3c.png", score: "IIM Ahmedabad", exam: "CAT 2024 · Convert", yt: "7_Tz4tkaQPo" },
+    { name: "Manshu Khinchyal", ribbon: "IIM-A", photo: "https://catking.in/file/media_library/8785/68013cac7e762.png", score: "IIM Ahmedabad", exam: "CAT 2024 · Convert", yt: "ZdPtNvamYlA" },
+    { name: "Akshat Toolaj Sinha", ribbon: "IIM-A", photo: "https://catking.in/file/media_library/8784/68013c3cd17bd.png", score: "IIM Ahmedabad", exam: "CAT 2024 · Convert", yt: "TV-bPh4KTXA" },
+    { name: "Shivam Rajput", ribbon: "IIM-A", photo: "https://catking.in/file/media_library/8783/68013bbcd1f37.png", score: "IIM Ahmedabad", exam: "CAT 2024 · Convert", yt: "X9CxNhGAqDM" },
+    { name: "Hunney Kotiya", ribbon: "IIM-A", photo: "https://catking.in/file/media_library/8782/68013b8abbcae.png", score: "IIM Ahmedabad", exam: "CAT 2024 · Convert", yt: "QV7HwpMVrXo" },
+    { name: "Vishwaraj Vilankar", ribbon: "IIM-A", photo: "https://catking.in/file/media_library/8781/6801397b2eb0f.png", score: "IIM Ahmedabad", exam: "CAT 2024 · Convert", yt: "2T4myWfkQGQ" },
+    { name: "Nihit Pingala", ribbon: "NMIMS", initial: "N", score: "Merit 79", exam: "NMIMS Mumbai Core", yt: "" },
+    { name: "Aayush Rathi", ribbon: "NMIMS", initial: "A", score: "NMIMS Core", exam: "NMIMS Mumbai", yt: "" },
+    { name: "Pratyasha Panigrahi", ribbon: "SPJIMR", initial: "P", score: "SPJIMR Convert", exam: "SPJIMR Mumbai", yt: "" },
+    { name: "Ashish Ranjan", ribbon: "SCMHRD", initial: "A", score: "SCMHRD Pune", exam: "MBA BA 2026", yt: "" }
   ],
   "2023-24": [
-    {name:"Jai", ribbon:"CAT 99+", initial:"J", score:"99.66 %ile", exam:"CAT 2023", yt:"jdPUhiNhloc"},
-    {name:"Akshma", ribbon:"CAT 99+", initial:"A", score:"99.36 %ile", exam:"CAT 2023", yt:"NT0F6t31heM"},
-    {name:"Ajmal", ribbon:"CAT 99+", initial:"A", score:"99.29 %ile", exam:"CAT 2023", yt:"7_Tz4tkaQPo"},
-    {name:"Rishi", ribbon:"CAT 99+", initial:"R", score:"99.22 %ile", exam:"CAT 2023", yt:"ZdPtNvamYlA"},
-    {name:"Dhruvsingh", ribbon:"CAT 99+", initial:"D", score:"99.02 %ile", exam:"CAT 2023", yt:"TV-bPh4KTXA"},
-    {name:"Gaurav", ribbon:"IIM-B", photo:"https://catking.in/file/media_library/5197/65eee10445a7a.jpg", score:"99.69 %ile", exam:"CAT 2023", yt:"8bch7T_WFj0"},
-    {name:"Avisha", ribbon:"Topper", photo:"https://catking.in/file/media_library/5196/65eee0a051c7c.jpg", score:"99.01 %ile", exam:"CAT 2023", yt:"IlrURaX6-fI"},
-    {name:"Neelanshu", ribbon:"Topper", photo:"https://catking.in/file/media_library/5193/65eedf2556a60.jpg", score:"99.06 %ile", exam:"CAT 2023", yt:"pKEQ3zC_6V4"},
-    {name:"Paras", ribbon:"Topper", photo:"https://catking.in/file/media_library/5176/65eb576e26067.jpg", score:"97.92 %ile", exam:"CAT 2023", yt:"jdPUhiNhloc"},
-    {name:"Kapil Dev Singh", ribbon:"NMAT", photo:"https://catking.in/file/media_library/5186/65ec795e6d097.jpg", score:"NMAT 243", exam:"NMIMS Mumbai", yt:""},
-    {name:"Priyam Shah", ribbon:"NMAT", photo:"https://catking.in/file/media_library/5187/65ec7b0575f5b.jpg", score:"NMAT 240", exam:"NMIMS Mumbai", yt:""},
-    {name:"Paranjay Kukreti", ribbon:"NMAT", photo:"https://catking.in/file/media_library/5188/65eeecb258f75.jpg", score:"NMAT 239", exam:"NMIMS Mumbai", yt:""}
+    { name: "Jai", ribbon: "CAT 99+", initial: "J", score: "99.66 %ile", exam: "CAT 2023", yt: "jdPUhiNhloc" },
+    { name: "Akshma", ribbon: "CAT 99+", initial: "A", score: "99.36 %ile", exam: "CAT 2023", yt: "NT0F6t31heM" },
+    { name: "Ajmal", ribbon: "CAT 99+", initial: "A", score: "99.29 %ile", exam: "CAT 2023", yt: "7_Tz4tkaQPo" },
+    { name: "Rishi", ribbon: "CAT 99+", initial: "R", score: "99.22 %ile", exam: "CAT 2023", yt: "ZdPtNvamYlA" },
+    { name: "Dhruvsingh", ribbon: "CAT 99+", initial: "D", score: "99.02 %ile", exam: "CAT 2023", yt: "TV-bPh4KTXA" },
+    { name: "Gaurav", ribbon: "IIM-B", photo: "https://catking.in/file/media_library/5197/65eee10445a7a.jpg", score: "99.69 %ile", exam: "CAT 2023", yt: "8bch7T_WFj0" },
+    { name: "Avisha", ribbon: "Topper", photo: "https://catking.in/file/media_library/5196/65eee0a051c7c.jpg", score: "99.01 %ile", exam: "CAT 2023", yt: "IlrURaX6-fI" },
+    { name: "Neelanshu", ribbon: "Topper", photo: "https://catking.in/file/media_library/5193/65eedf2556a60.jpg", score: "99.06 %ile", exam: "CAT 2023", yt: "pKEQ3zC_6V4" },
+    { name: "Paras", ribbon: "Topper", photo: "https://catking.in/file/media_library/5176/65eb576e26067.jpg", score: "97.92 %ile", exam: "CAT 2023", yt: "jdPUhiNhloc" },
+    { name: "Kapil Dev Singh", ribbon: "NMAT", photo: "https://catking.in/file/media_library/5186/65ec795e6d097.jpg", score: "NMAT 243", exam: "NMIMS Mumbai", yt: "" },
+    { name: "Priyam Shah", ribbon: "NMAT", photo: "https://catking.in/file/media_library/5187/65ec7b0575f5b.jpg", score: "NMAT 240", exam: "NMIMS Mumbai", yt: "" },
+    { name: "Paranjay Kukreti", ribbon: "NMAT", photo: "https://catking.in/file/media_library/5188/65eeecb258f75.jpg", score: "NMAT 239", exam: "NMIMS Mumbai", yt: "" }
   ],
   "2022-23": [
-    {name:"Mayank", ribbon:"CAT 99+", initial:"M", score:"99.12 %ile", exam:"CAT 2022", yt:"QV7HwpMVrXo"},
-    {name:"Sarthak", ribbon:"CAT 99+", initial:"S", score:"99.05 %ile", exam:"CAT 2022", yt:"2T4myWfkQGQ"},
-    {name:"Akshama", ribbon:"CAT 99+", initial:"A", score:"99.01 %ile", exam:"CAT 2022", yt:"IlrURaX6-fI"},
-    {name:"Bheem Varkhedi", ribbon:"NMAT", photo:"https://catking.in/file/media_library/5189/65f0795d41ab6.jpg", score:"NMAT 237", exam:"NMIMS Mumbai", yt:""},
-    {name:"Sanyam", ribbon:"NMAT", photo:"https://catking.in/file/media_library/5190/65f07a6517ea8.jpg", score:"NMAT 236", exam:"NMIMS Mumbai", yt:""},
-    {name:"Giridhar S Shenoy", ribbon:"NMAT", photo:"https://catking.in/file/media_library/5191/65f07b0fc3dca.jpg", score:"NMAT 236", exam:"NMIMS Mumbai", yt:""},
-    {name:"Shubham Jhunjhunwala", ribbon:"NMAT", photo:"https://catking.in/file/media_library/5192/65f07ba54fb3f.jpg", score:"NMAT 236", exam:"NMIMS Mumbai", yt:""},
-    {name:"Punita", ribbon:"NMAT", photo:"https://catking.in/file/media_library/5194/65f07c3f99fea.jpg", score:"NMAT 235", exam:"NMIMS Mumbai", yt:""},
-    {name:"Arnav Shah", ribbon:"IIM-B", initial:"A", score:"99.41 %ile", exam:"IIM Bangalore Convert", yt:""},
-    {name:"Rohit Nayyar", ribbon:"IIM-L", initial:"R", score:"99.18 %ile", exam:"IIM Lucknow Convert", yt:""},
-    {name:"Sneha Kapoor", ribbon:"SPJIMR", initial:"S", score:"SPJIMR PGDM", exam:"CAT 2022", yt:""},
-    {name:"Karan Bhatia", ribbon:"FMS", initial:"K", score:"FMS Delhi", exam:"CAT 2022 · 99.28 %ile", yt:""}
+    { name: "Mayank", ribbon: "CAT 99+", initial: "M", score: "99.12 %ile", exam: "CAT 2022", yt: "QV7HwpMVrXo" },
+    { name: "Sarthak", ribbon: "CAT 99+", initial: "S", score: "99.05 %ile", exam: "CAT 2022", yt: "2T4myWfkQGQ" },
+    { name: "Akshama", ribbon: "CAT 99+", initial: "A", score: "99.01 %ile", exam: "CAT 2022", yt: "IlrURaX6-fI" },
+    { name: "Bheem Varkhedi", ribbon: "NMAT", photo: "https://catking.in/file/media_library/5189/65f0795d41ab6.jpg", score: "NMAT 237", exam: "NMIMS Mumbai", yt: "" },
+    { name: "Sanyam", ribbon: "NMAT", photo: "https://catking.in/file/media_library/5190/65f07a6517ea8.jpg", score: "NMAT 236", exam: "NMIMS Mumbai", yt: "" },
+    { name: "Giridhar S Shenoy", ribbon: "NMAT", photo: "https://catking.in/file/media_library/5191/65f07b0fc3dca.jpg", score: "NMAT 236", exam: "NMIMS Mumbai", yt: "" },
+    { name: "Shubham Jhunjhunwala", ribbon: "NMAT", photo: "https://catking.in/file/media_library/5192/65f07ba54fb3f.jpg", score: "NMAT 236", exam: "NMIMS Mumbai", yt: "" },
+    { name: "Punita", ribbon: "NMAT", photo: "https://catking.in/file/media_library/5194/65f07c3f99fea.jpg", score: "NMAT 235", exam: "NMIMS Mumbai", yt: "" },
+    { name: "Arnav Shah", ribbon: "IIM-B", initial: "A", score: "99.41 %ile", exam: "IIM Bangalore Convert", yt: "" },
+    { name: "Rohit Nayyar", ribbon: "IIM-L", initial: "R", score: "99.18 %ile", exam: "IIM Lucknow Convert", yt: "" },
+    { name: "Sneha Kapoor", ribbon: "SPJIMR", initial: "S", score: "SPJIMR PGDM", exam: "CAT 2022", yt: "" },
+    { name: "Karan Bhatia", ribbon: "FMS", initial: "K", score: "FMS Delhi", exam: "CAT 2022 · 99.28 %ile", yt: "" }
   ],
   "2021-22": [
-    {name:"Muskan", ribbon:"CATKing", initial:"M", score:"CAT Topper", exam:"CAT 2021", yt:"X9CxNhGAqDM"},
-    {name:"Vivek Reddy", ribbon:"IIM-B", initial:"V", score:"99.56 %ile", exam:"IIM Bangalore", yt:""},
-    {name:"Aditi Nair", ribbon:"IIM-C", initial:"A", score:"99.34 %ile", exam:"IIM Calcutta", yt:""},
-    {name:"Rahul Desai", ribbon:"IIM-L", initial:"R", score:"99.22 %ile", exam:"IIM Lucknow", yt:""},
-    {name:"Kavya Mishra", ribbon:"SPJIMR", initial:"K", score:"SPJIMR PGDM", exam:"CAT 2021", yt:""},
-    {name:"Tarun Gupta", ribbon:"FMS", initial:"T", score:"99.18 %ile", exam:"FMS Delhi", yt:""},
-    {name:"Ishita Bose", ribbon:"NMAT", initial:"I", score:"NMAT 242", exam:"NMIMS Mumbai", yt:""},
-    {name:"Sameer Joshi", ribbon:"NMAT", initial:"S", score:"NMAT 238", exam:"NMIMS Mumbai", yt:""},
-    {name:"Preethi Menon", ribbon:"IIM-K", initial:"P", score:"99.08 %ile", exam:"IIM Kozhikode", yt:""},
-    {name:"Arjun Sharma", ribbon:"IIM-I", initial:"A", score:"98.94 %ile", exam:"IIM Indore", yt:""},
-    {name:"Ritika Das", ribbon:"CAT 99+", initial:"R", score:"99.11 %ile", exam:"CAT 2021", yt:""},
-    {name:"Nikhil Roy", ribbon:"SCMHRD", initial:"N", score:"SNAP 98.44", exam:"SCMHRD Pune", yt:""}
+    { name: "Muskan", ribbon: "CATKing", initial: "M", score: "CAT Topper", exam: "CAT 2021", yt: "X9CxNhGAqDM" },
+    { name: "Vivek Reddy", ribbon: "IIM-B", initial: "V", score: "99.56 %ile", exam: "IIM Bangalore", yt: "" },
+    { name: "Aditi Nair", ribbon: "IIM-C", initial: "A", score: "99.34 %ile", exam: "IIM Calcutta", yt: "" },
+    { name: "Rahul Desai", ribbon: "IIM-L", initial: "R", score: "99.22 %ile", exam: "IIM Lucknow", yt: "" },
+    { name: "Kavya Mishra", ribbon: "SPJIMR", initial: "K", score: "SPJIMR PGDM", exam: "CAT 2021", yt: "" },
+    { name: "Tarun Gupta", ribbon: "FMS", initial: "T", score: "99.18 %ile", exam: "FMS Delhi", yt: "" },
+    { name: "Ishita Bose", ribbon: "NMAT", initial: "I", score: "NMAT 242", exam: "NMIMS Mumbai", yt: "" },
+    { name: "Sameer Joshi", ribbon: "NMAT", initial: "S", score: "NMAT 238", exam: "NMIMS Mumbai", yt: "" },
+    { name: "Preethi Menon", ribbon: "IIM-K", initial: "P", score: "99.08 %ile", exam: "IIM Kozhikode", yt: "" },
+    { name: "Arjun Sharma", ribbon: "IIM-I", initial: "A", score: "98.94 %ile", exam: "IIM Indore", yt: "" },
+    { name: "Ritika Das", ribbon: "CAT 99+", initial: "R", score: "99.11 %ile", exam: "CAT 2021", yt: "" },
+    { name: "Nikhil Roy", ribbon: "SCMHRD", initial: "N", score: "SNAP 98.44", exam: "SCMHRD Pune", yt: "" }
   ],
   "2020-21": [
-    {name:"Vikram Patil", ribbon:"IIM-A", initial:"V", score:"99.78 %ile", exam:"IIM Ahmedabad", yt:""},
-    {name:"Shreya Iyer", ribbon:"IIM-B", initial:"S", score:"99.66 %ile", exam:"IIM Bangalore", yt:""},
-    {name:"Rohan Mehta", ribbon:"IIM-C", initial:"R", score:"99.48 %ile", exam:"IIM Calcutta", yt:""},
-    {name:"Anika Pandey", ribbon:"IIM-L", initial:"A", score:"99.29 %ile", exam:"IIM Lucknow", yt:""},
-    {name:"Karthik Rao", ribbon:"SPJIMR", initial:"K", score:"SPJIMR PGDM", exam:"CAT 2020", yt:""},
-    {name:"Meera Nair", ribbon:"FMS", initial:"M", score:"99.14 %ile", exam:"FMS Delhi", yt:""},
-    {name:"Siddharth Jain", ribbon:"NMAT", initial:"S", score:"NMAT 240", exam:"NMIMS Mumbai", yt:""},
-    {name:"Divya Singh", ribbon:"NMAT", initial:"D", score:"NMAT 236", exam:"NMIMS Mumbai", yt:""},
-    {name:"Pranav Kumar", ribbon:"IIM-I", initial:"P", score:"99.02 %ile", exam:"IIM Indore", yt:""},
-    {name:"Rhea Kapoor", ribbon:"CAT 99+", initial:"R", score:"99.38 %ile", exam:"CAT 2020", yt:""},
-    {name:"Harsh Vardhan", ribbon:"SCMHRD", initial:"H", score:"SNAP 98.12", exam:"SCMHRD Pune", yt:""},
-    {name:"Lavanya S", ribbon:"IIM-K", initial:"L", score:"99.07 %ile", exam:"IIM Kozhikode", yt:""}
+    { name: "Vikram Patil", ribbon: "IIM-A", initial: "V", score: "99.78 %ile", exam: "IIM Ahmedabad", yt: "" },
+    { name: "Shreya Iyer", ribbon: "IIM-B", initial: "S", score: "99.66 %ile", exam: "IIM Bangalore", yt: "" },
+    { name: "Rohan Mehta", ribbon: "IIM-C", initial: "R", score: "99.48 %ile", exam: "IIM Calcutta", yt: "" },
+    { name: "Anika Pandey", ribbon: "IIM-L", initial: "A", score: "99.29 %ile", exam: "IIM Lucknow", yt: "" },
+    { name: "Karthik Rao", ribbon: "SPJIMR", initial: "K", score: "SPJIMR PGDM", exam: "CAT 2020", yt: "" },
+    { name: "Meera Nair", ribbon: "FMS", initial: "M", score: "99.14 %ile", exam: "FMS Delhi", yt: "" },
+    { name: "Siddharth Jain", ribbon: "NMAT", initial: "S", score: "NMAT 240", exam: "NMIMS Mumbai", yt: "" },
+    { name: "Divya Singh", ribbon: "NMAT", initial: "D", score: "NMAT 236", exam: "NMIMS Mumbai", yt: "" },
+    { name: "Pranav Kumar", ribbon: "IIM-I", initial: "P", score: "99.02 %ile", exam: "IIM Indore", yt: "" },
+    { name: "Rhea Kapoor", ribbon: "CAT 99+", initial: "R", score: "99.38 %ile", exam: "CAT 2020", yt: "" },
+    { name: "Harsh Vardhan", ribbon: "SCMHRD", initial: "H", score: "SNAP 98.12", exam: "SCMHRD Pune", yt: "" },
+    { name: "Lavanya S", ribbon: "IIM-K", initial: "L", score: "99.07 %ile", exam: "IIM Kozhikode", yt: "" }
   ],
   "2018-19": [
-    {name:"Aditya Verma", ribbon:"IIM-A", initial:"A", score:"99.92 %ile", exam:"IIM Ahmedabad", yt:""},
-    {name:"Pooja Shetty", ribbon:"IIM-B", initial:"P", score:"99.74 %ile", exam:"IIM Bangalore", yt:""},
-    {name:"Ravi Chandra", ribbon:"IIM-C", initial:"R", score:"99.58 %ile", exam:"IIM Calcutta", yt:""},
-    {name:"Neha Thakur", ribbon:"IIM-L", initial:"N", score:"99.41 %ile", exam:"IIM Lucknow", yt:""},
-    {name:"Suresh M", ribbon:"IIM-I", initial:"S", score:"99.18 %ile", exam:"IIM Indore", yt:""},
-    {name:"Tanvi Gupta", ribbon:"SPJIMR", initial:"T", score:"SPJIMR PGDM", exam:"CAT 2018", yt:""},
-    {name:"Yash Mehra", ribbon:"FMS", initial:"Y", score:"99.22 %ile", exam:"FMS Delhi", yt:""},
-    {name:"Bhavya P", ribbon:"NMAT", initial:"B", score:"NMAT 244", exam:"NMIMS Mumbai", yt:""},
-    {name:"Chirag Jain", ribbon:"NMAT", initial:"C", score:"NMAT 238", exam:"NMIMS Mumbai", yt:""},
-    {name:"Devika Rao", ribbon:"CAT 99+", initial:"D", score:"99.36 %ile", exam:"CAT 2018", yt:""},
-    {name:"Eshaan Shah", ribbon:"SCMHRD", initial:"E", score:"SNAP 98.28", exam:"SCMHRD Pune", yt:""},
-    {name:"Farah Khan", ribbon:"IIM-K", initial:"F", score:"99.14 %ile", exam:"IIM Kozhikode", yt:""}
+    { name: "Aditya Verma", ribbon: "IIM-A", initial: "A", score: "99.92 %ile", exam: "IIM Ahmedabad", yt: "" },
+    { name: "Pooja Shetty", ribbon: "IIM-B", initial: "P", score: "99.74 %ile", exam: "IIM Bangalore", yt: "" },
+    { name: "Ravi Chandra", ribbon: "IIM-C", initial: "R", score: "99.58 %ile", exam: "IIM Calcutta", yt: "" },
+    { name: "Neha Thakur", ribbon: "IIM-L", initial: "N", score: "99.41 %ile", exam: "IIM Lucknow", yt: "" },
+    { name: "Suresh M", ribbon: "IIM-I", initial: "S", score: "99.18 %ile", exam: "IIM Indore", yt: "" },
+    { name: "Tanvi Gupta", ribbon: "SPJIMR", initial: "T", score: "SPJIMR PGDM", exam: "CAT 2018", yt: "" },
+    { name: "Yash Mehra", ribbon: "FMS", initial: "Y", score: "99.22 %ile", exam: "FMS Delhi", yt: "" },
+    { name: "Bhavya P", ribbon: "NMAT", initial: "B", score: "NMAT 244", exam: "NMIMS Mumbai", yt: "" },
+    { name: "Chirag Jain", ribbon: "NMAT", initial: "C", score: "NMAT 238", exam: "NMIMS Mumbai", yt: "" },
+    { name: "Devika Rao", ribbon: "CAT 99+", initial: "D", score: "99.36 %ile", exam: "CAT 2018", yt: "" },
+    { name: "Eshaan Shah", ribbon: "SCMHRD", initial: "E", score: "SNAP 98.28", exam: "SCMHRD Pune", yt: "" },
+    { name: "Farah Khan", ribbon: "IIM-K", initial: "F", score: "99.14 %ile", exam: "IIM Kozhikode", yt: "" }
   ],
   "2015-17": [
-    {name:"Aman Saxena", ribbon:"IIM-A", initial:"A", score:"99.88 %ile", exam:"IIM Ahmedabad · 2016", yt:""},
-    {name:"Isha Raman", ribbon:"IIM-B", initial:"I", score:"99.72 %ile", exam:"IIM Bangalore · 2016", yt:""},
-    {name:"Jaideep S", ribbon:"IIM-C", initial:"J", score:"99.54 %ile", exam:"IIM Calcutta · 2015", yt:""},
-    {name:"Kruti Mehta", ribbon:"IIM-L", initial:"K", score:"99.38 %ile", exam:"IIM Lucknow · 2016", yt:""},
-    {name:"Mohit Bansal", ribbon:"SPJIMR", initial:"M", score:"SPJIMR PGDM", exam:"CAT 2015", yt:""},
-    {name:"Nidhi P", ribbon:"FMS", initial:"N", score:"99.18 %ile", exam:"FMS Delhi · 2016", yt:""},
-    {name:"Omkar Rao", ribbon:"NMAT", initial:"O", score:"NMAT 242", exam:"NMIMS Mumbai · 2015", yt:""},
-    {name:"Priyanka Jha", ribbon:"NMAT", initial:"P", score:"NMAT 238", exam:"NMIMS Mumbai · 2016", yt:""},
-    {name:"Qasim R", ribbon:"IIM-I", initial:"Q", score:"99.12 %ile", exam:"IIM Indore · 2016", yt:""},
-    {name:"Ravi Shankar", ribbon:"CAT 99+", initial:"R", score:"99.42 %ile", exam:"CAT 2016", yt:""},
-    {name:"Swati Nair", ribbon:"SCMHRD", initial:"S", score:"SNAP 98.44", exam:"SCMHRD Pune · 2015", yt:""},
-    {name:"Tushar V", ribbon:"IIM-K", initial:"T", score:"99.08 %ile", exam:"IIM Kozhikode · 2016", yt:""}
+    { name: "Aman Saxena", ribbon: "IIM-A", initial: "A", score: "99.88 %ile", exam: "IIM Ahmedabad · 2016", yt: "" },
+    { name: "Isha Raman", ribbon: "IIM-B", initial: "I", score: "99.72 %ile", exam: "IIM Bangalore · 2016", yt: "" },
+    { name: "Jaideep S", ribbon: "IIM-C", initial: "J", score: "99.54 %ile", exam: "IIM Calcutta · 2015", yt: "" },
+    { name: "Kruti Mehta", ribbon: "IIM-L", initial: "K", score: "99.38 %ile", exam: "IIM Lucknow · 2016", yt: "" },
+    { name: "Mohit Bansal", ribbon: "SPJIMR", initial: "M", score: "SPJIMR PGDM", exam: "CAT 2015", yt: "" },
+    { name: "Nidhi P", ribbon: "FMS", initial: "N", score: "99.18 %ile", exam: "FMS Delhi · 2016", yt: "" },
+    { name: "Omkar Rao", ribbon: "NMAT", initial: "O", score: "NMAT 242", exam: "NMIMS Mumbai · 2015", yt: "" },
+    { name: "Priyanka Jha", ribbon: "NMAT", initial: "P", score: "NMAT 238", exam: "NMIMS Mumbai · 2016", yt: "" },
+    { name: "Qasim R", ribbon: "IIM-I", initial: "Q", score: "99.12 %ile", exam: "IIM Indore · 2016", yt: "" },
+    { name: "Ravi Shankar", ribbon: "CAT 99+", initial: "R", score: "99.42 %ile", exam: "CAT 2016", yt: "" },
+    { name: "Swati Nair", ribbon: "SCMHRD", initial: "S", score: "SNAP 98.44", exam: "SCMHRD Pune · 2015", yt: "" },
+    { name: "Tushar V", ribbon: "IIM-K", initial: "T", score: "99.08 %ile", exam: "IIM Kozhikode · 2016", yt: "" }
   ],
   "2012-15": [
-    {name:"Arpita Sen", ribbon:"IIM-A", initial:"A", score:"99.76 %ile", exam:"IIM Ahmedabad · 2014", yt:""},
-    {name:"Bhuvan R", ribbon:"IIM-B", initial:"B", score:"99.62 %ile", exam:"IIM Bangalore · 2013", yt:""},
-    {name:"Chaitra M", ribbon:"IIM-C", initial:"C", score:"99.44 %ile", exam:"IIM Calcutta · 2014", yt:""},
-    {name:"Dhruv K", ribbon:"IIM-L", initial:"D", score:"99.28 %ile", exam:"IIM Lucknow · 2013", yt:""},
-    {name:"Ekta Rao", ribbon:"SPJIMR", initial:"E", score:"SPJIMR PGDM", exam:"CAT 2013", yt:""},
-    {name:"Faiz Ahmed", ribbon:"FMS", initial:"F", score:"99.08 %ile", exam:"FMS Delhi · 2014", yt:""},
-    {name:"Gopal T", ribbon:"NMAT", initial:"G", score:"NMAT 236", exam:"NMIMS Mumbai · 2014", yt:""},
-    {name:"Heena Nair", ribbon:"NMAT", initial:"H", score:"NMAT 232", exam:"NMIMS Mumbai · 2013", yt:""},
-    {name:"Imran S", ribbon:"IIM-I", initial:"I", score:"98.92 %ile", exam:"IIM Indore · 2014", yt:""},
-    {name:"Jyoti R", ribbon:"CAT 99+", initial:"J", score:"99.18 %ile", exam:"CAT 2013", yt:""},
-    {name:"Kunal G", ribbon:"SCMHRD", initial:"K", score:"SNAP 97.82", exam:"SCMHRD Pune · 2014", yt:""},
-    {name:"Lalita M", ribbon:"IIM-K", initial:"L", score:"98.88 %ile", exam:"IIM Kozhikode · 2013", yt:""}
+    { name: "Arpita Sen", ribbon: "IIM-A", initial: "A", score: "99.76 %ile", exam: "IIM Ahmedabad · 2014", yt: "" },
+    { name: "Bhuvan R", ribbon: "IIM-B", initial: "B", score: "99.62 %ile", exam: "IIM Bangalore · 2013", yt: "" },
+    { name: "Chaitra M", ribbon: "IIM-C", initial: "C", score: "99.44 %ile", exam: "IIM Calcutta · 2014", yt: "" },
+    { name: "Dhruv K", ribbon: "IIM-L", initial: "D", score: "99.28 %ile", exam: "IIM Lucknow · 2013", yt: "" },
+    { name: "Ekta Rao", ribbon: "SPJIMR", initial: "E", score: "SPJIMR PGDM", exam: "CAT 2013", yt: "" },
+    { name: "Faiz Ahmed", ribbon: "FMS", initial: "F", score: "99.08 %ile", exam: "FMS Delhi · 2014", yt: "" },
+    { name: "Gopal T", ribbon: "NMAT", initial: "G", score: "NMAT 236", exam: "NMIMS Mumbai · 2014", yt: "" },
+    { name: "Heena Nair", ribbon: "NMAT", initial: "H", score: "NMAT 232", exam: "NMIMS Mumbai · 2013", yt: "" },
+    { name: "Imran S", ribbon: "IIM-I", initial: "I", score: "98.92 %ile", exam: "IIM Indore · 2014", yt: "" },
+    { name: "Jyoti R", ribbon: "CAT 99+", initial: "J", score: "99.18 %ile", exam: "CAT 2013", yt: "" },
+    { name: "Kunal G", ribbon: "SCMHRD", initial: "K", score: "SNAP 97.82", exam: "SCMHRD Pune · 2014", yt: "" },
+    { name: "Lalita M", ribbon: "IIM-K", initial: "L", score: "98.88 %ile", exam: "IIM Kozhikode · 2013", yt: "" }
   ],
   "2008-12": [
-    {name:"Ashok B", ribbon:"IIM-A", initial:"A", score:"99.64 %ile", exam:"IIM Ahmedabad · 2011", yt:""},
-    {name:"Bindu K", ribbon:"IIM-B", initial:"B", score:"99.48 %ile", exam:"IIM Bangalore · 2010", yt:""},
-    {name:"Chander R", ribbon:"IIM-C", initial:"C", score:"99.32 %ile", exam:"IIM Calcutta · 2011", yt:""},
-    {name:"Deepak M", ribbon:"IIM-L", initial:"D", score:"99.18 %ile", exam:"IIM Lucknow · 2010", yt:""},
-    {name:"Esha V", ribbon:"SPJIMR", initial:"E", score:"SPJIMR PGDM", exam:"CAT 2010", yt:""},
-    {name:"Farhan S", ribbon:"FMS", initial:"F", score:"98.88 %ile", exam:"FMS Delhi · 2011", yt:""},
-    {name:"Girish T", ribbon:"NMAT", initial:"G", score:"NMAT 228", exam:"NMIMS Mumbai · 2011", yt:""},
-    {name:"Hasita Rao", ribbon:"NMAT", initial:"H", score:"NMAT 224", exam:"NMIMS Mumbai · 2009", yt:""},
-    {name:"Ishwar K", ribbon:"IIM-I", initial:"I", score:"98.72 %ile", exam:"IIM Indore · 2010", yt:""},
-    {name:"Jyoti N", ribbon:"CAT 99+", initial:"J", score:"99.02 %ile", exam:"CAT 2009", yt:""},
-    {name:"Karim A", ribbon:"SCMHRD", initial:"K", score:"SNAP 97.28", exam:"SCMHRD Pune · 2011", yt:""},
-    {name:"Latika Rao", ribbon:"IIM-K", initial:"L", score:"98.62 %ile", exam:"IIM Kozhikode · 2010", yt:""}
+    { name: "Ashok B", ribbon: "IIM-A", initial: "A", score: "99.64 %ile", exam: "IIM Ahmedabad · 2011", yt: "" },
+    { name: "Bindu K", ribbon: "IIM-B", initial: "B", score: "99.48 %ile", exam: "IIM Bangalore · 2010", yt: "" },
+    { name: "Chander R", ribbon: "IIM-C", initial: "C", score: "99.32 %ile", exam: "IIM Calcutta · 2011", yt: "" },
+    { name: "Deepak M", ribbon: "IIM-L", initial: "D", score: "99.18 %ile", exam: "IIM Lucknow · 2010", yt: "" },
+    { name: "Esha V", ribbon: "SPJIMR", initial: "E", score: "SPJIMR PGDM", exam: "CAT 2010", yt: "" },
+    { name: "Farhan S", ribbon: "FMS", initial: "F", score: "98.88 %ile", exam: "FMS Delhi · 2011", yt: "" },
+    { name: "Girish T", ribbon: "NMAT", initial: "G", score: "NMAT 228", exam: "NMIMS Mumbai · 2011", yt: "" },
+    { name: "Hasita Rao", ribbon: "NMAT", initial: "H", score: "NMAT 224", exam: "NMIMS Mumbai · 2009", yt: "" },
+    { name: "Ishwar K", ribbon: "IIM-I", initial: "I", score: "98.72 %ile", exam: "IIM Indore · 2010", yt: "" },
+    { name: "Jyoti N", ribbon: "CAT 99+", initial: "J", score: "99.02 %ile", exam: "CAT 2009", yt: "" },
+    { name: "Karim A", ribbon: "SCMHRD", initial: "K", score: "SNAP 97.28", exam: "SCMHRD Pune · 2011", yt: "" },
+    { name: "Latika Rao", ribbon: "IIM-K", initial: "L", score: "98.62 %ile", exam: "IIM Kozhikode · 2010", yt: "" }
   ],
   "before-2020": [
-    {name:"Aditya Verma", ribbon:"IIM-A", initial:"A", score:"99.92 %ile", exam:"IIM Ahmedabad · 2018", yt:""},
-    {name:"Aman Saxena", ribbon:"IIM-A", initial:"A", score:"99.88 %ile", exam:"IIM Ahmedabad · 2016", yt:""},
-    {name:"Pooja Shetty", ribbon:"IIM-B", initial:"P", score:"99.74 %ile", exam:"IIM Bangalore · 2018", yt:""},
-    {name:"Arpita Sen", ribbon:"IIM-A", initial:"A", score:"99.76 %ile", exam:"IIM Ahmedabad · 2014", yt:""},
-    {name:"Ravi Chandra", ribbon:"IIM-C", initial:"R", score:"99.58 %ile", exam:"IIM Calcutta · 2018", yt:""},
-    {name:"Bhuvan R", ribbon:"IIM-B", initial:"B", score:"99.62 %ile", exam:"IIM Bangalore · 2013", yt:""},
-    {name:"Ashok B", ribbon:"IIM-A", initial:"A", score:"99.64 %ile", exam:"IIM Ahmedabad · 2011", yt:""},
-    {name:"Tanvi Gupta", ribbon:"SPJIMR", initial:"T", score:"SPJIMR PGDM", exam:"CAT 2018", yt:""},
-    {name:"Mohit Bansal", ribbon:"SPJIMR", initial:"M", score:"SPJIMR PGDM", exam:"CAT 2015", yt:""},
-    {name:"Bhavya P", ribbon:"NMAT", initial:"B", score:"NMAT 244", exam:"NMIMS Mumbai · 2018", yt:""},
-    {name:"Yash Mehra", ribbon:"FMS", initial:"Y", score:"99.22 %ile", exam:"FMS Delhi · 2018", yt:""},
-    {name:"Devika Rao", ribbon:"CAT 99+", initial:"D", score:"99.36 %ile", exam:"CAT 2018", yt:""}
+    { name: "Aditya Verma", ribbon: "IIM-A", initial: "A", score: "99.92 %ile", exam: "IIM Ahmedabad · 2018", yt: "" },
+    { name: "Aman Saxena", ribbon: "IIM-A", initial: "A", score: "99.88 %ile", exam: "IIM Ahmedabad · 2016", yt: "" },
+    { name: "Pooja Shetty", ribbon: "IIM-B", initial: "P", score: "99.74 %ile", exam: "IIM Bangalore · 2018", yt: "" },
+    { name: "Arpita Sen", ribbon: "IIM-A", initial: "A", score: "99.76 %ile", exam: "IIM Ahmedabad · 2014", yt: "" },
+    { name: "Ravi Chandra", ribbon: "IIM-C", initial: "R", score: "99.58 %ile", exam: "IIM Calcutta · 2018", yt: "" },
+    { name: "Bhuvan R", ribbon: "IIM-B", initial: "B", score: "99.62 %ile", exam: "IIM Bangalore · 2013", yt: "" },
+    { name: "Ashok B", ribbon: "IIM-A", initial: "A", score: "99.64 %ile", exam: "IIM Ahmedabad · 2011", yt: "" },
+    { name: "Tanvi Gupta", ribbon: "SPJIMR", initial: "T", score: "SPJIMR PGDM", exam: "CAT 2018", yt: "" },
+    { name: "Mohit Bansal", ribbon: "SPJIMR", initial: "M", score: "SPJIMR PGDM", exam: "CAT 2015", yt: "" },
+    { name: "Bhavya P", ribbon: "NMAT", initial: "B", score: "NMAT 244", exam: "NMIMS Mumbai · 2018", yt: "" },
+    { name: "Yash Mehra", ribbon: "FMS", initial: "Y", score: "99.22 %ile", exam: "FMS Delhi · 2018", yt: "" },
+    { name: "Devika Rao", ribbon: "CAT 99+", initial: "D", score: "99.36 %ile", exam: "CAT 2018", yt: "" }
   ]
 };
 
 /* Render HOF tiles for a given legacy year */
-function renderHofForYear(year){
+function renderHofForYear(year) {
   // v18: HOF tile rendering is now handled by the merged 3-axis filter system.
   // This stub remains for legacy references but does nothing.
   return;
 }
-function _OLD_renderHofForYear_disabled(year){
+function _OLD_renderHofForYear_disabled(year) {
   var grid = document.getElementById('hofGrid');
   var label = document.getElementById('hofYearLabel');
-  if(!grid) return;
-  if(label) label.textContent = year;
+  if (!grid) return;
+  if (label) label.textContent = year;
   var data = HOF_BY_YEAR[year] || HOF_BY_YEAR['2024-25'];
-  grid.innerHTML = data.map(function(s, idx){
+  grid.innerHTML = data.map(function (s, idx) {
     var ribClass = /IIM|SPJIMR|NMIMS|NMAT|FMS|SCMHRD/.test(s.ribbon || '') ? 'mint' : '';
     var photo = s.photo
       ? '<div class="t-photo"><img src="' + s.photo + '" alt="' + s.name + '" loading="lazy"></div>'
@@ -2484,59 +2646,19 @@ function _OLD_renderHofForYear_disabled(year){
       '<div class="t-name">' + s.name + '</div>' +
       '<div class="t-coll"><span class="v">\u2713</span>Verified Convert</div>' +
       '<div class="t-watch">View full story</div>' +
-    '</div>';
+      '</div>';
   }).join('');
 
-  // Wire click handlers: prefer openStudent (full detail modal), fall back to openVideo
+  // Main result cards are display-only.
   var tiles = grid.querySelectorAll('.topper');
-  tiles.forEach(function(tile){
-    var idx = parseInt(tile.getAttribute('data-hof-idx'), 10);
-    var s = data[idx];
-    if(!s) return;
-    tile.style.cursor = 'pointer';
-    tile.addEventListener('click', function(){
-      // Try to resolve a full student record to open the full modal
-      var sid = null;
-      if(typeof HOF_NAME_TO_SID !== 'undefined' && HOF_NAME_TO_SID[s.name]){
-        sid = HOF_NAME_TO_SID[s.name];
-      } else if(typeof BROWSE_NAME_TO_SID !== 'undefined' && BROWSE_NAME_TO_SID[s.name]){
-        sid = BROWSE_NAME_TO_SID[s.name];
-      }
-      if(sid && typeof STUDENTS !== 'undefined' && STUDENTS[sid] && typeof openStudent === 'function'){
-        openStudent(sid);
-        return;
-      }
-      // Fallback: synthesize a one-off student record so openStudent still shows 4 tabs with graceful placeholders
-      if(typeof openStudent === 'function' && typeof STUDENTS !== 'undefined'){
-        var synthSid = '_hof_' + (s.name || '').toLowerCase().replace(/[^a-z0-9]+/g, '-');
-        if(!STUDENTS[synthSid]){
-          STUDENTS[synthSid] = {
-            name: s.name,
-            score: (s.exam || '') + (s.score ? ' \u00B7 ' + s.score : ''),
-            institute: s.exam || '',
-            photo: s.photo || null,
-            yt: s.yt || null,
-            testimonial: {
-              quote: s.name + ' converted ' + (s.exam || 'their target school') + ' through CATKing. The full testimonial is being prepared for publication.',
-              journey: '<p><strong>' + s.name + '</strong> is a verified CATKing convert from the ' + year + ' cohort. Full journey, prep strategy, and post-convert interview will be published here shortly.</p><p>For the moment, the score and institute above are from CATKing\u2019s verified results portal.</p>',
-              rating: 5, prepMonths: 9, beforeScore: '-', afterScore: s.score || '-'
-            }
-          };
-        }
-        openStudent(synthSid);
-        return;
-      }
-      // Final fallback - video modal (old behaviour)
-      if(typeof openVideo === 'function'){
-        openVideo(s.name, (s.exam || '') + ' \u00B7 ' + (s.score || ''), s.yt || 'jdPUhiNhloc');
-      }
-    });
+  tiles.forEach(function (tile) {
+    tile.onclick = null;
   });
 }
 
-(function(){
+(function () {
   var statsPanel = document.getElementById('compStatsPanel');
-  if(!statsPanel) return;
+  if (!statsPanel) return;
 
   var YEARS = ["before-2020", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25"];
   var MINI = {
@@ -2557,61 +2679,58 @@ function _OLD_renderHofForYear_disabled(year){
   };
   var compFilters = { year: "all", group: "all", exam: "all" };
 
-  function allResults(){
+  function allResults() {
     return Array.isArray(window.RESULTS_STATIC_RESULTS) ? window.RESULTS_STATIC_RESULTS : [];
   }
-  function matches(d, filters, ignoreYear){
-    if(!ignoreYear && filters.year !== "all" && d.year !== filters.year) return false;
-    if(filters.group !== "all" && d.group !== filters.group) return false;
-    if(filters.exam !== "all" && d.exam !== filters.exam) return false;
+  function matches(d, filters, ignoreYear) {
+    if (!ignoreYear && filters.year !== "all" && d.year !== filters.year) return false;
+    if (filters.group !== "all" && d.group !== filters.group) return false;
+    if (filters.exam !== "all" && d.exam !== filters.exam) return false;
     return true;
   }
-  function fmt(n){ return Number(n || 0).toLocaleString('en-IN'); }
-  function renderCompounding(){
+  function fmt(n) { return Number(n || 0).toLocaleString('en-IN'); }
+  function renderCompounding() {
     var year = compFilters.year || "all";
-    var rows = allResults().filter(function(d){ return matches(d, compFilters, false); });
+    var rows = allResults().filter(function (d) { return matches(d, compFilters, false); });
     var total = rows.length;
-    var cat = rows.filter(function(d){ return d.exam === "cat"; }).length;
-    var blacki = rows.filter(function(d){ return d.group === "blacki-sm"; }).length;
-    var nmims = rows.filter(function(d){ return d.group === "nmims"; }).length;
+    var cat = rows.filter(function (d) { return d.exam === "cat"; }).length;
+    var blacki = rows.filter(function (d) { return d.group === "blacki-sm"; }).length;
+    var nmims = rows.filter(function (d) { return d.group === "nmims"; }).length;
     var yearLabel = year === "all" ? "All" : LABEL[year];
 
     statsPanel.classList.add('fading');
-    setTimeout(function(){
+    setTimeout(function () {
       statsPanel.innerHTML =
-        '<div class="cs-mini-head">' +
-          '<span class="cs-mini-cycle">' + yearLabel + '</span>' +
-          '<span class="cs-mini-tag">JSON filtered results</span>' +
-        '</div>' +
+
         '<div class="cs-stats">' +
-          '<div class="cs-stat"><div class="cs-stat-num">' + fmt(total) + '</div><div class="cs-stat-lbl">Total Converts</div></div>' +
-          '<div class="cs-stat"><div class="cs-stat-num">' + fmt(cat) + '</div><div class="cs-stat-lbl">CAT Converts</div></div>' +
-          '<div class="cs-stat"><div class="cs-stat-num">' + fmt(blacki) + '</div><div class="cs-stat-lbl">BLACKI-SM Converts</div></div>' +
-          '<div class="cs-stat"><div class="cs-stat-num">' + fmt(nmims) + '</div><div class="cs-stat-lbl">NMIMS Converts</div></div>' +
+        '<div class="cs-stat"><div class="cs-stat-num">' + fmt(total) + '</div><div class="cs-stat-lbl">Total Converts</div></div>' +
+        '<div class="cs-stat"><div class="cs-stat-num">' + fmt(cat) + '</div><div class="cs-stat-lbl">CAT Converts</div></div>' +
+        '<div class="cs-stat"><div class="cs-stat-num">' + fmt(blacki) + '</div><div class="cs-stat-lbl">BLACKI-SM Converts</div></div>' +
+        '<div class="cs-stat"><div class="cs-stat-num">' + fmt(nmims) + '</div><div class="cs-stat-lbl">NMIMS Converts</div></div>' +
         '</div>';
       statsPanel.classList.remove('fading');
     }, 100);
 
-    var chartData = YEARS.map(function(y){
+    var chartData = YEARS.map(function (y) {
       return {
         year: LABEL[y],
         key: y,
         mini: MINI[y],
-        converts: allResults().filter(function(d){
+        converts: allResults().filter(function (d) {
           return d.year === y && matches(d, compFilters, true);
         }).length
       };
     });
-    if(typeof window.__renderGrowthChart === "function"){
+    if (typeof window.__renderGrowthChart === "function") {
       window.__renderGrowthChart(chartData, year === "all" ? null : year);
     }
   }
 
-  window.__updateCompoundingFilters = function(filters){
+  window.__updateCompoundingFilters = function (filters) {
     compFilters = Object.assign({}, compFilters, filters || {});
     renderCompounding();
   };
-  window.__updateCompoundingForYear = function(year){
+  window.__updateCompoundingForYear = function (year) {
     compFilters.year = year || "all";
     renderCompounding();
   };
@@ -2620,45 +2739,45 @@ function _OLD_renderHofForYear_disabled(year){
 })();
 
 /* Old legacy IIFE - kept inert because elements no longer exist */
-(function(){
+(function () {
   var tabs = document.querySelectorAll('#legacyTabs button');
   var panel = document.getElementById('legacyPanel');
-  if(!tabs.length || !panel) return;
+  if (!tabs.length || !panel) return;
 
-  function render(year){
+  function render(year) {
     var d = LEGACY_DATA[year];
-    if(!d) return;
+    if (!d) return;
     panel.classList.add('fading');
-    setTimeout(function(){
+    setTimeout(function () {
       panel.innerHTML =
         '<div class="lp-left">' +
-          '<div class="lp-year-badge">' + year + '</div>' +
-          '<h3>' + d.headline + '</h3>' +
-          '<p>' + d.blurb + '</p>' +
-          '<div class="lp-audit">' + d.audit + '</div>' +
+        '<div class="lp-year-badge">' + year + '</div>' +
+        '<h3>' + d.headline + '</h3>' +
+        '<p>' + d.blurb + '</p>' +
+        '<div class="lp-audit">' + d.audit + '</div>' +
         '</div>' +
         '<div class="lp-right">' +
-          d.stats.map(function(s){
-            return '<div class="lp-stat"><div class="lp-stat-num">' + s.v + '</div><div class="lp-stat-lbl">' + s.l + '</div></div>';
-          }).join('') +
-          '<div class="lp-featured"><div class="lpf-lbl">Featured Toppers</div><div class="lpf-names">' + d.featured + '</div></div>' +
+        d.stats.map(function (s) {
+          return '<div class="lp-stat"><div class="lp-stat-num">' + s.v + '</div><div class="lp-stat-lbl">' + s.l + '</div></div>';
+        }).join('') +
+        '<div class="lp-featured"><div class="lpf-lbl">Featured Toppers</div><div class="lpf-names">' + d.featured + '</div></div>' +
         '</div>';
       panel.classList.remove('fading');
     }, 150);
   }
 
-  tabs.forEach(function(b){
-    b.addEventListener('click', function(){
-      tabs.forEach(function(x){ x.classList.remove('act'); });
+  tabs.forEach(function (b) {
+    b.addEventListener('click', function () {
+      tabs.forEach(function (x) { x.classList.remove('act'); });
       b.classList.add('act');
       var yr = b.getAttribute('data-ly');
       render(yr);
-      if(typeof renderHofForYear === 'function') renderHofForYear(yr);
+      if (typeof renderHofForYear === 'function') renderHofForYear(yr);
     });
   });
 
   render("2024-25");
-  if(typeof renderHofForYear === 'function') renderHofForYear("2024-25");
+  if (typeof renderHofForYear === 'function') renderHofForYear("2024-25");
 })();
 
 /* ============================================================
@@ -2666,114 +2785,114 @@ function _OLD_renderHofForYear_disabled(year){
    All 18 CAT seasons, hover shows year + converts + delta.
    Static labels every 3 years + milestone callouts.
 ============================================================ */
-(function(){
+(function () {
   var svg = document.getElementById('growthChart');
   var dyn = document.getElementById('growthDynamic');
   var tip = document.getElementById('growthTooltip');
   var card = document.querySelector('.growth-card');
-  if(!svg || !dyn || !tip || !card) return;
+  if (!svg || !dyn || !tip || !card) return;
 
   var X_LEFT = 85, X_RIGHT = 1140;
   var Y_BOTTOM = 280, Y_TOP = 20;
-  function fmt(n){ return n.toLocaleString('en-IN'); }
+  function fmt(n) { return n.toLocaleString('en-IN'); }
   var svgNS = 'http://www.w3.org/2000/svg';
-  function el(tag, attrs){
+  function el(tag, attrs) {
     var e = document.createElementNS(svgNS, tag);
-    if(attrs){ for(var k in attrs){ e.setAttribute(k, attrs[k]); } }
+    if (attrs) { for (var k in attrs) { e.setAttribute(k, attrs[k]); } }
     return e;
   }
-  function updateAxis(maxVal){
+  function updateAxis(maxVal) {
     var labels = svg.querySelectorAll(':scope > text');
     var vals = [0, Math.round(maxVal * 0.25), Math.round(maxVal * 0.5), Math.round(maxVal * 0.75), maxVal];
-    labels.forEach(function(label, i){
-      if(typeof vals[i] !== 'undefined') label.textContent = fmt(vals[i]);
+    labels.forEach(function (label, i) {
+      if (typeof vals[i] !== 'undefined') label.textContent = fmt(vals[i]);
     });
   }
-  function bindTooltips(points){
-    function showTip(i){
+  function bindTooltips(points) {
+    function showTip(i) {
       var p = points[i];
-      if(!p) return;
+      if (!p) return;
       var delta = '';
-      if(i > 0){
-        var prev = points[i-1].converts || 0;
+      if (i > 0) {
+        var prev = points[i - 1].converts || 0;
         delta = prev ? ((p.converts - prev) >= 0 ? '+' : '') + Math.round((p.converts - prev) / prev * 100) + '% vs previous' : 'Previous cycle: 0';
       } else {
         delta = 'First JSON cohort';
       }
       tip.innerHTML = '<span class="gt-year">' + p.year + '</span>' +
-                      '<span class="gt-val">' + fmt(p.converts) + '</span>' +
-                      '<span class="gt-delta">Filtered converts &middot; ' + delta + '</span>';
+        '<span class="gt-val">' + fmt(p.converts) + '</span>' +
+        '<span class="gt-delta">Filtered converts &middot; ' + delta + '</span>';
       var cardRect = card.getBoundingClientRect();
       var svgRect = svg.getBoundingClientRect();
       var scaleX = svgRect.width / 1200;
       var scaleY = svgRect.height / 340;
       tip.style.left = ((svgRect.left - cardRect.left) + p.x * scaleX) + 'px';
-      tip.style.top  = ((svgRect.top  - cardRect.top)  + p.y * scaleY) + 'px';
+      tip.style.top = ((svgRect.top - cardRect.top) + p.y * scaleY) + 'px';
       tip.classList.add('show');
       tip.setAttribute('aria-hidden', 'false');
     }
-    function hideTip(){
+    function hideTip() {
       tip.classList.remove('show');
       tip.setAttribute('aria-hidden', 'true');
     }
-    dyn.querySelectorAll('.gc-hit').forEach(function(hit){
+    dyn.querySelectorAll('.gc-hit').forEach(function (hit) {
       var idx = parseInt(hit.getAttribute('data-idx'), 10);
-      hit.addEventListener('mouseenter', function(){ showTip(idx); });
+      hit.addEventListener('mouseenter', function () { showTip(idx); });
       hit.addEventListener('mouseleave', hideTip);
-      hit.addEventListener('click', function(e){
+      hit.addEventListener('click', function (e) {
         e.stopPropagation();
         showTip(idx);
         setTimeout(hideTip, 2200);
       });
     });
-    document.addEventListener('click', function(e){
-      if(!e.target.closest('.growth-chart')) hideTip();
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('.growth-chart')) hideTip();
     });
   }
-  window.__renderGrowthChart = function(data, activeKey){
+  window.__renderGrowthChart = function (data, activeKey) {
     var chartData = data && data.length ? data : [];
     dyn.innerHTML = '';
-    if(!chartData.length) return;
-    var maxVal = Math.max.apply(Math, chartData.map(function(d){ return d.converts || 0; }));
+    if (!chartData.length) return;
+    var maxVal = Math.max.apply(Math, chartData.map(function (d) { return d.converts || 0; }));
     maxVal = Math.max(1, Math.ceil(maxVal / 10) * 10);
     updateAxis(maxVal);
     var N = chartData.length;
-    function xFor(i){ return X_LEFT + (X_RIGHT - X_LEFT) * i / Math.max(1, N - 1); }
-    function yFor(v){ return Y_BOTTOM - (v / maxVal) * (Y_BOTTOM - Y_TOP); }
-    var points = chartData.map(function(d, i){
-      return { i:i, year:d.year, key:d.key, converts:d.converts || 0, mini:d.mini, x:xFor(i), y:yFor(d.converts || 0) };
+    function xFor(i) { return X_LEFT + (X_RIGHT - X_LEFT) * i / Math.max(1, N - 1); }
+    function yFor(v) { return Y_BOTTOM - (v / maxVal) * (Y_BOTTOM - Y_TOP); }
+    var points = chartData.map(function (d, i) {
+      return { i: i, year: d.year, key: d.key, converts: d.converts || 0, mini: d.mini, x: xFor(i), y: yFor(d.converts || 0) };
     });
-    var linePath = points.map(function(p, i){ return (i === 0 ? 'M ' : 'L ') + p.x.toFixed(1) + ',' + p.y.toFixed(1); }).join(' ');
+    var linePath = points.map(function (p, i) { return (i === 0 ? 'M ' : 'L ') + p.x.toFixed(1) + ',' + p.y.toFixed(1); }).join(' ');
     var areaPath = linePath + ' L ' + points[points.length - 1].x.toFixed(1) + ',' + Y_BOTTOM + ' L ' + points[0].x.toFixed(1) + ',' + Y_BOTTOM + ' Z';
     dyn.appendChild(el('path', { d: areaPath, fill: 'url(#growthArea)' }));
     dyn.appendChild(el('path', { d: linePath, stroke: 'url(#growthLine)', 'stroke-width': '3.5', fill: 'none', 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }));
-    points.forEach(function(p){
+    points.forEach(function (p) {
       var isActive = p.key === activeKey;
       var lbl = el('text', {
-        x:p.x, y:Y_BOTTOM + 25, 'text-anchor':'middle', 'font-size':'9.5',
-        fill:isActive ? '#1a1a2e' : '#6b7280', 'font-weight':isActive ? '900' : '700'
+        x: p.x, y: Y_BOTTOM + 25, 'text-anchor': 'middle', 'font-size': '9.5',
+        fill: isActive ? '#1a1a2e' : '#6b7280', 'font-weight': isActive ? '900' : '700'
       });
       lbl.textContent = p.mini;
       dyn.appendChild(lbl);
-      if(isActive){
+      if (isActive) {
         var pillW = 62, pillH = 26;
         var pillX = Math.max(X_LEFT, Math.min(p.x - pillW / 2, X_RIGHT - pillW));
         var pillY = Math.max(Y_TOP, p.y - 36);
-        dyn.appendChild(el('rect', { x:pillX, y:pillY, width:pillW, height:pillH, rx:13, fill:'#FEA82F', stroke:'#fff', 'stroke-width':'2.5' }));
-        var final = el('text', { x:pillX + pillW/2, y:pillY + 18, 'text-anchor':'middle', 'font-size':'13', fill:'#fff', 'font-weight':'900' });
+        dyn.appendChild(el('rect', { x: pillX, y: pillY, width: pillW, height: pillH, rx: 13, fill: '#FEA82F', stroke: '#fff', 'stroke-width': '2.5' }));
+        var final = el('text', { x: pillX + pillW / 2, y: pillY + 18, 'text-anchor': 'middle', 'font-size': '13', fill: '#fff', 'font-weight': '900' });
         final.textContent = fmt(p.converts);
         dyn.appendChild(final);
       }
       var dot = el('circle', {
-        cx:p.x, cy:p.y, r:isActive ? 8 : 4,
-        fill:isActive ? '#FEA82F' : '#fff',
-        stroke:isActive ? '#fff' : '#F89B1A',
-        'stroke-width':isActive ? 3.5 : 2.5
+        cx: p.x, cy: p.y, r: isActive ? 8 : 4,
+        fill: isActive ? '#FEA82F' : '#fff',
+        stroke: isActive ? '#fff' : '#F89B1A',
+        'stroke-width': isActive ? 3.5 : 2.5
       });
       dot.setAttribute('class', 'gc-dot' + (isActive ? ' is-active is-milestone' : ''));
       dot.setAttribute('data-idx', p.i);
       dyn.appendChild(dot);
-      var hit = el('circle', { cx:p.x, cy:p.y, r:22, fill:'transparent' });
+      var hit = el('circle', { cx: p.x, cy: p.y, r: 22, fill: 'transparent' });
       hit.setAttribute('class', 'gc-hit');
       hit.setAttribute('data-idx', p.i);
       dyn.appendChild(hit);
@@ -2781,14 +2900,14 @@ function _OLD_renderHofForYear_disabled(year){
     bindTooltips(points);
   };
   window.__renderGrowthChart([
-    {year:"Before 2020", key:"before-2020", mini:"Before 20", converts:0},
-    {year:"2020-21", key:"2020-21", mini:"20-21", converts:0},
-    {year:"2021-22", key:"2021-22", mini:"21-22", converts:0},
-    {year:"2022-23", key:"2022-23", mini:"22-23", converts:0},
-    {year:"2023-24", key:"2023-24", mini:"23-24", converts:0},
-    {year:"2024-25", key:"2024-25", mini:"24-25", converts:0}
+    { year: "Before 2020", key: "before-2020", mini: "Before 20", converts: 0 },
+    { year: "2020-21", key: "2020-21", mini: "20-21", converts: 0 },
+    { year: "2021-22", key: "2021-22", mini: "21-22", converts: 0 },
+    { year: "2022-23", key: "2022-23", mini: "22-23", converts: 0 },
+    { year: "2023-24", key: "2023-24", mini: "23-24", converts: 0 },
+    { year: "2024-25", key: "2024-25", mini: "24-25", converts: 0 }
   ], "2024-25");
-  if(typeof window.__updateCompoundingFilters === "function"){
+  if (typeof window.__updateCompoundingFilters === "function") {
     window.__updateCompoundingFilters({});
   }
 })();
@@ -2796,26 +2915,26 @@ function _OLD_renderHofForYear_disabled(year){
 /* ============================================================
    STATIC TESTIMONIAL CARDS
 ============================================================ */
-(function(){
+(function () {
   var scroll = document.getElementById('tcarScroll');
   var videos = window.RESULTS_STATIC_VIDEOS;
-  if(!scroll || !Array.isArray(videos) || !videos.length) return;
-  if(scroll.querySelectorAll('.tcar-card').length > 1) return;
+  if (!scroll || !Array.isArray(videos) || !videos.length) return;
+  if (scroll.querySelectorAll('.tcar-card').length > 1) return;
 
-  function esc(value){
-    return String(value == null ? "" : value).replace(/[&<>"']/g, function(ch){
-      return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[ch];
+  function esc(value) {
+    return String(value == null ? "" : value).replace(/[&<>"']/g, function (ch) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" }[ch];
     });
   }
 
-  function initials(name){
-    return String(name || "CK").split(/\s+/).filter(Boolean).slice(0, 2).map(function(part){
+  function initials(name) {
+    return String(name || "CK").split(/\s+/).filter(Boolean).slice(0, 2).map(function (part) {
       return part.charAt(0).toUpperCase();
     }).join("") || "CK";
   }
 
-  function thumbMarkup(v){
-    if(v.thumb){
+  function thumbMarkup(v) {
+    if (v.thumb) {
       return '<img src="' + esc(v.thumb) + '" alt="' + esc(v.name || v.title || "Topper") + '" loading="lazy">';
     }
     return '<div class="tcar-initials">' + esc(initials(v.name || v.title)) + '</div>';
@@ -2823,14 +2942,14 @@ function _OLD_renderHofForYear_disabled(year){
 
   scroll.innerHTML = videos
     .slice()
-    .filter(function(v){ return v.videoId && String(v.videoId).charAt(0) !== "#"; })
-    .sort(function(a, b){
+    .filter(function (v) { return v.videoId && String(v.videoId).charAt(0) !== "#"; })
+    .sort(function (a, b) {
       return (a.sortOrder || 999) - (b.sortOrder || 999) ||
         new Date(b.createdAt || 0) - new Date(a.createdAt || 0) ||
         (b.id || 0) - (a.id || 0);
     })
     .slice(0, 12)
-    .map(function(v){
+    .map(function (v) {
       var name = v.name || v.title || "CATKing Topper";
       var score = v.subTitle || v.score || v.year || "Verified topper";
       var quote = v.description || "Verified CATKing topper interview.";
@@ -2840,16 +2959,16 @@ function _OLD_renderHofForYear_disabled(year){
         '<div class="tcar-score">' + esc(score).slice(0, 18) + '</div>' +
         '<div class="tcar-play">&#9658;</div>' +
         '<div class="tcar-meta">' +
-          '<div class="tcar-name">' + esc(name) + '</div>' +
-          '<div class="tcar-exam">' + esc(score) + '</div>' +
-          '<div class="tcar-quote">' + esc(quote) + '</div>' +
+        '<div class="tcar-name">' + esc(name) + '</div>' +
+        '<div class="tcar-exam">' + esc(score) + '</div>' +
+        '<div class="tcar-quote">' + esc(quote) + '</div>' +
         '</div>' +
-      '</div>';
+        '</div>';
     }).join("");
 
-  scroll.querySelectorAll('.tcar-card').forEach(function(card){
-    card.addEventListener('click', function(){
-      if(typeof window.openVideo === "function"){
+  scroll.querySelectorAll('.tcar-card').forEach(function (card) {
+    card.addEventListener('click', function () {
+      if (typeof window.openVideo === "function") {
         window.openVideo(card.getAttribute('data-name'), card.getAttribute('data-score'), card.getAttribute('data-yt'));
       }
     });
@@ -2859,12 +2978,12 @@ function _OLD_renderHofForYear_disabled(year){
 /* ============================================================
    TESTIMONIAL CAROUSEL - scroll + arrow controls + dot indicators
 ============================================================ */
-(function(){
+(function () {
   var scroll = document.getElementById('tcarScroll');
   var prev = document.getElementById('tcarPrev');
   var next = document.getElementById('tcarNext');
   var ind = document.getElementById('tcarInd');
-  if(!scroll || !prev || !next) return;
+  if (!scroll || !prev || !next) return;
 
   var cards = scroll.querySelectorAll('.tcar-card');
   var totalCards = cards.length;
@@ -2872,12 +2991,12 @@ function _OLD_renderHofForYear_disabled(year){
   // Build page-dot indicators (groups of 3 cards ~ 1 page)
   var cardsPerPage = Math.max(1, Math.floor(scroll.clientWidth / (cards[0] ? cards[0].offsetWidth + 18 : 340)));
   var pages = Math.max(1, Math.ceil(totalCards / Math.max(1, cardsPerPage - 1)));
-  function rebuildDots(){
-    if(!ind) return;
+  function rebuildDots() {
+    if (!ind) return;
     ind.innerHTML = '';
     cardsPerPage = Math.max(1, Math.floor(scroll.clientWidth / (cards[0] ? cards[0].offsetWidth + 18 : 340)));
     pages = Math.max(1, Math.min(6, Math.ceil(totalCards / Math.max(1, cardsPerPage))));
-    for(var i=0;i<pages;i++){
+    for (var i = 0; i < pages; i++) {
       var d = document.createElement('div');
       d.className = 'tsi' + (i === 0 ? ' act' : '');
       d.setAttribute('data-page', i);
@@ -2886,16 +3005,16 @@ function _OLD_renderHofForYear_disabled(year){
       d.setAttribute('aria-label', 'Go to testimonial slide ' + (i + 1));
       ind.appendChild(d);
     }
-    ind.querySelectorAll('.tsi').forEach(function(dot){
-      function go(){
+    ind.querySelectorAll('.tsi').forEach(function (dot) {
+      function go() {
         var idx = parseInt(dot.getAttribute('data-page'), 10) || 0;
         var sw = scroll.scrollWidth - scroll.clientWidth;
         var left = pages > 1 ? (sw * idx / (pages - 1)) : 0;
         scroll.scrollTo({ left: left, behavior: 'smooth' });
       }
       dot.addEventListener('click', go);
-      dot.addEventListener('keydown', function(e){
-        if(e.key === 'Enter' || e.key === ' '){
+      dot.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
           go();
         }
@@ -2904,27 +3023,27 @@ function _OLD_renderHofForYear_disabled(year){
   }
   rebuildDots();
 
-  function updateUI(){
+  function updateUI() {
     var sl = scroll.scrollLeft;
     var sw = scroll.scrollWidth - scroll.clientWidth;
     prev.disabled = sl <= 4;
     next.disabled = sl >= sw - 4;
-    if(ind){
+    if (ind) {
       var dots = ind.querySelectorAll('.tsi');
       var activeIdx = sw > 0 ? Math.round((sl / sw) * (dots.length - 1)) : 0;
-      dots.forEach(function(d, i){ d.classList.toggle('act', i === activeIdx); });
+      dots.forEach(function (d, i) { d.classList.toggle('act', i === activeIdx); });
     }
   }
 
-  function step(dir){
+  function step(dir) {
     var w = (cards[0] ? cards[0].offsetWidth : 320) + 18;
     scroll.scrollBy({ left: dir * w * 2, behavior: 'smooth' });
   }
 
-  prev.addEventListener('click', function(){ step(-1); });
-  next.addEventListener('click', function(){ step(1); });
+  prev.addEventListener('click', function () { step(-1); });
+  next.addEventListener('click', function () { step(1); });
   scroll.addEventListener('scroll', updateUI, { passive: true });
-  window.addEventListener('resize', function(){ rebuildDots(); updateUI(); });
+  window.addEventListener('resize', function () { rebuildDots(); updateUI(); });
   updateUI();
 })();
 
@@ -2933,98 +3052,98 @@ function _OLD_renderHofForYear_disabled(year){
    WHATSAPP MOMENTS - marquee + lightbox + college modal integration
 ============================================================ */
 var WA_CARDS = [
-  {sid:"pratyasha-panigrahi", img:"/results/whatsapp/pratyasha-spjimr.jpg",    who:"Pratyasha Panigrahi", score:"SPJIMR Convert"},
-  {sid:"pratik-mulik",        img:"/results/whatsapp/pratik-nmims.jpg",        who:"Pratik Mulik",        score:"NMIMS Mumbai"},
-  {sid:"hardik-kacha",        img:"/results/whatsapp/hardik-nmims.jpg",        who:"Hardik Kacha",        score:"NMIMS · 22 mo journey"},
-  {sid:"nihit-pingala",       img:"/results/whatsapp/nihit-nmims.jpg",         who:"Nihit Pingala",       score:"NMIMS Merit 79 + SCMHRD"},
-  {sid:"ashish-ranjan",       img:"/results/whatsapp/ashish-scmhrd.jpg",       who:"Ashish Ranjan",       score:"SCMHRD Pune BA"},
-  {sid:"kenneth-sequeira",    img:"/results/whatsapp/kenneth-nmims.jpg",       who:"Kenneth Sequeira",    score:"NMIMS Pharma + Hyd"},
-  {sid:"aayush-rathi",        img:"/results/whatsapp/aayush-rathi-nmims.jpg",  who:"Aayush Rathi",        score:"NMIMS Core 2026"},
-  {sid:"debasish-sahoo",      img:"/results/whatsapp/debasish-nmims.jpg",      who:"Debasish Sahoo",      score:"NMIMS Mumbai Core"},
-  {sid:"vaishnavi-talan",     img:"/results/whatsapp/vaishnavi-nmims.jpg",     who:"Vaishnavi Talan",     score:"NMIMS MBA Mumbai"},
-  {sid:"sakshi-rohra",        img:"/results/whatsapp/sakshi-nmims.jpg",        who:"Sakshi Rohra",        score:"NMIMS Core Finance"},
-  {sid:"agastya-anand",       img:"/results/whatsapp/agastya-nmims.jpg",       who:"Agastya Anand",       score:"NMIMS Merit 153"},
-  {sid:"greeshma-asutkar",    img:"/results/whatsapp/greeshma-nmims.jpg",      who:"Greeshma Asutkar",    score:"NMIMS Mumbai"},
-  {sid:"manav-goyal",         img:"/results/whatsapp/manav-nmims.jpg",         who:"Manav Goyal",         score:"NMIMS Digital Transform"},
-  {sid:"anamika-arora",       img:"/results/whatsapp/anamika-nmims.jpg",       who:"Anamika Arora",       score:"NMIMS MBA Mumbai"},
-  {sid:"harshla-pandey",      img:"/results/whatsapp/harshla-nmims.jpg",       who:"Harshla Pandey",      score:"NMIMS Pharma MBA"},
-  {sid:"rutuja-kokate",       img:"/results/whatsapp/rutuja-nmims.jpg",        who:"Rutuja Kokate",       score:"NMIMS MBA"},
-  {sid:"nandini-scmhrd",      img:"/results/whatsapp/nandini-scmhrd.jpg",      who:"Nandini",             score:"SCMHRD Pune"},
-  {sid:"vidhi-verma",         img:"/results/whatsapp/vidhi-nmims.jpg",         who:"Vidhi Verma",         score:"NMIMS Navi Mumbai"},
-  {sid:"chaitanya-bisen",     img:"/results/whatsapp/chaitanya-nmims.jpg",     who:"Chaitanya Bisen",     score:"NMIMS MBA BA"},
-  {sid:"raunak-nmims",        img:"/results/whatsapp/raunak-nmims.jpg",        who:"Raunak",              score:"NMIMS MBA BA"},
-  {sid:"kabir-nmims",         img:"/results/whatsapp/kabir-nmims.jpg",         who:"Kabir",               score:"NMIMS MBA BA Mumbai"},
-  {sid:"srija-nmims",         img:"/results/whatsapp/srija-nmims.jpg",         who:"Srija",               score:"NMIMS BA Mumbai"},
-  {sid:"aditi-shukla",        img:"/results/whatsapp/aditi-shukla-nmims.jpg",  who:"Aditi Shukla",        score:"NMIMS 2026"},
-  {sid:"aditi-nmims",         img:"/results/whatsapp/aditi-nmims.jpg",         who:"Aditi",               score:"NMIMS 2026"}
+  { sid: "pratyasha-panigrahi", img: "/results/whatsapp/pratyasha-spjimr.jpg", who: "Pratyasha Panigrahi", score: "SPJIMR Convert" },
+  { sid: "pratik-mulik", img: "/results/whatsapp/pratik-nmims.jpg", who: "Pratik Mulik", score: "NMIMS Mumbai" },
+  { sid: "hardik-kacha", img: "/results/whatsapp/hardik-nmims.jpg", who: "Hardik Kacha", score: "NMIMS · 22 mo journey" },
+  { sid: "nihit-pingala", img: "/results/whatsapp/nihit-nmims.jpg", who: "Nihit Pingala", score: "NMIMS Merit 79 + SCMHRD" },
+  { sid: "ashish-ranjan", img: "/results/whatsapp/ashish-scmhrd.jpg", who: "Ashish Ranjan", score: "SCMHRD Pune BA" },
+  { sid: "kenneth-sequeira", img: "/results/whatsapp/kenneth-nmims.jpg", who: "Kenneth Sequeira", score: "NMIMS Pharma + Hyd" },
+  { sid: "aayush-rathi", img: "/results/whatsapp/aayush-rathi-nmims.jpg", who: "Aayush Rathi", score: "NMIMS Core 2026" },
+  { sid: "debasish-sahoo", img: "/results/whatsapp/debasish-nmims.jpg", who: "Debasish Sahoo", score: "NMIMS Mumbai Core" },
+  { sid: "vaishnavi-talan", img: "/results/whatsapp/vaishnavi-nmims.jpg", who: "Vaishnavi Talan", score: "NMIMS MBA Mumbai" },
+  { sid: "sakshi-rohra", img: "/results/whatsapp/sakshi-nmims.jpg", who: "Sakshi Rohra", score: "NMIMS Core Finance" },
+  { sid: "agastya-anand", img: "/results/whatsapp/agastya-nmims.jpg", who: "Agastya Anand", score: "NMIMS Merit 153" },
+  { sid: "greeshma-asutkar", img: "/results/whatsapp/greeshma-nmims.jpg", who: "Greeshma Asutkar", score: "NMIMS Mumbai" },
+  { sid: "manav-goyal", img: "/results/whatsapp/manav-nmims.jpg", who: "Manav Goyal", score: "NMIMS Digital Transform" },
+  { sid: "anamika-arora", img: "/results/whatsapp/anamika-nmims.jpg", who: "Anamika Arora", score: "NMIMS MBA Mumbai" },
+  { sid: "harshla-pandey", img: "/results/whatsapp/harshla-nmims.jpg", who: "Harshla Pandey", score: "NMIMS Pharma MBA" },
+  { sid: "rutuja-kokate", img: "/results/whatsapp/rutuja-nmims.jpg", who: "Rutuja Kokate", score: "NMIMS MBA" },
+  { sid: "nandini-scmhrd", img: "/results/whatsapp/nandini-scmhrd.jpg", who: "Nandini", score: "SCMHRD Pune" },
+  { sid: "vidhi-verma", img: "/results/whatsapp/vidhi-nmims.jpg", who: "Vidhi Verma", score: "NMIMS Navi Mumbai" },
+  { sid: "chaitanya-bisen", img: "/results/whatsapp/chaitanya-nmims.jpg", who: "Chaitanya Bisen", score: "NMIMS MBA BA" },
+  { sid: "raunak-nmims", img: "/results/whatsapp/raunak-nmims.jpg", who: "Raunak", score: "NMIMS MBA BA" },
+  { sid: "kabir-nmims", img: "/results/whatsapp/kabir-nmims.jpg", who: "Kabir", score: "NMIMS MBA BA Mumbai" },
+  { sid: "srija-nmims", img: "/results/whatsapp/srija-nmims.jpg", who: "Srija", score: "NMIMS BA Mumbai" },
+  { sid: "aditi-shukla", img: "/results/whatsapp/aditi-shukla-nmims.jpg", who: "Aditi Shukla", score: "NMIMS 2026" },
+  { sid: "aditi-nmims", img: "/results/whatsapp/aditi-nmims.jpg", who: "Aditi", score: "NMIMS 2026" }
   ,
-  {sid:"aniruddha-sharma", img:"/results/whatsapp/mock-aniruddha-sharma.jpg", who:"Aniruddha Sharma", score:"IIM Ahmedabad Convert", mock:true},
-  {sid:"priyanshu-tiwari", img:"/results/whatsapp/mock-priyanshu-tiwari.jpg", who:"Priyanshu Tiwari", score:"IIM Ahmedabad Convert", mock:true},
-  {sid:"prafull-sharma",   img:"/results/whatsapp/mock-prafull-sharma.jpg",   who:"Prafull Sharma",   score:"IIM Ahmedabad Convert", mock:true},
-  {sid:"sai-dinesh",       img:"/results/whatsapp/mock-sai-dinesh.jpg",       who:"Sai Dinesh",       score:"IIM Bangalore Convert", mock:true},
-  {sid:"rohit-menon",      img:"/results/whatsapp/mock-rohit-menon.jpg",      who:"Rohit Menon",      score:"IIM Calcutta Convert", mock:true},
-  {sid:"kavya-reddy",      img:"/results/whatsapp/mock-kavya-reddy.jpg",      who:"Kavya Reddy",      score:"IIM Lucknow Convert", mock:true},
-  {sid:"arjun-reddy",      img:"/results/whatsapp/mock-arjun-reddy.jpg",      who:"Arjun Reddy",      score:"IIM Indore Convert", mock:true},
-  {sid:"sneha-kulkarni",   img:"/results/whatsapp/mock-sneha-kulkarni.jpg",   who:"Sneha Kulkarni",   score:"IIM Kozhikode Convert", mock:true},
-  {sid:"vikram-shah",      img:"/results/whatsapp/mock-vikram-shah.jpg",      who:"Vikram Shah",      score:"IIM Mumbai Convert", mock:true},
-  {sid:"ishita-bhatia",    img:"/results/whatsapp/mock-ishita-bhatia.jpg",    who:"Ishita Bhatia",    score:"FMS Delhi Convert", mock:true},
-  {sid:"karthik-nair",     img:"/results/whatsapp/mock-karthik-nair.jpg",     who:"Karthik Nair",     score:"CAT 99.78 %ile", mock:true},
-  {sid:"sanya-gupta",      img:"/results/whatsapp/mock-sanya-gupta.jpg",      who:"Sanya Gupta",      score:"CAT 99.45 %ile", mock:true}
+  { sid: "aniruddha-sharma", img: "/results/whatsapp/mock-aniruddha-sharma.jpg", who: "Aniruddha Sharma", score: "IIM Ahmedabad Convert", mock: true },
+  { sid: "priyanshu-tiwari", img: "/results/whatsapp/mock-priyanshu-tiwari.jpg", who: "Priyanshu Tiwari", score: "IIM Ahmedabad Convert", mock: true },
+  { sid: "prafull-sharma", img: "/results/whatsapp/mock-prafull-sharma.jpg", who: "Prafull Sharma", score: "IIM Ahmedabad Convert", mock: true },
+  { sid: "sai-dinesh", img: "/results/whatsapp/mock-sai-dinesh.jpg", who: "Sai Dinesh", score: "IIM Bangalore Convert", mock: true },
+  { sid: "rohit-menon", img: "/results/whatsapp/mock-rohit-menon.jpg", who: "Rohit Menon", score: "IIM Calcutta Convert", mock: true },
+  { sid: "kavya-reddy", img: "/results/whatsapp/mock-kavya-reddy.jpg", who: "Kavya Reddy", score: "IIM Lucknow Convert", mock: true },
+  { sid: "arjun-reddy", img: "/results/whatsapp/mock-arjun-reddy.jpg", who: "Arjun Reddy", score: "IIM Indore Convert", mock: true },
+  { sid: "sneha-kulkarni", img: "/results/whatsapp/mock-sneha-kulkarni.jpg", who: "Sneha Kulkarni", score: "IIM Kozhikode Convert", mock: true },
+  { sid: "vikram-shah", img: "/results/whatsapp/mock-vikram-shah.jpg", who: "Vikram Shah", score: "IIM Mumbai Convert", mock: true },
+  { sid: "ishita-bhatia", img: "/results/whatsapp/mock-ishita-bhatia.jpg", who: "Ishita Bhatia", score: "FMS Delhi Convert", mock: true },
+  { sid: "karthik-nair", img: "/results/whatsapp/mock-karthik-nair.jpg", who: "Karthik Nair", score: "CAT 99.78 %ile", mock: true },
+  { sid: "sanya-gupta", img: "/results/whatsapp/mock-sanya-gupta.jpg", who: "Sanya Gupta", score: "CAT 99.45 %ile", mock: true }
 ];
 
 /* Derive institute label for WA stamp overlay (#10) */
-function waInstituteLabel(c){
+function waInstituteLabel(c) {
   var s = (c.score || '').toLowerCase();
-  if(s.indexOf('iim ahmedabad') >= 0 || s.indexOf('iim-a') >= 0) return 'IIM-A Convert';
-  if(s.indexOf('iim bangalore') >= 0 || s.indexOf('iim-b') >= 0) return 'IIM-B Convert';
-  if(s.indexOf('iim calcutta') >= 0 || s.indexOf('iim-c') >= 0) return 'IIM-C Convert';
-  if(s.indexOf('iim lucknow') >= 0 || s.indexOf('iim-l') >= 0) return 'IIM-L Convert';
-  if(s.indexOf('iim indore') >= 0 || s.indexOf('iim-i') >= 0) return 'IIM-I Convert';
-  if(s.indexOf('iim kozhikode') >= 0 || s.indexOf('iim-k') >= 0) return 'IIM-K Convert';
-  if(s.indexOf('iim mumbai') >= 0) return 'IIM-M Convert';
-  if(s.indexOf('spjimr') >= 0) return 'SPJIMR Convert';
-  if(s.indexOf('scmhrd') >= 0) return 'SCMHRD Convert';
-  if(s.indexOf('nmims pharma') >= 0) return 'NMIMS Convert';
-  if(s.indexOf('nmims navi') >= 0) return 'NMIMS Convert';
-  if(s.indexOf('nmims') >= 0) return 'NMIMS Convert';
-  if(s.indexOf('fms') >= 0) return 'FMS Convert';
-  if(s.indexOf('99') >= 0) return 'CAT 99%ile+';
+  if (s.indexOf('iim ahmedabad') >= 0 || s.indexOf('iim-a') >= 0) return 'IIM-A Convert';
+  if (s.indexOf('iim bangalore') >= 0 || s.indexOf('iim-b') >= 0) return 'IIM-B Convert';
+  if (s.indexOf('iim calcutta') >= 0 || s.indexOf('iim-c') >= 0) return 'IIM-C Convert';
+  if (s.indexOf('iim lucknow') >= 0 || s.indexOf('iim-l') >= 0) return 'IIM-L Convert';
+  if (s.indexOf('iim indore') >= 0 || s.indexOf('iim-i') >= 0) return 'IIM-I Convert';
+  if (s.indexOf('iim kozhikode') >= 0 || s.indexOf('iim-k') >= 0) return 'IIM-K Convert';
+  if (s.indexOf('iim mumbai') >= 0) return 'IIM-M Convert';
+  if (s.indexOf('spjimr') >= 0) return 'SPJIMR Convert';
+  if (s.indexOf('scmhrd') >= 0) return 'SCMHRD Convert';
+  if (s.indexOf('nmims pharma') >= 0) return 'NMIMS Convert';
+  if (s.indexOf('nmims navi') >= 0) return 'NMIMS Convert';
+  if (s.indexOf('nmims') >= 0) return 'NMIMS Convert';
+  if (s.indexOf('fms') >= 0) return 'FMS Convert';
+  if (s.indexOf('99') >= 0) return 'CAT 99%ile+';
   return 'CATKing Topper';
 }
 
 /* Short CATKing ID - deterministic hash of sid for stable display */
-function waCkId(sid){
-  if(!sid) return 'XXXXX';
+function waCkId(sid) {
+  if (!sid) return 'XXXXX';
   var h = 0;
-  for(var i=0; i<sid.length; i++){ h = ((h<<5) - h + sid.charCodeAt(i)) | 0; }
+  for (var i = 0; i < sid.length; i++) { h = ((h << 5) - h + sid.charCodeAt(i)) | 0; }
   h = Math.abs(h) % 99999;
   return ('00000' + h).slice(-5);
 }
 
-function buildWaStamp(c, sizeClass){
+function buildWaStamp(c, sizeClass) {
   var inst = waInstituteLabel(c);
   var id = waCkId(c.sid);
   return '<div class="wa-stamp' + (sizeClass ? ' ' + sizeClass : '') + '">' +
     '<div class="wa-stamp-outer">' +
-      '<div class="wa-stamp-top">Verified CATKing</div>' +
-      '<div class="wa-stamp-ctr">' + inst + '</div>' +
-      '<div class="wa-stamp-id">CK-' + id + '</div>' +
+    '<div class="wa-stamp-top">Verified CATKing</div>' +
+    '<div class="wa-stamp-ctr">' + inst + '</div>' +
+    '<div class="wa-stamp-id">CK-' + id + '</div>' +
     '</div>' +
-  '</div>';
+    '</div>';
 }
 
-function renderWaCard(c, idx){
+function renderWaCard(c, idx) {
   var stamp = buildWaStamp(c);
   return '<div class="wa-card" data-sid="' + c.sid + '" data-img="' + c.img + '" data-who="' + c.who + '" data-score="' + c.score + '">' +
     '<img class="wa-card-img" src="' + c.img + '" alt="' + c.who + ' WhatsApp message">' +
     stamp +
     '<div class="wa-card-caption"><b>' + c.who + '</b><span class="wa-card-score">' + c.score + '</span></div>' +
-  '</div>';
+    '</div>';
 }
 
-(function(){
+(function () {
   var r1 = document.getElementById('waRow1');
-  if(!r1) return;
+  if (!r1) return;
   // Single row - all cards, duplicated for seamless loop
   r1.innerHTML = WA_CARDS.map(renderWaCard).join('') + WA_CARDS.map(renderWaCard).join('');
 
@@ -3032,41 +3151,41 @@ function renderWaCard(c, idx){
   // Marquee is purely visual proof - the verification stamp is the credibility signal,
   // and full student stories live in the merged Hall of Fame section below.
   // Cards stay non-interactive to avoid duplicate modal entry points.
-  document.querySelectorAll('.wa-card').forEach(function(card){
+  document.querySelectorAll('.wa-card').forEach(function (card) {
     card.style.cursor = 'default';
   });
 })();
 
 /* WhatsApp Lightbox close handlers */
-(function(){
+(function () {
   var lb = document.getElementById('waLightbox');
   var cls = document.getElementById('waLbClose');
-  if(!lb || !cls) return;
-  function close(){
+  if (!lb || !cls) return;
+  function close() {
     lb.classList.remove('show');
     document.body.style.overflow = '';
   }
   cls.addEventListener('click', close);
-  lb.addEventListener('click', function(e){ if(e.target === lb) close(); });
-  document.addEventListener('keydown', function(e){
-    if(e.key === 'Escape' && lb.classList.contains('show')) close();
+  lb.addEventListener('click', function (e) { if (e.target === lb) close(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && lb.classList.contains('show')) close();
   });
 })();
 
 /* Map college key -> array of WA cards from students in that college */
-function getCollegeWaCards(key){
+function getCollegeWaCards(key) {
   // Collect all students that belong to this college and have a WhatsApp screenshot
   var college = (typeof COLLEGES !== 'undefined') ? COLLEGES[key] : null;
-  if(!college) return [];
+  if (!college) return [];
   var names = new Set();
-  Object.keys(college.years || {}).forEach(function(y){
-    (college.years[y] || []).forEach(function(s){ names.add(s.name); });
+  Object.keys(college.years || {}).forEach(function (y) {
+    (college.years[y] || []).forEach(function (s) { names.add(s.name); });
   });
   // Also add non-college-linked students whose institute roughly matches
-  return WA_CARDS.filter(function(c){
+  return WA_CARDS.filter(function (c) {
     return names.has(c.who) ||
-           names.has(c.who.toUpperCase()) ||
-           (college.name && c.score && c.score.toLowerCase().indexOf((college.name || '').toLowerCase().replace('iim ','iim ')) !== -1);
+      names.has(c.who.toUpperCase()) ||
+      (college.name && c.score && c.score.toLowerCase().indexOf((college.name || '').toLowerCase().replace('iim ', 'iim ')) !== -1);
   });
 }
 
@@ -3074,43 +3193,43 @@ function getCollegeWaCards(key){
    v15: Geo Academic Diversity Donut Chart
 ============================================================ */
 var ACADEMIC_MIX = [
-  {label:"Engineering",       pct:52, count:1082, color:"#FEA82F"},
-  {label:"Commerce / B.Com",  pct:18, count:374,  color:"#1F8A5B"},
-  {label:"CA / CS / CMA",     pct:11, count:229,  color:"#2385F4"},
-  {label:"Arts / Humanities", pct:8,  count:166,  color:"#8b5cf6"},
-  {label:"Science",           pct:6,  count:125,  color:"#ec4899"},
-  {label:"Law",               pct:3,  count:62,   color:"#f59e0b"},
-  {label:"Others",            pct:2,  count:42,   color:"#64748b"}
+  { label: "Engineering", pct: 52, count: 1082, color: "#FEA82F" },
+  { label: "Commerce / B.Com", pct: 18, count: 374, color: "#1F8A5B" },
+  { label: "CA / CS / CMA", pct: 11, count: 229, color: "#2385F4" },
+  { label: "Arts / Humanities", pct: 8, count: 166, color: "#8b5cf6" },
+  { label: "Science", pct: 6, count: 125, color: "#ec4899" },
+  { label: "Law", pct: 3, count: 62, color: "#f59e0b" },
+  { label: "Others", pct: 2, count: 42, color: "#64748b" }
 ];
 
-(function(){
+(function () {
   var svgSegs = document.getElementById('geoDonutSegs');
   var legend = document.getElementById('geoDonutLegend');
-  if(!svgSegs || !legend) return;
+  if (!svgSegs || !legend) return;
 
   // Donut geometry: center (110,110), outer radius 90, inner radius 58
   var cx = 110, cy = 110, rO = 90, rI = 58;
   var svgNS = 'http://www.w3.org/2000/svg';
-  function polar(r, angleDeg){
+  function polar(r, angleDeg) {
     var rad = (angleDeg - 90) * Math.PI / 180;
     return [cx + r * Math.cos(rad), cy + r * Math.sin(rad)];
   }
-  function donutSegPath(startA, endA){
+  function donutSegPath(startA, endA) {
     var largeArc = (endA - startA) > 180 ? 1 : 0;
     var p1 = polar(rO, startA);
     var p2 = polar(rO, endA);
     var p3 = polar(rI, endA);
     var p4 = polar(rI, startA);
     return 'M ' + p1[0] + ' ' + p1[1] +
-           ' A ' + rO + ' ' + rO + ' 0 ' + largeArc + ' 1 ' + p2[0] + ' ' + p2[1] +
-           ' L ' + p3[0] + ' ' + p3[1] +
-           ' A ' + rI + ' ' + rI + ' 0 ' + largeArc + ' 0 ' + p4[0] + ' ' + p4[1] +
-           ' Z';
+      ' A ' + rO + ' ' + rO + ' 0 ' + largeArc + ' 1 ' + p2[0] + ' ' + p2[1] +
+      ' L ' + p3[0] + ' ' + p3[1] +
+      ' A ' + rI + ' ' + rI + ' 0 ' + largeArc + ' 0 ' + p4[0] + ' ' + p4[1] +
+      ' Z';
   }
 
-  var totalPct = ACADEMIC_MIX.reduce(function(s, d){ return s + d.pct; }, 0);
+  var totalPct = ACADEMIC_MIX.reduce(function (s, d) { return s + d.pct; }, 0);
   var angle = 0;
-  ACADEMIC_MIX.forEach(function(d, i){
+  ACADEMIC_MIX.forEach(function (d, i) {
     var sweep = (d.pct / totalPct) * 360;
     var startA = angle;
     var endA = angle + sweep - 0.6; // tiny gap between segments
@@ -3120,12 +3239,12 @@ var ACADEMIC_MIX = [
     path.style.cursor = 'pointer';
     path.style.transition = 'transform .2s, filter .2s';
     path.setAttribute('data-idx', i);
-    path.addEventListener('mouseenter', function(){
+    path.addEventListener('mouseenter', function () {
       path.style.transform = 'scale(1.04)';
       path.style.transformOrigin = cx + 'px ' + cy + 'px';
       path.style.filter = 'brightness(1.08)';
     });
-    path.addEventListener('mouseleave', function(){
+    path.addEventListener('mouseleave', function () {
       path.style.transform = '';
       path.style.filter = '';
     });
@@ -3134,26 +3253,26 @@ var ACADEMIC_MIX = [
   });
 
   // Build legend
-  legend.innerHTML = ACADEMIC_MIX.map(function(d){
+  legend.innerHTML = ACADEMIC_MIX.map(function (d) {
     return '<div class="gl-row">' +
       '<span class="gl-sw" style="background:' + d.color + '"></span>' +
       '<span class="gl-lbl">' + d.label + '</span>' +
       '<span class="gl-pct">' + d.pct + '%</span>' +
-    '</div>';
+      '</div>';
   }).join('');
 })();
 
 /* ============================================================
    v15: Mobile drawer (hamburger menu) toggle
 ============================================================ */
-(function(){
+(function () {
   var burger = document.getElementById('tnBurger');
   var drawer = document.getElementById('tnDrawer');
   var backdrop = document.getElementById('tnDrawerBackdrop');
   var closeBtn = document.getElementById('tnDrawerClose');
-  if(!burger || !drawer || !backdrop) return;
+  if (!burger || !drawer || !backdrop) return;
 
-  function openDrawer(){
+  function openDrawer() {
     drawer.classList.add('open');
     backdrop.classList.add('show');
     burger.classList.add('open');
@@ -3161,7 +3280,7 @@ var ACADEMIC_MIX = [
     drawer.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
   }
-  function closeDrawer(){
+  function closeDrawer() {
     drawer.classList.remove('open');
     backdrop.classList.remove('show');
     burger.classList.remove('open');
@@ -3169,19 +3288,19 @@ var ACADEMIC_MIX = [
     drawer.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
   }
-  burger.addEventListener('click', function(){
-    if(drawer.classList.contains('open')) closeDrawer();
+  burger.addEventListener('click', function () {
+    if (drawer.classList.contains('open')) closeDrawer();
     else openDrawer();
   });
-  if(closeBtn) closeBtn.addEventListener('click', closeDrawer);
+  if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
   backdrop.addEventListener('click', closeDrawer);
   // Close on ESC
-  document.addEventListener('keydown', function(e){
-    if(e.key === 'Escape' && drawer.classList.contains('open')) closeDrawer();
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && drawer.classList.contains('open')) closeDrawer();
   });
   // Close on link click (for navigation feedback)
-  drawer.querySelectorAll('.tn-drawer-links a, .tn-drawer-enroll').forEach(function(a){
-    a.addEventListener('click', function(){
+  drawer.querySelectorAll('.tn-drawer-links a, .tn-drawer-enroll').forEach(function (a) {
+    a.addEventListener('click', function () {
       setTimeout(closeDrawer, 150);
     });
   });
@@ -3190,28 +3309,28 @@ var ACADEMIC_MIX = [
 /* ============================================================
    v15: FAQ expand/collapse toggle (#7)
 ============================================================ */
-(function(){
+(function () {
   var btn = document.getElementById('faqMoreBtn');
   var more = document.getElementById('faqMore');
-  if(!btn || !more) return;
+  if (!btn || !more) return;
   var lbl = btn.querySelector('.faq-more-label');
-  btn.addEventListener('click', function(){
+  btn.addEventListener('click', function () {
     var open = more.classList.toggle('show');
     btn.classList.toggle('expanded', open);
-    if(lbl) lbl.textContent = open ? 'Show fewer questions' : 'Show more questions';
+    if (lbl) lbl.textContent = open ? 'Show fewer questions' : 'Show more questions';
   });
 })();
 
 /* ============================================================
    v15: Predicted Questions click handlers (#9)
 ============================================================ */
-(function(){
+(function () {
   var cards = document.querySelectorAll('.pred-card');
-  cards.forEach(function(card){
-    card.addEventListener('click', function(){
+  cards.forEach(function (card) {
+    card.addEventListener('click', function () {
       var yt = card.getAttribute('data-yt');
       var title = card.getAttribute('data-title') || 'CATKing prediction video';
-      if(yt && typeof openVideo === 'function'){
+      if (yt && typeof openVideo === 'function') {
         openVideo(title, 'CAT 2024 prediction · Verified accuracy', yt);
       }
     });
@@ -3222,40 +3341,40 @@ var ACADEMIC_MIX = [
    v15: Mobile carousel nav arrows (#11)
    Auto-inject prev/next arrow bars under carousels on mobile
 ============================================================ */
-(function(){
-  function attachNav(track, containerAfter){
-    if(!track) return;
+(function () {
+  function attachNav(track, containerAfter) {
+    if (!track) return;
     var nav = document.createElement('div');
     nav.className = 'car-nav';
     nav.innerHTML = '<button type="button" data-dir="-1" aria-label="Previous">&#8249;</button><button type="button" data-dir="1" aria-label="Next">&#8250;</button>';
     (containerAfter || track).parentNode.insertBefore(nav, (containerAfter || track).nextSibling);
-    nav.addEventListener('click', function(e){
+    nav.addEventListener('click', function (e) {
       var b = e.target.closest('button');
-      if(!b) return;
+      if (!b) return;
       var dir = parseInt(b.getAttribute('data-dir'), 10) || 1;
-      track.scrollBy({left: dir * 320, behavior: 'smooth'});
+      track.scrollBy({ left: dir * 320, behavior: 'smooth' });
     });
   }
 
   // Wait for DOM ready
-  function init(){
+  function init() {
     // WA marquee - add prev/next arrows ONLY on mobile (desktop has auto-scroll marquee)
     var waRow = document.getElementById('waRow1');
     var isDesktop = window.innerWidth > 768;
-    if(waRow && waRow.parentNode && !isDesktop){
+    if (waRow && waRow.parentNode && !isDesktop) {
       attachNav(waRow, waRow.parentNode);
     }
     // Stats ticker
     var stTrack = document.querySelector('.stats-ticker-track');
     var stMq = document.querySelector('.stats-ticker-marquee');
-    if(stTrack && stMq){
+    if (stTrack && stMq) {
       // Stats-ticker uses CSS animation; arrows allow user-controlled scroll
       // Add nav only on mobile where animation doesn't loop cleanly with short cards
       // Use marquee container for scrolling via CSS override
     }
   }
 
-  if(document.readyState === 'loading'){
+  if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {
     init();
@@ -3270,35 +3389,35 @@ var ACADEMIC_MIX = [
    so the page tells one coherent story across the Compounding section + the
    merged HOF/Browse tiles below it.
 ============================================================================ */
-(function(){
+(function () {
   var grid = document.getElementById('hofGrid');
   var empty = document.getElementById('hfEmpty');
   var countEl = document.getElementById('hfCountNum');
   var moreWrap = document.getElementById('hfMoreWrap');
   var moreBtn = document.getElementById('hfMoreBtn');
   var resetBtn = document.getElementById('hfReset');
-  if(!grid) return;
+  if (!grid) return;
 
   // Build BROWSE_DATA from LIVE_RESULTS.all (which already has _inst + _group tagged)
   // Plus synthesize entries for older years from existing STUDENTS not already in LIVE
   var BROWSE_DATA = [];
   var seeded = false;
-  function stripHtml(html){
+  function stripHtml(html) {
     var div = document.createElement('div');
     div.innerHTML = html || '';
     return (div.textContent || div.innerText || '').replace(/\s+/g, ' ').trim();
   }
 
   function seedLocalData() {
-    if(seeded) return;
+    if (seeded) return;
     seeded = true;
     BROWSE_DATA = [];
 
-    if(Array.isArray(window.RESULTS_STATIC_RESULTS) && window.RESULTS_STATIC_RESULTS.length){
+    if (Array.isArray(window.RESULTS_STATIC_RESULTS) && window.RESULTS_STATIC_RESULTS.length) {
       BROWSE_DATA = window.RESULTS_STATIC_RESULTS.slice();
-      if(typeof STUDENTS !== "undefined"){
-        BROWSE_DATA.forEach(function(d){
-          if(STUDENTS[d.sid]) return;
+      if (typeof STUDENTS !== "undefined") {
+        BROWSE_DATA.forEach(function (d) {
+          if (STUDENTS[d.sid]) return;
           STUDENTS[d.sid] = {
             name: d.name,
             score: d.score,
@@ -3320,8 +3439,8 @@ var ACADEMIC_MIX = [
     }
 
     // Seed from LIVE_RESULTS.all (current cycle 2024-25 mostly)
-    if(typeof LIVE_RESULTS !== "undefined" && LIVE_RESULTS.all){
-      LIVE_RESULTS.all.forEach(function(r){
+    if (typeof LIVE_RESULTS !== "undefined" && LIVE_RESULTS.all) {
+      LIVE_RESULTS.all.forEach(function (r) {
         var instDisplay = r.institute || INST_DISPLAY[r._inst] || (r._inst || "").toUpperCase();
         BROWSE_DATA.push({
           sid: r.sid,
@@ -3338,42 +3457,42 @@ var ACADEMIC_MIX = [
     }
 
     // Add additional entries from STUDENTS (HOF, etc.) that aren't in LIVE_RESULTS
-    if(typeof STUDENTS !== "undefined"){
-      var existing = new Set(BROWSE_DATA.map(function(d){ return d.sid; }));
-      Object.keys(STUDENTS).forEach(function(sid){
-        if(existing.has(sid) || sid.startsWith("_hof_")) return;
+    if (typeof STUDENTS !== "undefined") {
+      var existing = new Set(BROWSE_DATA.map(function (d) { return d.sid; }));
+      Object.keys(STUDENTS).forEach(function (sid) {
+        if (existing.has(sid) || sid.startsWith("_hof_")) return;
         var s = STUDENTS[sid];
         // Infer institute key + group from institute name string
         var inst = (s.institute || "").toLowerCase();
         var instKey = "other";
         var grp = "other-top";
-        if(inst.indexOf("ahmedabad") >= 0) { instKey = "iim-a"; grp = "blacki-sm"; }
-        else if(inst.indexOf("bangalore") >= 0 || inst.indexOf("bengaluru") >= 0) { instKey = "iim-b"; grp = "blacki-sm"; }
-        else if(inst.indexOf("calcutta") >= 0 || inst.indexOf("kolkata") >= 0) { instKey = "iim-c"; grp = "blacki-sm"; }
-        else if(inst.indexOf("lucknow") >= 0) { instKey = "iim-l"; grp = "blacki-sm"; }
-        else if(inst.indexOf("kozhikode") >= 0) { instKey = "iim-k"; grp = "blacki-sm"; }
-        else if(inst.indexOf("indore") >= 0) { instKey = "iim-i"; grp = "blacki-sm"; }
-        else if(inst.indexOf("mumbai") >= 0 && inst.indexOf("iim") >= 0) { instKey = "iim-m"; grp = "other-iim"; }
-        else if(inst.indexOf("spjimr") >= 0) { instKey = "spjimr"; grp = "blacki-sm"; }
-        else if(inst.indexOf("fms") >= 0) { instKey = "fms"; grp = "blacki-sm"; }
-        else if(inst.indexOf("nmims") >= 0) { instKey = "nmims"; grp = "nmims"; }
-        else if(inst.indexOf("scmhrd") >= 0) { instKey = "scmhrd"; grp = "other-top"; }
-        else if(inst.indexOf("sibm") >= 0) { instKey = "sibm"; grp = "other-top"; }
-        else if(inst.indexOf("mdi") >= 0) { instKey = "mdi"; grp = "other-top"; }
-        else if(inst.indexOf("iift") >= 0) { instKey = "iift"; grp = "other-top"; }
+        if (inst.indexOf("ahmedabad") >= 0) { instKey = "iim-a"; grp = "blacki-sm"; }
+        else if (inst.indexOf("bangalore") >= 0 || inst.indexOf("bengaluru") >= 0) { instKey = "iim-b"; grp = "blacki-sm"; }
+        else if (inst.indexOf("calcutta") >= 0 || inst.indexOf("kolkata") >= 0) { instKey = "iim-c"; grp = "blacki-sm"; }
+        else if (inst.indexOf("lucknow") >= 0) { instKey = "iim-l"; grp = "blacki-sm"; }
+        else if (inst.indexOf("kozhikode") >= 0) { instKey = "iim-k"; grp = "blacki-sm"; }
+        else if (inst.indexOf("indore") >= 0) { instKey = "iim-i"; grp = "blacki-sm"; }
+        else if (inst.indexOf("mumbai") >= 0 && inst.indexOf("iim") >= 0) { instKey = "iim-m"; grp = "other-iim"; }
+        else if (inst.indexOf("spjimr") >= 0) { instKey = "spjimr"; grp = "blacki-sm"; }
+        else if (inst.indexOf("fms") >= 0) { instKey = "fms"; grp = "blacki-sm"; }
+        else if (inst.indexOf("nmims") >= 0) { instKey = "nmims"; grp = "nmims"; }
+        else if (inst.indexOf("scmhrd") >= 0) { instKey = "scmhrd"; grp = "other-top"; }
+        else if (inst.indexOf("sibm") >= 0) { instKey = "sibm"; grp = "other-top"; }
+        else if (inst.indexOf("mdi") >= 0) { instKey = "mdi"; grp = "other-top"; }
+        else if (inst.indexOf("iift") >= 0) { instKey = "iift"; grp = "other-top"; }
         // Infer exam from score string
         var examGuess = "cat";
         var sc = (s.score || "").toLowerCase();
-        if(sc.indexOf("nmat") >= 0) examGuess = "nmat";
-        else if(sc.indexOf("xat") >= 0) examGuess = "xat";
-        else if(sc.indexOf("snap") >= 0) examGuess = "snap";
+        if (sc.indexOf("nmat") >= 0) examGuess = "nmat";
+        else if (sc.indexOf("xat") >= 0) examGuess = "xat";
+        else if (sc.indexOf("snap") >= 0) examGuess = "snap";
         // Infer year
         var yearGuess = "2024-25";
-        if(sc.indexOf("2023") >= 0) yearGuess = "2023-24";
-        else if(sc.indexOf("2022") >= 0) yearGuess = "2022-23";
-        else if(sc.indexOf("2021") >= 0) yearGuess = "2021-22";
-        else if(sc.indexOf("2020") >= 0) yearGuess = "2020-21";
-        else if(sc.indexOf("2019") >= 0 || sc.indexOf("2018") >= 0 || sc.indexOf("2017") >= 0) yearGuess = "before-2020";
+        if (sc.indexOf("2023") >= 0) yearGuess = "2023-24";
+        else if (sc.indexOf("2022") >= 0) yearGuess = "2022-23";
+        else if (sc.indexOf("2021") >= 0) yearGuess = "2021-22";
+        else if (sc.indexOf("2020") >= 0) yearGuess = "2020-21";
+        else if (sc.indexOf("2019") >= 0 || sc.indexOf("2018") >= 0 || sc.indexOf("2017") >= 0) yearGuess = "before-2020";
 
         BROWSE_DATA.push({
           sid: sid,
@@ -3391,36 +3510,36 @@ var ACADEMIC_MIX = [
 
     // Synthesize a few additional historical year entries (mock for browseability)
     var HISTORICAL_SEEDS = [
-      {name:"Rohan Kapoor", institute:"IIM Bangalore", instKey:"iim-b", group:"blacki-sm", exam:"cat", year:"2023-24"},
-      {name:"Ananya Iyer", institute:"IIM Calcutta", instKey:"iim-c", group:"blacki-sm", exam:"cat", year:"2023-24"},
-      {name:"Karan Mehta", institute:"NMIMS Mumbai", instKey:"nmims", group:"nmims", exam:"nmat", year:"2023-24"},
-      {name:"Diya Bhatia", institute:"SPJIMR Mumbai", instKey:"spjimr", group:"blacki-sm", exam:"cat", year:"2022-23"},
-      {name:"Aditya Rao", institute:"IIM Lucknow", instKey:"iim-l", group:"blacki-sm", exam:"cat", year:"2022-23"},
-      {name:"Sneha Patil", institute:"NMIMS Mumbai", instKey:"nmims", group:"nmims", exam:"nmat", year:"2022-23"},
-      {name:"Vikram Singh", institute:"XLRI Jamshedpur", instKey:"xlri", group:"other-top", exam:"xat", year:"2022-23"},
-      {name:"Riya Saxena", institute:"SCMHRD Pune", instKey:"scmhrd", group:"other-top", exam:"snap", year:"2022-23"},
-      {name:"Arjun Pillai", institute:"IIM Indore", instKey:"iim-i", group:"blacki-sm", exam:"cat", year:"2021-22"},
-      {name:"Tanya Joshi", institute:"FMS Delhi", instKey:"fms", group:"blacki-sm", exam:"cat", year:"2021-22"},
-      {name:"Rahul Bose", institute:"NMIMS Mumbai", instKey:"nmims", group:"nmims", exam:"nmat", year:"2021-22"},
-      {name:"Pooja Menon", institute:"IIM Ahmedabad", instKey:"iim-a", group:"blacki-sm", exam:"cat", year:"2021-22"},
-      {name:"Shreya Gupta", institute:"SIBM Pune", instKey:"sibm", group:"other-top", exam:"snap", year:"2020-21"},
-      {name:"Nikhil Verma", institute:"IIM Calcutta", instKey:"iim-c", group:"blacki-sm", exam:"cat", year:"2020-21"},
-      {name:"Aditi Shah", institute:"NMIMS Mumbai", instKey:"nmims", group:"nmims", exam:"nmat", year:"2020-21"},
-      {name:"Saurabh Tiwari", institute:"XLRI Jamshedpur", instKey:"xlri", group:"other-top", exam:"xat", year:"2020-21"},
-      {name:"Megha Reddy", institute:"IIM Bangalore", instKey:"iim-b", group:"blacki-sm", exam:"cat", year:"before-2020"},
-      {name:"Akash Khanna", institute:"FMS Delhi", instKey:"fms", group:"blacki-sm", exam:"cat", year:"before-2020"},
-      {name:"Pranav Desai", institute:"NMIMS Mumbai", instKey:"nmims", group:"nmims", exam:"nmat", year:"before-2020"},
-      {name:"Kavya Nair", institute:"IIM Lucknow", instKey:"iim-l", group:"blacki-sm", exam:"cat", year:"before-2020"},
-      {name:"Aman Joshi", institute:"SCMHRD Pune", instKey:"scmhrd", group:"other-top", exam:"snap", year:"before-2020"},
-      {name:"Rhea Kapoor", institute:"IIM Indore", instKey:"iim-i", group:"blacki-sm", exam:"cat", year:"before-2020"},
-      {name:"Yash Agarwal", institute:"MDI Gurgaon", instKey:"mdi", group:"other-top", exam:"cat", year:"2023-24"},
-      {name:"Ira Bhatt", institute:"IIFT Delhi", instKey:"iift", group:"other-top", exam:"cat", year:"2023-24"},
-      {name:"Dev Malhotra", institute:"IIM Mumbai", instKey:"iim-m", group:"other-iim", exam:"cat", year:"2023-24"},
-      {name:"Nisha Bansal", institute:"IIM Mumbai", instKey:"iim-m", group:"other-iim", exam:"cat", year:"2022-23"},
-      {name:"Gaurav Soni", institute:"IIM Mumbai", instKey:"iim-m", group:"other-iim", exam:"cat", year:"2024-25"},
-      {name:"Ishaan Kohli", institute:"IIM Mumbai", instKey:"iim-m", group:"other-iim", exam:"cat", year:"2024-25"}
+      { name: "Rohan Kapoor", institute: "IIM Bangalore", instKey: "iim-b", group: "blacki-sm", exam: "cat", year: "2023-24" },
+      { name: "Ananya Iyer", institute: "IIM Calcutta", instKey: "iim-c", group: "blacki-sm", exam: "cat", year: "2023-24" },
+      { name: "Karan Mehta", institute: "NMIMS Mumbai", instKey: "nmims", group: "nmims", exam: "nmat", year: "2023-24" },
+      { name: "Diya Bhatia", institute: "SPJIMR Mumbai", instKey: "spjimr", group: "blacki-sm", exam: "cat", year: "2022-23" },
+      { name: "Aditya Rao", institute: "IIM Lucknow", instKey: "iim-l", group: "blacki-sm", exam: "cat", year: "2022-23" },
+      { name: "Sneha Patil", institute: "NMIMS Mumbai", instKey: "nmims", group: "nmims", exam: "nmat", year: "2022-23" },
+      { name: "Vikram Singh", institute: "XLRI Jamshedpur", instKey: "xlri", group: "other-top", exam: "xat", year: "2022-23" },
+      { name: "Riya Saxena", institute: "SCMHRD Pune", instKey: "scmhrd", group: "other-top", exam: "snap", year: "2022-23" },
+      { name: "Arjun Pillai", institute: "IIM Indore", instKey: "iim-i", group: "blacki-sm", exam: "cat", year: "2021-22" },
+      { name: "Tanya Joshi", institute: "FMS Delhi", instKey: "fms", group: "blacki-sm", exam: "cat", year: "2021-22" },
+      { name: "Rahul Bose", institute: "NMIMS Mumbai", instKey: "nmims", group: "nmims", exam: "nmat", year: "2021-22" },
+      { name: "Pooja Menon", institute: "IIM Ahmedabad", instKey: "iim-a", group: "blacki-sm", exam: "cat", year: "2021-22" },
+      { name: "Shreya Gupta", institute: "SIBM Pune", instKey: "sibm", group: "other-top", exam: "snap", year: "2020-21" },
+      { name: "Nikhil Verma", institute: "IIM Calcutta", instKey: "iim-c", group: "blacki-sm", exam: "cat", year: "2020-21" },
+      { name: "Aditi Shah", institute: "NMIMS Mumbai", instKey: "nmims", group: "nmims", exam: "nmat", year: "2020-21" },
+      { name: "Saurabh Tiwari", institute: "XLRI Jamshedpur", instKey: "xlri", group: "other-top", exam: "xat", year: "2020-21" },
+      { name: "Megha Reddy", institute: "IIM Bangalore", instKey: "iim-b", group: "blacki-sm", exam: "cat", year: "before-2020" },
+      { name: "Akash Khanna", institute: "FMS Delhi", instKey: "fms", group: "blacki-sm", exam: "cat", year: "before-2020" },
+      { name: "Pranav Desai", institute: "NMIMS Mumbai", instKey: "nmims", group: "nmims", exam: "nmat", year: "before-2020" },
+      { name: "Kavya Nair", institute: "IIM Lucknow", instKey: "iim-l", group: "blacki-sm", exam: "cat", year: "before-2020" },
+      { name: "Aman Joshi", institute: "SCMHRD Pune", instKey: "scmhrd", group: "other-top", exam: "snap", year: "before-2020" },
+      { name: "Rhea Kapoor", institute: "IIM Indore", instKey: "iim-i", group: "blacki-sm", exam: "cat", year: "before-2020" },
+      { name: "Yash Agarwal", institute: "MDI Gurgaon", instKey: "mdi", group: "other-top", exam: "cat", year: "2023-24" },
+      { name: "Ira Bhatt", institute: "IIFT Delhi", instKey: "iift", group: "other-top", exam: "cat", year: "2023-24" },
+      { name: "Dev Malhotra", institute: "IIM Mumbai", instKey: "iim-m", group: "other-iim", exam: "cat", year: "2023-24" },
+      { name: "Nisha Bansal", institute: "IIM Mumbai", instKey: "iim-m", group: "other-iim", exam: "cat", year: "2022-23" },
+      { name: "Gaurav Soni", institute: "IIM Mumbai", instKey: "iim-m", group: "other-iim", exam: "cat", year: "2024-25" },
+      { name: "Ishaan Kohli", institute: "IIM Mumbai", instKey: "iim-m", group: "other-iim", exam: "cat", year: "2024-25" }
     ];
-    HISTORICAL_SEEDS.forEach(function(s){
+    HISTORICAL_SEEDS.forEach(function (s) {
       s.sid = "hist_" + s.name.toLowerCase().replace(/[^a-z0-9]+/g, "_");
       s.score = s.exam.toUpperCase() + " " + s.year + " · Convert";
       s.photo = null;
@@ -3435,47 +3554,47 @@ var ACADEMIC_MIX = [
   var PAGE_SIZE = 15;
   var visibleCount = PAGE_SIZE;
 
-  function getInitials(name){
+  function getInitials(name) {
     var p = name.trim().split(/\s+/);
-    if(p.length === 1) return p[0].substring(0,2).toUpperCase();
-    return (p[0][0] + p[p.length-1][0]).toUpperCase();
+    if (p.length === 1) return p[0].substring(0, 2).toUpperCase();
+    return (p[0][0] + p[p.length - 1][0]).toUpperCase();
   }
 
-  function getFiltered(){
-    return BROWSE_DATA.filter(function(d){
-      if(state.exam !== "all" && d.exam !== state.exam) return false;
-      if(state.group !== "all" && d.group !== state.group) return false;
-      if(state.year !== "all" && d.year !== state.year) return false;
+  function getFiltered() {
+    return BROWSE_DATA.filter(function (d) {
+      if (state.exam !== "all" && d.exam !== state.exam) return false;
+      if (state.group !== "all" && d.group !== state.group) return false;
+      if (state.year !== "all" && d.year !== state.year) return false;
       return true;
     });
   }
 
   // Count records that would match if the user added value V on axis A,
   // keeping the OTHER two axes at their current state values.
-  function countWithAxisValue(axis, value){
-    return BROWSE_DATA.filter(function(d){
-      if(axis !== 'exam'  && state.exam  !== 'all' && d.exam  !== state.exam ) return false;
-      if(axis !== 'group' && state.group !== 'all' && d.group !== state.group) return false;
-      if(axis !== 'year'  && state.year  !== 'all' && d.year  !== state.year ) return false;
-      if(value !== 'all'){
-        if(axis === 'exam'  && d.exam  !== value) return false;
-        if(axis === 'group' && d.group !== value) return false;
-        if(axis === 'year'  && d.year  !== value) return false;
+  function countWithAxisValue(axis, value) {
+    return BROWSE_DATA.filter(function (d) {
+      if (axis !== 'exam' && state.exam !== 'all' && d.exam !== state.exam) return false;
+      if (axis !== 'group' && state.group !== 'all' && d.group !== state.group) return false;
+      if (axis !== 'year' && state.year !== 'all' && d.year !== state.year) return false;
+      if (value !== 'all') {
+        if (axis === 'exam' && d.exam !== value) return false;
+        if (axis === 'group' && d.group !== value) return false;
+        if (axis === 'year' && d.year !== value) return false;
       }
       return true;
     }).length;
   }
 
   // Update each pill: disable if it would yield 0 results, show count badge
-  function updatePillStates(){
-    document.querySelectorAll('#hofFilters .hf-row-tabs').forEach(function(row){
+  function updatePillStates() {
+    document.querySelectorAll('#hofFilters .hf-row-tabs').forEach(function (row) {
       var axis = row.getAttribute('data-axis');
-      row.querySelectorAll('button').forEach(function(btn){
+      row.querySelectorAll('button').forEach(function (btn) {
         var v = btn.getAttribute('data-v');
         var c = countWithAxisValue(axis, v);
         // Update or add count badge
         var badge = btn.querySelector('.hf-count-badge');
-        if(!badge){
+        if (!badge) {
           badge = document.createElement('span');
           badge.className = 'hf-count-badge';
           btn.appendChild(badge);
@@ -3483,7 +3602,7 @@ var ACADEMIC_MIX = [
         badge.textContent = c;
         // Disable if 0 results AND not already-active AND not the All option
         var isAct = btn.classList.contains('act');
-        if(c === 0 && !isAct){
+        if (c === 0 && !isAct) {
           btn.classList.add('disabled');
           btn.setAttribute('aria-disabled', 'true');
         } else {
@@ -3496,21 +3615,21 @@ var ACADEMIC_MIX = [
 
   // Map institute key → short ribbon label (e.g. iim-a → "IIM-A", nmims → "NMIMS")
   var RIBBON_SHORT = {
-    "iim-a":"IIM-A","iim-b":"IIM-B","iim-c":"IIM-C","iim-l":"IIM-L",
-    "iim-k":"IIM-K","iim-i":"IIM-I","iim-m":"IIM Mumbai",
-    "spjimr":"SPJIMR","fms":"FMS","nmims":"NMIMS",
-    "scmhrd":"SCMHRD","sibm":"SIBM","mdi":"MDI","iift":"IIFT","xim":"XIM"
+    "iim-a": "IIM-A", "iim-b": "IIM-B", "iim-c": "IIM-C", "iim-l": "IIM-L",
+    "iim-k": "IIM-K", "iim-i": "IIM-I", "iim-m": "IIM Mumbai",
+    "spjimr": "SPJIMR", "fms": "FMS", "nmims": "NMIMS",
+    "scmhrd": "SCMHRD", "sibm": "SIBM", "mdi": "MDI", "iift": "IIFT", "xim": "XIM"
   };
 
-  function render(){
+  function render() {
     var matched = getFiltered();
-    if(countEl) countEl.textContent = matched.length;
+    if (countEl) countEl.textContent = matched.length;
     updatePillStates();
-    if(typeof window.__updateCompoundingFilters === "function"){
+    if (typeof window.__updateCompoundingFilters === "function") {
       window.__updateCompoundingFilters({ year: state.year, group: state.group, exam: state.exam });
     }
     grid.innerHTML = '';
-    if(matched.length === 0){
+    if (matched.length === 0) {
       grid.style.display = 'none';
       empty.removeAttribute('hidden');
       moreWrap.style.display = 'none';
@@ -3519,7 +3638,7 @@ var ACADEMIC_MIX = [
     grid.style.display = '';
     empty.setAttribute('hidden', '');
     var slice = matched.slice(0, visibleCount);
-    slice.forEach(function(d){
+    slice.forEach(function (d) {
       var initials = getInitials(d.name);
       var photo = d.photo
         ? '<div class="t-photo"><img src="' + d.photo + '" alt="' + d.name + '" loading="lazy" data-fallback-init="' + initials + '"></div>'
@@ -3537,14 +3656,9 @@ var ACADEMIC_MIX = [
         '<div class="t-name">' + d.name + '</div>' +
         '<div class="t-coll"><span class="v">\u2713</span>Verified Convert</div>' +
         '<div class="t-watch">View full story</div>';
-      card.addEventListener('click', function(){
-        if(typeof openStudent === 'function'){
-          openStudent(d.sid);
-        }
-      });
       grid.appendChild(card);
     });
-    if(matched.length > visibleCount){
+    if (matched.length > visibleCount) {
       moreWrap.style.display = '';
     } else {
       moreWrap.style.display = 'none';
@@ -3552,20 +3666,20 @@ var ACADEMIC_MIX = [
   }
 
   // Wire all 3 axis tab rows - block clicks on disabled pills
-  document.querySelectorAll('#hofFilters .hf-row-tabs').forEach(function(row){
+  document.querySelectorAll('#hofFilters .hf-row-tabs').forEach(function (row) {
     var axis = row.getAttribute('data-axis');
-    row.querySelectorAll('button').forEach(function(btn){
-      btn.addEventListener('click', function(){
-        if(btn.classList.contains('disabled')) return;
-        row.querySelectorAll('button').forEach(function(b){ b.classList.remove('act'); });
+    row.querySelectorAll('button').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        if (btn.classList.contains('disabled')) return;
+        row.querySelectorAll('button').forEach(function (b) { b.classList.remove('act'); });
         btn.classList.add('act');
         state[axis] = btn.getAttribute('data-v');
         visibleCount = PAGE_SIZE;
-        
+
         render();
 
         // Bidirectional sync: if this is the Year axis, update Compounding cycle pill
-        if(axis === 'year'){
+        if (axis === 'year') {
           syncCycleFromYear(btn.getAttribute('data-v'));
         }
       });
@@ -3573,13 +3687,13 @@ var ACADEMIC_MIX = [
   });
 
   // Reset
-  if(resetBtn){
-    resetBtn.addEventListener('click', function(){
+  if (resetBtn) {
+    resetBtn.addEventListener('click', function () {
       state = { exam: "all", group: "all", year: "all" };
-      document.querySelectorAll('#hofFilters .hf-row-tabs').forEach(function(row){
-        row.querySelectorAll('button').forEach(function(b){ b.classList.remove('act'); });
+      document.querySelectorAll('#hofFilters .hf-row-tabs').forEach(function (row) {
+        row.querySelectorAll('button').forEach(function (b) { b.classList.remove('act'); });
         var first = row.querySelector('button');
-        if(first) first.classList.add('act');
+        if (first) first.classList.add('act');
       });
       visibleCount = PAGE_SIZE;
       render();
@@ -3588,19 +3702,19 @@ var ACADEMIC_MIX = [
   }
 
   // Load more
-  if(moreBtn){
-    moreBtn.addEventListener('click', function(){
+  if (moreBtn) {
+    moreBtn.addEventListener('click', function () {
       visibleCount += PAGE_SIZE;
       render();
     });
   }
 
-  window.__setHofGroupFilter = function(group){
+  window.__setHofGroupFilter = function (group) {
     state.group = group || "all";
     visibleCount = PAGE_SIZE;
     var row = document.querySelector('#hofFilters .hf-row-tabs[data-axis="group"]');
-    if(row){
-      row.querySelectorAll('button').forEach(function(b){
+    if (row) {
+      row.querySelectorAll('button').forEach(function (b) {
         b.classList.toggle('act', b.getAttribute('data-v') === state.group);
       });
     }
@@ -3608,15 +3722,15 @@ var ACADEMIC_MIX = [
   };
 
   // Bidirectional sync helpers
-  function syncCycleFromYear(year){
+  function syncCycleFromYear(year) {
     // The 6 cycle pills are gone. Year filter is now the single source of truth.
     // It drives Compounding's stats panel + chart highlight via the exposed updater.
-    if(typeof window.__updateCompoundingForYear === 'function'){
+    if (typeof window.__updateCompoundingForYear === 'function') {
       window.__updateCompoundingForYear(year);
     }
   }
 
-  function syncYearFromCycle(cyc){
+  function syncYearFromCycle(cyc) {
     // Legacy helper - kept inert because cycle pills no longer exist.
     // The Year filter is now the single control surface.
     return;
@@ -3639,11 +3753,11 @@ var ACADEMIC_MIX = [
    that reinforce the page's claims without asking anything of the user. They
    read like a news ticker rather than a sales banner.
 ============================================================================ */
-(function(){
+(function () {
   // Display timing - tuned for ambient-not-intrusive feel
   var DISPLAY_MS = 4000;   // each pop visible for 4s (matches CSS progress bar)
-  var GAP_MS     = 9000;   // 9s of quiet between pops
-  var FIRST_MS   = 8000;   // first pop appears 8s after page load (gives user time to read hero)
+  var GAP_MS = 9000;   // 9s of quiet between pops
+  var FIRST_MS = 8000;   // first pop appears 8s after page load (gives user time to read hero)
 
   // 12 ambient pops in queue order. Mix of trust signals, recent activity, discount
   // codes, batch announcements, free resources, scarcity, and live-event nudges.
@@ -3651,116 +3765,116 @@ var ACADEMIC_MIX = [
   // ~156 seconds (8s + 12 × 13s), then the page is silent for the rest of the session.
   var POPS = [
     {
-      id:'audit',
-      kind:'audit',
-      title:'KPMG & Brickworks audited',
-      body:'Every result on this page is third-party verified.'
+      id: 'audit',
+      kind: 'audit',
+      title: 'KPMG & Brickworks audited',
+      body: 'Every result on this page is third-party verified.'
     },
     {
-      id:'live',
-      kind:'live',
-      title:'Live · Sneha just got her IIM-A admit',
-      body:'Verified convert, added to results <b>2 minutes ago</b>.'
+      id: 'live',
+      kind: 'live',
+      title: 'Live · Sneha just got her IIM-A admit',
+      body: 'Verified convert, added to results <b>2 minutes ago</b>.'
     },
     {
-      id:'rating',
-      kind:'rating',
-      title:'4.8 stars on Google',
-      body:'<b>54,030 verified reviews</b> from CATKing students.'
+      id: 'rating',
+      kind: 'rating',
+      title: '4.8 stars on Google',
+      body: '<b>54,030 verified reviews</b> from CATKing students.'
     },
     {
-      id:'volume',
-      kind:'volume',
-      title:'2,080+ IIM converts in 2024-25',
-      body:'<b>5,000+ scorers</b> at 99 percentile and above.'
+      id: 'volume',
+      kind: 'volume',
+      title: '2,080+ IIM converts in 2024-25',
+      body: '<b>5,000+ scorers</b> at 99 percentile and above.'
     },
     {
-      id:'faculty',
-      kind:'faculty',
-      title:"Sumit Sir's CAT prediction series",
-      body:'10 years of forecasting CAT papers. <b>8 of 10 matched in 2024.</b>'
+      id: 'faculty',
+      kind: 'faculty',
+      title: "Sumit Sir's CAT prediction series",
+      body: '10 years of forecasting CAT papers. <b>8 of 10 matched in 2024.</b>'
     },
     {
-      id:'discount',
-      kind:'discount',
-      title:'Code <b>EARLY26</b> · &#8377;5,000 off',
-      body:'CAT Intensive 2026. Apply at checkout. Valid till <b>15 May</b>.'
+      id: 'discount',
+      kind: 'discount',
+      title: 'Code <b>EARLY26</b> · &#8377;5,000 off',
+      body: 'CAT Intensive 2026. Apply at checkout. Valid till <b>15 May</b>.'
     },
     {
-      id:'announce',
-      kind:'announce',
-      title:'New batch starting 15 May',
-      body:'CAT Intensive 2026. Live + recorded classes, capped at 80 students.'
+      id: 'announce',
+      kind: 'announce',
+      title: 'New batch starting 15 May',
+      body: 'CAT Intensive 2026. Live + recorded classes, capped at 80 students.'
     },
     {
-      id:'free-mock',
-      kind:'freebie',
-      title:'Free CAT 2024 mock test',
-      body:'All 100 questions with detailed solutions. <b>No signup needed.</b>'
+      id: 'free-mock',
+      kind: 'freebie',
+      title: 'Free CAT 2024 mock test',
+      body: 'All 100 questions with detailed solutions. <b>No signup needed.</b>'
     },
     {
-      id:'live-event',
-      kind:'live',
-      title:'Sumit Sir live · Q&A at 7 PM today',
-      body:'30-minute open session. CAT 2026 strategy + interview prep.'
+      id: 'live-event',
+      kind: 'live',
+      title: 'Sumit Sir live · Q&A at 7 PM today',
+      body: '30-minute open session. CAT 2026 strategy + interview prep.'
     },
     {
-      id:'recent-enroll',
-      kind:'live',
-      title:'Rohit just enrolled in CAT Turbo 2026',
-      body:'<b>23rd enrollment from Mumbai</b> this week.'
+      id: 'recent-enroll',
+      kind: 'live',
+      title: 'Rohit just enrolled in CAT Turbo 2026',
+      body: '<b>23rd enrollment from Mumbai</b> this week.'
     },
     {
-      id:'scarcity',
-      kind:'scarcity',
-      title:'12 seats left · May batch',
-      body:'CAT Intensive 2026 cohort caps at 80 students.'
+      id: 'scarcity',
+      kind: 'scarcity',
+      title: '12 seats left · May batch',
+      body: 'CAT Intensive 2026 cohort caps at 80 students.'
     },
     {
-      id:'free-guide',
-      kind:'freebie',
-      title:'Code <b>WAT500</b> · Free WAT-PI guide',
-      body:'28-page playbook from Sumit Sir, bundled with every course.'
+      id: 'free-guide',
+      kind: 'freebie',
+      title: 'Code <b>WAT500</b> · Free WAT-PI guide',
+      body: '28-page playbook from Sumit Sir, bundled with every course.'
     }
   ];
 
-  function buildPop(def){
+  function buildPop(def) {
     var el = document.createElement('div');
     el.className = 'smart-pop smart-pop-' + def.kind;
     el.setAttribute('data-pop', def.id);
     el.innerHTML =
       '<div class="sp-icon-wrap"><div class="sp-icon sp-icon-' + def.kind + '"></div></div>' +
       '<div class="sp-body">' +
-        '<div class="sp-title">' + def.title + '</div>' +
-        '<div class="sp-text">' + def.body + '</div>' +
+      '<div class="sp-title">' + def.title + '</div>' +
+      '<div class="sp-text">' + def.body + '</div>' +
       '</div>' +
       '<div class="sp-progress"></div>';
     return el;
   }
 
-  function showPop(def, onDone){
+  function showPop(def, onDone) {
     var el = buildPop(def);
     document.body.appendChild(el);
-    requestAnimationFrame(function(){ el.classList.add('open'); });
+    requestAnimationFrame(function () { el.classList.add('open'); });
     // Auto-dismiss after DISPLAY_MS (matches the progress bar animation)
-    setTimeout(function(){
+    setTimeout(function () {
       el.classList.remove('open');
       el.classList.add('closing');
-      setTimeout(function(){
-        if(el.parentNode) el.parentNode.removeChild(el);
-        if(onDone) onDone();
+      setTimeout(function () {
+        if (el.parentNode) el.parentNode.removeChild(el);
+        if (onDone) onDone();
       }, 360);
     }, DISPLAY_MS);
   }
 
   // Queue runner: walk through POPS sequentially, with GAP_MS between each
-  function runQueue(){
+  function runQueue() {
     var i = 0;
-    function next(){
-      if(i >= POPS.length) return; // queue done
-      showPop(POPS[i], function(){
+    function next() {
+      if (i >= POPS.length) return; // queue done
+      showPop(POPS[i], function () {
         i++;
-        if(i < POPS.length){
+        if (i < POPS.length) {
           setTimeout(next, GAP_MS);
         }
       });
@@ -3772,13 +3886,13 @@ var ACADEMIC_MIX = [
   // (we still respect once-per-session for the whole queue, not per pop)
   var sessionKey = 'ck_pop_queue_done';
   var done = false;
-  try { done = sessionStorage.getItem(sessionKey) === '1'; } catch(e){}
-  if(!done){
+  try { done = sessionStorage.getItem(sessionKey) === '1'; } catch (e) { }
+  if (!done) {
     runQueue();
     // Mark done after the queue would have finished (5 pops × ~13s + 8s = ~73s)
     var totalMs = FIRST_MS + (POPS.length * (DISPLAY_MS + GAP_MS));
-    setTimeout(function(){
-      try { sessionStorage.setItem(sessionKey, '1'); } catch(e){}
+    setTimeout(function () {
+      try { sessionStorage.setItem(sessionKey, '1'); } catch (e) { }
     }, totalMs + 1000);
   }
 })();

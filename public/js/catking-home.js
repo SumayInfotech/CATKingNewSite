@@ -30,6 +30,77 @@
 
   // (Hero carousel removed - replaced by video player)
 
+  // Count-up stat animation
+  ; (function () {
+    function formatNumber(value, format, suffix) {
+      let str;
+      if (format === 'decimal') {
+        str = value.toFixed(1);
+      } else if (format === 'comma') {
+        str = Math.round(value).toLocaleString('en-IN');
+      } else if (format === 'percent') {
+        str = Math.round(value) + '%';
+      } else {
+        str = Math.round(value).toString();
+      }
+      return suffix ? str + suffix : str;
+    }
+
+    function setFinalValue(el) {
+      const target = parseFloat(el.dataset.countTo);
+      const format = el.dataset.countFormat || 'plain';
+      const suffix = el.dataset.countSuffix || '';
+      el.textContent = formatNumber(target, format, suffix);
+    }
+
+    function animateCount(el) {
+      if (el.dataset.countDone === '1') return;
+      el.dataset.countDone = '1';
+      const target = parseFloat(el.dataset.countTo);
+      const format = el.dataset.countFormat || 'plain';
+      const suffix = el.dataset.countSuffix || '';
+      const duration = 2600;
+      const start = performance.now();
+
+      function tick(now) {
+        const progress = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        el.textContent = formatNumber(target * eased, format, suffix);
+        if (progress < 1) {
+          requestAnimationFrame(tick);
+        } else {
+          setFinalValue(el);
+        }
+      }
+
+      requestAnimationFrame(tick);
+    }
+
+    const counters = document.querySelectorAll('[data-count-to]');
+    if (!counters.length) return;
+
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      counters.forEach(setFinalValue);
+      return;
+    }
+
+    if (!('IntersectionObserver' in window)) {
+      counters.forEach(animateCount);
+      return;
+    }
+
+    const counterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCount(entry.target);
+          counterObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.4 });
+
+    counters.forEach(el => counterObserver.observe(el));
+  })();
+
 
   // ── FAQ toggle ──
   window.toggleFaq = function(btn) {
@@ -46,7 +117,8 @@
   }, 600);
 
   // ── Sticky CTA show on scroll ──
-  let stickyClosed = false;
+  // Sticky CTA disabled for now.
+  let stickyClosed = true;
   window.addEventListener('scroll', () => {
     const sc = document.getElementById('stickyCta');
     if (!sc || stickyClosed) return;
@@ -84,7 +156,8 @@
     tIdx++;
     setTimeout(() => { el.style.opacity = '0'; setTimeout(() => { el.style.display = 'none'; el.style.opacity = '1'; }, 400); }, 5500);
   }
-  setTimeout(() => { showToast(); setInterval(showToast, 16000); }, 6000);
+  // Live enrollment toast disabled for now.
+  // setTimeout(() => { showToast(); setInterval(showToast, 16000); }, 6000);
 
   // ─── PDF DOWNLOAD MODAL ───
   const PDF_LIST = [
@@ -565,7 +638,15 @@
   // ── Enquiry Modal Auto-Show (with 5s delay) ──
   ; (function initEnquiryModal() {
     const modal = document.getElementById('enquiryModal');
-    if (!modal) return;
+    window.openEnquiryModal = function () {};
+    window.closeEnquiryModal = function () {
+      document.body.style.overflow = '';
+    };
+    window.submitEnquiry = function (e) {
+      if (e) e.preventDefault();
+    };
+    if (modal) modal.remove();
+    return;
 
     const form = document.getElementById('enquiryForm');
     const success = document.getElementById('enquirySuccess');
@@ -606,12 +687,12 @@
       setTimeout(window.closeEnquiryModal, 2800);
     };
 
-    // Trigger after 5 seconds
-    setTimeout(() => {
-      if (typeof window.openEnquiryModal === 'function') {
-        window.openEnquiryModal();
-      }
-    }, 5000);
+    // Auto-popup disabled for now.
+    // setTimeout(() => {
+    //   if (typeof window.openEnquiryModal === 'function') {
+    //     window.openEnquiryModal();
+    //   }
+    // }, 5000);
 
     // Backdrop click close
     modal.addEventListener('click', (e) => {
@@ -859,6 +940,15 @@
         const expanded = panel.classList.toggle('expanded');
         const lbl = labels[target];
         if (lbl) link.textContent = expanded ? lbl.expanded : lbl.collapsed;
+
+        if (!expanded) {
+          const section = panel.closest('.courses-section') || document.getElementById('courses');
+          if (section) {
+            requestAnimationFrame(() => {
+              section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+          }
+        }
       });
     });
   })();

@@ -493,37 +493,171 @@
   </div>
 </section>
 
-<!-- ============ SCORECARDS MARQUEE STRIP ============ -->
-<section class="stats-ticker" id="statsTicker">
-  <div class="stats-ticker-inner">
-    <div class="stats-ticker-head">
-      <div class="st-eyebrow"><span class="dot"></span>CATKing by the Numbers</div>
-      <h4>Every metric. <em>Audited.</em> Continuously growing.</h4>
+<!-- ============ OUTSTANDING TOPPERS ============ -->
+<section class="results-toppers" id="outstandingToppers">
+  <div class="results-toppers-inner">
+    <div class="results-toppers-head">
+      <h2>Meet our outstanding <em>toppers.</em></h2>
+      <p>From aspirants to achievers - you can be here too. Why wait? Join CATKing now.</p>
     </div>
-    <div class="stats-ticker-marquee" aria-hidden="true">
-      <div class="stats-ticker-track">
-        <div class="st-item"><span class="st-v">15,900+</span><span class="st-l">Cumulative IIM converts since 2008</span></div>
-        <div class="st-item"><span class="st-v">2,080+</span><span class="st-l">IIM converts &middot; 2024-25 alone</span></div>
-        <div class="st-item"><span class="st-v">9,000+</span><span class="st-l">IIM calls &middot; 2024-25</span></div>
-        <div class="st-item"><span class="st-v">460+</span><span class="st-l">BLACKI IIM converts</span></div>
-        <div class="st-item"><span class="st-v">200+</span><span class="st-l">NMIMS converts</span></div>
-        <div class="st-item"><span class="st-v">5,000+</span><span class="st-l">99%ile CAT scorers</span></div>
-        <div class="st-item"><span class="st-v">54,030</span><span class="st-l">Verified Google reviews &middot; 4.8/5</span></div>
-        <div class="st-item"><span class="st-v">4.8&#9733;</span><span class="st-l">Google rating</span></div>
-        <div class="st-item"><span class="st-v">18</span><span class="st-l">CAT seasons coached</span></div>
-        <div class="st-item"><span class="st-v">40+</span><span class="st-l">Full-time faculty, all IIM/SPJIMR alumni</span></div>
-        <div class="st-item"><span class="st-v">120+</span><span class="st-l">Batches across India + online</span></div>
-        <div class="st-item"><span class="st-v">43x</span><span class="st-l">Growth in annual converts since 2008</span></div>
-        <!-- duplicate for seamless loop -->
-        <div class="st-item"><span class="st-v">15,900+</span><span class="st-l">Cumulative IIM converts since 2008</span></div>
-        <div class="st-item"><span class="st-v">2,080+</span><span class="st-l">IIM converts &middot; 2024-25 alone</span></div>
-        <div class="st-item"><span class="st-v">9,000+</span><span class="st-l">IIM calls &middot; 2024-25</span></div>
-        <div class="st-item"><span class="st-v">460+</span><span class="st-l">BLACKI IIM converts</span></div>
-        <div class="st-item"><span class="st-v">5,000+</span><span class="st-l">99%ile CAT scorers</span></div>
-        <div class="st-item"><span class="st-v">54,030</span><span class="st-l">Verified Google reviews</span></div>
-        <div class="st-item"><span class="st-v">18</span><span class="st-l">CAT seasons coached</span></div>
-        <div class="st-item"><span class="st-v">43x</span><span class="st-l">Growth in annual converts since 2008</span></div>
+    <div class="results-toppers-shell">
+      <button class="results-slider-btn prev" type="button" data-slider-prev="topperRail" aria-label="Previous topper">&#8249;</button>
+      <div class="results-topper-rail" id="topperRail">
+        <div class="slider-item">
+          <img src="https://catking.in/file/media_library/8787/68013d7802e8b.png" alt="Priyanshu Tiwari" loading="lazy">
+          <h5>Priyanshu</h5>
+          <p>IIM Ahmedabad</p>
+        </div>
+        <div class="slider-item">
+          <img src="https://catking.in/file/media_library/8780/68013909e87e1.png" alt="Aniruddha Sharma" loading="lazy">
+          <h5>Aniruddha</h5>
+          <p>IIM Ahmedabad</p>
+        </div>
+        <div class="slider-item">
+          <img src="https://catking.in/file/media_library/8786/68013d3d83e3c.png" alt="Prafull Sharma" loading="lazy">
+          <h5>Prafull</h5>
+          <p>IIM Ahmedabad</p>
+        </div>
+        <div class="slider-item">
+          <img src="https://catking.in/file/media_library/8876/conversions/68079c6803f08-thumb_400.jpg" alt="Kavya Reddy" loading="lazy">
+          <h5>Kavya</h5>
+          <p>IIM Bangalore</p>
+        </div>
+        <div class="slider-item">
+          <img src="https://catking.in/file/media_library/8781/6801397b2eb0f.png" alt="Arjun Reddy" loading="lazy">
+          <h5>Arjun</h5>
+          <p>IIM Calcutta</p>
+        </div>
+        <div class="slider-item">
+          <img src="https://catking.in/file/media_library/8779/6801386e88315.png" alt="Sneha Kulkarni" loading="lazy">
+          <h5>Sneha</h5>
+          <p>IIM Lucknow</p>
+        </div>
+        <div class="slider-item">
+          <img src="https://catking.in/file/media_library/8784/68013c3cd17bd.png" alt="Sai Dinesh" loading="lazy">
+          <h5>Sai Dinesh</h5>
+          <p>IIM Indore</p>
+        </div>
       </div>
+      <button class="results-slider-btn next" type="button" data-slider-next="topperRail" aria-label="Next topper">&#8250;</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SCORECARD SLIDER ============ -->
+<section class="result-scorecards" id="scorecardSlider">
+  <div class="result-scorecards-inner">
+    <div class="result-scorecards-head">
+      <h2>Verified CAT scorecards from our <em>toppers.</em></h2>
+      <p>Swipe through real score previews and open any card to view the full scorecard.</p>
+    </div>
+    <div class="result-scorecards-shell">
+      <button class="results-slider-btn prev" type="button" data-slider-prev="scorecardRail" aria-label="Previous scorecard">&#8249;</button>
+      <div class="result-scorecard-rail" id="scorecardRail">
+        <article class="result-scorecard-card">
+          <div class="result-scorecard-person">
+            <div class="result-scorecard-ava">
+              <img src="https://catking.in/file/media_library/8780/68013909e87e1.png" alt="Aniruddha Sharma">
+              <div class="result-scorecard-badge">★</div>
+            </div>
+            <div><h3>Aniruddha Sharma</h3><p>CAT Topper</p></div>
+          </div>
+          <div class="result-scorecard-body">
+            <div class="result-scorecard-score"><strong>99.34</strong><span>%ile</span><small>CAT percentile score</small></div>
+            <div class="result-scorecard-img-wrap">
+              <img class="result-scorecard-img" src="/results/scorecards/mock-sc-aniruddha.jpg" alt="Aniruddha Sharma scorecard">
+            </div>
+            <p class="result-scorecard-quote">“The mocks, grind, and mentor checks throughout helped me convert the pressure into a plan. CATKing truly helped me build strong basics.”</p>
+            <button type="button" class="result-scorecard-btn" onclick="openScorecard('Aniruddha Sharma','CAT 99.34 %ile','/results/scorecards/mock-sc-aniruddha.jpg','https://catking.in/file/media_library/8780/68013909e87e1.png')">View scorecard</button>
+          </div>
+        </article>
+        <article class="result-scorecard-card">
+          <div class="result-scorecard-person">
+            <div class="result-scorecard-ava">
+              <img src="https://catking.in/file/media_library/8787/68013d7802e8b.png" alt="Priyanshu Tiwari">
+              <div class="result-scorecard-badge">★</div>
+            </div>
+            <div><h3>Priyanshu Tiwari</h3><p>CAT Topper</p></div>
+          </div>
+          <div class="result-scorecard-body">
+            <div class="result-scorecard-score"><strong>99.42</strong><span>%ile</span><small>CAT percentile score</small></div>
+            <div class="result-scorecard-img-wrap">
+              <img class="result-scorecard-img" src="/results/scorecards/mock-sc-priyanshu.jpg" alt="Priyanshu Tiwari scorecard">
+            </div>
+            <p class="result-scorecard-quote">“More than the material, the live sessions and personal mentorship kept me consistent. The mocks were very useful for my prep.”</p>
+            <button type="button" class="result-scorecard-btn" onclick="openScorecard('Priyanshu Tiwari','CAT 99.42 %ile','/results/scorecards/mock-sc-priyanshu.jpg','https://catking.in/file/media_library/8787/68013d7802e8b.png')">View scorecard</button>
+          </div>
+        </article>
+        <article class="result-scorecard-card is-featured">
+          <div class="result-scorecard-person">
+            <div class="result-scorecard-ava">
+              <img src="https://catking.in/file/media_library/8786/68013d3d83e3c.png" alt="Prafull Sharma">
+              <div class="result-scorecard-badge">★</div>
+            </div>
+            <div><h3>Prafull Sharma</h3><p>CAT Topper</p></div>
+          </div>
+          <div class="result-scorecard-body">
+            <div class="result-scorecard-score"><strong>99.28</strong><span>%ile</span><small>CAT percentile score</small></div>
+            <div class="result-scorecard-img-wrap">
+              <img class="result-scorecard-img" src="/results/scorecards/mock-sc-prafull.jpg" alt="Prafull Sharma scorecard">
+            </div>
+            <p class="result-scorecard-quote">“The actual exam level was closely matched in the mocks and the structured approach helped a lot in my final push before the exam.”</p>
+            <button type="button" class="result-scorecard-btn" onclick="openScorecard('Prafull Sharma','CAT 99.28 %ile','/results/scorecards/mock-sc-prafull.jpg','https://catking.in/file/media_library/8786/68013d3d83e3c.png')">View scorecard</button>
+          </div>
+        </article>
+        <article class="result-scorecard-card">
+          <div class="result-scorecard-person">
+            <div class="result-scorecard-ava">
+              <img src="https://catking.in/file/media_library/8781/6801397b2eb0f.png" alt="Arjun Reddy">
+              <div class="result-scorecard-badge">★</div>
+            </div>
+            <div><h3>Arjun Reddy</h3><p>CAT Topper</p></div>
+          </div>
+          <div class="result-scorecard-body">
+            <div class="result-scorecard-score"><strong>99.06</strong><span>%ile</span><small>CAT percentile score</small></div>
+            <div class="result-scorecard-img-wrap">
+              <img class="result-scorecard-img" src="/results/scorecards/mock-sc-arjun-reddy.jpg" alt="Arjun Reddy scorecard">
+            </div>
+            <p class="result-scorecard-quote">“Analyzing mocks and completing recorded lessons helped connect every weak section. Thank you CATKing family for the support.”</p>
+            <button type="button" class="result-scorecard-btn" onclick="openScorecard('Arjun Reddy','CAT 99.06 %ile','/results/scorecards/mock-sc-arjun-reddy.jpg','https://catking.in/file/media_library/8781/6801397b2eb0f.png')">View scorecard</button>
+          </div>
+        </article>
+        <article class="result-scorecard-card">
+          <div class="result-scorecard-person">
+            <div class="result-scorecard-ava">
+              <img src="https://catking.in/file/media_library/8784/68013c3cd17bd.png" alt="Sai Dinesh">
+              <div class="result-scorecard-badge">★</div>
+            </div>
+            <div><h3>Sai Dinesh</h3><p>CAT Topper</p></div>
+          </div>
+          <div class="result-scorecard-body">
+            <div class="result-scorecard-score"><strong>99.12</strong><span>%ile</span><small>CAT percentile score</small></div>
+            <div class="result-scorecard-img-wrap">
+              <img class="result-scorecard-img" src="/results/scorecards/mock-sc-sai-dinesh.jpg" alt="Sai Dinesh scorecard">
+            </div>
+            <p class="result-scorecard-quote">“Live classes and repeated mock analysis made the final sprint sharper and calmer. CATKing family, you guys are the best!”</p>
+            <button type="button" class="result-scorecard-btn" onclick="openScorecard('Sai Dinesh','CAT 99.12 %ile','/results/scorecards/mock-sc-sai-dinesh.jpg','https://catking.in/file/media_library/8784/68013c3cd17bd.png')">View scorecard</button>
+          </div>
+        </article>
+        <article class="result-scorecard-card">
+          <div class="result-scorecard-person">
+            <div class="result-scorecard-ava">
+              <img src="https://catking.in/file/media_library/8876/conversions/68079c6803f08-thumb_400.jpg" alt="Kavya Reddy">
+              <div class="result-scorecard-badge">★</div>
+            </div>
+            <div><h3>Kavya Reddy</h3><p>CAT Topper</p></div>
+          </div>
+          <div class="result-scorecard-body">
+            <div class="result-scorecard-score"><strong>99.15</strong><span>%ile</span><small>CAT percentile score</small></div>
+            <div class="result-scorecard-img-wrap">
+              <img class="result-scorecard-img" src="/results/scorecards/mock-sc-kavya-reddy.jpg" alt="Kavya Reddy scorecard">
+            </div>
+            <p class="result-scorecard-quote">“The dashboard, mock review routine, and faculty support made the preparation consistent and helped me score 99.15 percentile.”</p>
+            <button type="button" class="result-scorecard-btn" onclick="openScorecard('Kavya Reddy','CAT 99.15 %ile','/results/scorecards/mock-sc-kavya-reddy.jpg','https://catking.in/file/media_library/8876/conversions/68079c6803f08-thumb_400.jpg')">View scorecard</button>
+          </div>
+        </article>
+      </div>
+      <button class="results-slider-btn next" type="button" data-slider-next="scorecardRail" aria-label="Next scorecard">&#8250;</button>
     </div>
   </div>
 </section>
@@ -625,7 +759,7 @@
           <span class="ct-price">&#8377;9,999</span>
           <span class="ct-price-old">&#8377;19,999</span>
         </div>
-        <a href="https://courses.catking.in/cat-self-study" class="ct-cta ghost">View Program Details &#8594;</a>
+        <a href="https://courses.catking.in/cat-self-study" class="ct-cta">View Program Details &#8594;</a>
       </div>
     </div>
 
@@ -764,22 +898,39 @@
 </div>
 
 <!-- Scorecard Modal -->
-<div class="smodal" id="smodal">
+<div class="smodal" id="smodal" role="dialog" aria-modal="true">
   <div class="sm-wrap">
-    <span class="sm-close" id="smClose">&times;</span>
+    <button class="sm-close" id="smClose" type="button" aria-label="Close">✕</button>
     <div class="sm-head">
-      <div class="sm-ava"><img id="smAva" src="" alt=""></div>
-      <div class="sm-meta">
-        <div class="sm-verif">KPMG / Brickworks Verified</div>
-        <div class="sm-name" id="smName">Student Name</div>
-        <div class="sm-score" id="smScore">Score</div>
+      <span class="sm-tag" id="smExam">Score Card · CAT 2024</span>
+      <div class="sm-name-row">
+        <div class="sm-ava-circle" id="smAva">HB</div>
+        <div>
+          <div class="sm-name" id="smName">Student Name</div>
+          <div class="sm-score-pct" id="smScore">99.00<sup>%ile</sup></div>
+        </div>
       </div>
     </div>
     <div class="sm-body">
-      <div class="sm-scard">
-        <div class="sm-scard-wm">Verified Authentic</div>
-        <img class="sm-scard-img" id="smScard" src="" alt="">
+      <div class="sm-image-wrap" id="smImageWrap" hidden>
+        <img id="smScard" class="sm-full-img" src="" alt="Full scorecard">
       </div>
+      <table class="sm-table" id="smTable">
+        <thead><tr><th>Section</th><th>Scaled Score</th><th>Percentile</th></tr></thead>
+        <tbody id="smSections"></tbody>
+      </table>
+      <div class="sm-quote-box" id="smQuote"></div>
+      <div class="sm-meta-row" id="smMetaRow">
+        <div class="sm-meta-cell">
+          <div class="sm-meta-label">Converted</div>
+          <div class="sm-meta-value" id="smConverts">-</div>
+        </div>
+        <div class="sm-meta-cell">
+          <div class="sm-meta-label">Programme</div>
+          <div class="sm-meta-value" id="smAddl">-</div>
+        </div>
+      </div>
+      <div class="sm-verified">Verified by CATKing · Genuine candidate scorecard</div>
     </div>
   </div>
 </div>

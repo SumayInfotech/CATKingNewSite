@@ -24,7 +24,7 @@
         <div class="hero-inner hero-inner--centered">
             <div class="hero-center">
                 <h1>From <em>struggling</em> with %tiles to walking into your <em>dream IIM</em> with <span class="brand-accent">CATKing</span>.</h1>
-                <p class="hero-sub">CATKing's CAT 2026 program is designed by IIM-A, B and C alumni — the same mentors who've coached <strong>1,200+ aspirants into top B-Schools last year alone</strong>.</p>
+                <p class="hero-sub">CATKing's CAT 2026 program is designed by IIM-A, B and C alumni - the same mentors who've coached <strong>1,200+ aspirants into top B-Schools last year alone</strong>.</p>
                 <div class="hero-ctas">
                     <a href="https://courses.catking.in/courses/cat-2026-self-study" target="_blank" rel="noopener" class="btn btn-primary">CAT 2026 →</a>
                     <a href="https://courses.catking.in/" target="_blank" rel="noopener" class="btn btn-ghost-light">Explore ALL Courses →</a>
@@ -233,8 +233,7 @@
                 <article class="course-card">
                     <div class="course-card-body">
                         <h3 class="course-card-title">CAT Self Study 2026</h3>
-                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/Bc6G0H3kLko/mqdefault.jpg');">
-                            <div class="course-card-image-badge">CAT 2026<small>SELF STUDY</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/1875/66cc29a6e3f87.jpg');">
                         </div>
                         <ul class="course-card-features">
                             <li>Concept Builder Videos</li>
@@ -259,8 +258,7 @@
                 <article class="course-card">
                     <div class="course-card-body">
                         <h3 class="course-card-title">CAT Turbo 2026</h3>
-                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/Bc6G0H3kLko/mqdefault.jpg');">
-                            <div class="course-card-image-badge">CAT 2026<small>TURBO</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/1870/66cc142b17a15.jpg');">
                         </div>
                         <ul class="course-card-features">
                             <li>Daily Live Classes</li>
@@ -271,8 +269,8 @@
                             <li>GD/WAT/PI Add-on Available</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 29,999</span>
-                            <span class="course-price-was">₹ 49,999</span>
+                            <span class="course-price-now">₹ 19,999</span>
+                            <span class="course-price-was">₹ 39,999</span>
                             <span class="course-price-tag">40% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -285,8 +283,7 @@
                 <article class="course-card">
                     <div class="course-card-body">
                         <h3 class="course-card-title">CAT Intensive 2026</h3>
-                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/Bc6G0H3kLko/mqdefault.jpg');">
-                            <div class="course-card-image-badge">CAT 2026<small>INTENSIVE</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/2264/6803c50b2adf6.jpg');">
                         </div>
                         <ul class="course-card-features">
                             <li>Capped Small-Batch Prep</li>
@@ -297,8 +294,8 @@
                             <li>NMAT/SNAP/CMAT Coverage</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 49,999</span>
-                            <span class="course-price-was">₹ 79,999</span>
+                            <span class="course-price-now">₹ 24,999</span>
+                            <span class="course-price-was">₹ 49,999</span>
                             <span class="course-price-tag">38% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -318,8 +315,8 @@
                 <article class="course-card">
                     <div class="course-card-body">
                         <h3 class="course-card-title">SNAP 2026</h3>
-                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/Y9w-C_YjlXE/mqdefault.jpg');">
-                            <div class="course-card-image-badge">SNAP<small>2026</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/2006/678278a09c858.jpg');">
+
                         </div>
                         <ul class="course-card-features">
                             <li>QA, GA, Reasoning & Verbal</li>
@@ -330,8 +327,8 @@
                             <li>Sectional Cutoff Tracker</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 9,999</span>
-                            <span class="course-price-was">₹ 19,999</span>
+                            <span class="course-price-now">₹ 19,999</span>
+                            <span class="course-price-was">₹ 39,999</span>
                             <span class="course-price-tag">50% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -344,8 +341,8 @@
                 <article class="course-card">
                     <div class="course-card-body">
                         <h3 class="course-card-title">NMAT 2026</h3>
-                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/vw9XFqvcC5g/mqdefault.jpg');">
-                            <div class="course-card-image-badge">NMAT<small>2026</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/1879/66d160859f15b.jpg');">
+
                         </div>
                         <ul class="course-card-features">
                             <li>Adaptive 3-Attempt Simulation</li>
@@ -356,8 +353,8 @@
                             <li>Score Booster Strategy</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 11,999</span>
-                            <span class="course-price-was">₹ 22,999</span>
+                            <span class="course-price-now">₹ 19,999</span>
+                            <span class="course-price-was">₹ 39,999</span>
                             <span class="course-price-tag">48% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -370,8 +367,8 @@
                 <article class="course-card">
                     <div class="course-card-body">
                         <h3 class="course-card-title">XAT 2027</h3>
-                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/RqC_IcUMR5k/mqdefault.jpg');">
-                            <div class="course-card-image-badge">XAT<small>2027</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/1806/6683ae016dacd.jpg');">
+
                         </div>
                         <ul class="course-card-features">
                             <li>Decision-Making Module</li>
@@ -382,8 +379,8 @@
                             <li>XAT 2025 Paper Walkthrough</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 12,999</span>
-                            <span class="course-price-was">₹ 22,999</span>
+                            <span class="course-price-now">₹ 19,999</span>
+                            <span class="course-price-was">₹ 39,999</span>
                             <span class="course-price-tag">43% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -396,8 +393,8 @@
                 <article class="course-card is-extra">
                     <div class="course-card-body">
                         <h3 class="course-card-title">MICAT 2026-27</h3>
-                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/-Vav_sQCI4k/mqdefault.jpg');">
-                            <div class="course-card-image-badge">MICAT<small>2026-27</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/1361/65649ee8610a0.jpg');">
+
                         </div>
                         <ul class="course-card-features">
                             <li>Storytelling & Visual Reasoning</li>
@@ -408,8 +405,8 @@
                             <li>Group Exercise Practice</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 8,999</span>
-                            <span class="course-price-was">₹ 16,999</span>
+                            <span class="course-price-now">₹ 19,999</span>
+                            <span class="course-price-was">₹ 39,999</span>
                             <span class="course-price-tag">47% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -422,8 +419,8 @@
                 <article class="course-card is-extra">
                     <div class="course-card-body">
                         <h3 class="course-card-title">CMAT 2026 & 27</h3>
-                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/unCq_IdmARw/mqdefault.jpg');">
-                            <div class="course-card-image-badge">CMAT<small>2026 & 27</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/1599/65d9e52dc0586.jpg');">
+
                         </div>
                         <ul class="course-card-features">
                             <li>GK + Innovation Module</li>
@@ -434,8 +431,8 @@
                             <li>Verbal Comprehension Tests</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 7,999</span>
-                            <span class="course-price-was">₹ 14,999</span>
+                            <span class="course-price-now">₹ 24,999</span>
+                            <span class="course-price-was">₹ 49,999</span>
                             <span class="course-price-tag">47% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -448,8 +445,8 @@
                 <article class="course-card is-extra">
                     <div class="course-card-body">
                         <h3 class="course-card-title">CET 2026</h3>
-                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/IeEBiBVkTlQ/mqdefault.jpg');">
-                            <div class="course-card-image-badge">CET<small>2026</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/2008/67827bb8b1d1a.jpg');">
+
                         </div>
                         <ul class="course-card-features">
                             <li>Maharashtra-Specific Coverage</li>
@@ -460,8 +457,8 @@
                             <li>Live Sectional Sessions</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 8,999</span>
-                            <span class="course-price-was">₹ 15,999</span>
+                            <span class="course-price-now">₹ 19,999</span>
+                            <span class="course-price-was">₹ 39,999</span>
                             <span class="course-price-tag">44% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -474,8 +471,8 @@
                 <article class="course-card is-extra">
                     <div class="course-card-body">
                         <h3 class="course-card-title">MAT 2026</h3>
-                        <div class="course-card-image" style="background-image: url('college-imt.jpg');">
-                            <div class="course-card-image-badge">MAT<small>2026</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/1789/6682d3734c51e.jpg');">
+
                         </div>
                         <ul class="course-card-features">
                             <li>AIMA Official Format</li>
@@ -486,8 +483,8 @@
                             <li>PBT + IBT Coverage</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 5,999</span>
-                            <span class="course-price-was">₹ 10,999</span>
+                            <span class="course-price-now">₹ 4,999</span>
+                            <span class="course-price-was">₹ 9,999</span>
                             <span class="course-price-tag">45% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -500,8 +497,8 @@
                 <article class="course-card is-extra">
                     <div class="course-card-body">
                         <h3 class="course-card-title">ATMA 2026</h3>
-                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/a18swlpido4/mqdefault.jpg');">
-                            <div class="course-card-image-badge">ATMA<small>2026</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/1792/6682d3df3a253.jpg');">
+
                         </div>
                         <ul class="course-card-features">
                             <li>Verbal-Quant-Analytical</li>
@@ -535,6 +532,32 @@
 
                 <article class="course-card">
                     <div class="course-card-body">
+                        <h3 class="course-card-title">CAT Mock Series</h3>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/1946/67068d752318a.png');">
+                        </div>
+                        <ul class="course-card-features">
+                            <li>Real CAT Proctored Mocks (Releasing from 17th April onwards)</li>
+                            <li>Sectional Tests</li>
+                            <li>Sprint Tests</li>
+                            <li>Actual CAT</li>
+                            <li>Live Mock Solving</li>
+                            <li>Topper's Attempt to CAT</li>
+                            <li>Toppers Mock strategy Videos</li>
+                        </ul>
+                        <div class="course-card-price">
+                            <span class="course-price-now">₹ 2,999</span>
+                            <span class="course-price-was">₹ 5,999</span>
+                            <span class="course-price-tag">50% OFF</span>
+                        </div>
+                        <div class="course-card-ctas">
+                            <a href="https://courses.catking.in/courses/snap-mocks-2026" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/snap-mocks-2026" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="course-card">
+                    <div class="course-card-body">
                         <h3 class="course-card-title">SNAP Mock Series</h3>
                         <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/Y9w-C_YjlXE/mqdefault.jpg');">
                             <div class="course-card-image-badge">SNAP<small>MOCK SERIES</small></div>
@@ -562,8 +585,8 @@
                 <article class="course-card">
                     <div class="course-card-body">
                         <h3 class="course-card-title">NMAT Mock Series</h3>
-                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/vw9XFqvcC5g/mqdefault.jpg');">
-                            <div class="course-card-image-badge">NMAT<small>MOCK SERIES</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/1881/66d162a1a7cfb.jpg');">
+
                         </div>
                         <ul class="course-card-features">
                             <li>15 Adaptive NMAT Mocks</li>
@@ -574,8 +597,8 @@
                             <li>Topic-Wise Test Library</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 2,499</span>
-                            <span class="course-price-was">₹ 4,499</span>
+                            <span class="course-price-now">₹ 9,999</span>
+                            <span class="course-price-was">₹ 19,999</span>
                             <span class="course-price-tag">44% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -585,11 +608,11 @@
                     </div>
                 </article>
 
-                <article class="course-card">
+                <article class="course-card is-extra">
                     <div class="course-card-body">
                         <h3 class="course-card-title">XAT Mock Series</h3>
-                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/RqC_IcUMR5k/mqdefault.jpg');">
-                            <div class="course-card-image-badge">XAT<small>MOCK SERIES</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/1805/6683ad96e3b3f.jpg');">
+
                         </div>
                         <ul class="course-card-features">
                             <li>10 XAT-Pattern Mocks</li>
@@ -600,8 +623,8 @@
                             <li>XAT-Specific Strategy</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 2,499</span>
-                            <span class="course-price-was">₹ 4,499</span>
+                            <span class="course-price-now">₹ 5,999</span>
+                            <span class="course-price-was">₹ 11,999</span>
                             <span class="course-price-tag">44% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -614,8 +637,7 @@
                 <article class="course-card is-extra">
                     <div class="course-card-body">
                         <h3 class="course-card-title">MICAT Mock Series</h3>
-                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/-Vav_sQCI4k/mqdefault.jpg');">
-                            <div class="course-card-image-badge">MICAT<small>MOCK SERIES</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/1362/65649efd44902.jpg');">
                         </div>
                         <ul class="course-card-features">
                             <li>MICAT Phase-1 Mocks</li>
@@ -626,8 +648,8 @@
                             <li>Sectional Score Reports</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 1,799</span>
-                            <span class="course-price-was">₹ 3,499</span>
+                            <span class="course-price-now">₹ 5,999</span>
+                            <span class="course-price-was">₹ 11,999</span>
                             <span class="course-price-tag">49% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -637,7 +659,7 @@
                     </div>
                 </article>
 
-                <article class="course-card is-extra">
+                {{--<article class="course-card is-extra">
                     <div class="course-card-body">
                         <h3 class="course-card-title">CMAT Mock Series</h3>
                         <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/unCq_IdmARw/mqdefault.jpg');">
@@ -661,13 +683,13 @@
                             <a href="https://courses.catking.in/courses/cat-advance-mocks" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
                         </div>
                     </div>
-                </article>
+                </article>--}}
 
                 <article class="course-card is-extra">
                     <div class="course-card-body">
                         <h3 class="course-card-title">CET Mock Series</h3>
-                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/IeEBiBVkTlQ/mqdefault.jpg');">
-                            <div class="course-card-image-badge">CET<small>MOCK SERIES</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/1389/658165b283022.jpg');">
+
                         </div>
                         <ul class="course-card-features">
                             <li>15 CET Pattern Mocks</li>
@@ -678,8 +700,8 @@
                             <li>JBIMS Cut-Off Strategy</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 1,499</span>
-                            <span class="course-price-was">₹ 2,999</span>
+                            <span class="course-price-now">₹ 2,999</span>
+                            <span class="course-price-was">₹ 5,999</span>
                             <span class="course-price-tag">50% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -692,8 +714,8 @@
                 <article class="course-card is-extra">
                     <div class="course-card-body">
                         <h3 class="course-card-title">MAT Mock Series</h3>
-                        <div class="course-card-image" style="background-image: url('college-imt.jpg');">
-                            <div class="course-card-image-badge">MAT<small>MOCK SERIES</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/1790/6682d38d54183.jpg');">
+
                         </div>
                         <ul class="course-card-features">
                             <li>8 MAT Pattern Mocks</li>
@@ -704,8 +726,8 @@
                             <li>Speed Strategy Drills</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 1,299</span>
-                            <span class="course-price-was">₹ 2,499</span>
+                            <span class="course-price-now">₹ 999</span>
+                            <span class="course-price-was">₹ 1,999</span>
                             <span class="course-price-tag">48% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -718,8 +740,8 @@
                 <article class="course-card is-extra">
                     <div class="course-card-body">
                         <h3 class="course-card-title">ATMA Mock Series</h3>
-                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/a18swlpido4/mqdefault.jpg');">
-                            <div class="course-card-image-badge">ATMA<small>MOCK SERIES</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/1791/6682d3cd86f13.jpg');">
+
                         </div>
                         <ul class="course-card-features">
                             <li>10 ATMA Pattern Mocks</li>
@@ -754,8 +776,8 @@
                 <article class="course-card">
                     <div class="course-card-body">
                         <h3 class="course-card-title">IIM Top B-School</h3>
-                        <div class="course-card-image" style="background-image: url('college-iima.jpg');">
-                            <div class="course-card-image-badge">GD · WAT · PI<small>IIM PREMIUM</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/715/643188f667ead.png');">
+
                         </div>
                         <ul class="course-card-features">
                             <li>GD Strategy Sessions</li>
@@ -766,8 +788,8 @@
                             <li>Alumni Panel Practice</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 14,999</span>
-                            <span class="course-price-was">₹ 24,999</span>
+                            <span class="course-price-now">₹ 4,999</span>
+                            <span class="course-price-was">₹ 9,999</span>
                             <span class="course-price-tag">40% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -780,8 +802,8 @@
                 <article class="course-card">
                     <div class="course-card-body">
                         <h3 class="course-card-title">Additional Mocks PI / GD</h3>
-                        <div class="course-card-image" style="background-image: url('college-jbims.jpg');">
-                            <div class="course-card-image-badge">PI · GD<small>ADD-ON MOCKS</small></div>
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/1393/6583eadc46db5.png');">
+
                         </div>
                         <ul class="course-card-features">
                             <li>10+ Mock Interviews</li>
@@ -793,7 +815,7 @@
                         </ul>
                         <div class="course-card-price">
                             <span class="course-price-now">₹ 4,999</span>
-                            <span class="course-price-was">₹ 8,999</span>
+                            <span class="course-price-was">₹ 9,999</span>
                             <span class="course-price-tag">44% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -998,7 +1020,6 @@
         <div class="secrets-track" id="secretsTrack">
 
       <div class="secret-card" role="button" tabindex="0" data-yt="7_Tz4tkaQPo" data-name="Ajmal" style="--thumb: url('https://img.youtube.com/vi/7_Tz4tkaQPo/hqdefault.jpg');" aria-label="Play video: Ajmal — CAT 99.29 %ile">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1009,7 +1030,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="X9CxNhGAqDM" data-name="Muskan" style="--thumb: url('https://img.youtube.com/vi/X9CxNhGAqDM/hqdefault.jpg');" aria-label="Play video: Muskan — CATKing CAT Topper">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1020,7 +1040,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="TV-bPh4KTXA" data-name="Dhruvsingh" style="--thumb: url('https://img.youtube.com/vi/TV-bPh4KTXA/hqdefault.jpg');" aria-label="Play video: Dhruvsingh — CAT 99.02 %ile">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1031,7 +1050,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="NT0F6t31heM" data-name="Akshma" style="--thumb: url('https://img.youtube.com/vi/NT0F6t31heM/hqdefault.jpg');" aria-label="Play video: Akshma — CAT 99.36 %ile">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1042,7 +1060,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="jdPUhiNhloc" data-name="Jai" style="--thumb: url('https://img.youtube.com/vi/jdPUhiNhloc/hqdefault.jpg');" aria-label="Play video: Jai — CAT 99.66 %ile">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1053,7 +1070,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="ZdPtNvamYlA" data-name="Rishi" style="--thumb: url('https://img.youtube.com/vi/ZdPtNvamYlA/hqdefault.jpg');" aria-label="Play video: Rishi — CAT 99.22 %ile">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1064,7 +1080,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="QV7HwpMVrXo" data-name="Mayank" style="--thumb: url('https://img.youtube.com/vi/QV7HwpMVrXo/hqdefault.jpg');" aria-label="Play video: Mayank — CAT 99 %ile">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1075,7 +1090,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="2T4myWfkQGQ" data-name="Sarthak" style="--thumb: url('https://img.youtube.com/vi/2T4myWfkQGQ/hqdefault.jpg');" aria-label="Play video: Sarthak — CAT 99 %ile">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1086,7 +1100,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="8bch7T_WFj0" data-name="Gourav" style="--thumb: url('https://img.youtube.com/vi/8bch7T_WFj0/hqdefault.jpg');" aria-label="Play video: Gourav — CAT 99 %ile">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1097,7 +1110,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="IlrURaX6-fI" data-name="Akshama" style="--thumb: url('https://img.youtube.com/vi/IlrURaX6-fI/hqdefault.jpg');" aria-label="Play video: Akshama — CAT 99 %ile">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1108,7 +1120,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="pKEQ3zC_6V4" data-name="Romit" style="--thumb: url('https://img.youtube.com/vi/pKEQ3zC_6V4/hqdefault.jpg');" aria-label="Play video: Romit — NMAT 262 Score">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1119,7 +1130,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="7_Tz4tkaQPo" data-name="Ajmal" style="--thumb: url('https://img.youtube.com/vi/7_Tz4tkaQPo/hqdefault.jpg');" aria-label="Play video: Ajmal — CAT 99.29 %ile" aria-hidden="true">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1130,7 +1140,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="X9CxNhGAqDM" data-name="Muskan" style="--thumb: url('https://img.youtube.com/vi/X9CxNhGAqDM/hqdefault.jpg');" aria-label="Play video: Muskan — CATKing CAT Topper" aria-hidden="true">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1141,7 +1150,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="TV-bPh4KTXA" data-name="Dhruvsingh" style="--thumb: url('https://img.youtube.com/vi/TV-bPh4KTXA/hqdefault.jpg');" aria-label="Play video: Dhruvsingh — CAT 99.02 %ile" aria-hidden="true">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1152,7 +1160,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="NT0F6t31heM" data-name="Akshma" style="--thumb: url('https://img.youtube.com/vi/NT0F6t31heM/hqdefault.jpg');" aria-label="Play video: Akshma — CAT 99.36 %ile" aria-hidden="true">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1163,7 +1170,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="jdPUhiNhloc" data-name="Jai" style="--thumb: url('https://img.youtube.com/vi/jdPUhiNhloc/hqdefault.jpg');" aria-label="Play video: Jai — CAT 99.66 %ile" aria-hidden="true">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1174,7 +1180,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="ZdPtNvamYlA" data-name="Rishi" style="--thumb: url('https://img.youtube.com/vi/ZdPtNvamYlA/hqdefault.jpg');" aria-label="Play video: Rishi — CAT 99.22 %ile" aria-hidden="true">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1185,7 +1190,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="QV7HwpMVrXo" data-name="Mayank" style="--thumb: url('https://img.youtube.com/vi/QV7HwpMVrXo/hqdefault.jpg');" aria-label="Play video: Mayank — CAT 99 %ile" aria-hidden="true">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1196,7 +1200,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="2T4myWfkQGQ" data-name="Sarthak" style="--thumb: url('https://img.youtube.com/vi/2T4myWfkQGQ/hqdefault.jpg');" aria-label="Play video: Sarthak — CAT 99 %ile" aria-hidden="true">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1207,7 +1210,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="8bch7T_WFj0" data-name="Gourav" style="--thumb: url('https://img.youtube.com/vi/8bch7T_WFj0/hqdefault.jpg');" aria-label="Play video: Gourav — CAT 99 %ile" aria-hidden="true">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1218,7 +1220,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="IlrURaX6-fI" data-name="Akshama" style="--thumb: url('https://img.youtube.com/vi/IlrURaX6-fI/hqdefault.jpg');" aria-label="Play video: Akshama — CAT 99 %ile" aria-hidden="true">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1229,7 +1230,6 @@
       </div>
 
       <div class="secret-card" role="button" tabindex="0" data-yt="pKEQ3zC_6V4" data-name="Romit" style="--thumb: url('https://img.youtube.com/vi/pKEQ3zC_6V4/hqdefault.jpg');" aria-label="Play video: Romit — NMAT 262 Score" aria-hidden="true">
-        <span class="secret-pill"><span class="pulse-dot"></span>Reel</span>
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1268,19 +1268,19 @@
 
     <div class="stories-stats reveal">
       <div class="story-stat">
-        <div class="story-stat-num"><em>1,247</em></div>
+        <div class="story-stat-num"><em data-count-to="1247" data-count-format="comma">0</em></div>
         <div class="story-stat-lbl">Aspirants enrolled this week</div>
       </div>
       <div class="story-stat">
-        <div class="story-stat-num"><em>50,000+</em></div>
+        <div class="story-stat-num"><em data-count-to="50000" data-count-format="comma" data-count-suffix="+">0</em></div>
         <div class="story-stat-lbl">Students mentored since 2014</div>
       </div>
       <div class="story-stat">
-        <div class="story-stat-num"><em>4.8</em><small>/5</small></div>
+        <div class="story-stat-num"><em data-count-to="4.8" data-count-format="decimal">0</em><small>/5</small></div>
         <div class="story-stat-lbl">Avg rating · 8,400+ reviews</div>
       </div>
       <div class="story-stat">
-        <div class="story-stat-num"><em>96%</em></div>
+        <div class="story-stat-num"><em data-count-to="96" data-count-format="percent">0</em></div>
         <div class="story-stat-lbl">Course completion rate</div>
       </div>
     </div>
@@ -3341,14 +3341,14 @@
         <div class="free-stat">— 240 pages of solved problems</div>
         <div class="free-link">Get PYQ Pack →</div>
       </a>
-      <div class="free-card">
-        <span class="free-tag">LIVE</span>
-        <div class="free-meta">Webinar</div>
-        <div class="free-title">Sunday Strategy Session</div>
-        <div class="free-desc">90-minute live session this Sunday at 5 PM IST. Strategy + Q&amp;A with IIM-A mentor Rahul Singh.</div>
-        <div class="free-stat">— 2,400 already registered</div>
-        <div class="free-link">Reserve Spot →</div>
-      </div>
+        <a href="https://catking.in/exam/cat-exam/free-cat-workshop" target="_blank" rel="noopener" class="free-card">
+            <span class="free-tag">LIVE</span>
+            <div class="free-meta">Workshop</div>
+            <div class="free-title">Free Workshop</div>
+            <div class="free-desc">Learn how to crack the CAT Exam. Tips and tricks straight from IIM-A/B/C alumni mentors.</div>
+            <div class="free-stat">, Live + recorded · join anytime</div>
+            <div class="free-link">Go to Free Workshop →</div>
+        </a>
     </div>
   </div>
 </section>
@@ -3939,12 +3939,15 @@
 <!-- ─────────────────────────────────────────
      STICKY CTA + LIVE TOAST
      ───────────────────────────────────────── -->
+<!-- Temporarily disabled.
 <div class="sticky-cta" id="stickyCta">
   <span class="sticky-msg">May 4 batch · <strong>43 seats remain</strong> · Block your seat with ₹999 (refundable)</span>
   <button class="btn btn-primary">Reserve My Seat →</button>
   <button class="close" onclick="document.getElementById('stickyCta').classList.remove('show'); stickyClosed = true;">✕</button>
 </div>
+-->
 
+<!-- Temporarily disabled.
 <div class="live-toast" id="liveToast">
   <button class="toast-close" onclick="document.getElementById('liveToast').style.display='none'">✕</button>
   <div class="toast-avatar" id="toastAvatar">PR</div>
@@ -3954,6 +3957,7 @@
     <div class="toast-time" id="toastTime">2 min ago</div>
   </div>
 </div>
+-->
 
 <!-- ─────────────────────────────────────────
      SCORECARD MODAL — Click "View Scorecard" to open
