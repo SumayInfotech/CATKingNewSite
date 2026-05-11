@@ -457,11 +457,11 @@ if (muteBtn) {
 })();
 // ----- Workshop / Enquiry Modal -----
 function openEnquiryModal() {
-  const m = document.getElementById('enquiryModal');
+  /*const m = document.getElementById('enquiryModal');
   if (m) {
     m.classList.add('show');
     document.body.style.overflow = 'hidden';
-  }
+  }*/
 }
 function closeEnquiryModal() {
   const m = document.getElementById('enquiryModal');
@@ -882,7 +882,7 @@ document.getElementById('pdfModal')?.addEventListener('click', function (e) {
 window.addEventListener('load', function () {
   setTimeout(function () {
     if (!sessionStorage.getItem('enquiry_shown')) {
-      openEnquiryModal();
+      /*openEnquiryModal();*/
       sessionStorage.setItem('enquiry_shown', '1');
     }
   }, 5000);
