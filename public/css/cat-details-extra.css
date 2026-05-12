@@ -925,7 +925,7 @@
     }
 
     .curr-mod .meta::before {
-      content: "â—  ";
+      content: "\25cf  ";
       color: var(--orange);
     }
 
@@ -7310,7 +7310,7 @@
     }
 
     .elig-col-u.yes ul li::before {
-      content: "â€¢";
+      content: "\2022";
       position: absolute;
       left: 2px;
       color: #3bb77e;
@@ -7321,7 +7321,7 @@
     }
 
     .elig-col-u.warn ul li::before {
-      content: "â€¢";
+      content: "\2022";
       position: absolute;
       left: 2px;
       color: var(--gold);
@@ -7766,7 +7766,7 @@
       font-weight: 900 !important;
     }
 
-    .sec:not(#why) h2 .accent,
+    .sec h2 .accent,
     .sec.dark h2 .accent,
     .pin-card .ct-left h3 .acc,
     .pin-card.dk .ct-left h3 .acc,

@@ -109,10 +109,10 @@
           <p class="cc-cap">Concept Builder Videos, 130+ eBooks (LOD 1 and 2), Full-length Mocks. Validity till CAT
             2026.</p>
           <ul class="cc-feats">
-            <li><span class="fi">âœ“</span> Concept builder video library, watch anytime</li>
-            <li><span class="fi">âœ“</span> 130+ eBooks across VARC, DILR, and QA</li>
-            <li><span class="fi">âœ“</span> Full-length CAT mocks and sectional mocks</li>
-            <li><span class="fi">âœ“</span> MBAGeeks forum &amp; community access with faculty replies</li>
+            <li><span class="fi">&#10003;</span> Concept builder video library, watch anytime</li>
+            <li><span class="fi">&#10003;</span> 130+ eBooks across VARC, DILR, and QA</li>
+            <li><span class="fi">&#10003;</span> Full-length CAT mocks and sectional mocks</li>
+            <li><span class="fi">&#10003;</span> MBAGeeks forum &amp; community access with faculty replies</li>
           </ul>
           <div class="cc-price">
             <div>
@@ -139,10 +139,10 @@
           <p class="cc-cap">Live CAT lectures plus full coverage of NMAT, SNAP, XAT, CMAT, MICAT, CET, MAT, ATMA - all
             in one fee. Validity till May 2027.</p>
           <ul class="cc-feats">
-            <li><span class="fi">âœ“</span> Live lectures for VARC, DILR, and QA</li>
-            <li><span class="fi">âœ“</span> Verbal Live with Sumit Sir every Wed and Fri</li>
-            <li><span class="fi">âœ“</span> NMAT, SNAP, XAT, CMAT &amp; OMET coverage included</li>
-            <li><span class="fi">âœ“</span> 40+ full-length mocks across all exams</li>
+            <li><span class="fi">&#10003;</span> Live lectures for VARC, DILR, and QA</li>
+            <li><span class="fi">&#10003;</span> Verbal Live with Sumit Sir every Wed and Fri</li>
+            <li><span class="fi">&#10003;</span> NMAT, SNAP, XAT, CMAT &amp; OMET coverage included</li>
+            <li><span class="fi">&#10003;</span> 40+ full-length mocks across all exams</li>
           </ul>
           <div class="cc-price">
             <div>
@@ -240,10 +240,10 @@
             <p class="cc-cap">45 mocks total (30 Proctored + 15 Take-home), tested by IIM Kozhikode alumni. Built on the
               past 5 years' CAT pattern plus expected convenor inputs.</p>
             <ul class="cc-feats">
-              <li><span class="fi">âœ“</span> 30 Real CAT Proctored + 15 Take-home Mocks</li>
-              <li><span class="fi">âœ“</span> 45 Sectional + 90 Sprint tests across QA/DILR/VARC</li>
-              <li><span class="fi">âœ“</span> 18 Actual CAT slot-wise papers (2020-2025)</li>
-              <li><span class="fi">âœ“</span> Tested by IIM-K alumni; Topper attempt video by FMS Alum</li>
+              <li><span class="fi">&#10003;</span> 30 Real CAT Proctored + 15 Take-home Mocks</li>
+              <li><span class="fi">&#10003;</span> 45 Sectional + 90 Sprint tests across QA/DILR/VARC</li>
+              <li><span class="fi">&#10003;</span> 18 Actual CAT slot-wise papers (2020-2025)</li>
+              <li><span class="fi">&#10003;</span> Tested by IIM-K alumni; Topper attempt video by FMS Alum</li>
             </ul>
             <div class="cc-price">
               <div>
@@ -269,10 +269,10 @@
             <p class="cc-cap">All exams in one pack: CAT + NMAT + SNAP + XAT + CMAT mocks together. Single subscription
               covers your entire MBA exam season.</p>
             <ul class="cc-feats">
-              <li><span class="fi">âœ“</span> 45 CAT + 20 NMAT + 20 SNAP + 10 XAT mocks</li>
-              <li><span class="fi">âœ“</span> Maximizer eBooks for NMAT (1500 Qs) and SNAP (1000 Qs)</li>
-              <li><span class="fi">âœ“</span> XAT Decision Making strategies by XLRI Alumni</li>
-              <li><span class="fi">âœ“</span> Mock Analysis Dashboard + 130+ practice eBooks</li>
+              <li><span class="fi">&#10003;</span> 45 CAT + 20 NMAT + 20 SNAP + 10 XAT mocks</li>
+              <li><span class="fi">&#10003;</span> Maximizer eBooks for NMAT (1500 Qs) and SNAP (1000 Qs)</li>
+              <li><span class="fi">&#10003;</span> XAT Decision Making strategies by XLRI Alumni</li>
+              <li><span class="fi">&#10003;</span> Mock Analysis Dashboard + 130+ practice eBooks</li>
             </ul>
             <div class="cc-price">
               <div>
@@ -297,9 +297,7 @@
       <div class="sec-head">
         <div>
           <h2>Why <span class="accent">CATKing</span></h2>
-          <p class="sub-h">Five reasons <span class="hi">5,000+ students</span> chose CATKing over a Kota or a Pune. Not slogans. These are the
-            levers that delivered <span class="hi">2,080+ IIM converts in 2024-25 alone</span> - including 460+ to BLACKI (Bangalore,
-            Lucknow, Ahmedabad, Calcutta, Kozhikode, Indore).</p>
+          <p class="sub-h">Five reasons 5,000+ students chose CATKing over a Kota or a Pune. Not slogans. These are the levers that delivered <b>2,080+ IIM converts in 2024-25 alone</b> - including 460+ to BLACKI (Bangalore, Lucknow, Ahmedabad, Calcutta, Kozhikode, Indore).</p>
         </div>
       </div>
 
@@ -375,13 +373,13 @@
           <div class="ct-left">
             <span class="tag">Full Coverage</span>
             <h3>One fee. <span class="acc">10 entrance exams + GMAT. Plus interviews.</span></h3>
-            <p>One bad CAT slot day shouldn't cost you a year. CAT Intensive at <b>â‚¹24,999</b> covers <b>10 MBA
+            <p>One bad CAT slot day shouldn't cost you a year. CAT Intensive at <b>&#8377;24,999</b> covers <b>10 MBA
                 entrances</b> - CAT, NMAT, SNAP, XAT, CMAT, MICAT, CET, MAT, ATMA, CUET PG, SRCC GBO. <b>Plus full GMAT
                 prep</b> for ISB, IIM-A PGPX, S.P. Jain PGPM, and global B-schools. Plus full GD-WAT-PI prep for IIMs,
               SPJIMR, FMS, XLRI, NMIMS. Validity till May 2027 - through the entire 2026 admissions cycle. Students call
               this their insurance policy.</p>
             <ul>
-              <li>10 MBA entrances + GMAT in a single fee - buying separately would cost â‚¹90K+</li>
+              <li>10 MBA entrances + GMAT in a single fee - buying separately would cost &#8377;90K+</li>
               <li>GMAT Focus Edition coverage for ISB, IIM-A PGPX, IIM-B EPGP, global B-schools</li>
               <li>Dedicated GD, WAT, and PI faculty (IIM, SPJIMR, NMIMS alumni)</li>
               <li>Validity through May 2027, full 2026-28 admissions cycle</li>
@@ -553,7 +551,7 @@
             </div>
             <div class="elig-cols-u">
               <div class="elig-col-u yes">
-                <div class="elig-col-lbl-u"><span class="lbl-tick-u">âœ“</span> Qualifies</div>
+                <div class="elig-col-lbl-u"><span class="lbl-tick-u">&#10003;</span> Qualifies</div>
                 <ul>
                   <li>Bachelor's degree, 50% aggregate</li>
                   <li>45% for SC, ST, PwD</li>
@@ -625,7 +623,7 @@
         <div>
           <h2>CAT 2026 <span class="accent">Exam Pattern</span></h2>
           <p class="sub-h"><b>CAT 2026 pattern (expected):</b> 68 questions, 120 minutes, 3 sections. Sectional
-            time-bound (40 min each). MCQs carry +3 / âˆ’1, TITA carries +3 / 0. Total marks 204. <i>Pattern matches CAT
+            time-bound (40 min each). MCQs carry +3 / -1, TITA carries +3 / 0. Total marks 204. <i>Pattern matches CAT
               2024 and 2025 - IIM Indore will confirm in the July 2026 notification.</i></p>
         </div>
         <a class="right-link" href="https://catking.in/exam/cat-exam/syllabus" target="_blank" rel="noopener">Open Full
@@ -1775,15 +1773,15 @@
           <p class="cc-cap">Concept Builder Videos, 130+ eBooks (LOD 1 and 2), Full-length Mocks. Validity till CAT
             2026.</p>
           <ul class="cc-feats">
-            <li><span class="fi">âœ“</span> Concept builder video library, watch anytime</li>
-            <li><span class="fi">âœ“</span> 130+ eBooks across VARC, DILR, and QA</li>
-            <li><span class="fi">âœ“</span> Full-length CAT mocks and sectional mocks</li>
-            <li><span class="fi">âœ“</span> MBAGeeks forum &amp; community access with faculty replies</li>
+            <li><span class="fi">&#10003;</span> Concept builder video library, watch anytime</li>
+            <li><span class="fi">&#10003;</span> 130+ eBooks across VARC, DILR, and QA</li>
+            <li><span class="fi">&#10003;</span> Full-length CAT mocks and sectional mocks</li>
+            <li><span class="fi">&#10003;</span> MBAGeeks forum &amp; community access with faculty replies</li>
           </ul>
           <div class="cc-price">
             <div>
-              <span class="now">â‚¹9,999</span>
-              <span class="was">â‚¹19,999</span>
+              <span class="now">&#8377;9,999</span>
+              <span class="was">&#8377;19,999</span>
             </div>
             <div class="off">50% OFF</div>
           </div>
@@ -1805,16 +1803,16 @@
           <p class="cc-cap">Live CAT lectures plus full coverage of NMAT, SNAP, XAT, CMAT, MICAT, CET, MAT, ATMA - all
             in one fee. Validity till May 2027.</p>
           <ul class="cc-feats">
-            <li><span class="fi">âœ“</span> Live VARC, DILR, and QA with senior faculty</li>
-            <li><span class="fi">âœ“</span> Verbal Live with Sumit Sir every Wed and Fri</li>
-            <li><span class="fi">âœ“</span> NMAT, SNAP, XAT, CMAT &amp; OMET coverage</li>
-            <li><span class="fi">âœ“</span> 40+ full-length mocks across exams</li>
-            <li><span class="fi">âœ“</span> Morning and weekend batch options</li>
+            <li><span class="fi">&#10003;</span> Live VARC, DILR, and QA with senior faculty</li>
+            <li><span class="fi">&#10003;</span> Verbal Live with Sumit Sir every Wed and Fri</li>
+            <li><span class="fi">&#10003;</span> NMAT, SNAP, XAT, CMAT &amp; OMET coverage</li>
+            <li><span class="fi">&#10003;</span> 40+ full-length mocks across exams</li>
+            <li><span class="fi">&#10003;</span> Morning and weekend batch options</li>
           </ul>
           <div class="cc-price">
             <div>
-              <span class="now">â‚¹19,999</span>
-              <span class="was">â‚¹39,999</span>
+              <span class="now">&#8377;19,999</span>
+              <span class="was">&#8377;39,999</span>
             </div>
             <div class="off">50% OFF</div>
           </div>
@@ -1843,8 +1841,8 @@
           </ul>
           <div class="cc-price">
             <div>
-              <span class="now">â‚¹24,999</span>
-              <span class="was">â‚¹49,999</span>
+              <span class="now">&#8377;24,999</span>
+              <span class="was">&#8377;49,999</span>
             </div>
             <div class="off">50% OFF</div>
           </div>
@@ -1886,8 +1884,8 @@
             </ul>
             <div class="cc-price">
               <div>
-                <span class="now">â‚¹3,999</span>
-                <span class="was">â‚¹7,999</span>
+                <span class="now">&#8377;3,999</span>
+                <span class="was">&#8377;7,999</span>
               </div>
               <div class="off">50% OFF</div>
             </div>
@@ -1908,15 +1906,15 @@
             <p class="cc-cap">45 mocks total (30 Proctored + 15 Take-home), tested by IIM Kozhikode alumni. Built on the
               past 5 years' CAT pattern plus expected convenor inputs.</p>
             <ul class="cc-feats">
-              <li><span class="fi">âœ“</span> 30 Real CAT Proctored + 15 Take-home Mocks</li>
-              <li><span class="fi">âœ“</span> 45 Sectional + 90 Sprint tests across QA/DILR/VARC</li>
-              <li><span class="fi">âœ“</span> 18 Actual CAT slot-wise papers (2020-2025)</li>
-              <li><span class="fi">âœ“</span> Tested by IIM-K alumni; Topper attempt video by FMS Alum</li>
+              <li><span class="fi">&#10003;</span> 30 Real CAT Proctored + 15 Take-home Mocks</li>
+              <li><span class="fi">&#10003;</span> 45 Sectional + 90 Sprint tests across QA/DILR/VARC</li>
+              <li><span class="fi">&#10003;</span> 18 Actual CAT slot-wise papers (2020-2025)</li>
+              <li><span class="fi">&#10003;</span> Tested by IIM-K alumni; Topper attempt video by FMS Alum</li>
             </ul>
             <div class="cc-price">
               <div>
-                <span class="now">â‚¹4,999</span>
-                <span class="was">â‚¹9,999</span>
+                <span class="now">&#8377;4,999</span>
+                <span class="was">&#8377;9,999</span>
               </div>
               <div class="off">50% OFF</div>
             </div>
@@ -1937,15 +1935,15 @@
             <p class="cc-cap">All exams in one pack: CAT + NMAT + SNAP + XAT + CMAT mocks together. Single subscription
               covers your entire MBA exam season.</p>
             <ul class="cc-feats">
-              <li><span class="fi">âœ“</span> 45 CAT + 20 NMAT + 20 SNAP + 10 XAT mocks</li>
-              <li><span class="fi">âœ“</span> Maximizer eBooks for NMAT (1500 Qs) and SNAP (1000 Qs)</li>
-              <li><span class="fi">âœ“</span> XAT Decision Making strategies by XLRI Alumni</li>
-              <li><span class="fi">âœ“</span> Mock Analysis Dashboard + 130+ practice eBooks</li>
+              <li><span class="fi">&#10003;</span> 45 CAT + 20 NMAT + 20 SNAP + 10 XAT mocks</li>
+              <li><span class="fi">&#10003;</span> Maximizer eBooks for NMAT (1500 Qs) and SNAP (1000 Qs)</li>
+              <li><span class="fi">&#10003;</span> XAT Decision Making strategies by XLRI Alumni</li>
+              <li><span class="fi">&#10003;</span> Mock Analysis Dashboard + 130+ practice eBooks</li>
             </ul>
             <div class="cc-price">
               <div>
-                <span class="now">â‚¹6,999</span>
-                <span class="was">â‚¹13,999</span>
+                <span class="now">&#8377;6,999</span>
+                <span class="was">&#8377;13,999</span>
               </div>
               <div class="off">50% OFF</div>
             </div>
@@ -2796,12 +2794,12 @@
           <details class="fq">
             <summary>Do I get hard-copy books?<span class="fq-chev">+</span></summary>
             <div class="fq-a">By default, everything is digital: 130+ eBooks on your dashboard, covering LOD 1 and LOD 2
-              across all sections. If you want physical books, they are available for an additional â‚¹2,000. We recommend
+              across all sections. If you want physical books, they are available for an additional &#8377;2,000. We recommend
               digital since the CAT exam itself is online, so building the habit of reading on a screen helps.</div>
           </details>
           <details class="fq">
             <summary>What about fees and EMI?<span class="fq-chev">+</span></summary>
-            <div class="fq-a">Self Study â‚¹9,999, Turbo â‚¹19,999, Intensive â‚¹24,999 (all 50% off MRP). EMI available from
+            <div class="fq-a">Self Study &#8377;9,999, Turbo &#8377;19,999, Intensive &#8377;24,999 (all 50% off MRP). EMI available from
               3 months onwards via Razorpay. Current promo code <b>CATKing50</b> gets you flat 50% off. All prices are
               inclusive of GST.</div>
           </details>
