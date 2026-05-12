@@ -11,6 +11,14 @@ Route::get('/', function () {
 
 Route::get('/result', [ResultsController::class, 'index'])->name('results');
 
+Route::get('/exams', function () {
+    return view('exams');
+})->name('exams');
+
+Route::get('/exams/cat-exam', function () {
+    return view('exams.cat');
+})->name('exam.cat');
+
 Route::get('/api/scorecards-proxy', function (Request $request) {
     $page = $request->get('page', 1);
     $baseCourseId = $request->get('base_course_id', 56);

@@ -32,7 +32,7 @@
     </div>
     <div class="foot-col">
       <h6>Other Exams</h6>
-      <a href="https://catking.in/exams" target="_blank" rel="noopener" style="color:var(--orange);font-weight:700;">Browse all exam info →</a>
+      <a href="{{ route('exams') }}" style="color:var(--orange);font-weight:700;">Browse all exam info →</a>
       <a href="https://catking.in/exam/nmat/overview" target="_blank" rel="noopener">NMAT</a>
       <a href="https://catking.in/exam/snap/overview" target="_blank" rel="noopener">SNAP</a>
       <a href="https://catking.in/exam/xat/overview" target="_blank" rel="noopener">XAT</a>

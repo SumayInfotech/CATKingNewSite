@@ -1,0 +1,410 @@
+/* public/css/exams.css */
+
+/* Utilities */
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Hero Section */
+.exams-hero {
+    position: relative;
+    padding: 160px 0 120px;
+    background-color: #0f0f1c; /* Deep navy from brand */
+    background-image: 
+        radial-gradient(circle at 85% 15%, rgba(254, 168, 47, 0.2), transparent 45%),
+        radial-gradient(circle at 15% 85%, rgba(35, 133, 244, 0.15), transparent 45%);
+    overflow: hidden;
+    text-align: center;
+}
+
+.hero-bg-overlay {
+    position: absolute;
+    inset: 0;
+    background: url('https://catking.in/wp-content/themes/catking/images/pattern.png');
+    opacity: 0.04;
+    pointer-events: none;
+}
+
+.exams-hero .eyebrow {
+    color: #FEA82F;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 800;
+    font-size: 13px;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.hero-title {
+    font-size: 72px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 28px;
+    line-height: 1.05;
+    letter-spacing: -1.5px;
+}
+
+.hero-title em {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: #FEA82F;
+    font-weight: 400;
+}
+
+.hero-sub {
+    font-size: 21px;
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 850px;
+    margin: 0 auto 48px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.hero-badges {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.badge-pill {
+    background: rgba(255, 255, 255, 0.07);
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    transition: all 0.3s;
+}
+
+.badge-pill:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #FEA82F;
+}
+
+/* Section Common */
+.section {
+    padding: 120px 0;
+}
+
+.theme-light { background: #fff; }
+.theme-dark { background: #0b0b14; color: #fff; }
+
+.section-head { margin-bottom: 70px; }
+
+.section-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: inherit;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.section-title em {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: #FEA82F;
+    font-weight: 400;
+}
+
+.section-sub {
+    font-size: 19px;
+    color: #6b6b7d;
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.theme-dark .section-sub { color: rgba(255, 255, 255, 0.65); }
+
+/* Exams Grid */
+.exams-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.exam-card {
+    background: #fff;
+    border: 1px solid #e6e6ec;
+    border-radius: 16px;
+    padding: 3px;
+    transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.exam-card-inner {
+    padding: 36px 32px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 14px;
+    z-index: 2;
+    position: relative;
+}
+
+.exam-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #FEA82F, #2385F4);
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: 1;
+}
+
+.exam-card:hover {
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 30px 60px rgba(15, 15, 28, 0.12);
+    border-color: transparent;
+}
+
+.exam-card:hover::before { opacity: 1; }
+
+.exam-card-head h3 {
+    font-size: 28px;
+    font-weight: 900;
+    color: #0f0f1c;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.exam-card-head p {
+    font-size: 12px;
+    font-weight: 800;
+    color: #6b6b7d;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    line-height: 1.4;
+}
+
+.exam-card-link {
+    margin-top: 32px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #2385F4;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s;
+}
+
+.exam-card-link:hover {
+    gap: 12px;
+}
+
+.exam-card:hover .exam-card-link { color: #E8951F; }
+
+/* Strategy Section */
+.strategy-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.eyebrow.orange {
+    color: #FEA82F;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.strategy-title {
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 32px;
+    line-height: 1.2;
+}
+
+.strategy-title em {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: #FEA82F;
+    font-weight: 400;
+}
+
+.strategy-text {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.85;
+    margin-bottom: 28px;
+}
+
+.strategy-highlights {
+    margin-top: 48px;
+    display: grid;
+    gap: 20px;
+}
+
+.highlight-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.h-icon {
+    width: 28px;
+    height: 28px;
+    background: #FEA82F;
+    color: #0f0f1c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 900;
+    box-shadow: 0 4px 12px rgba(254, 168, 47, 0.3);
+}
+
+.h-text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Video Wrapper */
+.video-wrapper {
+    position: relative;
+}
+
+.video-frame {
+    border-radius: 20px;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    background: #000;
+    box-shadow: 0 50px 100px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.video-frame iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.video-meta {
+    margin-top: 24px;
+    padding-left: 10px;
+}
+
+.video-meta span {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FEA82F;
+    margin-bottom: 6px;
+    font-weight: 800;
+}
+
+.video-meta strong {
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+}
+
+/* Support Section */
+.support-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+    margin: 80px 0;
+}
+
+.support-card {
+    padding: 56px 40px;
+    background: #fff;
+    border-radius: 24px;
+    border: 1px solid #e6e6ec;
+    transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    position: relative;
+}
+
+.support-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 30px 70px rgba(15, 15, 28, 0.08);
+    border-color: #FEA82F;
+}
+
+.support-icon {
+    font-size: 56px;
+    margin-bottom: 32px;
+    display: block;
+    filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1));
+}
+
+.support-card h4 {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    color: #0f0f1c;
+}
+
+.support-card p {
+    font-size: 16px;
+    color: #6b6b7d;
+    line-height: 1.7;
+}
+
+.support-cta {
+    margin-top: 20px;
+}
+
+/* Animations */
+.reveal {
+    animation: revealUp 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes revealUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media (max-width: 1280px) {
+    .container { padding: 0 40px; }
+    .strategy-grid { gap: 60px; }
+}
+
+@media (max-width: 1100px) {
+    .exams-grid { grid-template-columns: repeat(3, 1fr); }
+    .support-grid { gap: 32px; }
+}
+
+@media (max-width: 991px) {
+    .hero-title { font-size: 56px; }
+    .hero-sub { font-size: 19px; }
+    .exams-grid { grid-template-columns: repeat(2, 1fr); }
+    .strategy-grid { grid-template-columns: 1fr; gap: 60px; }
+    .support-grid { grid-template-columns: 1fr; max-width: 500px; margin: 60px auto; }
+    .section { padding: 80px 0; }
+}
+
+@media (max-width: 768px) {
+    .hero-title { font-size: 42px; }
+    .section-title { font-size: 36px; }
+    .exams-grid { grid-template-columns: 1fr; }
+    .support-card { padding: 40px 32px; }
+}
+
+@media (max-width: 480px) {
+    .hero-title { font-size: 36px; }
+    .hero-sub { font-size: 17px; }
+    .hero-badges { gap: 10px; }
+    .badge-pill { padding: 8px 16px; font-size: 12px; }
+}
