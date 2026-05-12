@@ -482,7 +482,7 @@
     }
 
     .marquee-track span::before {
-      content: "â—";
+      content: "\25cf";
       color: var(--gold);
     }
 
@@ -1634,7 +1634,7 @@
     }
 
     .c-card .body .feats div::before {
-      content: "âœ“ ";
+      content: "\2713 ";
       color: var(--green);
       font-weight: 800;
     }
@@ -3307,7 +3307,7 @@
     }
 
     .pin-card .ct-left ul li::before {
-      content: "âœ“";
+      content: "\2713";
       position: absolute;
       left: 0;
       color: var(--green);
@@ -4714,7 +4714,7 @@
     }
 
     .cc-feats li::before {
-      content: "âœ“";
+      content: "\2713";
       position: absolute;
       left: 0;
       color: var(--green-d);
@@ -6453,7 +6453,7 @@
     }
 
     .elig-list.yes li::before {
-      content: "âœ“";
+      content: "\2713";
       position: absolute;
       left: 2px;
       top: 5px;
@@ -6818,7 +6818,7 @@
     }
 
     .elig-col-new.yes ul li::before {
-      content: "â€¢";
+      content: "\2022";
       position: absolute;
       left: 4px;
       color: #3bb77e;
@@ -6826,7 +6826,7 @@
     }
 
     .elig-col-new.warn ul li::before {
-      content: "â€¢";
+      content: "\2022";
       position: absolute;
       left: 4px;
       color: var(--gold);

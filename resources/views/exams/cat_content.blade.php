@@ -168,10 +168,10 @@
           <p class="cc-cap">Everything in Turbo plus full GMAT prep and Admission Consulting for IIM, ISB, and global
             B-school applications. Validity till May 2027.</p>
           <ul class="cc-feats">
-            <li><span class="fi">âœ“</span> Everything in Turbo (CAT + all Non-CAT exams)</li>
-            <li><span class="fi">âœ“</span> Complete GMAT prep with global-standard content</li>
-            <li><span class="fi">âœ“</span> Admission Consulting for IIM / ISB / global apps</li>
-            <li><span class="fi">âœ“</span> 1-on-1 mentor calls + GDPI / WAT-PI module</li>
+            <li><span class="fi">&#10003;</span> Everything in Turbo (CAT + all Non-CAT exams)</li>
+            <li><span class="fi">&#10003;</span> Complete GMAT prep with global-standard content</li>
+            <li><span class="fi">&#10003;</span> Admission Consulting for IIM / ISB / global apps</li>
+            <li><span class="fi">&#10003;</span> 1-on-1 mentor calls + GDPI / WAT-PI module</li>
           </ul>
           <div class="cc-price">
             <div>
@@ -211,10 +211,10 @@
             <p class="cc-cap">20 Real CAT mocks (RC 1 to RC 20), 100% same interface as actual CAT. Alumni-verified mock
               pattern from IIM Bangalore, FMS and CAT 99.7%iler toppers.</p>
             <ul class="cc-feats">
-              <li><span class="fi">âœ“</span> 20 Real CAT Proctored Mocks (no take-home)</li>
-              <li><span class="fi">âœ“</span> 45 Sectional + 90 Sprint + 100 Topic-wise tests</li>
-              <li><span class="fi">âœ“</span> 18 Actual CAT slot-wise papers (2020-2025)</li>
-              <li><span class="fi">âœ“</span> Live mock solving Sundays 12-3 pm by IIM-L Alum</li>
+              <li><span class="fi">&#10003;</span> 20 Real CAT Proctored Mocks (no take-home)</li>
+              <li><span class="fi">&#10003;</span> 45 Sectional + 90 Sprint + 100 Topic-wise tests</li>
+              <li><span class="fi">&#10003;</span> 18 Actual CAT slot-wise papers (2020-2025)</li>
+              <li><span class="fi">&#10003;</span> Live mock solving Sundays 12-3 pm by IIM-L Alum</li>
             </ul>
             <div class="cc-price">
               <div>
@@ -1833,11 +1833,11 @@
           <p class="cc-cap">Everything in Turbo plus full GMAT prep and Admission Consulting for IIM, ISB, and global
             B-school applications. Validity till May 2027.</p>
           <ul class="cc-feats">
-            <li><span class="fi">âœ“</span> Everything in Turbo (CAT + all Non-CAT exams)</li>
-            <li><span class="fi">âœ“</span> Complete GMAT prep with global-standard content</li>
-            <li><span class="fi">âœ“</span> Admission Consulting for IIM / ISB / global apps</li>
-            <li><span class="fi">âœ“</span> 1-on-1 mentor calls + GDPI / WAT-PI module</li>
-            <li><span class="fi">âœ“</span> Best for aspirants weighing IIM and global MBA</li>
+            <li><span class="fi">&#10003;</span> Everything in Turbo (CAT + all Non-CAT exams)</li>
+            <li><span class="fi">&#10003;</span> Complete GMAT prep with global-standard content</li>
+            <li><span class="fi">&#10003;</span> Admission Consulting for IIM / ISB / global apps</li>
+            <li><span class="fi">&#10003;</span> 1-on-1 mentor calls + GDPI / WAT-PI module</li>
+            <li><span class="fi">&#10003;</span> Best for aspirants weighing IIM and global MBA</li>
           </ul>
           <div class="cc-price">
             <div>
@@ -1877,10 +1877,10 @@
             <p class="cc-cap">20 Real CAT mocks (RC 1 to RC 20), 100% same interface as actual CAT. Alumni-verified mock
               pattern from IIM Bangalore, FMS and CAT 99.7%iler toppers.</p>
             <ul class="cc-feats">
-              <li><span class="fi">âœ“</span> 20 Real CAT Proctored Mocks (no take-home)</li>
-              <li><span class="fi">âœ“</span> 45 Sectional + 90 Sprint + 100 Topic-wise tests</li>
-              <li><span class="fi">âœ“</span> 18 Actual CAT slot-wise papers (2020-2025)</li>
-              <li><span class="fi">âœ“</span> Live mock solving Sundays 12-3 pm by IIM-L Alum</li>
+              <li><span class="fi">&#10003;</span> 20 Real CAT Proctored Mocks (no take-home)</li>
+              <li><span class="fi">&#10003;</span> 45 Sectional + 90 Sprint + 100 Topic-wise tests</li>
+              <li><span class="fi">&#10003;</span> 18 Actual CAT slot-wise papers (2020-2025)</li>
+              <li><span class="fi">&#10003;</span> Live mock solving Sundays 12-3 pm by IIM-L Alum</li>
             </ul>
             <div class="cc-price">
               <div>
@@ -2864,7 +2864,7 @@
               of provisional admission.</div>
           </details>
         </div>
-        <button class="faq-more-btn" id="faqMoreBtn" type="button">View 11 more questions â†“</button>
+        <button class="faq-more-btn" id="faqMoreBtn" type="button">View 11 more questions &darr;</button>
       </div>
     </div>
   </section>
