@@ -6,7 +6,7 @@
 
 @section('content')
 <!-- ─────────────────────────────────────────
-     1. HERO — Authority + Social Proof + Outcome
+     1. HERO - Authority + Social Proof + Outcome
      ───────────────────────────────────────── -->
 <section class="hero">
     <video
@@ -124,14 +124,14 @@
 </section>
 
 <!-- ─────────────────────────────────────────
-     1.5 WHAT YOU'LL GET — Platform overview
+     1.5 WHAT YOU'LL GET - Platform overview
      ───────────────────────────────────────── -->
 <section class="theme-dark section platform-section" id="platform">
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Everything in one platform</span>
       <h2 class="section-title">What you'll <em>get</em> with CATKing.</h2>
-      <p class="section-sub">A complete ecosystem built to take you from beginner to IIM-ready — with every tool, resource, and support you need.</p>
+      <p class="section-sub">A complete ecosystem built to take you from beginner to IIM-ready - with every tool, resource, and support you need.</p>
     </div>
 
     <div class="platform-grid reveal">
@@ -144,7 +144,7 @@
           <span class="platform-stat">200+ Tests</span>
         </div>
         <div class="platform-title">Live Lectures</div>
-        <div class="platform-desc">Daily live sessions with IIM-A/B/C alumni faculty across VARC, DILR &amp; QA — interactive, doubt-friendly classrooms.</div>
+        <div class="platform-desc">Daily live sessions with IIM-A/B/C alumni faculty across VARC, DILR &amp; QA - interactive, doubt-friendly classrooms.</div>
       </div>
 
       <!-- Tile 2: Daily Targets -->
@@ -156,7 +156,7 @@
           <span class="platform-stat">365 Days</span>
         </div>
         <div class="platform-title">Recorded Lessons</div>
-        <div class="platform-desc">Concept videos, walkthroughs and revisions available 24×7 — pause, rewind, replay anytime for 12 months.</div>
+        <div class="platform-desc">Concept videos, walkthroughs and revisions available 24×7 - pause, rewind, replay anytime for 12 months.</div>
       </div>
 
       <!-- Tile 3: Live Classes -->
@@ -211,7 +211,7 @@
 </section>
 
 <!-- ─────────────────────────────────────────
-     COURSES — Tabbed catalog
+     COURSES - Tabbed catalog
      ───────────────────────────────────────── -->
 <section class="theme-light section courses-section" id="courses">
     <div class="container">
@@ -269,8 +269,8 @@
                             <li>GD/WAT/PI Add-on Available</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 19,999</span>
-                            <span class="course-price-was">₹ 39,999</span>
+                            <span class="course-price-now">₹ 14,999</span>
+                            <span class="course-price-was">₹ 29,999</span>
                             <span class="course-price-tag">40% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -550,8 +550,8 @@
                             <span class="course-price-tag">50% OFF</span>
                         </div>
                         <div class="course-card-ctas">
-                            <a href="https://courses.catking.in/courses/snap-mocks-2026" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
-                            <a href="https://courses.catking.in/courses/snap-mocks-2026" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
+                            <a href="https://courses.catking.in/courses/cat-advance-mocks" target="_blank" rel="noopener" class="btn course-btn-secondary">View Course</a>
+                            <a href="https://courses.catking.in/courses/cat-advance-mocks" target="_blank" rel="noopener" class="btn course-btn-primary">Buy Now</a>
                         </div>
                     </div>
                 </article>
@@ -571,8 +571,8 @@
                             <li>Live Mock Discussion Calls</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 1,999</span>
-                            <span class="course-price-was">₹ 3,999</span>
+                            <span class="course-price-now">₹ 9,999</span>
+                            <span class="course-price-was">₹ 19,999</span>
                             <span class="course-price-tag">50% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -814,8 +814,8 @@
                             <li>Profile Improvement Tips</li>
                         </ul>
                         <div class="course-card-price">
-                            <span class="course-price-now">₹ 4,999</span>
-                            <span class="course-price-was">₹ 9,999</span>
+                            <span class="course-price-now">₹ 499</span>
+                            <span class="course-price-was">₹ 999</span>
                             <span class="course-price-tag">44% OFF</span>
                         </div>
                         <div class="course-card-ctas">
@@ -833,7 +833,7 @@
 
 
 <!-- ─────────────────────────────────────────
-     EXAM SPOTLIGHT — Stacked alternating cards
+     EXAM SPOTLIGHT - Stacked alternating cards
      ───────────────────────────────────────── -->
 
 <section class="theme-light section exam-spotlight-section" id="exam-spotlight">
@@ -999,17 +999,17 @@
 
 
 <!-- ─────────────────────────────────────────
-     SECTION 4 — SECRETS TO SUCCESS (VIDEO REELS)
+     SECTION 4 - SECRETS TO SUCCESS (VIDEO REELS)
      ───────────────────────────────────────── -->
 <section class="theme-dark section secrets-section" id="secrets">
   <div class="container">
     <div class="section-head reveal">
 
       <h2 class="section-title"><em>Secrets</em> to success: CATKing toppers share it all.</h2>
-      <p class="section-sub">Hear directly from 99+ percentilers — what worked, what didn't and how they cracked CAT in their own words.</p>
+      <p class="section-sub">Hear directly from 99+ percentilers - what worked, what didn't and how they cracked CAT in their own words.</p>
     </div>
 
-    <div class="secrets-marquee-wrap reveal" aria-label="Topper video reels — auto-scrolling. Use arrows or hover to pause.">
+    <div class="secrets-marquee-wrap reveal" aria-label="Topper video reels - auto-scrolling. Use arrows or hover to pause.">
       <button class="secrets-arrow prev" type="button" id="secretsPrev" aria-label="Previous video">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
       </button>
@@ -1019,7 +1019,7 @@
       <div class="secrets-marquee">
         <div class="secrets-track" id="secretsTrack">
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="7_Tz4tkaQPo" data-name="Ajmal" style="--thumb: url('https://img.youtube.com/vi/7_Tz4tkaQPo/hqdefault.jpg');" aria-label="Play video: Ajmal — CAT 99.29 %ile">
+      <div class="secret-card" role="button" tabindex="0" data-yt="7_Tz4tkaQPo" data-name="Ajmal" style="--thumb: url('https://img.youtube.com/vi/7_Tz4tkaQPo/hqdefault.jpg');" aria-label="Play video: Ajmal - CAT 99.29 %ile">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1029,7 +1029,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="X9CxNhGAqDM" data-name="Muskan" style="--thumb: url('https://img.youtube.com/vi/X9CxNhGAqDM/hqdefault.jpg');" aria-label="Play video: Muskan — CATKing CAT Topper">
+      <div class="secret-card" role="button" tabindex="0" data-yt="X9CxNhGAqDM" data-name="Muskan" style="--thumb: url('https://img.youtube.com/vi/X9CxNhGAqDM/hqdefault.jpg');" aria-label="Play video: Muskan - CATKing CAT Topper">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1039,7 +1039,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="TV-bPh4KTXA" data-name="Dhruvsingh" style="--thumb: url('https://img.youtube.com/vi/TV-bPh4KTXA/hqdefault.jpg');" aria-label="Play video: Dhruvsingh — CAT 99.02 %ile">
+      <div class="secret-card" role="button" tabindex="0" data-yt="TV-bPh4KTXA" data-name="Dhruvsingh" style="--thumb: url('https://img.youtube.com/vi/TV-bPh4KTXA/hqdefault.jpg');" aria-label="Play video: Dhruvsingh - CAT 99.02 %ile">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1049,7 +1049,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="NT0F6t31heM" data-name="Akshma" style="--thumb: url('https://img.youtube.com/vi/NT0F6t31heM/hqdefault.jpg');" aria-label="Play video: Akshma — CAT 99.36 %ile">
+      <div class="secret-card" role="button" tabindex="0" data-yt="NT0F6t31heM" data-name="Akshma" style="--thumb: url('https://img.youtube.com/vi/NT0F6t31heM/hqdefault.jpg');" aria-label="Play video: Akshma - CAT 99.36 %ile">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1059,7 +1059,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="jdPUhiNhloc" data-name="Jai" style="--thumb: url('https://img.youtube.com/vi/jdPUhiNhloc/hqdefault.jpg');" aria-label="Play video: Jai — CAT 99.66 %ile">
+      <div class="secret-card" role="button" tabindex="0" data-yt="jdPUhiNhloc" data-name="Jai" style="--thumb: url('https://img.youtube.com/vi/jdPUhiNhloc/hqdefault.jpg');" aria-label="Play video: Jai - CAT 99.66 %ile">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1069,7 +1069,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="ZdPtNvamYlA" data-name="Rishi" style="--thumb: url('https://img.youtube.com/vi/ZdPtNvamYlA/hqdefault.jpg');" aria-label="Play video: Rishi — CAT 99.22 %ile">
+      <div class="secret-card" role="button" tabindex="0" data-yt="ZdPtNvamYlA" data-name="Rishi" style="--thumb: url('https://img.youtube.com/vi/ZdPtNvamYlA/hqdefault.jpg');" aria-label="Play video: Rishi - CAT 99.22 %ile">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1079,7 +1079,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="QV7HwpMVrXo" data-name="Mayank" style="--thumb: url('https://img.youtube.com/vi/QV7HwpMVrXo/hqdefault.jpg');" aria-label="Play video: Mayank — CAT 99 %ile">
+      <div class="secret-card" role="button" tabindex="0" data-yt="QV7HwpMVrXo" data-name="Mayank" style="--thumb: url('https://img.youtube.com/vi/QV7HwpMVrXo/hqdefault.jpg');" aria-label="Play video: Mayank - CAT 99 %ile">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1089,7 +1089,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="2T4myWfkQGQ" data-name="Sarthak" style="--thumb: url('https://img.youtube.com/vi/2T4myWfkQGQ/hqdefault.jpg');" aria-label="Play video: Sarthak — CAT 99 %ile">
+      <div class="secret-card" role="button" tabindex="0" data-yt="2T4myWfkQGQ" data-name="Sarthak" style="--thumb: url('https://img.youtube.com/vi/2T4myWfkQGQ/hqdefault.jpg');" aria-label="Play video: Sarthak - CAT 99 %ile">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1099,7 +1099,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="8bch7T_WFj0" data-name="Gourav" style="--thumb: url('https://img.youtube.com/vi/8bch7T_WFj0/hqdefault.jpg');" aria-label="Play video: Gourav — CAT 99 %ile">
+      <div class="secret-card" role="button" tabindex="0" data-yt="8bch7T_WFj0" data-name="Gourav" style="--thumb: url('https://img.youtube.com/vi/8bch7T_WFj0/hqdefault.jpg');" aria-label="Play video: Gourav - CAT 99 %ile">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1109,7 +1109,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="IlrURaX6-fI" data-name="Akshama" style="--thumb: url('https://img.youtube.com/vi/IlrURaX6-fI/hqdefault.jpg');" aria-label="Play video: Akshama — CAT 99 %ile">
+      <div class="secret-card" role="button" tabindex="0" data-yt="IlrURaX6-fI" data-name="Akshama" style="--thumb: url('https://img.youtube.com/vi/IlrURaX6-fI/hqdefault.jpg');" aria-label="Play video: Akshama - CAT 99 %ile">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1119,7 +1119,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="pKEQ3zC_6V4" data-name="Romit" style="--thumb: url('https://img.youtube.com/vi/pKEQ3zC_6V4/hqdefault.jpg');" aria-label="Play video: Romit — NMAT 262 Score">
+      <div class="secret-card" role="button" tabindex="0" data-yt="pKEQ3zC_6V4" data-name="Romit" style="--thumb: url('https://img.youtube.com/vi/pKEQ3zC_6V4/hqdefault.jpg');" aria-label="Play video: Romit - NMAT 262 Score">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1129,7 +1129,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="7_Tz4tkaQPo" data-name="Ajmal" style="--thumb: url('https://img.youtube.com/vi/7_Tz4tkaQPo/hqdefault.jpg');" aria-label="Play video: Ajmal — CAT 99.29 %ile" aria-hidden="true">
+      <div class="secret-card" role="button" tabindex="0" data-yt="7_Tz4tkaQPo" data-name="Ajmal" style="--thumb: url('https://img.youtube.com/vi/7_Tz4tkaQPo/hqdefault.jpg');" aria-label="Play video: Ajmal - CAT 99.29 %ile" aria-hidden="true">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1139,7 +1139,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="X9CxNhGAqDM" data-name="Muskan" style="--thumb: url('https://img.youtube.com/vi/X9CxNhGAqDM/hqdefault.jpg');" aria-label="Play video: Muskan — CATKing CAT Topper" aria-hidden="true">
+      <div class="secret-card" role="button" tabindex="0" data-yt="X9CxNhGAqDM" data-name="Muskan" style="--thumb: url('https://img.youtube.com/vi/X9CxNhGAqDM/hqdefault.jpg');" aria-label="Play video: Muskan - CATKing CAT Topper" aria-hidden="true">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1149,7 +1149,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="TV-bPh4KTXA" data-name="Dhruvsingh" style="--thumb: url('https://img.youtube.com/vi/TV-bPh4KTXA/hqdefault.jpg');" aria-label="Play video: Dhruvsingh — CAT 99.02 %ile" aria-hidden="true">
+      <div class="secret-card" role="button" tabindex="0" data-yt="TV-bPh4KTXA" data-name="Dhruvsingh" style="--thumb: url('https://img.youtube.com/vi/TV-bPh4KTXA/hqdefault.jpg');" aria-label="Play video: Dhruvsingh - CAT 99.02 %ile" aria-hidden="true">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1159,7 +1159,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="NT0F6t31heM" data-name="Akshma" style="--thumb: url('https://img.youtube.com/vi/NT0F6t31heM/hqdefault.jpg');" aria-label="Play video: Akshma — CAT 99.36 %ile" aria-hidden="true">
+      <div class="secret-card" role="button" tabindex="0" data-yt="NT0F6t31heM" data-name="Akshma" style="--thumb: url('https://img.youtube.com/vi/NT0F6t31heM/hqdefault.jpg');" aria-label="Play video: Akshma - CAT 99.36 %ile" aria-hidden="true">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1169,7 +1169,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="jdPUhiNhloc" data-name="Jai" style="--thumb: url('https://img.youtube.com/vi/jdPUhiNhloc/hqdefault.jpg');" aria-label="Play video: Jai — CAT 99.66 %ile" aria-hidden="true">
+      <div class="secret-card" role="button" tabindex="0" data-yt="jdPUhiNhloc" data-name="Jai" style="--thumb: url('https://img.youtube.com/vi/jdPUhiNhloc/hqdefault.jpg');" aria-label="Play video: Jai - CAT 99.66 %ile" aria-hidden="true">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1179,7 +1179,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="ZdPtNvamYlA" data-name="Rishi" style="--thumb: url('https://img.youtube.com/vi/ZdPtNvamYlA/hqdefault.jpg');" aria-label="Play video: Rishi — CAT 99.22 %ile" aria-hidden="true">
+      <div class="secret-card" role="button" tabindex="0" data-yt="ZdPtNvamYlA" data-name="Rishi" style="--thumb: url('https://img.youtube.com/vi/ZdPtNvamYlA/hqdefault.jpg');" aria-label="Play video: Rishi - CAT 99.22 %ile" aria-hidden="true">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1189,7 +1189,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="QV7HwpMVrXo" data-name="Mayank" style="--thumb: url('https://img.youtube.com/vi/QV7HwpMVrXo/hqdefault.jpg');" aria-label="Play video: Mayank — CAT 99 %ile" aria-hidden="true">
+      <div class="secret-card" role="button" tabindex="0" data-yt="QV7HwpMVrXo" data-name="Mayank" style="--thumb: url('https://img.youtube.com/vi/QV7HwpMVrXo/hqdefault.jpg');" aria-label="Play video: Mayank - CAT 99 %ile" aria-hidden="true">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1199,7 +1199,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="2T4myWfkQGQ" data-name="Sarthak" style="--thumb: url('https://img.youtube.com/vi/2T4myWfkQGQ/hqdefault.jpg');" aria-label="Play video: Sarthak — CAT 99 %ile" aria-hidden="true">
+      <div class="secret-card" role="button" tabindex="0" data-yt="2T4myWfkQGQ" data-name="Sarthak" style="--thumb: url('https://img.youtube.com/vi/2T4myWfkQGQ/hqdefault.jpg');" aria-label="Play video: Sarthak - CAT 99 %ile" aria-hidden="true">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1209,7 +1209,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="8bch7T_WFj0" data-name="Gourav" style="--thumb: url('https://img.youtube.com/vi/8bch7T_WFj0/hqdefault.jpg');" aria-label="Play video: Gourav — CAT 99 %ile" aria-hidden="true">
+      <div class="secret-card" role="button" tabindex="0" data-yt="8bch7T_WFj0" data-name="Gourav" style="--thumb: url('https://img.youtube.com/vi/8bch7T_WFj0/hqdefault.jpg');" aria-label="Play video: Gourav - CAT 99 %ile" aria-hidden="true">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1219,7 +1219,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="IlrURaX6-fI" data-name="Akshama" style="--thumb: url('https://img.youtube.com/vi/IlrURaX6-fI/hqdefault.jpg');" aria-label="Play video: Akshama — CAT 99 %ile" aria-hidden="true">
+      <div class="secret-card" role="button" tabindex="0" data-yt="IlrURaX6-fI" data-name="Akshama" style="--thumb: url('https://img.youtube.com/vi/IlrURaX6-fI/hqdefault.jpg');" aria-label="Play video: Akshama - CAT 99 %ile" aria-hidden="true">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1229,7 +1229,7 @@
         </div>
       </div>
 
-      <div class="secret-card" role="button" tabindex="0" data-yt="pKEQ3zC_6V4" data-name="Romit" style="--thumb: url('https://img.youtube.com/vi/pKEQ3zC_6V4/hqdefault.jpg');" aria-label="Play video: Romit — NMAT 262 Score" aria-hidden="true">
+      <div class="secret-card" role="button" tabindex="0" data-yt="pKEQ3zC_6V4" data-name="Romit" style="--thumb: url('https://img.youtube.com/vi/pKEQ3zC_6V4/hqdefault.jpg');" aria-label="Play video: Romit - NMAT 262 Score" aria-hidden="true">
         <div class="secret-play">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
         </div>
@@ -1256,7 +1256,7 @@
 </section>
 
 <!-- ─────────────────────────────────────────
-     SECTION 3 — SUCCESS STORIES SPEAK LOUDER
+     SECTION 3 - SUCCESS STORIES SPEAK LOUDER
      ───────────────────────────────────────── -->
 <section class="theme-light section stories-section" id="results">
   <div class="container">
@@ -1287,7 +1287,7 @@
   </div>
 
   <!-- Auto-scrolling marquee with flat cards + arrows -->
-  <div class="stories-marquee reveal" aria-label="Success stories — auto-scrolling. Use arrows to navigate.">
+  <div class="stories-marquee reveal" aria-label="Success stories - auto-scrolling. Use arrows to navigate.">
     <button class="stories-arrow prev" type="button" id="storiesPrev" aria-label="Previous story">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
     </button>
@@ -1364,7 +1364,7 @@
             <div><span>75.09</span><span>98.98</span></div>
           </div>
         </div>
-        <div class="story-quote">CATKing's mocks were calibrated perfectly to actual exam difficulty — the wave-based launches kept me consistently challenged and improving week after week.</div>
+        <div class="story-quote">CATKing's mocks were calibrated perfectly to actual exam difficulty - the wave-based launches kept me consistently challenged and improving week after week.</div>
         <button class="story-btn" type="button" onclick="openScorecard(1)">View scorecard</button>
       </article>
 
@@ -1472,7 +1472,7 @@
             <div><span>81.08</span><span>99.53</span></div>
           </div>
         </div>
-        <div class="story-quote">CATKing's structured curriculum and analytics dashboard helped me identify weak areas early. The mocks felt exactly like the real CAT — no surprises on D-day.</div>
+        <div class="story-quote">CATKing's structured curriculum and analytics dashboard helped me identify weak areas early. The mocks felt exactly like the real CAT - no surprises on D-day.</div>
         <button class="story-btn" type="button" onclick="openScorecard(4)">View scorecard</button>
       </article>
 
@@ -1616,7 +1616,7 @@
             <div><span>64.34</span><span>98.92</span></div>
           </div>
         </div>
-        <div class="story-quote">From struggling with %tiles to walking into my dream IIM — CATKing's faculty and mock series made the journey not just possible but enjoyable.</div>
+        <div class="story-quote">From struggling with %tiles to walking into my dream IIM - CATKing's faculty and mock series made the journey not just possible but enjoyable.</div>
         <button class="story-btn" type="button" onclick="openScorecard(8)">View scorecard</button>
       </article>
 
@@ -1760,7 +1760,7 @@
             <div><span>69.45</span><span>98.40</span></div>
           </div>
         </div>
-        <div class="story-quote">CATKing's mocks were calibrated perfectly to actual exam difficulty — the wave-based launches kept me consistently challenged and improving week after week.</div>
+        <div class="story-quote">CATKing's mocks were calibrated perfectly to actual exam difficulty - the wave-based launches kept me consistently challenged and improving week after week.</div>
         <button class="story-btn" type="button" onclick="openScorecard(12)">View scorecard</button>
       </article>
 
@@ -1868,7 +1868,7 @@
             <div><span>70.11</span><span>97.97</span></div>
           </div>
         </div>
-        <div class="story-quote">CATKing's structured curriculum and analytics dashboard helped me identify weak areas early. The mocks felt exactly like the real CAT — no surprises on D-day.</div>
+        <div class="story-quote">CATKing's structured curriculum and analytics dashboard helped me identify weak areas early. The mocks felt exactly like the real CAT - no surprises on D-day.</div>
         <button class="story-btn" type="button" onclick="openScorecard(15)">View scorecard</button>
       </article>
 
@@ -2012,7 +2012,7 @@
             <div><span>50.15</span><span>95.78</span></div>
           </div>
         </div>
-        <div class="story-quote">From struggling with %tiles to walking into my dream IIM — CATKing's faculty and mock series made the journey not just possible but enjoyable.</div>
+        <div class="story-quote">From struggling with %tiles to walking into my dream IIM - CATKing's faculty and mock series made the journey not just possible but enjoyable.</div>
         <button class="story-btn" type="button" onclick="openScorecard(19)">View scorecard</button>
       </article>
 
@@ -2156,7 +2156,7 @@
             <div><span>49.22</span><span>94.86</span></div>
           </div>
         </div>
-        <div class="story-quote">CATKing's mocks were calibrated perfectly to actual exam difficulty — the wave-based launches kept me consistently challenged and improving week after week.</div>
+        <div class="story-quote">CATKing's mocks were calibrated perfectly to actual exam difficulty - the wave-based launches kept me consistently challenged and improving week after week.</div>
         <button class="story-btn" type="button" onclick="openScorecard(23)">View scorecard</button>
       </article>
 
@@ -2264,7 +2264,7 @@
             <div><span>47.34</span><span>93.04</span></div>
           </div>
         </div>
-        <div class="story-quote">CATKing's structured curriculum and analytics dashboard helped me identify weak areas early. The mocks felt exactly like the real CAT — no surprises on D-day.</div>
+        <div class="story-quote">CATKing's structured curriculum and analytics dashboard helped me identify weak areas early. The mocks felt exactly like the real CAT - no surprises on D-day.</div>
         <button class="story-btn" type="button" onclick="openScorecard(26)">View scorecard</button>
       </article>
 
@@ -2337,7 +2337,7 @@
             <div><span>75.09</span><span>98.98</span></div>
           </div>
         </div>
-        <div class="story-quote">CATKing's mocks were calibrated perfectly to actual exam difficulty — the wave-based launches kept me consistently challenged and improving week after week.</div>
+        <div class="story-quote">CATKing's mocks were calibrated perfectly to actual exam difficulty - the wave-based launches kept me consistently challenged and improving week after week.</div>
         <button class="story-btn" type="button" onclick="openScorecard(1)">View scorecard</button>
       </article>
 
@@ -2445,7 +2445,7 @@
             <div><span>81.08</span><span>99.53</span></div>
           </div>
         </div>
-        <div class="story-quote">CATKing's structured curriculum and analytics dashboard helped me identify weak areas early. The mocks felt exactly like the real CAT — no surprises on D-day.</div>
+        <div class="story-quote">CATKing's structured curriculum and analytics dashboard helped me identify weak areas early. The mocks felt exactly like the real CAT - no surprises on D-day.</div>
         <button class="story-btn" type="button" onclick="openScorecard(4)">View scorecard</button>
       </article>
 
@@ -2589,7 +2589,7 @@
             <div><span>64.34</span><span>98.92</span></div>
           </div>
         </div>
-        <div class="story-quote">From struggling with %tiles to walking into my dream IIM — CATKing's faculty and mock series made the journey not just possible but enjoyable.</div>
+        <div class="story-quote">From struggling with %tiles to walking into my dream IIM - CATKing's faculty and mock series made the journey not just possible but enjoyable.</div>
         <button class="story-btn" type="button" onclick="openScorecard(8)">View scorecard</button>
       </article>
 
@@ -2733,7 +2733,7 @@
             <div><span>69.45</span><span>98.40</span></div>
           </div>
         </div>
-        <div class="story-quote">CATKing's mocks were calibrated perfectly to actual exam difficulty — the wave-based launches kept me consistently challenged and improving week after week.</div>
+        <div class="story-quote">CATKing's mocks were calibrated perfectly to actual exam difficulty - the wave-based launches kept me consistently challenged and improving week after week.</div>
         <button class="story-btn" type="button" onclick="openScorecard(12)">View scorecard</button>
       </article>
 
@@ -2841,7 +2841,7 @@
             <div><span>70.11</span><span>97.97</span></div>
           </div>
         </div>
-        <div class="story-quote">CATKing's structured curriculum and analytics dashboard helped me identify weak areas early. The mocks felt exactly like the real CAT — no surprises on D-day.</div>
+        <div class="story-quote">CATKing's structured curriculum and analytics dashboard helped me identify weak areas early. The mocks felt exactly like the real CAT - no surprises on D-day.</div>
         <button class="story-btn" type="button" onclick="openScorecard(15)">View scorecard</button>
       </article>
 
@@ -2985,7 +2985,7 @@
             <div><span>50.15</span><span>95.78</span></div>
           </div>
         </div>
-        <div class="story-quote">From struggling with %tiles to walking into my dream IIM — CATKing's faculty and mock series made the journey not just possible but enjoyable.</div>
+        <div class="story-quote">From struggling with %tiles to walking into my dream IIM - CATKing's faculty and mock series made the journey not just possible but enjoyable.</div>
         <button class="story-btn" type="button" onclick="openScorecard(19)">View scorecard</button>
       </article>
 
@@ -3129,7 +3129,7 @@
             <div><span>49.22</span><span>94.86</span></div>
           </div>
         </div>
-        <div class="story-quote">CATKing's mocks were calibrated perfectly to actual exam difficulty — the wave-based launches kept me consistently challenged and improving week after week.</div>
+        <div class="story-quote">CATKing's mocks were calibrated perfectly to actual exam difficulty - the wave-based launches kept me consistently challenged and improving week after week.</div>
         <button class="story-btn" type="button" onclick="openScorecard(23)">View scorecard</button>
       </article>
 
@@ -3237,7 +3237,7 @@
             <div><span>47.34</span><span>93.04</span></div>
           </div>
         </div>
-        <div class="story-quote">CATKing's structured curriculum and analytics dashboard helped me identify weak areas early. The mocks felt exactly like the real CAT — no surprises on D-day.</div>
+        <div class="story-quote">CATKing's structured curriculum and analytics dashboard helped me identify weak areas early. The mocks felt exactly like the real CAT - no surprises on D-day.</div>
         <button class="story-btn" type="button" onclick="openScorecard(26)">View scorecard</button>
       </article>
 
@@ -3246,7 +3246,7 @@
 </section>
 
 <!-- ─────────────────────────────────────────
-     2. WHAT WE BELIEVE — Philosophy + Founder video
+     2. WHAT WE BELIEVE - Philosophy + Founder video
      ───────────────────────────────────────── -->
 <section class="theme-light section section-tight belief-section" id="believe">
   <div class="container">
@@ -3287,14 +3287,14 @@
 
       <!-- Right: Video player -->
       <div class="belief-right">
-        <a href="https://youtu.be/sORYuzQ3KDw?si=tlFL0eLV70aKklYc" target="_blank" rel="noopener" class="belief-video" aria-label="Play video: Believe in Yourself — CAT Motivation by Sumit Sir">
+        <a href="https://youtu.be/sORYuzQ3KDw?si=tlFL0eLV70aKklYc" target="_blank" rel="noopener" class="belief-video" aria-label="Play video: Believe in Yourself - CAT Motivation by Sumit Sir">
           <img src="{{ asset('images/home/believe-thumb.jpg') }}" alt="" class="section-bg-img" loading="lazy">
           <div class="belief-video-play">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
           </div>
         </a>
         <h3 class="belief-video-title">You Are What You <em>Believe</em> Yourself To Be.</h3>
-        <p class="belief-video-caption">A short message from Sumit Sir — on belief, conviction, and what it really takes to walk into your dream IIM.</p>
+        <p class="belief-video-caption">A short message from Sumit Sir - on belief, conviction, and what it really takes to walk into your dream IIM.</p>
         <a href="https://courses.catking.in/courses/cat-2026-self-study" target="_blank" rel="noopener" class="btn btn-primary belief-video-cta">
           CAT 2026
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
@@ -3306,14 +3306,14 @@
 </section>
 
 <!-- ─────────────────────────────────────────
-     3. FREE RESOURCES — Reciprocity
+     3. FREE RESOURCES - Reciprocity
      ───────────────────────────────────────── -->
 <section class="theme-dark section free-section" id="free">
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Free, no signup walls</span>
       <h2 class="section-title">Take what's useful. We earn your trust before asking for it.</h2>
-      <p class="section-sub">Four resources our top students used in 2024 to break the 99 percentile. Yours, free — no credit card, no spam emails.</p>
+      <p class="section-sub">Four resources our top students used in 2024 to break the 99 percentile. Yours, free - no credit card, no spam emails.</p>
     </div>
 
     <div class="free-grid reveal">
@@ -3322,15 +3322,15 @@
         <div class="free-meta">Mock Test</div>
         <div class="free-title">Free Mock Test</div>
         <div class="free-desc">Full-length CAT mock with sectional analysis. Identify your three weakest topics in 90 minutes.</div>
-        <div class="free-stat">— 12,000+ aspirants took it this year</div>
+        <div class="free-stat">- 12,000+ aspirants took it this year</div>
         <div class="free-link">Start Free Mock →</div>
       </a>
       <a href="https://catking.in/free-resources" target="_blank" rel="noopener" class="free-card">
         <span class="free-tag">PDF</span>
         <div class="free-meta">Reference Library</div>
         <div class="free-title">Handbooks</div>
-        <div class="free-desc">CAT, XAT, NMAT, SNAP, CMAT and CET handbooks — concept summaries, formulas, and topper notes.</div>
-        <div class="free-stat">— 6 handbooks, 47,000+ downloads</div>
+        <div class="free-desc">CAT, XAT, NMAT, SNAP, CMAT and CET handbooks - concept summaries, formulas, and topper notes.</div>
+        <div class="free-stat">- 6 handbooks, 47,000+ downloads</div>
         <div class="free-link">Browse Handbooks →</div>
       </a>
       <a href="https://learn.catking.in/free-mock-material" target="_blank" rel="noopener" class="free-card">
@@ -3338,7 +3338,7 @@
         <div class="free-meta">Past Papers</div>
         <div class="free-title">10 Years CAT PYQs (Solved)</div>
         <div class="free-desc">Every CAT paper from 2015–2024 with detailed solutions and shortcut techniques annotated.</div>
-        <div class="free-stat">— 240 pages of solved problems</div>
+        <div class="free-stat">- 240 pages of solved problems</div>
         <div class="free-link">Get PYQ Pack →</div>
       </a>
         <a href="https://catking.in/exam/cat-exam/free-cat-workshop" target="_blank" rel="noopener" class="free-card">
@@ -3354,12 +3354,12 @@
 </section>
 
 <!-- ─────────────────────────────────────────
-     5. AUTHORITY — Founder + Faculty
+     5. AUTHORITY - Founder + Faculty
      ───────────────────────────────────────── -->
 <section class="theme-light section authority-section" id="mentors">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow">Authority — The Mentors Behind CATKing</span>
+      <span class="eyebrow">Authority - The Mentors Behind CATKing</span>
       <h2 class="section-title">CAT was <em>cracked</em> by the people now teaching you. Not theory. Lived experience.</h2>
     </div>
 
@@ -3372,7 +3372,7 @@
           <strong>MBA, SPJIMR Mumbai</strong> · CAT 99.9 %ile · Ex-GE · <strong>Executive Management, Harvard Business School</strong>
         </div>
         <div class="founder-quote">
-          "I started CATKing because I lost a year preparing wrong. No one I knew had cracked CAT. I built the mentorship I wished I had — that's the only mission here."
+          "I started CATKing because I lost a year preparing wrong. No one I knew had cracked CAT. I built the mentorship I wished I had - that's the only mission here."
         </div>
         <div class="founder-meta">
           <div class="founder-meta-item"><div class="num"><em>11</em> yrs</div><div class="lbl">Teaching CAT</div></div>
@@ -3383,7 +3383,7 @@
       </div>
     </div>
 
-    <div class="faculty-marquee-wrap reveal" aria-label="Faculty members — auto-scrolling. Use arrows to navigate.">
+    <div class="faculty-marquee-wrap reveal" aria-label="Faculty members - auto-scrolling. Use arrows to navigate.">
       <button class="faculty-arrow prev" type="button" id="facultyPrev" aria-label="Previous faculty">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
       </button>
@@ -3656,7 +3656,7 @@
 </section>
 
 <!-- ─────────────────────────────────────────
-     5b. AUTHORITY & EXPERTISE — Media + Events
+     5b. AUTHORITY & EXPERTISE - Media + Events
      Mirrors the dark "Trusted by Toppers & Featured
      Everywhere" reference layout
      ───────────────────────────────────────── -->
@@ -3665,7 +3665,7 @@
     <div class="section-head reveal">
       <span class="eyebrow">Authority & Expertise</span>
       <h2 class="section-title">Trusted by Toppers &amp; Featured Everywhere</h2>
-      <p class="section-sub">From a weekly podcast to live campus events — CATKing is where India's top MBA aspirants learn.</p>
+      <p class="section-sub">From a weekly podcast to live campus events - CATKing is where India's top MBA aspirants learn.</p>
     </div>
 
     <div class="media-grid reveal">
@@ -3701,7 +3701,7 @@
             <div class="podcast-body">
               <span class="podcast-tag">Keynote</span>
               <div class="podcast-title">TEDx · The Future of Education</div>
-              <div class="podcast-caption">Sumit Singh Gandhi at TEDxOFBEDU — on belief, ambition &amp; the MBA dream</div>
+              <div class="podcast-caption">Sumit Singh Gandhi at TEDxOFBEDU - on belief, ambition &amp; the MBA dream</div>
               <span class="podcast-btn">▶ Watch Now</span>
             </div>
           </a>
@@ -3715,7 +3715,7 @@
             </div>
             <div class="podcast-body">
               <span class="podcast-tag">Founder Story</span>
-              <div class="podcast-title">Ashneer Grover — Doglapan &amp; Beyond</div>
+              <div class="podcast-title">Ashneer Grover - Doglapan &amp; Beyond</div>
               <div class="podcast-caption">CATKing Podcast · 200K+ views · 1:18:55</div>
               <span class="podcast-btn">▶ Watch Now</span>
             </div>
@@ -3765,7 +3765,7 @@
           <a href="https://catking.in/blog" target="_blank" rel="noopener">View all →</a>
         </div>
         <div class="blog-scroller" tabindex="0" aria-label="Scrollable list of recent blog posts">
-          <a href="https://catking.in/blog" target="_blank" rel="noopener" class="blog-card">
+          <a href="https://catking.in/exam/cat-exam/overview" target="_blank" rel="noopener" class="blog-card">
             <div class="blog-thumb tag-cat">CAT<br>2026</div>
             <div class="blog-info">
               <div class="blog-eyebrow">Strategy</div>
@@ -3773,7 +3773,7 @@
               <div class="blog-meta"><span>5 min read</span><span class="dot"></span><span>Apr 28, 2026</span></div>
             </div>
           </a>
-          <a href="https://catking.in/blog" target="_blank" rel="noopener" class="blog-card">
+          <a href="https://catking.in/life-at-iim-ahmedabad" target="_blank" rel="noopener" class="blog-card">
             <div class="blog-thumb tag-iim">IIM<br>A·B·C</div>
             <div class="blog-info">
               <div class="blog-eyebrow">B-School</div>
@@ -3781,7 +3781,7 @@
               <div class="blog-meta"><span>8 min read</span><span class="dot"></span><span>Apr 22, 2026</span></div>
             </div>
           </a>
-          <a href="https://catking.in/blog" target="_blank" rel="noopener" class="blog-card">
+          <a href="https://catking.in/cat-exam-rc-passages" target="_blank" rel="noopener" class="blog-card">
             <div class="blog-thumb tag-prep">VARC</div>
             <div class="blog-info">
               <div class="blog-eyebrow">VARC</div>
@@ -3789,7 +3789,7 @@
               <div class="blog-meta"><span>6 min read</span><span class="dot"></span><span>Apr 18, 2026</span></div>
             </div>
           </a>
-          <a href="https://catking.in/blog" target="_blank" rel="noopener" class="blog-card">
+          <a href="https://catking.in/xat-decision-making-strategy-guide" target="_blank" rel="noopener" class="blog-card">
             <div class="blog-thumb tag-non">XAT<br>2027</div>
             <div class="blog-info">
               <div class="blog-eyebrow">Non-CAT</div>
@@ -3797,7 +3797,7 @@
               <div class="blog-meta"><span>9 min read</span><span class="dot"></span><span>Apr 14, 2026</span></div>
             </div>
           </a>
-          <a href="https://catking.in/blog" target="_blank" rel="noopener" class="blog-card">
+          <a href="https://catking.in/must-gd-pi-topics-mba-interviews" target="_blank" rel="noopener" class="blog-card">
             <div class="blog-thumb tag-pi">GD<br>PI</div>
             <div class="blog-info">
               <div class="blog-eyebrow">Interview</div>
@@ -3805,7 +3805,7 @@
               <div class="blog-meta"><span>4 min read</span><span class="dot"></span><span>Apr 10, 2026</span></div>
             </div>
           </a>
-          <a href="https://catking.in/blog" target="_blank" rel="noopener" class="blog-card">
+          <a href="https://catking.in/why-you-should-do-an-mba-a-complete-guide-for%20future-leaders" target="_blank" rel="noopener" class="blog-card">
             <div class="blog-thumb tag-mba">MBA</div>
             <div class="blog-info">
               <div class="blog-eyebrow">Career</div>
@@ -3813,7 +3813,7 @@
               <div class="blog-meta"><span>11 min read</span><span class="dot"></span><span>Apr 5, 2026</span></div>
             </div>
           </a>
-          <a href="https://catking.in/blog" target="_blank" rel="noopener" class="blog-card">
+          <a href="https://catking.in/cat-study-plan-for-the-last-90-days-before-the-exam" target="_blank" rel="noopener" class="blog-card">
             <div class="blog-thumb tag-cat">QA</div>
             <div class="blog-info">
               <div class="blog-eyebrow">Quants</div>
@@ -3821,7 +3821,7 @@
               <div class="blog-meta"><span>7 min read</span><span class="dot"></span><span>Mar 29, 2026</span></div>
             </div>
           </a>
-          <a href="https://catking.in/blog" target="_blank" rel="noopener" class="blog-card">
+          <a href="https://catking.in/snap-section-wise-preparation-strategy" target="_blank" rel="noopener" class="blog-card">
             <div class="blog-thumb tag-non">SNAP</div>
             <div class="blog-info">
               <div class="blog-eyebrow">SNAP</div>
@@ -3870,7 +3870,7 @@
 </section>
 
 <!-- ─────────────────────────────────────────
-     13. FAQ — Objection handling
+     13. FAQ - Objection handling
      ───────────────────────────────────────── -->
 <section class="theme-dark section faq-section" id="faq">
   <div class="container">
@@ -3878,7 +3878,7 @@
       <div class="faq-side reveal">
         <span class="eyebrow">FAQ</span>
         <h2 class="section-title">Frequently Asked <em>Questions</em>.</h2>
-        <p class="section-sub">If your question isn't here, WhatsApp us at +91-8999-11-8999 — we usually reply within 30 minutes during the day.</p>
+        <p class="section-sub">If your question isn't here, WhatsApp us at +91-8999-11-8999 - we usually reply within 30 minutes during the day.</p>
         <div class="faq-socials">
           <a class="faq-social faq-social-whatsapp" href="https://wa.me/918999118999" target="_blank" rel="noopener" aria-label="WhatsApp">
             <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
@@ -3909,7 +3909,7 @@
       <div class="faq-list reveal">
         <div class="faq-item open">
           <button class="faq-q" onclick="toggleFaq(this)">Can I give the same mocks multiple times?</button>
-          <div class="faq-a"><div class="faq-a-inner">No, you can't give one mock more than one time but you can hide the answer options in the analytics views — this can allow you to solve the questions again.</div></div>
+          <div class="faq-a"><div class="faq-a-inner">No, you can't give one mock more than one time but you can hide the answer options in the analytics views - this can allow you to solve the questions again.</div></div>
         </div>
         <div class="faq-item">
           <button class="faq-q" onclick="toggleFaq(this)">Can we upgrade our course later on?</button>
@@ -3960,7 +3960,7 @@
 -->
 
 <!-- ─────────────────────────────────────────
-     SCORECARD MODAL — Click "View Scorecard" to open
+     SCORECARD MODAL - Click "View Scorecard" to open
      ───────────────────────────────────────── -->
 <div class="modal-backdrop" id="scorecardModal" role="dialog" aria-modal="true" aria-labelledby="scorecardModalTitle">
   <div class="scorecard-modal" role="document">
