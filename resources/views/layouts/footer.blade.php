@@ -57,10 +57,10 @@
       <h6 style="margin-top:0;">Free Resources</h6>
       <a href="https://catking.in/sprint-workshop">Sprint Workshops</a>
       <a href="https://www.mbageeks.com/" target="_blank" rel="noopener">Doubt-solving Forum</a>
-      <a href="https://catking.in/study-buddy">Study Buddy</a>
+      {{--<a href="https://catking.in/study-buddy">Study Buddy</a>--}}
       <a href="https://courses.catking.in/courses/all-access-pass">All-Access Pass</a>
       <a href="https://catking.in/iim-wait-list-movement/">IIM Waitlist Tracker</a>
-      <a href="#pyq">PYQ Downloads</a>
+      {{--<a href="#pyq">PYQ Downloads</a>--}}
     </div>
     <div class="foot-col">
       <h6>Company</h6>
@@ -76,7 +76,7 @@
       <a href="https://catking.testpress.in" target="_blank" rel="noopener">Student Dashboard</a>
       <a href="https://profile.catking.in/login" target="_blank" rel="noopener">Profile Portal</a>
       <a href="https://catking.in/login">Login / Signup</a>
-      <a href="https://catking.in/auth/google">Sign in with Google</a>
+      {{--<a href="https://catking.in/auth/google">Sign in with Google</a>--}}
       <a href="https://apps.apple.com/in/app/vocab-app-by-catking/id1598182637" target="_blank" rel="noopener">Vocab App (iOS)</a>
       <a href="https://play.google.com/store/apps/details?id=com.catking.vocabapp" target="_blank" rel="noopener">Vocab App (Android)</a>
       <a href="https://apps.apple.com/lt/app/math-app-by-catking/id1586596140" target="_blank" rel="noopener">Math App (iOS)</a>
@@ -84,7 +84,7 @@
     </div>
   </div>
   <div class="foot-bottom">
-    <div>© 2026 CATKing Educare Pvt. Ltd. All rights reserved.</div>
+    <div>© 2026 CATKing Educare. All rights reserved.</div>
     <div class="legal">
       <a href="https://catking.in/privacy-policy">Privacy Policy</a>
       <a href="https://catking.in/terms-condition">Terms &amp; Conditions</a>

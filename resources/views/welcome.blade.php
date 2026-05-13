@@ -24,7 +24,7 @@
         <div class="hero-inner hero-inner--centered">
             <div class="hero-center">
                 <h1>From <em>struggling</em> with %tiles to walking into your <em>dream IIM</em> with <span class="brand-accent">CATKing</span>.</h1>
-                <p class="hero-sub">CATKing's CAT 2026 program is designed by IIM-A, B and C alumni - the same mentors who've coached <strong>1,200+ aspirants into top B-Schools last year alone</strong>.</p>
+                <p class="hero-sub">CATKing's CAT 2026 program is designed by IIM-A, B and C alumni. The same mentors who've coached <strong>1,200+ aspirants into top B-Schools last year alone</strong>.</p>
                 <div class="hero-ctas">
                     <a href="https://courses.catking.in/courses/cat-2026-self-study" target="_blank" rel="noopener" class="btn btn-primary">CAT 2026 →</a>
                     <a href="https://courses.catking.in/" target="_blank" rel="noopener" class="btn btn-ghost-light">Explore ALL Courses →</a>
@@ -70,7 +70,7 @@
                 <div class="promise-pills">
                     <span class="promise-pill"><span class="promise-pill-tick">✓</span>460+ Black IIM converts</span>
                     <span class="promise-pill"><span class="promise-pill-tick">✓</span>2,080+ IIM converts</span>
-                    <span class="promise-pill"><span class="promise-pill-tick">✓</span>15+ students scored 99.5+ %ile</span>
+                    <span class="promise-pill"><span class="promise-pill-tick">✓</span>5000+ students scored 99+%ile</span>
                     <span class="promise-pill"><span class="promise-pill-tick">✓</span>200+ NMIMS converts</span>
                 </div>
                 <div class="promise-cta-row">
@@ -131,7 +131,7 @@
     <div class="section-head reveal">
       <span class="eyebrow">Everything in one platform</span>
       <h2 class="section-title">What you'll <em>get</em> with CATKing.</h2>
-      <p class="section-sub">A complete ecosystem built to take you from beginner to IIM-ready - with every tool, resource, and support you need.</p>
+      <p class="section-sub">A complete ecosystem built to take you from beginner to IIM-ready with every tool, resource, and support you need.</p>
     </div>
 
     <div class="platform-grid reveal">
@@ -144,7 +144,7 @@
           <span class="platform-stat">200+ Tests</span>
         </div>
         <div class="platform-title">Live Lectures</div>
-        <div class="platform-desc">Daily live sessions with IIM-A/B/C alumni faculty across VARC, DILR &amp; QA - interactive, doubt-friendly classrooms.</div>
+        <div class="platform-desc">Daily live sessions with IIM-A/B/C alumni faculty across VARC, DILR &amp; QA interactive, doubt-friendly classrooms.</div>
       </div>
 
       <!-- Tile 2: Daily Targets -->
@@ -156,7 +156,7 @@
           <span class="platform-stat">365 Days</span>
         </div>
         <div class="platform-title">Recorded Lessons</div>
-        <div class="platform-desc">Concept videos, walkthroughs and revisions available 24×7 - pause, rewind, replay anytime for 12 months.</div>
+        <div class="platform-desc">Concept videos, walkthroughs and revisions available 24×7 pause, rewind, replay anytime for 12 months.</div>
       </div>
 
       <!-- Tile 3: Live Classes -->
@@ -559,7 +559,7 @@
                 <article class="course-card">
                     <div class="course-card-body">
                         <h3 class="course-card-title">SNAP Mock Series</h3>
-                        <div class="course-card-image" style="background-image: url('https://img.youtube.com/vi/Y9w-C_YjlXE/mqdefault.jpg');">
+                        <div class="course-card-image" style="background-image: url('https://courses.catking.in/file/media_library/2007/67827afcadcaf.jpg');">
                             <div class="course-card-image-badge">SNAP<small>MOCK SERIES</small></div>
                         </div>
                         <ul class="course-card-features">
@@ -1006,7 +1006,7 @@
     <div class="section-head reveal">
 
       <h2 class="section-title"><em>Secrets</em> to success: CATKing toppers share it all.</h2>
-      <p class="section-sub">Hear directly from 99+ percentilers - what worked, what didn't and how they cracked CAT in their own words.</p>
+      <p class="section-sub">Hear directly from 99+ percentilers what worked, what didn't and how they cracked CAT in their own words.</p>
     </div>
 
     <div class="secrets-marquee-wrap reveal" aria-label="Topper video reels - auto-scrolling. Use arrows or hover to pause.">
@@ -1243,7 +1243,7 @@
       </div>
     </div>
 
-    <div class="secrets-press reveal">
+    {{--<div class="secrets-press reveal">
       <span class="secrets-press-label">As Featured In</span>
       <span class="secrets-press-logo">The Hindu</span>
       <span class="secrets-press-logo">Economic Times</span>
@@ -1251,7 +1251,7 @@
       <span class="secrets-press-logo">Times of India</span>
       <span class="secrets-press-logo">Mint</span>
       <span class="secrets-press-logo">Forbes India</span>
-    </div>
+    </div>--}}
   </div>
 </section>
 
@@ -1260,8 +1260,7 @@
      ───────────────────────────────────────── -->
 <section class="theme-light section stories-section" id="results">
   <div class="container">
-    <div class="section-head reveal">
-
+    <div class="section-head reveal" style="display: flex;flex-flow: column;justify-content: center;align-items: center;">
       <h2 class="section-title">Our success stories speak <em>louder</em>.</h2>
       <p class="section-sub">Join 5,000+ students who cracked CAT with 99+ percentile and made it to their dream IIMs.</p>
     </div>
@@ -1276,13 +1275,13 @@
         <div class="story-stat-lbl">Students mentored since 2014</div>
       </div>
       <div class="story-stat">
-        <div class="story-stat-num"><em data-count-to="4.8" data-count-format="decimal">0</em><small>/5</small></div>
+        <div class="story-stat-num"><em data-count-to="4.8" data-count-format="decimal">0</em><em>/5</em></div>
         <div class="story-stat-lbl">Avg rating · 8,400+ reviews</div>
       </div>
-      <div class="story-stat">
+      {{--<div class="story-stat">
         <div class="story-stat-num"><em data-count-to="96" data-count-format="percent">0</em></div>
         <div class="story-stat-lbl">Course completion rate</div>
-      </div>
+      </div>--}}
     </div>
   </div>
 
@@ -3313,7 +3312,7 @@
     <div class="section-head reveal">
       <span class="eyebrow">Free, no signup walls</span>
       <h2 class="section-title">Take what's useful. We earn your trust before asking for it.</h2>
-      <p class="section-sub">Four resources our top students used in 2024 to break the 99 percentile. Yours, free - no credit card, no spam emails.</p>
+      <p class="section-sub">Four free resources our students use to achieve their target percentile and MBA college. Start your CAT preparation with CATKing</p>
     </div>
 
     <div class="free-grid reveal">
@@ -3322,7 +3321,7 @@
         <div class="free-meta">Mock Test</div>
         <div class="free-title">Free Mock Test</div>
         <div class="free-desc">Full-length CAT mock with sectional analysis. Identify your three weakest topics in 90 minutes.</div>
-        <div class="free-stat">- 12,000+ aspirants took it this year</div>
+        <div class="free-stat">12,000+ aspirants took it this year</div>
         <div class="free-link">Start Free Mock →</div>
       </a>
       <a href="https://catking.in/free-resources" target="_blank" rel="noopener" class="free-card">
@@ -3330,7 +3329,7 @@
         <div class="free-meta">Reference Library</div>
         <div class="free-title">Handbooks</div>
         <div class="free-desc">CAT, XAT, NMAT, SNAP, CMAT and CET handbooks - concept summaries, formulas, and topper notes.</div>
-        <div class="free-stat">- 6 handbooks, 47,000+ downloads</div>
+        <div class="free-stat">6 handbooks, 47,000+ downloads</div>
         <div class="free-link">Browse Handbooks →</div>
       </a>
       <a href="https://learn.catking.in/free-mock-material" target="_blank" rel="noopener" class="free-card">
@@ -3338,7 +3337,7 @@
         <div class="free-meta">Past Papers</div>
         <div class="free-title">10 Years CAT PYQs (Solved)</div>
         <div class="free-desc">Every CAT paper from 2015–2024 with detailed solutions and shortcut techniques annotated.</div>
-        <div class="free-stat">- 240 pages of solved problems</div>
+        <div class="free-stat">240 pages of solved problems</div>
         <div class="free-link">Get PYQ Pack →</div>
       </a>
         <a href="https://catking.in/exam/cat-exam/free-cat-workshop" target="_blank" rel="noopener" class="free-card">
@@ -3346,7 +3345,7 @@
             <div class="free-meta">Workshop</div>
             <div class="free-title">Free Workshop</div>
             <div class="free-desc">Learn how to crack the CAT Exam. Tips and tricks straight from IIM-A/B/C alumni mentors.</div>
-            <div class="free-stat">, Live + recorded · join anytime</div>
+            <div class="free-stat">Live + recorded · join anytime</div>
             <div class="free-link">Go to Free Workshop →</div>
         </a>
     </div>
@@ -3359,7 +3358,7 @@
 <section class="theme-light section authority-section" id="mentors">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow">Authority - The Mentors Behind CATKing</span>
+      <span class="eyebrow">The Mentors Behind CATKing</span>
       <h2 class="section-title">CAT was <em>cracked</em> by the people now teaching you. Not theory. Lived experience.</h2>
     </div>
 
@@ -3372,13 +3371,13 @@
           <strong>MBA, SPJIMR Mumbai</strong> · CAT 99.9 %ile · Ex-GE · <strong>Executive Management, Harvard Business School</strong>
         </div>
         <div class="founder-quote">
-          "I started CATKing because I lost a year preparing wrong. No one I knew had cracked CAT. I built the mentorship I wished I had - that's the only mission here."
+          "I started CATKing because I lost a year preparing wrong. No one I knew had cracked CAT. I built the mentorship I wished I had that's the only mission here."
         </div>
         <div class="founder-meta">
-          <div class="founder-meta-item"><div class="num"><em>11</em> yrs</div><div class="lbl">Teaching CAT</div></div>
+          <div class="founder-meta-item"><div class="num"><em>18</em> yrs</div><div class="lbl">Teaching CAT</div></div>
           <div class="founder-meta-item"><div class="num"><em>50,000+</em></div><div class="lbl">Aspirants mentored</div></div>
           <div class="founder-meta-item"><div class="num"><em>3,200+</em></div><div class="lbl">Personal 1-on-1 sessions</div></div>
-          <div class="founder-meta-item"><div class="num"><em>2</em> books</div><div class="lbl">Published on CAT prep</div></div>
+          {{--<div class="founder-meta-item"><div class="num"><em>2</em> books</div><div class="lbl">Published on CAT prep</div></div>--}}
         </div>
       </div>
     </div>
@@ -3663,9 +3662,9 @@
 <section class="theme-dark section media-section">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow">Authority & Expertise</span>
+      {{--<span class="eyebrow">Authority & Expertise</span>--}}
       <h2 class="section-title">Trusted by Toppers &amp; Featured Everywhere</h2>
-      <p class="section-sub">From a weekly podcast to live campus events - CATKing is where India's top MBA aspirants learn.</p>
+      <p class="section-sub">From a weekly podcast to live campus events. CATKing is where India's top MBA aspirants learn.</p>
     </div>
 
     <div class="media-grid reveal">
@@ -3673,7 +3672,7 @@
       <div class="media-col">
         <div class="media-col-head podcast">
           <h3>CATKing Podcast &amp; Media</h3>
-          <span class="media-badge orange">VIRAL EPISODES</span>
+          {{--<span class="media-badge orange">VIRAL EPISODES</span>--}}
         </div>
         <div class="podcast-grid">
           <a href="https://youtu.be/nqmrrkUvhRw?si=rOT4jZZFpocIOT0a" target="_blank" rel="noopener" class="podcast-card">
@@ -3742,7 +3741,7 @@
       <div class="media-col">
         <div class="media-col-head events">
           <h3>Events &amp; Meet-ups with CATKing Students</h3>
-          <span class="media-badge red">LIMITED SEATS</span>
+          {{--<span class="media-badge red">LIMITED SEATS</span>--}}
         </div>
 
         <div class="event-thumbs-grid">
@@ -3766,7 +3765,7 @@
         </div>
         <div class="blog-scroller" tabindex="0" aria-label="Scrollable list of recent blog posts">
           <a href="https://catking.in/exam/cat-exam/overview" target="_blank" rel="noopener" class="blog-card">
-            <div class="blog-thumb tag-cat">CAT<br>2026</div>
+            {{--<div class="blog-thumb tag-cat">CAT<br>2026</div>--}}
             <div class="blog-info">
               <div class="blog-eyebrow">Strategy</div>
               <div class="blog-title">CAT 2026 Notification: Dates, eligibility &amp; updated pattern</div>
@@ -3774,7 +3773,7 @@
             </div>
           </a>
           <a href="https://catking.in/life-at-iim-ahmedabad" target="_blank" rel="noopener" class="blog-card">
-            <div class="blog-thumb tag-iim">IIM<br>A·B·C</div>
+            {{--<div class="blog-thumb tag-iim">IIM<br>A·B·C</div>--}}
             <div class="blog-info">
               <div class="blog-eyebrow">B-School</div>
               <div class="blog-title">Inside IIM Ahmedabad: a day in the life of a PGP first-year</div>
@@ -3782,7 +3781,7 @@
             </div>
           </a>
           <a href="https://catking.in/cat-exam-rc-passages" target="_blank" rel="noopener" class="blog-card">
-            <div class="blog-thumb tag-prep">VARC</div>
+            {{--<div class="blog-thumb tag-prep">VARC</div>--}}
             <div class="blog-info">
               <div class="blog-eyebrow">VARC</div>
               <div class="blog-title">RC Decoded: 7 question patterns CAT keeps asking every year</div>
@@ -3790,7 +3789,7 @@
             </div>
           </a>
           <a href="https://catking.in/xat-decision-making-strategy-guide" target="_blank" rel="noopener" class="blog-card">
-            <div class="blog-thumb tag-non">XAT<br>2027</div>
+            {{--<div class="blog-thumb tag-non">XAT<br>2027</div>--}}
             <div class="blog-info">
               <div class="blog-eyebrow">Non-CAT</div>
               <div class="blog-title">XAT Decision Making: how to crack the section that breaks toppers</div>
@@ -3798,7 +3797,7 @@
             </div>
           </a>
           <a href="https://catking.in/must-gd-pi-topics-mba-interviews" target="_blank" rel="noopener" class="blog-card">
-            <div class="blog-thumb tag-pi">GD<br>PI</div>
+            {{--<div class="blog-thumb tag-pi">GD<br>PI</div>--}}
             <div class="blog-info">
               <div class="blog-eyebrow">Interview</div>
               <div class="blog-title">25 GD topics likely in the IIM 2026 selection round</div>
@@ -3806,7 +3805,7 @@
             </div>
           </a>
           <a href="https://catking.in/why-you-should-do-an-mba-a-complete-guide-for%20future-leaders" target="_blank" rel="noopener" class="blog-card">
-            <div class="blog-thumb tag-mba">MBA</div>
+            {{--<div class="blog-thumb tag-mba">MBA</div>--}}
             <div class="blog-info">
               <div class="blog-eyebrow">Career</div>
               <div class="blog-title">Is an MBA worth it in 2026? An ROI breakdown across 12 B-schools</div>
@@ -3814,7 +3813,7 @@
             </div>
           </a>
           <a href="https://catking.in/cat-study-plan-for-the-last-90-days-before-the-exam" target="_blank" rel="noopener" class="blog-card">
-            <div class="blog-thumb tag-cat">QA</div>
+            {{--<div class="blog-thumb tag-cat">QA</div>--}}
             <div class="blog-info">
               <div class="blog-eyebrow">Quants</div>
               <div class="blog-title">CAT Quants in 90 days: the topic-priority sequence toppers swear by</div>
@@ -3822,7 +3821,7 @@
             </div>
           </a>
           <a href="https://catking.in/snap-section-wise-preparation-strategy" target="_blank" rel="noopener" class="blog-card">
-            <div class="blog-thumb tag-non">SNAP</div>
+            {{--<div class="blog-thumb tag-non">SNAP</div>--}}
             <div class="blog-info">
               <div class="blog-eyebrow">SNAP</div>
               <div class="blog-title">SNAP 2026: section-wise cutoff trend &amp; smart attempt strategy</div>
@@ -3902,14 +3901,14 @@
           </a>
         </div>
         <div class="faq-side-cta">
-          <a class="btn btn-dark" href="https://wa.me/918999118999" target="_blank" rel="noopener">Message Us on WhatsApp</a>
+          {{--<a class="btn btn-dark" href="https://wa.me/918999118999" target="_blank" rel="noopener">Message Us on WhatsApp</a>--}}
         </div>
       </div>
 
       <div class="faq-list reveal">
         <div class="faq-item open">
           <button class="faq-q" onclick="toggleFaq(this)">Can I give the same mocks multiple times?</button>
-          <div class="faq-a"><div class="faq-a-inner">No, you can't give one mock more than one time but you can hide the answer options in the analytics views - this can allow you to solve the questions again.</div></div>
+          <div class="faq-a"><div class="faq-a-inner">No, you can't give one mock more than one time but you can hide the answer options in the analytics views, this can allow you to solve the questions again.</div></div>
         </div>
         <div class="faq-item">
           <button class="faq-q" onclick="toggleFaq(this)">Can we upgrade our course later on?</button>
