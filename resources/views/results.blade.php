@@ -23,16 +23,17 @@
         <span class="o">speak louder</span>
         than <span class="m">claims.</span>
       </h1>
-      <p class="sub">2,080+ IIM converts. 9,000+ IIM calls. 5,000+ scorers at 99 percentile and above. Every number on this page has been audited by KPMG or Brickworks Ratings. We are the only MBA prep in India that can say that.</p>
+      {{--<p class="sub">2,080+ IIM converts. 9,000+ IIM calls. 5,000+ scorers at 99 percentile and above. Every number on this page has been audited by KPMG or Brickworks Ratings. We are the only MBA prep in India that can say that.</p>--}}
       <div class="verif-row">
         <div class="verif-txt">
           <b>Audited Results, Not Marketing Claims</b>
           <span>KPMG Assurance (2020), Brickworks Ratings (2022, 2023)</span>
+          <span>Every number on this page has been audited. We are the only MBA prep in India that can say that.</span>
         </div>
       </div>
       <div class="ctas">
         <a href="https://courses.catking.in/cat-intensive-2026" class="btn p">Enroll Now</a>
-        {{--<a href="#fcta" class="btn s">Request a Callback</a>--}}
+        <a href="tel:+918999118999" class="btn s">Request a Callback</a>
       </div>
     </div>
     <div class="hero-right">
@@ -113,7 +114,7 @@
       <div class="lh-left">
         <div class="live-eyebrow">Live Results 2025-26</div>
         <h2>Results <em>rolling in</em> right now.</h2>
-        <p class="lh-sub">IIM and top B-school admission season is underway. Every student below is a verified 2025-26 convert, added within 48 hours of their admit letter.</p>
+        <p class="lh-sub">IIM and top B-school admission season is underway. Every student below is a verified convert.</p>
       </div>
       <div class="lh-stats">
         <div class="lh-stat"><div class="v" id="lsTotal">0</div><div class="l">Converts So Far</div></div>
@@ -126,7 +127,7 @@
     <div class="live-grid" id="liveGrid"><!-- populated by JS --></div>
 
     <div class="live-live-row">
-      <div class="llu">Last updated <b id="lsUpdated">just now</b> · Maintained by the CATKing admissions team</div>
+      <div class="llu"></div>
       <a href="#results" class="llu">See all results →</a>
     </div>
   </div>
@@ -202,12 +203,18 @@
     <div class="comp-head">
       <div class="eyebrow"><span class="dot"></span>Since 2008 · 18 Years of Compounding Wins</div>
       <h2>Every cycle. <em>Bigger. Audited. Repeating.</em></h2>
-      <p>The Year, college, and exam filters below update this stats panel and chart from the static results dataset.</p>
     </div>
 
     <div class="comp-grid">
       <div class="comp-left">
-        <div class="comp-stats-panel" id="compStatsPanel"><!-- populated by JS --></div>
+        <div class="comp-stats-panel" id="compStatsPanel">
+          <div class="cs-stats">
+            <div class="cs-stat"><div class="cs-stat-num">2,080+</div><div class="cs-stat-lbl">Total Converts</div></div>
+            <div class="cs-stat"><div class="cs-stat-num">1,500+</div><div class="cs-stat-lbl">CAT Converts</div></div>
+            <div class="cs-stat"><div class="cs-stat-num">460+</div><div class="cs-stat-lbl">BLACKI-SM Converts</div></div>
+            <div class="cs-stat"><div class="cs-stat-num">200+</div><div class="cs-stat-lbl">NMIMS Converts</div></div>
+          </div>
+        </div>
       </div>
       <div class="comp-right">
         <div class="growth-card">
@@ -250,9 +257,7 @@
           <button data-v="2024-25">2024-25</button>
           <button data-v="2023-24">2023-24</button>
           <button data-v="2022-23">2022-23</button>
-          <button data-v="2021-22">2021-22</button>
-          <button data-v="2020-21">2020-21</button>
-          <button data-v="before-2020">Before 2020</button>
+          <button data-v="2021-22">2021-22 & Before</button>
         </div>
       </div>
       <div class="hf-row">
@@ -295,9 +300,9 @@
   <div class="tcar-inner">
     <div class="tcar-head">
       <div>
-        <div class="tcar-eyebrow">Real voices from @SumitCatking</div>
+        {{--<div class="tcar-eyebrow">Real voices from @SumitCatking</div>--}}
         <h2>Hear it from our <span class="serif">toppers.</span></h2>
-        <p>11 topper interviews on camera. Every percentile is verified. Scroll horizontally and tap any card to open the full interview.</p>
+        {{--<p>11 topper interviews on camera. Every percentile is verified. Scroll horizontally and tap any card to open the full interview.</p>--}}
       </div>
       <div class="tcar-ctrls">
         <button id="tcarPrev" aria-label="Previous">‹</button>
@@ -307,127 +312,7 @@
 
     <div class="tcar-wrap">
       <div class="tcar-scroll" id="tcarScroll">
-        <div class="tcar-card" onclick="openVideo('Jai','CAT 2023 · 99.66 %ile','jdPUhiNhloc')">
-          <div class="tcar-thumb"><img src="https://img.youtube.com/vi/jdPUhiNhloc/hqdefault.jpg" alt=""></div>
-          <div class="tcar-badge">Verified</div>
-          <div class="tcar-score">99.66</div>
-          <div class="tcar-play">▶</div>
-          <div class="tcar-meta">
-            <div class="tcar-name">Jai</div>
-            <div class="tcar-exam">CAT 2023 · 99.66 %ile</div>
-            <div class="tcar-quote">I stopped chasing mocks. I started chasing clarity.</div>
-          </div>
-        </div>
-        <div class="tcar-card" onclick="openVideo('Akshma','CAT 2023 · 99.36 %ile','NT0F6t31heM')">
-          <div class="tcar-thumb"><img src="https://img.youtube.com/vi/NT0F6t31heM/hqdefault.jpg" alt=""></div>
-          <div class="tcar-badge">Verified</div>
-          <div class="tcar-score">99.36</div>
-          <div class="tcar-play">▶</div>
-          <div class="tcar-meta">
-            <div class="tcar-name">Akshma</div>
-            <div class="tcar-exam">CAT 2023 · 99.36 %ile</div>
-            <div class="tcar-quote">My first mock was 78. I almost quit. Then I found the right plan.</div>
-          </div>
-        </div>
-        <div class="tcar-card" onclick="openVideo('Ajmal','CAT 2023 · 99.29 %ile','7_Tz4tkaQPo')">
-          <div class="tcar-thumb"><img src="https://img.youtube.com/vi/7_Tz4tkaQPo/hqdefault.jpg" alt=""></div>
-          <div class="tcar-badge">Verified</div>
-          <div class="tcar-score">99.29</div>
-          <div class="tcar-play">▶</div>
-          <div class="tcar-meta">
-            <div class="tcar-name">Ajmal</div>
-            <div class="tcar-exam">CAT 2023 · 99.29 %ile</div>
-            <div class="tcar-quote">Full-time job. Two hours a day. 99.29 on CAT.</div>
-          </div>
-        </div>
-        <div class="tcar-card" onclick="openVideo('Rishi','CAT 2023 · 99.22 %ile','ZdPtNvamYlA')">
-          <div class="tcar-thumb"><img src="https://img.youtube.com/vi/ZdPtNvamYlA/hqdefault.jpg" alt=""></div>
-          <div class="tcar-badge">Verified</div>
-          <div class="tcar-score">99.22</div>
-          <div class="tcar-play">▶</div>
-          <div class="tcar-meta">
-            <div class="tcar-name">Rishi</div>
-            <div class="tcar-exam">CAT 2023 · 99.22 %ile</div>
-            <div class="tcar-quote">94.3 first attempt. I retook. Second attempt is a different story.</div>
-          </div>
-        </div>
-        <div class="tcar-card" onclick="openVideo('Dhruvsingh','CAT 2023 · 99.02 %ile','TV-bPh4KTXA')">
-          <div class="tcar-thumb"><img src="https://img.youtube.com/vi/TV-bPh4KTXA/hqdefault.jpg" alt=""></div>
-          <div class="tcar-badge">Verified</div>
-          <div class="tcar-score">99.02</div>
-          <div class="tcar-play">▶</div>
-          <div class="tcar-meta">
-            <div class="tcar-name">Dhruvsingh</div>
-            <div class="tcar-exam">CAT 2023 · 99.02 %ile</div>
-            <div class="tcar-quote">Engineers keep losing marks in VARC. Here is why.</div>
-          </div>
-        </div>
-        <div class="tcar-card" onclick="openVideo('Muskan','CATKing CAT Topper','X9CxNhGAqDM')">
-          <div class="tcar-thumb"><img src="https://img.youtube.com/vi/X9CxNhGAqDM/hqdefault.jpg" alt=""></div>
-          <div class="tcar-badge">Verified</div>
-          <div class="tcar-score">99+</div>
-          <div class="tcar-play">▶</div>
-          <div class="tcar-meta">
-            <div class="tcar-name">Muskan</div>
-            <div class="tcar-exam">CATKing CAT Topper</div>
-            <div class="tcar-quote">The mentor check-in every Sunday changed everything for me.</div>
-          </div>
-        </div>
-        <div class="tcar-card" onclick="openVideo('Mayank','CAT 2023 · 99 %ile','QV7HwpMVrXo')">
-          <div class="tcar-thumb"><img src="https://img.youtube.com/vi/QV7HwpMVrXo/hqdefault.jpg" alt=""></div>
-          <div class="tcar-badge">Verified</div>
-          <div class="tcar-score">99.00</div>
-          <div class="tcar-play">▶</div>
-          <div class="tcar-meta">
-            <div class="tcar-name">Mayank</div>
-            <div class="tcar-exam">CAT 2023 · 99 %ile</div>
-            <div class="tcar-quote">Sectional strategy is what separates 95 %ile from 99 %ile.</div>
-          </div>
-        </div>
-        <div class="tcar-card" onclick="openVideo('Sarthak','CAT 2023 · 99 %ile','2T4myWfkQGQ')">
-          <div class="tcar-thumb"><img src="https://img.youtube.com/vi/2T4myWfkQGQ/hqdefault.jpg" alt=""></div>
-          <div class="tcar-badge">Verified</div>
-          <div class="tcar-score">99.00</div>
-          <div class="tcar-play">▶</div>
-          <div class="tcar-meta">
-            <div class="tcar-name">Sarthak</div>
-            <div class="tcar-exam">CAT 2023 · 99 %ile</div>
-            <div class="tcar-quote">Mock analysis after every attempt. Not the score. The why.</div>
-          </div>
-        </div>
-        <div class="tcar-card" onclick="openVideo('Gourav','CAT 2023 · 99 %ile','8bch7T_WFj0')">
-          <div class="tcar-thumb"><img src="https://img.youtube.com/vi/8bch7T_WFj0/hqdefault.jpg" alt=""></div>
-          <div class="tcar-badge">Verified</div>
-          <div class="tcar-score">99.00</div>
-          <div class="tcar-play">▶</div>
-          <div class="tcar-meta">
-            <div class="tcar-name">Gourav</div>
-            <div class="tcar-exam">CAT 2023 · 99 %ile</div>
-            <div class="tcar-quote">Consistency beats intensity. 2 hours daily beat weekend sprints.</div>
-          </div>
-        </div>
-        <div class="tcar-card" onclick="openVideo('Akshama','CAT 2023 · 99 %ile','IlrURaX6-fI')">
-          <div class="tcar-thumb"><img src="https://img.youtube.com/vi/IlrURaX6-fI/hqdefault.jpg" alt=""></div>
-          <div class="tcar-badge">Verified</div>
-          <div class="tcar-score">99.00</div>
-          <div class="tcar-play">▶</div>
-          <div class="tcar-meta">
-            <div class="tcar-name">Akshama</div>
-            <div class="tcar-exam">CAT 2023 · 99 %ile</div>
-            <div class="tcar-quote">Non-engineer, 99 %ile. VARC was my weapon, not my weakness.</div>
-          </div>
-        </div>
-        <div class="tcar-card" onclick="openVideo('Romit','NMAT · Score 262','pKEQ3zC_6V4')">
-          <div class="tcar-thumb"><img src="https://img.youtube.com/vi/pKEQ3zC_6V4/hqdefault.jpg" alt=""></div>
-          <div class="tcar-badge">Verified</div>
-          <div class="tcar-score">262</div>
-          <div class="tcar-play">▶</div>
-          <div class="tcar-meta">
-            <div class="tcar-name">Romit</div>
-            <div class="tcar-exam">NMAT · Score 262</div>
-            <div class="tcar-quote">NMIMS was my goal from day one. Got it with 262 on NMAT.</div>
-          </div>
-        </div>
+        <!-- Dynamically populated from RESULTS_STATIC_VIDEOS in results.js -->
       </div>
       <div class="tcar-scroll-ind" id="tcarInd"></div>
     </div>
@@ -439,53 +324,53 @@
   <div class="pred-inner">
     <div class="pred-head">
       <h2>We don't just teach CAT. We <em>predict it.</em></h2>
-      <p>Sumit Sir and the CATKing faculty publish expected-question videos on YouTube weeks before every CAT. When the actual paper dropped, these questions appeared with uncanny accuracy. Here are three from CAT 2024, each with hit rate verified by student feedback.</p>
+      <p>Sumit Sir and the CATKing faculty publish expected-question videos on YouTube weeks before every CAT. When the actual paper dropped, these questions appeared with uncanny accuracy.</p>
     </div>
     <div class="pred-grid" id="predGrid">
-      <div class="pred-card" data-yt="jdPUhiNhloc" data-title="Expected QA Questions for CAT 2024">
+      <div class="pred-card" data-yt="5Y23TpLn02g" data-title="Expected QA Questions for CAT 2024">
         <div class="pred-card-thumb">
-          <img src="https://i.ytimg.com/vi/jdPUhiNhloc/hqdefault.jpg" alt="">
-          <div class="pred-card-badge">CAT 2024 &middot; Hit</div>
+            <img src="https://i.ytimg.com/vi/5Y23TpLn02g/hqdefault.jpg" alt="">
+          {{--<div class="pred-card-badge">CAT 2024 &middot; Hit</div>--}}
           <div class="pred-card-play"><div class="pc-btn">&#9654;</div></div>
         </div>
         <div class="pred-card-body">
-          <div class="pred-card-title">Expected QA Questions for CAT 2024 &middot; Probability &amp; Mixtures</div>
-          <div class="pred-card-meta">
+          <div class="pred-card-title">CATKing reflecting on the CAT 2022 predictions versus the actual paper.</div>
+          {{--<div class="pred-card-meta">
             <span class="pred-card-date">Published 15 days before CAT</span>
             <span class="pred-card-acc">8 of 10 matched</span>
-          </div>
+          </div>--}}
         </div>
       </div>
 
-      <div class="pred-card" data-yt="NT0F6t31heM" data-title="DILR Predictions for CAT 2024">
+      <div class="pred-card" data-yt="tUa7pJpv3h8" data-title="VARC Reading Passage Predictions">
         <div class="pred-card-thumb">
-          <img src="https://i.ytimg.com/vi/NT0F6t31heM/hqdefault.jpg" alt="">
-          <div class="pred-card-badge">CAT 2024 &middot; Hit</div>
+          <img src="https://i.ytimg.com/vi/tUa7pJpv3h8/hqdefault.jpg" alt="">
+          {{--<div class="pred-card-badge">CAT 2024 &middot; Hit</div>--}}
           <div class="pred-card-play"><div class="pc-btn">&#9654;</div></div>
         </div>
         <div class="pred-card-body">
-          <div class="pred-card-title">DILR Predictions for CAT 2024 &middot; Arrangements &amp; Games</div>
-          <div class="pred-card-meta">
-            <span class="pred-card-date">Published 22 days before CAT</span>
-            <span class="pred-card-acc">3 of 4 sets matched</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="pred-card" data-yt="7_Tz4tkaQPo" data-title="VARC Reading Passage Predictions">
-        <div class="pred-card-thumb">
-          <img src="https://i.ytimg.com/vi/7_Tz4tkaQPo/hqdefault.jpg" alt="">
-          <div class="pred-card-badge">CAT 2024 &middot; Hit</div>
-          <div class="pred-card-play"><div class="pc-btn">&#9654;</div></div>
-        </div>
-        <div class="pred-card-body">
-          <div class="pred-card-title">VARC Passage Themes &middot; Expected reading areas for CAT 2024</div>
-          <div class="pred-card-meta">
+          <div class="pred-card-title">Expected pattern and difficulty for CAT 2024 based on Convenor Prof Ramya.</div>
+          {{--<div class="pred-card-meta">
             <span class="pred-card-date">Published 10 days before CAT</span>
             <span class="pred-card-acc">All 4 themes matched</span>
-          </div>
+          </div>--}}
         </div>
       </div>
+
+        <div class="pred-card" data-yt="_2cUaKPhh38" data-title="DILR Predictions for CAT 2024">
+            <div class="pred-card-thumb">
+                <img src="https://i.ytimg.com/vi/_2cUaKPhh38/hqdefault.jpg" alt="">
+                {{--<div class="pred-card-badge">CAT 2024 &middot; Hit</div>--}}
+                <div class="pred-card-play"><div class="pc-btn">&#9654;</div></div>
+            </div>
+            <div class="pred-card-body">
+                <div class="pred-card-title">Analysis and review of CAT 2020 paper predictions.</div>
+                {{--<div class="pred-card-meta">
+                  <span class="pred-card-date">Published 22 days before CAT</span>
+                  <span class="pred-card-acc">3 of 4 sets matched</span>
+                </div>--}}
+            </div>
+        </div>
     </div>
     <div style="text-align:center;margin-top:32px;">
       <a href="https://www.youtube.com/@catking" target="_blank" rel="noopener" class="faq-more-btn">Watch all prediction videos on YouTube &#8599;</a>
@@ -670,11 +555,11 @@
 <section class="reviews" id="reviews">
   <div class="reviews-inner">
     <div class="reviews-head">
-      <div class="eyebrow">Google Reviews · 15+ Years of Feedback</div>
+      {{--<div class="eyebrow">Google Reviews · 15+ Years of Feedback</div>--}}
       <h2>Real students. <em>Real reviews.</em></h2>
       <div class="reviews-rating-badge">
         <span class="rrb-stars">★ ★ ★ ★ ★</span>
-        <span class="rrb-val">4.8 / 5</span>
+        <span style="color: #000; !important;font-size: 14px;font-weight: 900;">4.8 / 5</span>
         <span class="rrb-src">based on <b>54,030 reviews</b></span>
       </div>
     </div>
@@ -691,7 +576,7 @@
   <div class="wa-section-inner">
     <div class="wa-head">
       <h2>The <em>moment</em> the result hits.</h2>
-      <p>The WhatsApp chats you see here are a mix: 24 are real conversations from our 2026 NMIMS, SPJIMR, and SCMHRD converts (PII redacted, message content unedited) and 12 are illustrative reconstructions for IIM and CAT topper converts - the actual screenshots will be dropped in live with student consent. The verified-CATKing stamp on every card is the credibility signal; full student stories live in the Hall of Fame above.</p>
+      {{--<p>The WhatsApp chats you see here are a mix: 24 are real conversations from our 2026 NMIMS, SPJIMR, and SCMHRD converts (PII redacted, message content unedited) and 12 are illustrative reconstructions for IIM and CAT topper converts - the actual screenshots will be dropped in live with student consent. The verified-CATKing stamp on every card is the credibility signal; full student stories live in the Hall of Fame above.</p>--}}
     </div>
     <div class="wa-marquee-wrap">
       <div class="wa-marquee" id="waRow1"><!-- populated by JS --></div>
@@ -704,62 +589,67 @@
   <div class="courses-sell-inner">
     <div class="courses-sell-head">
       <h2>Results like these don't happen by luck. <em>They are coached.</em></h2>
-      <p>Every name on this page went through one of these CATKing programs. Pick the one that matches where you are in your CAT / NMAT / SNAP / XAT journey - 15+ years of what works, distilled into three tracks.</p>
+      <p>Every name on this page went through one of these CATKing programs. Pick the one that matches where you are in your CAT / NMAT / SNAP / XAT journey - 18+ years of what works, distilled into three tracks.</p>
     </div>
 
     <div class="courses-sell-grid">
       <div class="course-tile">
         <div class="course-tile-badge mint">Most Popular</div>
-        <h3>CAT Intensive 2026</h3>
-        <p class="ct-sub">The flagship 8-month program. Weekly mentor 1-on-1s with Sumit Sir and senior faculty. Designed for serious aspirants targeting IIM ABCLKI.</p>
+        <h3>CAT Turbo 2026</h3>
+          <p class="ct-sub">Get trained by the Corporate Faculties. Who are 99%tilers and From IIMs L, SPJIMR, JBIMS & ISB Converts</p>
         <ul class="ct-feat">
-          <li>Live + recorded classes, 320+ hours</li>
-          <li>Weekly 1-on-1 mentor calls</li>
-          <li>40+ full-length mocks with analysis</li>
-          <li>Complete GDPI / WAT-PI module</li>
-          <li>Access to CAT 2025 predictions archive</li>
+            <li>Concept Builder Videos</li>
+            <li>E-books + 200+ Mocks</li>
+            <li>130+ LOD1 &amp; LOD2 E-books</li>
+            <li>Sectional &amp; Topic Tests</li>
+            <li>CAT 2024 Solved Papers</li>
+            <li>24×7 Doubt Forum Access</li>
         </ul>
         <div class="ct-pricing">
-          <span class="ct-price">&#8377;24,999</span>
-          <span class="ct-price-old">&#8377;49,999</span>
+          <span class="ct-price">&#8377;14,999</span>
+          <span class="ct-price-old">&#8377;20,999</span>
         </div>
-        <a href="https://courses.catking.in/cat-intensive" class="ct-cta">View Program Details &#8594;</a>
+        <a href="https://courses.catking.in/courses/cat-2026-turbo" class="ct-cta">View Program Details &#8594;</a>
       </div>
 
       <div class="course-tile">
         <div class="course-tile-badge">Fastest Growing</div>
-        <h3>CAT Turbo 2026</h3>
-        <p class="ct-sub">4-month accelerated track for working professionals and last-6-month aspirants. Evening + weekend live sessions, full mock library access.</p>
+        <h3>Non-CAT Turbo 2026</h3>
+        <p class="ct-sub">Daily 2 Hrs Lectures Mon to Fri with Revision Live Class every SAT by NMAT SNAP XAT Toppers</p>
         <ul class="ct-feat">
           <li>160+ hours of condensed live coaching</li>
-          <li>Evening/weekend schedule</li>
-          <li>30+ full-length mocks</li>
-          <li>DILR + QA crash modules</li>
-          <li>Shortlist WAT-PI prep included</li>
-        </ul>
-        <div class="ct-pricing">
-          <span class="ct-price">&#8377;19,999</span>
-          <span class="ct-price-old">&#8377;39,999</span>
-        </div>
-        <a href="https://courses.catking.in/cat-turbo" class="ct-cta">View Program Details &#8594;</a>
-      </div>
-
-      <div class="course-tile">
-        <div class="course-tile-badge blue">Best for Starters</div>
-        <h3>CAT Self-Study 2026</h3>
-        <p class="ct-sub">Learn at your own pace. Complete recorded library, 50+ concept videos, 25+ mocks, unlimited re-access. Ideal if you are starting prep early or testing CAT fit.</p>
-        <ul class="ct-feat">
-          <li>400+ concept videos, recorded</li>
-          <li>25+ full-length mocks included</li>
-          <li>Topic-wise problem sets</li>
-          <li>One-time content library purchase</li>
-          <li>Free upgrade to Intensive if you enroll within 30 days</li>
+            <li>Concept Builder (LOD 1)</li>
+            <li>Verbal Workshops</li>
+            <li>NMAT Saturday Bootcamps</li>
+            <li>SNAP Saturday Bootcamps</li>
+            <li>NMAT/SNAP Daily Bootcamps</li>
+            <li>XAT Sunday Bootcamps</li>
         </ul>
         <div class="ct-pricing">
           <span class="ct-price">&#8377;9,999</span>
           <span class="ct-price-old">&#8377;19,999</span>
         </div>
-        <a href="https://courses.catking.in/cat-self-study" class="ct-cta">View Program Details &#8594;</a>
+        <a href="https://courses.catking.in/courses/non-cat-combo-turbo-2025-26" class="ct-cta">View Program Details &#8594;</a>
+      </div>
+
+      <div class="course-tile">
+        <div class="course-tile-badge blue">Best for Starters</div>
+        <h3>CAT 2026 Intensive Mocks</h3>
+        <p class="ct-sub">Mocks Tested by IIM K Alumni. Mocks inspired by the past 5 Years' CAT Papers and Expected Convenor</p>
+        <ul class="ct-feat">
+            <li>Alumni Verification</li>
+            <li>Mocks Pattern</li>
+            <li>Real CAT Mocks (Releasing from 17th April onwards)</li>
+            <li>Topper's Attempt to CAT</li>
+            <li>Live Mock Solving</li>
+            <li>Toppers Mock strategy Videos</li>
+            <li>Sectional Tests</li>
+        </ul>
+        <div class="ct-pricing">
+          <span class="ct-price">&#8377;4,999</span>
+          <span class="ct-price-old">&#8377;9,999</span>
+        </div>
+        <a href="https://courses.catking.in/courses/cat-intensive-mocks" class="ct-cta">View Program Details &#8594;</a>
       </div>
     </div>
 
@@ -859,7 +749,7 @@
     <p><span id="fctaDays">213</span> days until CAT 2026. Every topper on this page started where you are right now. The only variable is the 100-week plan with a mentor who has done it before.</p>
     <div class="ctas">
       <a href="https://courses.catking.in/cat-intensive-2026" class="btn p">Enroll Now</a>
-      {{--<a href="tel:+918999118999" class="btn s">Request a Callback</a>--}}
+      <a href="tel:+918999118999" class="btn s">Request a Callback</a>
     </div>
     <div class="contacts">
       <div class="c">New students: <b>+91 8999-11-8999</b></div>
@@ -902,7 +792,7 @@
   <div class="sm-wrap">
     <button class="sm-close" id="smClose" type="button" aria-label="Close">✕</button>
     <div class="sm-head">
-      <span class="sm-tag" id="smExam">Score Card · CAT 2024</span>
+      {{--<span class="sm-tag" id="smExam">Score Card · CAT 2024</span>--}}
       <div class="sm-name-row">
         <div class="sm-ava-circle" id="smAva">HB</div>
         <div>
@@ -964,7 +854,7 @@
 <div class="scta" id="scta">
   <div class="scta-txt">CAT 2026 in <b id="sctaDays">219</b> days. Your result could be next.</div>
   <div class="scta-ctas">
-    {{--<a href="#fcta" class="scta-btn scta-btn-secondary">Request a Callback</a>--}}
+    <a href="tel:+918999118999" class="scta-btn scta-btn-secondary">Request a Callback</a>
     <a href="https://courses.catking.in/cat-intensive-2026" class="scta-btn">Enroll Now</a>
   </div>
 </div>
@@ -972,6 +862,56 @@
 @endsection
 
 @push('scripts')
+    <script>
+        @php
+            $waStories = [];
+            try {
+                $waPath = base_path('success_stories.json');
+                if (file_exists($waPath)) {
+                    $waRaw = file_get_contents($waPath);
+                    $waJson = json_decode($waRaw, true);
+                    if (isset($waJson[2]['data'])) {
+                        $waStories = $waJson[2]['data'];
+                    }
+                }
+            } catch (\Exception $e) {}
+
+            $strategyVideos = [];
+            try {
+                $resPath = base_path('results.json');
+                if (file_exists($resPath)) {
+                    $resRaw = file_get_contents($resPath);
+                    $resJson = json_decode($resRaw, true);
+                    $allData = $resJson[2]['data'] ?? [];
+
+                    foreach ($allData as $item) {
+                        if (($item['type'] ?? '') === 'strategy_videos') {
+                            $thumb = "";
+                            if (!empty($item['file'])) {
+                                $fileObj = json_decode($item['file'], true);
+                                $path = $fileObj['thumb_400'] ?? $fileObj['thumb_600'] ?? $fileObj['full'] ?? "";
+                                if ($path) {
+                                    $thumb = "https://catking.in/storage/" . $path;
+                                }
+                            }
+
+                            $strategyVideos[] = [
+                                'name' => $item['name'] ?? '',
+                                'subTitle' => $item['sub_title'] ?? '',
+                                'description' => !empty($item['description']) ? strip_tags($item['description']) : 'Verified CATKing topper interview.',
+                                'videoId' => $item['video_id'] ?? '',
+                                'thumb' => $thumb,
+                                'sortOrder' => (int)($item['sort_order'] ?? 999),
+                                'createdAt' => $item['created_at'] ?? ''
+                            ];
+                        }
+                    }
+                }
+            } catch (\Exception $e) {}
+        @endphp
+        window.WA_SUCCESS_STORIES_DATA = {!! json_encode($waStories) !!};
+        window.RESULTS_STATIC_VIDEOS = {!! json_encode($strategyVideos) !!};
+    </script>
     <script src="{{ asset('js/results-static-data.js') }}"></script>
     <script src="{{ asset('js/results.js') }}"></script>
 @endpush

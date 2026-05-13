@@ -21,6 +21,7 @@
     @include('layouts.footer')
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="{{ asset('js/header.js') }}" defer></script>
     @unless(request()->routeIs('results'))
     <script src="{{ asset('js/cat-exam-landing.js') }}" defer></script>
     @endunless

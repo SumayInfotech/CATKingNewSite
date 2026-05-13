@@ -1302,26 +1302,66 @@ if (Array.isArray(window.RESULTS_STATIC_RESULTS) && window.RESULTS_STATIC_RESULT
    STUDENT REVIEWS DATA (marquee)
 ============================================================ */
 var REVIEWS = [
-  { name: "Rohit Sharma", loc: "Mumbai · NMIMS Convert", rating: 5, course: "CAT Turbo 2024", text: "Sumit Sir\'s LRDI framework is genuinely the best I have seen. Went from 78 to 96 in 7 months. Worth every rupee." },
-  { name: "Priyanka Desai", loc: "Pune · IIM-K Convert", rating: 5, course: "CAT Intensive 2024", text: "The Sunday mentor calls were my weekly reset. Even during my lowest weeks, my mentor kept me accountable." },
-  { name: "Arjun Mehta", loc: "Delhi · FMS Delhi Convert", rating: 5, course: "CAT Intensive 2024", text: "Second attempt. First one I scored 91. CATKing rebuilt my approach. Cracked 99+ and FMS." },
-  { name: "Sneha Iyer", loc: "Chennai · IIM-L Convert", rating: 5, course: "CAT Self Study 2024", text: "Working professional, 2 hours a day. The recorded lectures were perfect. Materials are the highest quality I found." },
-  { name: "Vikram Rao", loc: "Bengaluru · IIM-B Convert", rating: 5, course: "IIM WAT-PI 2024", text: "The WAT-PI module was a game changer. My mock interviews prepared me for exactly the questions I got in IIM-B." },
-  { name: "Anjali Kumar", loc: "Hyderabad · NMIMS Convert", rating: 5, course: "NMAT Combo 2024", text: "NMAT prep here is underrated. The speed-accuracy drills made a big difference. 235 on NMAT." },
-  { name: "Rahul Gupta", loc: "Kolkata · SPJIMR Convert", rating: 5, course: "CAT Turbo 2024", text: "The content library alone is worth the fee. 20 hours of recorded lectures per section, all updated for latest CAT pattern." },
-  { name: "Shruti Pandey", loc: "Jaipur · MDI Gurgaon Convert", rating: 5, course: "CAT Intensive 2024", text: "I was worried about being in a tier-3 college. CATKing mentors never made me feel out of place. Got MDI Gurgaon." },
-  { name: "Karan Malhotra", loc: "Ahmedabad · IIM-I Convert", rating: 5, course: "CAT Intensive 2024", text: "The mock analysis sessions are where 95 becomes 99. Everyone does mocks. Nobody analyzes them this well." },
-  { name: "Divya Krishnan", loc: "Bengaluru · IIM-A Convert", rating: 5, course: "CAT Intensive + WAT", text: "Came from non-target college. CATKing rebuilt my confidence. IIM-A final interview was the most confident I have ever been." },
-  { name: "Aditya Bose", loc: "Kolkata · IIM-C Convert", rating: 5, course: "CAT Self Study 2024", text: "Tier-2 city, no physical classes available nearby. The online Self Study track worked perfectly." },
-  { name: "Nandini Verma", loc: "Lucknow · IIM-L Convert", rating: 5, course: "CAT Turbo 2024", text: "Ma\'am Anisha\'s classes are phenomenal. QA was my weakest section. She rebuilt my basics from scratch." },
-  { name: "Siddharth Jain", loc: "Indore · SPJIMR Convert", rating: 5, course: "CAT Intensive 2024", text: "The daily practice sets kept me disciplined. 2 hours of structured practice beats 5 hours of random prep." },
-  { name: "Meera Nair", loc: "Kochi · IIM-K Convert", rating: 5, course: "CAT Self Study 2024", text: "Sumit Sir\'s VARC sessions are unreal. I went from 85 to 98 in VARC alone." },
-  { name: "Ayush Agarwal", loc: "Mumbai · NMIMS Convert", rating: 5, course: "NMAT Combo 2024", text: "The NMAT quickfire drills were exactly what I needed. Speed became my weapon." },
-  { name: "Kavya Reddy", loc: "Hyderabad · XAT Scorer", rating: 5, course: "XAT Fast Track", text: "XAT Decision Making section was a mystery before. CATKing broke down the exact pattern of question types." },
-  { name: "Nikhil Saxena", loc: "Bhopal · IMT-G Convert", rating: 5, course: "CAT Self Study 2024", text: "From 98 percentile, got IMT Ghaziabad. CATKing was instrumental in the interview prep round." },
-  { name: "Pranav Menon", loc: "Chennai · IIM-B Convert", rating: 5, course: "CAT Intensive + WAT", text: "The group discussion practice was the most valuable part for me. Got called to GD-PI at 4 IIMs." },
-  { name: "Ritika Chandra", loc: "Delhi NCR · FMS Delhi Convert", rating: 5, course: "CAT Turbo 2024", text: "The faculty panel is unmatched. Sumit Sir, Sahil Sir, Prantik Sir, each with a different strength. One package." },
-  { name: "Manav Khanna", loc: "Chandigarh · IIM-K Convert", rating: 5, course: "CAT Intensive 2024", text: "I have referred 4 friends to CATKing. Every single one has converted into a top-10 B-school." }
+  { name: "Akshit Batheja", loc: "NMIMS Mumbai", rating: 5, course: "CAT Intensive 2024", text: "A Coaching class is much more than just teaching you, it's about guiding, helping, changing strategies according to different exams, profile building, preparing you for your interviews by taking mo..." },
+  { name: "Radhesh Chandran", loc: "MICA", rating: 5, course: "CAT Intensive 2024", text: "I enrolled for the CATKing - MICA online coaching sessions and I had a wonderful experience. The sessions were planned very well and the entire course contents were covered. Rahul Sir's enthusiasm ..." },
+  { name: "Ammaar Golwala", loc: "MICA", rating: 5, course: "CAT Intensive 2024", text: "Honestly, the coaching guidance and methodology taken by the faculty at CATKing is of the top-notch level where people from top B-schools having cleared the same exam you preparing for give you a d..." },
+  { name: "Pemiya Gandhi", loc: "SIMC", rating: 5, course: "CAT Intensive 2024", text: "From personal experience, I was previously a Time student right at the point where I thought MBA is only for engineers and I was about to give up. I met up with CATKing mentors and let me tell you,..." },
+  { name: "Kedar Bhat", loc: "JBIMS", rating: 5, course: "CAT Intensive 2024", text: "CATKing helped me reach my dream of JBIMS. Rahul sir, along with the entire amazing faculty of renowned professors, guided me throughout the journey and especially till the college GDPI stage" },
+  { name: "Ishan Gangar", loc: "JBIMS", rating: 5, course: "CAT Intensive 2024", text: "When I enrolled for CATking, I was looking for something more than any other class would provide. I was looking for guidance and a structured process for preparing for a competitive exam, and I fou..." },
+  { name: "Sakshi Gandhi", loc: "IIM Ahmedabad", rating: 5, course: "CAT Intensive 2024", text: "Thanks a lot CATKing for making my IIM Ahmedabad dream Come True! The mentoring truly ensured I beat all odds." },
+  { name: "Vivek Kshirsagar", loc: "IIM Bangalore", rating: 5, course: "CAT Intensive 2024", text: "\"I would like to thank Rahul sir for firing a spark in me to prepare for CAT 15 and go for MBA. I was not sure whether to go or not for MBA but the introductory session by Rahul sir motivated me an..." },
+  { name: "Samay", loc: "SP Jain", rating: 5, course: "CAT Intensive 2024", text: "Being a CA student I had no clue about the MBA system and how to prepare for MBA entrances, but the guidance provided by Catking helped me sail through the entire process. Their study material and ..." },
+  { name: "Manmeet Kaur", loc: "MICA", rating: 5, course: "CAT Intensive 2024", text: "I still remember the day, I came to CATKing just for a ray of hope or you may say a boost to work much harder. For a career-oriented person like me with a good profile, I took a year drop to give a..." },
+  { name: "Sangharsh", loc: "JBIMS", rating: 5, course: "CAT Intensive 2024", text: "\"I would like to thank Rahul sir and the team for the motivation and shortcuts provided during my preparation. The base concepts were taught very meticulously which helped me build a strong foundat..." },
+  { name: "Rahul Jawahrani", loc: "MICA", rating: 5, course: "CAT Intensive 2024", text: "CATKing was of great help while putting together my SOP. They helped me identify my strengths & put them across with the \"Mican edge\". They also played devil's advocate with me and got me geared up..." },
+  { name: "Vaibhav Shah", loc: "NMIMS Mumbai", rating: 5, course: "CAT Intensive 2024", text: "I have been associated with CATKing for the past 1 year and my journey has been nothing short of a wonder. Coming from a Commerce background I was not particularly strong in Quants/DI or verbal eit..." },
+  { name: "Rukhsar Khan", loc: "MICA", rating: 5, course: "CAT Intensive 2024", text: "\"I was under the guidance of the CATKing Team for 2 years and everyone was very helpful throughout. Rahul Sir and Anisha Ma'am have constantly motivated me and pulled me back up whenever I didn't f..." },
+  { name: "Raj Doshi", loc: "IIM Ahmedabad", rating: 5, course: "CAT Intensive 2024", text: "CATKing was a great support to me during my interview preparations. The mock interviews made me realize the areas in which I had to work upon and Rahul Sir also helped me in structuring my answers ..." },
+  { name: "Raj Shah", loc: "NMIMS Mumbai", rating: 5, course: "CAT Intensive 2024", text: "I'd like to thank the countless motivation sessions Rahul Sir and other faculty provided to stop me from giving up and keep trying." },
+  { name: "Bipin Dhotre", loc: "SCIT", rating: 5, course: "CAT Intensive 2024", text: "I was in another MBA coaching institute before joining the CATking. that time I was nowhere. When I joined CATking I found positive changes in me. I got motivation from CATking people that even I c..." },
+  { name: "Shreya Sawleshwarkar", loc: "MICA", rating: 5, course: "CAT Intensive 2024", text: "Well, I am here now. And, it would not have been possible without the constant encouragement and concise guidance by the institute. Their inputs and invaluable efforts for the GEPI round helped bol..." },
+  { name: "Prathamesh Gawade", loc: "SP Jain", rating: 5, course: "CAT Intensive 2024", text: "The one factor which I valued the most about CATKing is it's personalized guidance. I did attend Career Launcher GDPI sessions last year as well, but I wasn't given a lot of B School specific guida..." },
+  { name: "Aniruddho Ghosh", loc: "MICA", rating: 5, course: "CAT Intensive 2024", text: "Honestly, the coaching guidance and methodology taken by the faculty at CATKing is of the top-notch level where people from top bschool having cleared the same exam you preparing for gives you a di..." },
+  { name: "Kaushal Kumar Pati", loc: "MICA", rating: 5, course: "CAT Intensive 2024", text: "You will be in awe when you actually get to interact with faculty of such caliber. SP Jain, NMIMS, Havard Alumni - speaks volumes about the kind of guidance that you'll be getting. One thing very c..." },
+  { name: "Apoorva Choudhary", loc: "IIM Ahmedabad", rating: 5, course: "CAT Intensive 2024", text: "The best thing about CatKing is that each and every student gets personal attention here(which includes building up your profile too).Every student has his/her strength & weakness.Faculties at CatK..." },
+  { name: "Sweta Patnaik", loc: "MICA", rating: 5, course: "CAT Intensive 2024", text: "The point is institute selection shouldn't be only based on profiles but methods that teachers use to make their students get through a hard time of every entrance exam, going that extra mile to ma..." },
+  { name: "Akshat Bhargava", loc: "NMIMS Mumbai", rating: 5, course: "CAT Intensive 2024", text: "The study material provided is more than enough for cracking almost all National Level Management exams. The online study portal with number of mocks give you a real exam feel. Another positive asp..." },
+  { name: "Tej Rajani", loc: "JBIMS", rating: 5, course: "CAT Intensive 2024", text: "The lectures and the faculty are truly of the best ones can get for his/her prep. Besides, the preparatory process for GDPI was exhaustive and those sessions are a must-attend for any MBA aspirant...." },
+  { name: "Aliasgar Pardawala", loc: "SIMC", rating: 5, course: "CAT Intensive 2024", text: "Personalized attention by teachers in class and after to help them solve their problems, online lectures, pre-recorded lecture videos for students, profile building, and till last minute guidance, ..." },
+  { name: "Brishti", loc: "FMS", rating: 5, course: "CAT Intensive 2024", text: "Definitely, it is! Right from preparing you for all the entrance exams, it builds your resume, helps you prepare for GDPI with the alumni of top B schools. You can always book an appointment for a ..." },
+  { name: "Harshini", loc: "IIM Ahmedabad", rating: 5, course: "CAT Intensive 2024", text: "Rahul Sir, I would like to share with you that I have finally made it to the Indian Institute of Management Ahmedabad (IIMA) and am now a part of their prestigious PGP program. Your unending suppor..." },
+  { name: "Bir Anmol Singh", loc: "IIM Ahmedabad", rating: 5, course: "CAT Intensive 2024", text: "Thank you for your support and guidance in my journey to getting into IIM. CATKing has been helpful and insightful in the preparation. That you so much Rahul sir and entire CATKing family for your ..." },
+  { name: "Nischal", loc: "IIM Ahmedabad", rating: 5, course: "CAT Intensive 2024", text: "Hello Sir, I want to thank you for your guidance and mentorship. I owe my success to you, I still remember when I first time saw your video and felt motivated. I thought being younger will not help..." },
+  { name: "Aastha", loc: "IIM Ahmedabad", rating: 5, course: "CAT Intensive 2024", text: "It is worth joining CATKing classes because they have amazing faculties and they teach you with so much enthusiasm that you will never feel like leaving classes or not attending them. With special ..." },
+  { name: "Vidhushi", loc: "IIM Ahmedabad", rating: 5, course: "CAT Intensive 2024", text: "I was a CATKing student. I joined it for my preparation. It's definitely worth it for the amount they charge you . They'll motivate you, prepare you for the interviews, and will give you an idea ab..." },
+  { name: "Avneet Kaur", loc: "FMS", rating: 5, course: "CAT Intensive 2024", text: "Hello Everyone, I am Avneet Kaur, a participant of the IPM programme, I had given CAT and I am excited to inform you that, under the guidance of CATKING for prep, I have converted FMS Delhi. Thanks..." },
+  { name: "Jai", loc: "MICA", rating: 5, course: "CAT Intensive 2024", text: "CATKing online sprint workshops are by far the best ones if you want to get your entire portion of CAT covered in a short span of time. It's the best way to revise concepts that are important not j..." },
+  { name: "Tanmay", loc: "IIM Bangalore", rating: 5, course: "CAT Intensive 2024", text: "CATKing classes and dashboard were really helpful in my journey of getting to my dream college i.e IIM B. Thank you so much to the entire CATKing team and Sumit Sir. Thank you so much for motivatin..." },
+  { name: "Vivek", loc: "IIM Bangalore", rating: 5, course: "CAT Intensive 2024", text: "I would like to thank Rahul sir for firing a spark in me to prepare for CAT and go for MBA. I was not sure whether to go or not for MBA but the introductory session by Rahul sir motivated me and I ..." },
+  { name: "Siddhant Jain", loc: "IIM Bangalore", rating: 5, course: "CAT Intensive 2024", text: "I had joined CATKing for GDPI course for the year 2022-23. In my opinion, it is a very comprehensive course for preparing for GD/PI processes of the top B-schools. The course is basically a mini-MB..." },
+  { name: "Sarojit Auddya", loc: "IIM Bangalore", rating: 5, course: "CAT Intensive 2024", text: "Post CAT, we all have to go through the seemingly endless journey of preparing \"Current Affairs\", basics of core concepts like finance and marketing as well as the procedure of writing in a Writing..." },
+  { name: "Bhavesh Chaudhari", loc: "IIM Bangalore", rating: 5, course: "CAT Intensive 2024", text: "I joined CATKing last year for CAT 2022 just for last two months and from my personal experience, it certainly helped a lot in my prep to 99.44 %ile in it. Their dashboard has a wide variety of pra..." },
+  { name: "Sneha Baidya", loc: "IIM Lucknow", rating: 5, course: "CAT Intensive 2024", text: "I joined CATKing for their course. For me, it was extremely helpful. Regular classes alongside mock interviews helped me prepare better. The dashboard truly helped me a lot in terms of gaining know..." },
+  { name: "Somen Kalokhe", loc: "CATKing Student", rating: 5, course: "CAT Intensive 2024", text: "I gave CAT 2022, and being a CATKing student for about 11 months now i can say that I got a CAT 2022 - 99.62%ile SNAP 2022 - 98.6%ile XAT 2023 - 97%ile NMAT - 239. This is just a picture with Rahul..." },
+  { name: "Ali Sagar", loc: "IIM Bangalore", rating: 5, course: "CAT Intensive 2024", text: "I had joined CATKing classes . I would have to say it was worth it. Especially the community they maintain across Whatsapp and their portal helps to interact with a lot of fellow candidates and is ..." },
+  { name: "Vishal Shukla", loc: "IIM Lucknow", rating: 5, course: "CAT Intensive 2024", text: "CATKing is best place for CAT preparation. Their GDPI modules are extremely detailed and versatile, covering literally everything. And the mock interviews are taken by students/alums of premier ins..." },
+  { name: "Pritam Ghosh Adikari", loc: "IIM Nagpur", rating: 5, course: "CAT Intensive 2024", text: "I recently had the opportunity to enroll in CAT coaching at CATKing, and I can confidently say that it was a transformative experience for my CAT preparation. I am delighted to share that I have co..." },
+  { name: "Tushar Sarkar", loc: "IIM Calcutta", rating: 5, course: "CAT Intensive 2024", text: "\"I was a student of CATKing and appeared for CAT 2022( 99.80 %ile). The overall ecosystem that CATKing tried to create for the journey of cracking CAT was great. I attended the online classes for a..." },
+  { name: "Shreyasee Sarkar", loc: "IIM Calcutta", rating: 5, course: "CAT Intensive 2024", text: "I took the CATKing course for my CAT 2022 preparation. Their dashboard is very informative. They have transcripts for every B school interview and knowledge dossiers. They even have videos to prepa..." },
+  { name: "Aakash Pandya", loc: "XLRI", rating: 5, course: "CAT Intensive 2024", text: "I took CATKing course and I can assure you that the resources provided to me were top notch. They had a specified docket for each and every stream (marketing, finance, HR, operations, etc.) which c..." },
+  { name: "Mohsin Ansari", loc: "MDI Gurgoan", rating: 5, course: "CAT Intensive 2024", text: "Considering my personal experience, CATKing is totally worth it for preparation. They offer certain valuable dockets of past interview experiences which gave me a good idea about the kind of questi..." },
+  { name: "Saurav Jayant", loc: "IIM Mumbai ", rating: 5, course: "CAT Intensive 2024", text: "Considering my personal experience, CATKing is totally worth it for preparation. They offer certain valuable dockets of past interview experiences which gave me a good idea about the kind of questi..." },
+  { name: "Adarsha Karmakar", loc: "IIM Calcutta", rating: 5, course: "CAT Intensive 2024", text: "I joined CATKing for my CAT Prep journey and I could say with absolute certainty that if I would not have taken the interview prep kit, I wouldn't be writing this today. The dashboard, the WP group..." },
+  { name: "Kaustubh Bahal", loc: "IIFT Delhi", rating: 5, course: "CAT Intensive 2024", text: "I joined CATKing classes in April 2022 for CAT 2022 and other OMETs. The classes were held daily and there were special fast paced quants classes on weekends. Shudhanshu Sir is amazing and so is Ra..." },
+  { name: "Rahul Thapa", loc: "FMS", rating: 5, course: "CAT Intensive 2024", text: "Hi Sir, I was a student at CATKing during my CAT preparation. I would love to thank you for your Finance Friday classes and motivation during GDPI preparation. Also, I can convert all my calls incl..." },
+  { name: "Kshitiz Kain", loc: "FMS", rating: 5, course: "CAT Intensive 2024", text: "Hello Ma'am, I just wanted to thank you and CATKing, as I recently converted FMS (my dream college). I had a very low CGPA of 54.6 in graduation and everyone told me to give up but still CATKing an..." },
+  { name: "Tushar Hingorani", loc: "NMIMS Mumbai", rating: 5, course: "CAT Intensive 2024", text: "I am going to join NMIMS for 23&ndash;25 MBA, and I must say that I made the right choice of joining CATKing in my journey. A coaching is much more than the faculty and tests, it's very much import..." },
+  { name: "Ananya Maheshwari", loc: "NMIMS Mumbai", rating: 5, course: "CAT Intensive 2024", text: "Since i have studied at CATKing from September 2021 to March 2023, This is my Honest view. I came across CATKing through YouTube while i was searching for resources to start my MBA prep. Honestly S..." },
+  { name: "Vikrant Jha", loc: "NMIMS Mumbai", rating: 5, course: "CAT Intensive 2024", text: "I was enrolled into CATKing for their Mock test and interview preparation. I was overall very satisfied with their content. Their dashboard was excellent and especially Rahul Sir's videos was motiv..." },
+  { name: "Pranav", loc: "IIM Lucknow", rating: 5, course: "CAT Intensive 2024", text: "A big thanks to all CATKing team members for motivation and right guidance because of which I got selected for my dream college IIM Lucknow. This was my best call." },
+  { name: "Mithil Inamdar", loc: "IIM Lucknow", rating: 5, course: "CAT Intensive 2024", text: "The short answer is yes, I joined CATKing for GDPI preparation and I made use of all the resources provided on the dashboard and I would say special thanks to Sumit sir for interacting with all stu..." },
+  { name: "Aditya Verma", loc: "IIM Lucknow", rating: 5, course: "CAT Intensive 2024", text: "Let me share my perspective on it. I started watching videos from the CATking channel years before as I wanted to improve my Verbal ability and know about the CAT exam. Hence after deciding to give..." },
+  { name: "Pranav Murty", loc: "IIM Lucknow", rating: 5, course: "CAT Intensive 2024", text: "I managed to convert IIM L. It was my best call. Thanks for the motivation and help , Thank you so much Rahul sir your daily motivation and support , Also thank you so much entire team of CATKing i..." }
 ];
 
 /* ============================================================
@@ -1437,32 +1477,75 @@ var REVIEWS = [
   var r2 = document.getElementById('rvRow2');
   if (!r1 || !r2) return;
 
-
+  /**
+   * Generates HTML for a single review card
+   */
   function cardHtml(r, i) {
     var stars = '';
-    for (var s = 0; s < 5; s++) { stars += s < r.rating ? '\u2605' : '\u2606'; }
+    var rating = r.rating || 5;
+    for (var s = 0; s < 5; s++) {
+      stars += s < rating ? '★' : '☆';
+    }
+
+    // Fallback for missing fields
+    var name = r.name || "Anonymous";
+    var loc = r.loc || "Verified Student";
+    var course = r.course || "CAT Intensive 2024";
+    var text = r.text || "";
+
     return '<div class="rv-card">' +
       '<div class="rv-head">' +
-      '<div class="rv-who"><div class="rv-name">' + r.name + '</div><div class="rv-loc">' + r.loc + '</div></div>' +
+      '<div class="rv-who"><div class="rv-name">' + name + '</div><div class="rv-loc">' + loc + '</div></div>' +
       '<div class="rv-stars">' + stars + '</div>' +
       '</div>' +
-      '<div class="rv-text">' + r.text + '</div>' +
-      '<div class="rv-course">' + r.course + '</div>' +
+      '<div class="rv-text">' + text + '</div>' +
+      '<div class="rv-course">' + course + '</div>' +
       '</div>';
   }
 
-  // Split into 2 rows
-  var half = Math.ceil(REVIEWS.length / 2);
-  var row1Set = REVIEWS.slice(0, half);
-  var row2Set = REVIEWS.slice(half);
+  /**
+   * Main render function
+   */
+  function renderMarquee(data) {
+    if (!data || data.length === 0) return;
 
-  // Duplicate each for seamless loop
-  var row1Html = row1Set.map(cardHtml).join('') + row1Set.map(cardHtml).join('');
-  var row2Html = row2Set.map(function (r, i) { return cardHtml(r, i + 100); }).join('') +
-    row2Set.map(function (r, i) { return cardHtml(r, i + 100); }).join('');
-  r1.innerHTML = row1Html;
-  r2.innerHTML = row2Html;
+    // Split into 2 rows for the marquee effect
+    var half = Math.ceil(data.length / 2);
+    var row1Set = data.slice(0, half);
+    var row2Set = data.slice(half);
+
+    // Duplicate each set for a seamless CSS loop
+    var row1Html = row1Set.map(cardHtml).join('') + row1Set.map(cardHtml).join('');
+    var row2Html = row2Set.map(function (r, i) { return cardHtml(r, i + 100); }).join('') +
+      row2Set.map(function (r, i) { return cardHtml(r, i + 100); }).join('');
+
+    r1.innerHTML = row1Html;
+    r2.innerHTML = row2Html;
+  }
+
+  // Check if there's global dynamic data from results.json (via RESULTS_STATIC_RESULTS if updated)
+  // or use the statically populated REVIEWS array.
+  var finalData = REVIEWS;
+  if (window.RESULTS_STATIC_RESULTS && Array.isArray(window.RESULTS_STATIC_RESULTS)) {
+    var dynamicReviews = window.RESULTS_STATIC_RESULTS.filter(function (i) {
+      return i.type === 'student_reviews';
+    }).map(function (r) {
+      return {
+        name: r.name,
+        loc: r.institute || r.sub_title || 'CATKing Student',
+        rating: 5,
+        course: r.course || r.year || 'CAT Intensive 2024',
+        text: (r.description || '').replace(/<[^>]*>/g, '').trim()
+      };
+    });
+    if (dynamicReviews.length > 0) {
+      finalData = dynamicReviews;
+    }
+  }
+
+  renderMarquee(finalData);
 })();
+
 
 /* ============================================================
    STUDENT DETAIL MODAL CONTROLLER
@@ -2182,7 +2265,7 @@ function openScorecard(name, score, img, avatar, quote, converts, programme, exa
   document.getElementById('smQuote').textContent = quote ? '“' + quote + '”' : '';
   document.getElementById('smConverts').textContent = converts || 'IIM Convert';
   document.getElementById('smAddl').textContent = programme || 'MBA Program';
-  document.getElementById('smExam').textContent = 'Score Card · ' + (exam || 'CAT 2024');
+  /*document.getElementById('smExam').textContent = 'Score Card · ' + (exam || 'CAT 2024');*/
 
   modal.classList.add('show');
   document.body.style.overflow = 'hidden';
@@ -2232,6 +2315,9 @@ function openScorecard(name, score, img, avatar, quote, converts, programme, exa
 
   function escapeHtml(v) {
     return String(v || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+  }
+  function escapeJsAttr(v) {
+    return escapeHtml(String(v || '').replace(/\\/g, "\\\\").replace(/'/g, "\\'").replace(/\n/g, "\\n").replace(/\r/g, "\\r"));
   }
   function stripTags(v) {
     const d = document.createElement('div'); d.innerHTML = String(v || '');
@@ -2311,7 +2397,7 @@ function openScorecard(name, score, img, avatar, quote, converts, programme, exa
               <img class="result-scorecard-img" src="${escapeHtml(sscard)}" alt="${escapeHtml(name)} scorecard">
             </div>
             <p class="result-scorecard-quote">“${escapeHtml(quote || 'Verified CATKing scorecard and success story.')}”</p>
-            <button type="button" class="result-scorecard-btn" onclick="openScorecard('${escapeHtml(name)}','${escapeHtml(pct)}','${escapeHtml(scard)}','${escapeHtml(avatar)}','${escapeHtml(quote)}','${escapeHtml(converts)}','${escapeHtml(programme)}','${escapeHtml(exam)}')">View scorecard</button>
+            <button type="button" class="result-scorecard-btn" onclick="openScorecard('${escapeJsAttr(name)}','${escapeJsAttr(pct)}','${escapeJsAttr(scard)}','${escapeJsAttr(avatar)}','${escapeJsAttr(quote)}','${escapeJsAttr(converts)}','${escapeJsAttr(programme)}','${escapeJsAttr(exam)}')">View scorecard</button>
           </div>
         </article>`;
     }
@@ -2690,39 +2776,20 @@ function _OLD_renderHofForYear_disabled(year) {
   }
   function fmt(n) { return Number(n || 0).toLocaleString('en-IN'); }
   function renderCompounding() {
-    var year = compFilters.year || "all";
-    var rows = allResults().filter(function (d) { return matches(d, compFilters, false); });
-    var total = rows.length;
-    var cat = rows.filter(function (d) { return d.exam === "cat"; }).length;
-    var blacki = rows.filter(function (d) { return d.group === "blacki-sm"; }).length;
-    var nmims = rows.filter(function (d) { return d.group === "nmims"; }).length;
-    var yearLabel = year === "all" ? "All" : LABEL[year];
+    // v18 patch: Both stats panel and growth chart now use hardcoded static data
+    // to match the audited figures shown in the Hero and Legacy sections.
+    var chartData = [
+      { year: "Before 2020", key: "before-2020", mini: "Before 20", converts: 410 },
+      { year: "2020-21", key: "2020-21", mini: "20-21", converts: 1110 },
+      { year: "2021-22", key: "2021-22", mini: "21-22", converts: 1380 },
+      { year: "2022-23", key: "2022-23", mini: "22-23", converts: 1620 },
+      { year: "2023-24", key: "2023-24", mini: "23-24", converts: 1840 },
+      { year: "2024-25", key: "2024-25", mini: "24-25", converts: 2080 }
+    ];
 
-    statsPanel.classList.add('fading');
-    setTimeout(function () {
-      statsPanel.innerHTML =
-
-        '<div class="cs-stats">' +
-        '<div class="cs-stat"><div class="cs-stat-num">' + fmt(total) + '</div><div class="cs-stat-lbl">Total Converts</div></div>' +
-        '<div class="cs-stat"><div class="cs-stat-num">' + fmt(cat) + '</div><div class="cs-stat-lbl">CAT Converts</div></div>' +
-        '<div class="cs-stat"><div class="cs-stat-num">' + fmt(blacki) + '</div><div class="cs-stat-lbl">BLACKI-SM Converts</div></div>' +
-        '<div class="cs-stat"><div class="cs-stat-num">' + fmt(nmims) + '</div><div class="cs-stat-lbl">NMIMS Converts</div></div>' +
-        '</div>';
-      statsPanel.classList.remove('fading');
-    }, 100);
-
-    var chartData = YEARS.map(function (y) {
-      return {
-        year: LABEL[y],
-        key: y,
-        mini: MINI[y],
-        converts: allResults().filter(function (d) {
-          return d.year === y && matches(d, compFilters, true);
-        }).length
-      };
-    });
     if (typeof window.__renderGrowthChart === "function") {
-      window.__renderGrowthChart(chartData, year === "all" ? null : year);
+      // Keep the highlight on the latest year (2024-25) for the static view
+      window.__renderGrowthChart(chartData, "2024-25");
     }
   }
 
@@ -3051,45 +3118,7 @@ function _OLD_renderHofForYear_disabled(year) {
 /* ============================================================
    WHATSAPP MOMENTS - marquee + lightbox + college modal integration
 ============================================================ */
-var WA_CARDS = [
-  { sid: "pratyasha-panigrahi", img: "/results/whatsapp/pratyasha-spjimr.jpg", who: "Pratyasha Panigrahi", score: "SPJIMR Convert" },
-  { sid: "pratik-mulik", img: "/results/whatsapp/pratik-nmims.jpg", who: "Pratik Mulik", score: "NMIMS Mumbai" },
-  { sid: "hardik-kacha", img: "/results/whatsapp/hardik-nmims.jpg", who: "Hardik Kacha", score: "NMIMS · 22 mo journey" },
-  { sid: "nihit-pingala", img: "/results/whatsapp/nihit-nmims.jpg", who: "Nihit Pingala", score: "NMIMS Merit 79 + SCMHRD" },
-  { sid: "ashish-ranjan", img: "/results/whatsapp/ashish-scmhrd.jpg", who: "Ashish Ranjan", score: "SCMHRD Pune BA" },
-  { sid: "kenneth-sequeira", img: "/results/whatsapp/kenneth-nmims.jpg", who: "Kenneth Sequeira", score: "NMIMS Pharma + Hyd" },
-  { sid: "aayush-rathi", img: "/results/whatsapp/aayush-rathi-nmims.jpg", who: "Aayush Rathi", score: "NMIMS Core 2026" },
-  { sid: "debasish-sahoo", img: "/results/whatsapp/debasish-nmims.jpg", who: "Debasish Sahoo", score: "NMIMS Mumbai Core" },
-  { sid: "vaishnavi-talan", img: "/results/whatsapp/vaishnavi-nmims.jpg", who: "Vaishnavi Talan", score: "NMIMS MBA Mumbai" },
-  { sid: "sakshi-rohra", img: "/results/whatsapp/sakshi-nmims.jpg", who: "Sakshi Rohra", score: "NMIMS Core Finance" },
-  { sid: "agastya-anand", img: "/results/whatsapp/agastya-nmims.jpg", who: "Agastya Anand", score: "NMIMS Merit 153" },
-  { sid: "greeshma-asutkar", img: "/results/whatsapp/greeshma-nmims.jpg", who: "Greeshma Asutkar", score: "NMIMS Mumbai" },
-  { sid: "manav-goyal", img: "/results/whatsapp/manav-nmims.jpg", who: "Manav Goyal", score: "NMIMS Digital Transform" },
-  { sid: "anamika-arora", img: "/results/whatsapp/anamika-nmims.jpg", who: "Anamika Arora", score: "NMIMS MBA Mumbai" },
-  { sid: "harshla-pandey", img: "/results/whatsapp/harshla-nmims.jpg", who: "Harshla Pandey", score: "NMIMS Pharma MBA" },
-  { sid: "rutuja-kokate", img: "/results/whatsapp/rutuja-nmims.jpg", who: "Rutuja Kokate", score: "NMIMS MBA" },
-  { sid: "nandini-scmhrd", img: "/results/whatsapp/nandini-scmhrd.jpg", who: "Nandini", score: "SCMHRD Pune" },
-  { sid: "vidhi-verma", img: "/results/whatsapp/vidhi-nmims.jpg", who: "Vidhi Verma", score: "NMIMS Navi Mumbai" },
-  { sid: "chaitanya-bisen", img: "/results/whatsapp/chaitanya-nmims.jpg", who: "Chaitanya Bisen", score: "NMIMS MBA BA" },
-  { sid: "raunak-nmims", img: "/results/whatsapp/raunak-nmims.jpg", who: "Raunak", score: "NMIMS MBA BA" },
-  { sid: "kabir-nmims", img: "/results/whatsapp/kabir-nmims.jpg", who: "Kabir", score: "NMIMS MBA BA Mumbai" },
-  { sid: "srija-nmims", img: "/results/whatsapp/srija-nmims.jpg", who: "Srija", score: "NMIMS BA Mumbai" },
-  { sid: "aditi-shukla", img: "/results/whatsapp/aditi-shukla-nmims.jpg", who: "Aditi Shukla", score: "NMIMS 2026" },
-  { sid: "aditi-nmims", img: "/results/whatsapp/aditi-nmims.jpg", who: "Aditi", score: "NMIMS 2026" }
-  ,
-  { sid: "aniruddha-sharma", img: "/results/whatsapp/mock-aniruddha-sharma.jpg", who: "Aniruddha Sharma", score: "IIM Ahmedabad Convert", mock: true },
-  { sid: "priyanshu-tiwari", img: "/results/whatsapp/mock-priyanshu-tiwari.jpg", who: "Priyanshu Tiwari", score: "IIM Ahmedabad Convert", mock: true },
-  { sid: "prafull-sharma", img: "/results/whatsapp/mock-prafull-sharma.jpg", who: "Prafull Sharma", score: "IIM Ahmedabad Convert", mock: true },
-  { sid: "sai-dinesh", img: "/results/whatsapp/mock-sai-dinesh.jpg", who: "Sai Dinesh", score: "IIM Bangalore Convert", mock: true },
-  { sid: "rohit-menon", img: "/results/whatsapp/mock-rohit-menon.jpg", who: "Rohit Menon", score: "IIM Calcutta Convert", mock: true },
-  { sid: "kavya-reddy", img: "/results/whatsapp/mock-kavya-reddy.jpg", who: "Kavya Reddy", score: "IIM Lucknow Convert", mock: true },
-  { sid: "arjun-reddy", img: "/results/whatsapp/mock-arjun-reddy.jpg", who: "Arjun Reddy", score: "IIM Indore Convert", mock: true },
-  { sid: "sneha-kulkarni", img: "/results/whatsapp/mock-sneha-kulkarni.jpg", who: "Sneha Kulkarni", score: "IIM Kozhikode Convert", mock: true },
-  { sid: "vikram-shah", img: "/results/whatsapp/mock-vikram-shah.jpg", who: "Vikram Shah", score: "IIM Mumbai Convert", mock: true },
-  { sid: "ishita-bhatia", img: "/results/whatsapp/mock-ishita-bhatia.jpg", who: "Ishita Bhatia", score: "FMS Delhi Convert", mock: true },
-  { sid: "karthik-nair", img: "/results/whatsapp/mock-karthik-nair.jpg", who: "Karthik Nair", score: "CAT 99.78 %ile", mock: true },
-  { sid: "sanya-gupta", img: "/results/whatsapp/mock-sanya-gupta.jpg", who: "Sanya Gupta", score: "CAT 99.45 %ile", mock: true }
-];
+var WA_CARDS = [];
 
 /* Derive institute label for WA stamp overlay (#10) */
 function waInstituteLabel(c) {
@@ -3144,8 +3173,63 @@ function renderWaCard(c, idx) {
 (function () {
   var r1 = document.getElementById('waRow1');
   if (!r1) return;
+
+  var resolveImg = function (r) {
+    if (r.photo && r.photo !== 'null') return r.photo;
+    if (r.file && r.file !== 'null') {
+      try {
+        var f = JSON.parse(r.file);
+        var path = f.thumb_400 || f.full || '';
+        return path ? 'https://catking.in/file/' + path : '/results/whatsapp/default.jpg';
+      } catch (e) {
+        return r.file.indexOf('http') === 0 ? r.file : '/results/whatsapp/default.jpg';
+      }
+    }
+    return '/results/whatsapp/default.jpg';
+  };
+
+  var finalWaCards = WA_CARDS;
+  if (window.RESULTS_STATIC_RESULTS && Array.isArray(window.RESULTS_STATIC_RESULTS)) {
+    var dynamicWa = window.RESULTS_STATIC_RESULTS.filter(function (i) {
+      return i.type === 'student_reviews';
+    }).map(function (r) {
+      return {
+        sid: r.slug || r.id,
+        img: resolveImg(r),
+        who: r.name,
+        score: r.sub_title || r.score || 'CATKing Topper'
+      };
+    });
+    if (dynamicWa.length > 0) {
+      finalWaCards = dynamicWa;
+    }
+  }
+
+  // Priority override: Use data from success_stories.json if provided via Blade
+  if (window.WA_SUCCESS_STORIES_DATA && Array.isArray(window.WA_SUCCESS_STORIES_DATA) && window.WA_SUCCESS_STORIES_DATA.length > 0) {
+    finalWaCards = window.WA_SUCCESS_STORIES_DATA.map(function (r) {
+      var imgPath = '';
+      if (r.file) {
+        try {
+          var f = JSON.parse(r.file);
+          var path = f.thumb_400 || f.full || '';
+          if (path) {
+            // Use root domain catking.in for this slider data only
+            imgPath = 'https://catking.in/storage/' + path;
+          }
+        } catch (e) { }
+      }
+      return {
+        sid: r.id || Math.random().toString(36).substr(2, 9),
+        img: imgPath || '/results/whatsapp/default.jpg',
+        who: r.name || 'CATKing Student',
+        score: 'CATKing Topper ' + (r.year || '')
+      };
+    });
+  }
+
   // Single row - all cards, duplicated for seamless loop
-  r1.innerHTML = WA_CARDS.map(renderWaCard).join('') + WA_CARDS.map(renderWaCard).join('');
+  r1.innerHTML = finalWaCards.map(renderWaCard).join('') + finalWaCards.map(renderWaCard).join('');
 
   // v18: WA cards are display-only. No modal opens on click.
   // Marquee is purely visual proof - the verification stamp is the credibility signal,
@@ -3560,11 +3644,19 @@ var ACADEMIC_MIX = [
     return (p[0][0] + p[p.length - 1][0]).toUpperCase();
   }
 
+  function matchesYear(dYear, filterYear) {
+    if (filterYear === "all") return true;
+    if (filterYear === "2021-22") {
+      return dYear === "2021-22" || dYear === "2020-21" || dYear === "before-2020";
+    }
+    return dYear === filterYear;
+  }
+
   function getFiltered() {
     return BROWSE_DATA.filter(function (d) {
       if (state.exam !== "all" && d.exam !== state.exam) return false;
       if (state.group !== "all" && d.group !== state.group) return false;
-      if (state.year !== "all" && d.year !== state.year) return false;
+      if (!matchesYear(d.year, state.year)) return false;
       return true;
     });
   }
@@ -3575,11 +3667,11 @@ var ACADEMIC_MIX = [
     return BROWSE_DATA.filter(function (d) {
       if (axis !== 'exam' && state.exam !== 'all' && d.exam !== state.exam) return false;
       if (axis !== 'group' && state.group !== 'all' && d.group !== state.group) return false;
-      if (axis !== 'year' && state.year !== 'all' && d.year !== state.year) return false;
+      if (axis !== 'year' && !matchesYear(d.year, state.year)) return false;
       if (value !== 'all') {
         if (axis === 'exam' && d.exam !== value) return false;
         if (axis === 'group' && d.group !== value) return false;
-        if (axis === 'year' && d.year !== value) return false;
+        if (axis === 'year' && !matchesYear(d.year, value)) return false;
       }
       return true;
     }).length;
@@ -3625,9 +3717,7 @@ var ACADEMIC_MIX = [
     var matched = getFiltered();
     if (countEl) countEl.textContent = matched.length;
     updatePillStates();
-    if (typeof window.__updateCompoundingFilters === "function") {
-      window.__updateCompoundingFilters({ year: state.year, group: state.group, exam: state.exam });
-    }
+    // window.__updateCompoundingFilters({ year: state.year, group: state.group, exam: state.exam });
     grid.innerHTML = '';
     if (matched.length === 0) {
       grid.style.display = 'none';
@@ -3726,7 +3816,7 @@ var ACADEMIC_MIX = [
     // The 6 cycle pills are gone. Year filter is now the single source of truth.
     // It drives Compounding's stats panel + chart highlight via the exposed updater.
     if (typeof window.__updateCompoundingForYear === 'function') {
-      window.__updateCompoundingForYear(year);
+      // window.__updateCompoundingForYear(year);
     }
   }
 
