@@ -64,13 +64,13 @@
     </div>
     <div class="foot-col">
       <h6>Company</h6>
-      <a href="https://catking.in/about-us">About Us</a>
+      <a href="{{ route('about-us') }}">About Us</a>
       <a href="https://catking.in/meet-the-directors">Meet the Directors</a>
       <a href="https://catking.in/careers">Careers</a>
-      <a href="https://catking.in/contact-us">Contact Us</a>
+      <a href="{{ route('contact-us') }}">Contact Us</a>
       <a href="https://catking.in/blog">Blog</a>
       <a href="https://catking.in/catking-results">Results</a>
-      <a href="https://catking.in/offline-centers">Offline Centres</a>
+      <a href="{{ route('offline-centers') }}">Offline Centres</a>
       <hr style="border:none;border-top:1px solid rgba(255,255,255,.1);margin:14px 0;">
       <h6 style="margin-top:0;">Apps &amp; Login</h6>
       <a href="https://catking.testpress.in" target="_blank" rel="noopener">Student Dashboard</a>
@@ -84,11 +84,14 @@
     </div>
   </div>
   <div class="foot-bottom">
-    <div>© 2026 CATKing Educare. All rights reserved.</div>
+    <div>© {{ date('Y') }} CATKing Educare. All rights reserved.</div>
     <div class="legal">
-      <a href="https://catking.in/privacy-policy">Privacy Policy</a>
-      <a href="https://catking.in/terms-condition">Terms &amp; Conditions</a>
-      <a href="https://catking.in/refund-policy">Refund Policy</a>
+      <a href="{{ route('privacy-policy') }}">Privacy Policy</a>
+      <a href="{{ route('terms-condition') }}">Terms &amp; Conditions</a>
+      <a href="{{ route('refund-policy') }}">Refund Policy</a>
     </div>
+
+
+
   </div>
 </footer>

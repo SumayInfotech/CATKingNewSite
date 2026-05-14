@@ -7,7 +7,7 @@ use App\Http\Controllers\ResultsController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 Route::get('/result', [ResultsController::class, 'index'])->name('results');
 
@@ -27,4 +27,32 @@ Route::get('/api/scorecards-proxy', function (Request $request) {
     $response = Http::get($url);
 
     return response($response->body())->header('Content-Type', 'application/json');
-})->name('scorecards-proxy');
+});
+
+Route::get('/offline-centers', function () {
+    return view('offline-centers');
+})->name('offline-centers');
+
+Route::get('/contact-us', function () {
+    return view('contact-us');
+})->name('contact-us');
+
+Route::get('/privacy-policy', function () {
+    return view('privacy-policy');
+})->name('privacy-policy');
+
+Route::get('/terms-condition', function () {
+    return view('terms-condition');
+})->name('terms-condition');
+
+Route::get('/refund-policy', function () {
+    return view('refund-policy');
+})->name('refund-policy');
+
+Route::get('/about-us', function () {
+    return view('about-us');
+})->name('about-us');
+
+
+
+

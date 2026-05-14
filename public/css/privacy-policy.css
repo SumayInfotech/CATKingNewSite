@@ -1,0 +1,142 @@
+:root {
+    --orange:    #FEA525;
+    --orange-dk: #E8931A;
+    --ink:       #0F1021;
+    --white:     #ffffff;
+    --line:      #E8E8E8;
+    --muted:     #BFBAB2;
+    --bg:        #F7F6F3;
+}
+
+.privacy-page {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+}
+
+.section-inner {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 60px 28px 100px;
+    width: 100%;
+}
+
+.privacy-header {
+    margin-bottom: 40px;
+}
+
+.privacy-header h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--ink);
+    margin-bottom: 24px;
+}
+
+.privacy-header h1 span {
+    color: var(--orange);
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.refund-banner {
+    display: inline-flex;
+    align-items: center;
+    background: var(--orange);
+    color: #000;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    transition: transform 0.2s, background 0.2s;
+    margin-bottom: 40px;
+}
+
+.refund-banner:hover {
+    transform: translateY(-2px);
+    background: var(--orange-dk);
+}
+
+.privacy-content {
+    background: var(--white);
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid var(--line);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+}
+
+.privacy-content section {
+    margin-bottom: 40px;
+}
+
+.privacy-content section:last-child {
+    margin-bottom: 0;
+}
+
+.privacy-content h2 {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--ink);
+    margin-bottom: 16px;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.privacy-content h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 3px;
+    background: var(--orange);
+}
+
+.privacy-content p {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 16px;
+}
+
+.privacy-content ul {
+    margin-bottom: 16px;
+    padding-left: 20px;
+}
+
+.privacy-content ul li {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.contact-info-box {
+    background: var(--bg);
+    padding: 24px;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    margin-top: 20px;
+}
+
+.contact-info-box p {
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.contact-info-box strong {
+    color: var(--ink);
+}
+
+@media (max-width: 768px) {
+    .privacy-header h1 {
+        font-size: 36px;
+    }
+    .privacy-content {
+        padding: 24px;
+    }
+    .section-inner {
+        padding: 40px 16px 60px;
+    }
+}
