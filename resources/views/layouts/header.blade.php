@@ -110,19 +110,19 @@
       </div>
       <div class="mega-col">
         <h6>Programs</h6>
-        <a href="https://catking.in/flp-future-leadership-program/" target="_blank" rel="noopener">FLP - Future Leadership</a>
-        <a href="https://catking.in/mlp-management-leadership-program/" target="_blank" rel="noopener">MLP - Management Leadership</a>
+        <a href="{{ route('flp') }}" class="{{ request()->routeIs('flp') ? 'act' : '' }}">FLP - Future Leadership</a>
+        <a href="{{ route('mlp') }}" class="{{ request()->routeIs('mlp') ? 'act' : '' }}">MLP - Management Leadership</a>
         <a href="https://catking.in/mentorship" target="_blank" rel="noopener">Mentorship</a>
         <a href="https://catking.in/study-buddy" target="_blank" rel="noopener">Study Buddy</a>
         <a href="https://catking.in/sprint-workshop" target="_blank" rel="noopener">Sprint Workshops</a>
         <a href="https://catking.in/mcq-category" target="_blank" rel="noopener">MCQ Practice</a>
-        <a href="https://catking.in/mnemonics" target="_blank" rel="noopener">Mnemonics</a>
+        <a href="{{ route('mnemonics') }}" class="{{ request()->routeIs('mnemonics', 'mnemonic.*') ? 'act' : '' }}">Mnemonics</a>
       </div>
       <div class="mega-col">
         <h6>About CATKing</h6>
         <a href="{{ route("home") }}" title="CATKing homepage">Home</a>
         <a href="{{ route('about-us') }}" class="{{ request()->routeIs('about-us') ? 'act' : '' }}">About Us</a>
-        <a href="https://catking.in/meet-the-directors" target="_blank" rel="noopener">Meet the Directors</a>
+        <a href="{{ route('meet-the-directors') }}" class="{{ request()->routeIs('meet-the-directors') ? 'act' : '' }}">Meet the Directors</a>
         <a href="https://catking.in/top-colleges" target="_blank" rel="noopener">Top Colleges</a>
         <a href="{{ route('offline-centers') }}" class="{{ request()->routeIs('offline-centers') ? 'act' : '' }}">Offline Centers</a>
         <a href="https://catking.in/blog" target="_blank" rel="noopener">Blog</a>
@@ -174,13 +174,17 @@
       <details class="mdrawer-group">
         <summary class="mdrawer-summary">More<svg class="caret" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M7 10l5 5 5-5z"/></svg></summary>
         <div class="mdrawer-sublist">
+          <a href="{{ route('flp') }}">Future Leadership (FLP)</a>
+          <a href="{{ route('mlp') }}">Management Leadership (MLP)</a>
           <a href="https://catking.in/exam/cat-exam" target="_blank" rel="noopener">CAT Exam</a>
           <a href="https://catking.in/exam/cat-exam/free-cat-workshop" target="_blank" rel="noopener">Free CAT Workshop</a>
           <a href="https://catking.in/iim-wait-list-movement/" target="_blank" rel="noopener">Waitlist Tracker</a>
           <a href="https://catking.in/cat-handbook" target="_blank" rel="noopener">CAT Handbook</a>
           <a href="https://www.youtube.com/@SumitCatking" target="_blank" rel="noopener">YouTube Channel</a>
           <a href="{{ route('about-us') }}" class="{{ request()->routeIs('about-us') ? 'act' : '' }}">About CATKing</a>
+          <a href="{{ route('meet-the-directors') }}" class="{{ request()->routeIs('meet-the-directors') ? 'act' : '' }}">Meet the Directors</a>
           <a href="{{ route('offline-centers') }}" class="{{ request()->routeIs('offline-centers') ? 'act' : '' }}">Offline Centers</a>
+          <a href="{{ route('mnemonics') }}" class="{{ request()->routeIs('mnemonics') ? 'act' : '' }}">Mnemonics</a>
           <a href="{{ route('contact-us') }}" class="{{ request()->routeIs('contact-us') ? 'act' : '' }}">Contact</a>
         </div>
       </details>

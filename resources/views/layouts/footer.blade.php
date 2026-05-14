@@ -60,6 +60,7 @@
       {{--<a href="https://catking.in/study-buddy">Study Buddy</a>--}}
       <a href="https://courses.catking.in/courses/all-access-pass">All-Access Pass</a>
       <a href="https://catking.in/iim-wait-list-movement/">IIM Waitlist Tracker</a>
+      {{--<a href="{{ route('mnemonics') }}">Mnemonics</a>--}}
       {{--<a href="#pyq">PYQ Downloads</a>--}}
     </div>
     <div class="foot-col">

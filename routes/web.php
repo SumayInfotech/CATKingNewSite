@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use App\Http\Controllers\ResultsController;
+use App\Http\Controllers\LeadershipController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -52,6 +53,18 @@ Route::get('/refund-policy', function () {
 Route::get('/about-us', function () {
     return view('about-us');
 })->name('about-us');
+
+Route::get('/mnemonics', [App\Http\Controllers\MnemonicController::class, 'index'])->name('mnemonics');
+Route::get('/mnemonic/{slug}', [App\Http\Controllers\MnemonicController::class, 'show'])->name('mnemonic.show');
+
+Route::get('/meet-the-directors', function () {
+    return view('meet-the-directors');
+})->name('meet-the-directors');
+
+// Leadership Programs
+Route::get('/future-leaders-program/{year?}', [LeadershipController::class, 'flp'])->name('flp');
+Route::get('/management-leadership-program/{year?}', [LeadershipController::class, 'mlp'])->name('mlp');
+Route::get('/executive-leadership-program', [LeadershipController::class, 'elp'])->name('elp');
 
 
 
