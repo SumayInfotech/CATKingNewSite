@@ -115,7 +115,7 @@
         <a href="https://catking.in/mentorship" target="_blank" rel="noopener">Mentorship</a>
         <a href="https://catking.in/study-buddy" target="_blank" rel="noopener">Study Buddy</a>
         <a href="https://catking.in/sprint-workshop" target="_blank" rel="noopener">Sprint Workshops</a>
-        <a href="https://catking.in/mcq-category" target="_blank" rel="noopener">MCQ Practice</a>
+        <a href="{{ route('mcq.index') }}">MCQ Practice</a>
         <a href="{{ route('mnemonics') }}" class="{{ request()->routeIs('mnemonics', 'mnemonic.*') ? 'act' : '' }}">Mnemonics</a>
       </div>
       <div class="mega-col">
@@ -184,6 +184,7 @@
           <a href="{{ route('about-us') }}" class="{{ request()->routeIs('about-us') ? 'act' : '' }}">About CATKing</a>
           <a href="{{ route('meet-the-directors') }}" class="{{ request()->routeIs('meet-the-directors') ? 'act' : '' }}">Meet the Directors</a>
           <a href="{{ route('offline-centers') }}" class="{{ request()->routeIs('offline-centers') ? 'act' : '' }}">Offline Centers</a>
+          <a href="{{ route('mcq.index') }}">MCQ Practice</a>
           <a href="{{ route('mnemonics') }}" class="{{ request()->routeIs('mnemonics') ? 'act' : '' }}">Mnemonics</a>
           <a href="{{ route('careers') }}" class="{{ request()->routeIs('careers') ? 'act' : '' }}">Careers</a>
           <a href="{{ route('contact-us') }}" class="{{ request()->routeIs('contact-us') ? 'act' : '' }}">Contact</a>

@@ -69,6 +69,14 @@ Route::get('/careers', function () {
     return view('careers');
 })->name('careers');
 
+// MCQ Module
+Route::get('/mcq', [App\Http\Controllers\McqController::class, 'index'])->name('mcq.index');
+Route::get('/mcq-category/{slug}', [App\Http\Controllers\McqController::class, 'category'])->name('mcq.category');
+Route::get('/mcq-test/{slug}', [App\Http\Controllers\McqController::class, 'test'])->name('mcq.test');
+Route::get('/mcq-questions/{slug}', [App\Http\Controllers\McqController::class, 'questions'])->name('mcq.questions');
+
+
+
 
 
 

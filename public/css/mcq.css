@@ -1,0 +1,162 @@
+/* ─────────────────────────────────────────────
+   MCQ Module — CATKing
+   Premium Design based on reference SS
+───────────────────────────────────────────── */
+
+:root {
+    --orange:    #FEA525;
+    --orange-dk: #E8931A;
+    --ink:       #0F1021;
+    --white:     #ffffff;
+    --bg-light:  #F7F6F3;
+    --text-muted:#666;
+    --border:    #eeeeee;
+}
+
+.mcq-page {
+    font-family: 'DM Sans', sans-serif;
+    background: #fff;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+}
+
+.section-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    width: 100%;
+}
+
+/* ══════════════════════════════════════════
+   HERO
+══════════════════════════════════════════ */
+.mcq-hero {
+    background: var(--ink);
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.mcq-hero h1 {
+    font-size: 42px;
+    font-weight: 800;
+    color: var(--white);
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.mcq-hero h1 span {
+    color: var(--orange);
+}
+
+.mcq-hero::after {
+    content: '';
+    position: absolute;
+    width: 200px; height: 200px;
+    background: radial-gradient(circle, var(--orange) 0%, transparent 70%);
+    top: -100px; right: -50px;
+    opacity: 0.15;
+}
+
+/* ══════════════════════════════════════════
+   EXAMS GRID & CARDS
+══════════════════════════════════════════ */
+.exams-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.exam-card {
+    background: #fff;
+    border: 1px solid #e6e6ec;
+    border-radius: 16px;
+    padding: 3px;
+    transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.exam-card-inner {
+    padding: 36px 32px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 14px;
+    z-index: 2;
+    position: relative;
+    text-decoration: none;
+}
+
+.exam-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #FEA82F, #2385F4);
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: 1;
+}
+
+.exam-card:hover {
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 30px 60px rgba(15, 15, 28, 0.12);
+    border-color: transparent;
+}
+
+.exam-card:hover::before { opacity: 1; }
+
+.exam-card-head h3 {
+    font-size: 28px;
+    font-weight: 900;
+    color: #0f0f1c;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.exam-card-head p {
+    font-size: 12px;
+    font-weight: 800;
+    color: #6b6b7d;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    line-height: 1.4;
+}
+
+.exam-card-link {
+    margin-top: 32px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #2385F4;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.exam-card-link:hover {
+    gap: 12px;
+}
+
+.exam-card:hover .exam-card-link { color: #E8951F; }
+
+@media (max-width: 1100px) {
+    .exams-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 991px) {
+    .exams-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+    .exams-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+    .mcq-hero h1 { font-size: 32px; }
+}
