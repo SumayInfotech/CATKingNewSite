@@ -77,7 +77,7 @@
 
         <div class="login-field">
           <label class="login-label">Email<span class="req">*</span></label>
-          <input type="email" class="login-input" placeholder="examle@gmail.com" required>
+          <input type="email" class="login-input" placeholder="example@gmail.com" required>
           <span class="login-error">Email is already exist please login.</span>
         </div>
 
