@@ -67,7 +67,7 @@
       <h6>Company</h6>
       <a href="{{ route('about-us') }}">About Us</a>
       <a href="https://catking.in/meet-the-directors">Meet the Directors</a>
-      <a href="https://catking.in/careers">Careers</a>
+      <a href="{{ route('careers') }}">Careers</a>
       <a href="{{ route('contact-us') }}">Contact Us</a>
       <a href="https://catking.in/blog">Blog</a>
       <a href="https://catking.in/catking-results">Results</a>
