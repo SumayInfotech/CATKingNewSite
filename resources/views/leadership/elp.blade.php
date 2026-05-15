@@ -9,7 +9,7 @@
                 <h2 style="font-size: 36px; font-weight: 800; margin-bottom: 25px;">Executive Leadership <span>Program</span></h2>
             </div>
 
-            <div class="elp-intro-text" style="color: #333; line-height: 1.8; text-align: left; max-width: 1000px; margin: 0 auto; font-size: 16px;">
+            <div class="elp-intro-text" style="color: #333; line-height: 1.8; text-align: left; max-width: 1000px; font-size: 16px;">
                 <p style="font-weight: 500; font-size: 17px; margin-bottom: 40px;">
                     <strong>CATKing Educare’s Executive Leadership Program (ELP)</strong> is a prestigious, full-time leadership development program
                     designed for MBA graduates who aspire to shape the future of education. ELP is more than just a career opportunity,

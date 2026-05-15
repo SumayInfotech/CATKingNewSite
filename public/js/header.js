@@ -120,4 +120,60 @@
         });
     }
   })();
+
+  // ===== LOGIN MODAL LOGIC =====
+  window.openLoginModal = function() {
+    const modal = document.getElementById('loginModal');
+    if (modal) {
+      toggleLoginMode('login'); // Always start with Login view
+      modal.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+  };
+
+  window.closeLoginModal = function() {
+    const modal = document.getElementById('loginModal');
+    if (modal) {
+      modal.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+  };
+
+  window.toggleLoginMode = function(mode) {
+    const signupView = document.getElementById('signupView');
+    const loginView = document.getElementById('loginView');
+    if (mode === 'login') {
+      signupView.style.display = 'none';
+      loginView.style.display = 'block';
+    } else {
+      signupView.style.display = 'block';
+      loginView.style.display = 'none';
+    }
+  };
+
+  // Close modal on background click
+  window.addEventListener('click', function(e) {
+    const modal = document.getElementById('loginModal');
+    if (e.target === modal) {
+      closeLoginModal();
+    }
+  });
+
+  // Toggle password visibility
+  document.addEventListener('click', function(e) {
+    const btn = e.target.closest('.toggle-password');
+    if (btn) {
+      const input = btn.previousElementSibling;
+      const icon = btn.querySelector('i');
+      if (input.type === 'password') {
+        input.type = 'text';
+        icon.classList.remove('fa-eye-slash');
+        icon.classList.add('fa-eye');
+      } else {
+        input.type = 'password';
+        icon.classList.remove('fa-eye');
+        icon.classList.add('fa-eye-slash');
+      }
+    }
+  });
 })();

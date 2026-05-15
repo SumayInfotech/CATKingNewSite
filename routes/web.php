@@ -65,6 +65,10 @@ Route::get('/meet-the-directors', function () {
 Route::get('/future-leaders-program/{year?}', [LeadershipController::class, 'flp'])->name('flp');
 Route::get('/management-leadership-program/{year?}', [LeadershipController::class, 'mlp'])->name('mlp');
 Route::get('/executive-leadership-program', [LeadershipController::class, 'elp'])->name('elp');
+Route::get('/careers', function () {
+    return view('careers');
+})->name('careers');
+
 
 
 

@@ -41,71 +41,108 @@
 
     <!-- LEFT: Form side -->
     <div class="login-form-side">
-      <h3 class="login-title" id="loginModalTitle">Unlock Your Journey with CATKing! <span class="wave" aria-hidden="true">👋</span></h3>
-      <p class="login-sub">Log in to your CATKing account now!</p>
+      <!-- Login View (Visible by default) -->
+      <div id="loginView">
+        <h3 class="login-title">Unlock Your Journey with CATKing! <span class="wave" aria-hidden="true">👋</span></h3>
+        <p class="login-sub">Log in to your CATKing account now!</p>
 
-      <label class="login-label" for="loginInput">Email / Phone Number<span class="req">*</span></label>
-      <input
-        type="text"
-        id="loginInput"
-        class="login-input"
-        placeholder="Enter your email / phone number"
-        autocomplete="email"
-      />
+        <div class="login-field">
+          <label class="login-label">Email / Phone Number<span class="req">*</span></label>
+          <input type="text" class="login-input" placeholder="Enter your email / phone number" required>
+        </div>
 
-      <button class="login-otp-btn" type="button" onclick="alert('OTP sent! (demo)')">Send OTP</button>
+        <button class="login-submit-btn" type="button">Send OTP</button>
 
-      <div class="login-divider"><span>OR</span></div>
+        <div class="login-divider"><span>OR</span></div>
 
-      <a href="https://catking.in/auth/google" target="_blank" rel="noopener" class="login-google-btn">
-        <svg viewBox="0 0 18 18" aria-hidden="true">
-          <path fill="#4285F4" d="M17.64 9.2c0-.64-.06-1.25-.16-1.84H9v3.49h4.84c-.21 1.13-.85 2.08-1.81 2.72v2.26h2.92c1.71-1.57 2.69-3.89 2.69-6.63z"/>
-          <path fill="#34A853" d="M9 18c2.43 0 4.47-.81 5.96-2.18l-2.92-2.26c-.81.54-1.84.86-3.04.86-2.34 0-4.32-1.58-5.03-3.7H.95v2.33C2.44 15.99 5.48 18 9 18z"/>
-          <path fill="#FBBC05" d="M3.97 10.71c-.18-.54-.28-1.11-.28-1.71s.1-1.17.28-1.71V4.96H.95C.34 6.18 0 7.55 0 9s.34 2.82.95 4.04l3.02-2.33z"/>
-          <path fill="#EA4335" d="M9 3.58c1.32 0 2.51.45 3.44 1.35l2.58-2.58C13.46.89 11.43 0 9 0 5.48 0 2.44 2.01.95 4.96l3.02 2.33C4.68 5.16 6.66 3.58 9 3.58z"/>
-        </svg>
-        Sign in with Google
-      </a>
+        <button type="button" class="social-btn google full-width">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google">
+          Sign in with Google
+        </button>
 
-      <div class="login-toggle">
-        <a href="https://catking.in/login" target="_blank" rel="noopener">Signup</a>
-        <span class="login-pipe">/</span>
-        <a href="https://catking.in/login" target="_blank" rel="noopener">Login</a>
-        <span> with Email</span>
+        <div class="login-switch center">
+          New to CATKing? <a href="javascript:void(0)" onclick="toggleLoginMode('signup')">Signup</a> / <strong>Login</strong> with Email
+        </div>
+      </div>
+
+      <!-- Signup View (Hidden by default) -->
+      <div id="signupView" style="display: none;">
+        <h3 class="login-title">Create Your CATKing Account</h3>
+        <p class="login-sub">Sign up with your email to begin.</p>
+
+        <div class="login-field">
+          <label class="login-label">Name<span class="req">*</span></label>
+          <input type="text" class="login-input" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="login-field">
+          <label class="login-label">Email<span class="req">*</span></label>
+          <input type="email" class="login-input" placeholder="sumayinfotech@gmail.com" required>
+          <span class="login-error">Email is already exist please login.</span>
+        </div>
+
+        <div class="login-field">
+          <label class="login-label">Password<span class="req">*</span></label>
+          <div class="password-wrapper">
+            <input type="password" class="login-input" placeholder="••••••••••" required>
+            <button type="button" class="toggle-password"><i class="fa-regular fa-eye-slash"></i></button>
+          </div>
+        </div>
+
+        <div class="login-field">
+          <label class="login-label">Phone Number<span class="req">*</span></label>
+          <input type="tel" class="login-input" placeholder="9999999999" required>
+        </div>
+
+        <div class="login-terms">
+          <input type="checkbox" id="terms" required>
+          <label for="terms">I have read and agreed to the <strong>terms and conditions</strong></label>
+        </div>
+
+        <button class="login-submit-btn" type="submit">Submit</button>
+
+        <div class="login-divider"><span>OR</span></div>
+
+        <div class="login-social-btns">
+          <button type="button" class="social-btn google">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google">
+            Sign in with Google
+          </button>
+          <button type="button" class="social-btn phone">
+            <i class="fa-solid fa-phone"></i>
+            Continue with Phone
+          </button>
+        </div>
+
+        <div class="login-switch">
+          Already have an account? <a href="javascript:void(0)" onclick="toggleLoginMode('login')">Login</a>
+        </div>
       </div>
     </div>
 
-    <!-- RIGHT: Feature highlights with amber tick checklist -->
+    <!-- RIGHT: Feature highlights -->
     <div class="login-feature-side">
-      <div class="login-feature">
-        <div class="login-feature-tick">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+      <div class="feature-list">
+        <div class="feature-item">
+          <div class="feature-tick">✓</div>
+          <span>CAT Turbo 2026</span>
         </div>
-        <span>CAT Turbo 2026</span>
-      </div>
-      <div class="login-feature">
-        <div class="login-feature-tick">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+        <div class="feature-item">
+          <div class="feature-tick">✓</div>
+          <span>CAT Intensive 2026</span>
         </div>
-        <span>CAT Intensive 2026</span>
-      </div>
-      <div class="login-feature">
-        <div class="login-feature-tick">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+        <div class="feature-item">
+          <div class="feature-tick">✓</div>
+          <span>CAT Course for Repeaters (90-95%ile)</span>
         </div>
-        <span>CAT Course for Repeaters (90–95)</span>
-      </div>
-      <div class="login-feature">
-        <div class="login-feature-tick">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+        <div class="feature-item">
+          <div class="feature-tick">✓</div>
+          <span>NMAT 2026</span>
         </div>
-        <span>NMAT 2026</span>
-      </div>
-      <div class="login-feature">
-        <div class="login-feature-tick">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+        <div class="feature-item">
+          <div class="feature-tick">✓</div>
+          <span>CAT Course for Repeaters (Above 9...</span>
         </div>
-        <span>CAT Course for Repeaters (95+)</span>
       </div>
     </div>
   </div>

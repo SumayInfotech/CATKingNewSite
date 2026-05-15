@@ -1,0 +1,171 @@
+/* ───────────────────────────────────────────────────────────────
+   CAREERS PAGE — CATKing
+   Minimalist design matching provided screenshot
+   ─────────────────────────────────────────────────────────────── */
+
+:root {
+    --orange:    #FEA525;
+    --orange-lt: #FFF5E6; /* Light peach/orange for boxes */
+    --ink:       #0F1021;
+    --text:      #333333;
+    --gray:      #666666;
+    --border:    #eeeeee;
+}
+
+.careers-page {
+    font-family: 'DM Sans', sans-serif;
+    background: #fff;
+    color: var(--text);
+    padding: 60px 0;
+}
+
+.section-inner {
+    max-width: 960px; /* More focused width like screenshot */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- Titles --- */
+.page-title, 
+.openings-header-clean h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.page-title span,
+.openings-header-clean h2 span {
+    color: var(--orange);
+}
+
+.header-line {
+    width: 140px;
+    height: 3px;
+    background: var(--orange);
+    margin-bottom: 40px;
+}
+
+/* --- Intro Text --- */
+.intro-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.apply-email {
+    font-weight: 500;
+}
+
+.apply-email a {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+/* --- Job Cards --- */
+.job-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.job-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    border: 1px solid var(--border);
+    border-left: 6px solid var(--orange); /* Thick left border from SS */
+}
+
+.job-card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.job-card h3 span {
+    color: var(--orange);
+    font-weight: 400;
+    font-style: italic;
+}
+
+.job-sub-section {
+    margin-top: 25px;
+}
+
+.job-sub-section h4 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.job-body p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* --- Lists --- */
+.clean-list, .numbered-list {
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+.clean-list li, .numbered-list li {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.clean-list li::marker {
+    color: var(--orange);
+}
+
+/* --- Apply Box (Peach background) --- */
+.apply-box {
+    margin-top: 35px;
+    background: #FFF9F1; /* Peach/Light orange */
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+
+.apply-box p {
+    font-size: 15px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.apply-box p span {
+    color: var(--orange);
+}
+
+.apply-box ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.apply-box ul li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    list-style: disc;
+}
+
+.footer-note {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+
+@media (max-width: 768px) {
+    .job-card { padding: 30px 20px; }
+    .page-title { font-size: 28px; }
+}

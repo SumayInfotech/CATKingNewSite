@@ -12,7 +12,7 @@
   <div class="right">
     <a class="ico-link" href="https://catking.testpress.in" target="_blank" rel="noopener" aria-label="Student Dashboard" title="Student Dashboard" data-label="Student Dashboard"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/></svg></a>
     <a class="ico-link" href="https://profile.catking.in/login" target="_blank" rel="noopener" aria-label="Profile Portal" title="Profile Portal" data-label="Profile Portal"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4-4-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg></a>
-    <a class="login" href="https://catking.in/login" title="Login or Sign up">Login</a>
+    <a class="login" href="javascript:void(0)" onclick="openLoginModal()" title="Login or Sign up">Login</a>
     <a class="apply" href="https://courses.catking.in/courses/cat-intensive-2026" target="_blank" rel="noopener">Buy CAT Intensive</a>
   </div>
 
@@ -126,7 +126,7 @@
         <a href="https://catking.in/top-colleges" target="_blank" rel="noopener">Top Colleges</a>
         <a href="{{ route('offline-centers') }}" class="{{ request()->routeIs('offline-centers') ? 'act' : '' }}">Offline Centers</a>
         <a href="https://catking.in/blog" target="_blank" rel="noopener">Blog</a>
-        <a href="https://catking.in/careers" target="_blank" rel="noopener">Careers</a>
+        <a href="{{ route('careers') }}" class="{{ request()->routeIs('careers') ? 'act' : '' }}">Careers</a>
         <a href="{{ route('contact-us') }}" class="{{ request()->routeIs('contact-us') ? 'act' : '' }}">Contact</a>
       </div>
     </div>
@@ -185,6 +185,7 @@
           <a href="{{ route('meet-the-directors') }}" class="{{ request()->routeIs('meet-the-directors') ? 'act' : '' }}">Meet the Directors</a>
           <a href="{{ route('offline-centers') }}" class="{{ request()->routeIs('offline-centers') ? 'act' : '' }}">Offline Centers</a>
           <a href="{{ route('mnemonics') }}" class="{{ request()->routeIs('mnemonics') ? 'act' : '' }}">Mnemonics</a>
+          <a href="{{ route('careers') }}" class="{{ request()->routeIs('careers') ? 'act' : '' }}">Careers</a>
           <a href="{{ route('contact-us') }}" class="{{ request()->routeIs('contact-us') ? 'act' : '' }}">Contact</a>
         </div>
       </details>
@@ -195,7 +196,7 @@
 
       <a href="https://catking.testpress.in" target="_blank" rel="noopener" class="mdrawer-item-secondary">Student Dashboard</a>
       <a href="https://profile.catking.in/login" target="_blank" rel="noopener" class="mdrawer-item-secondary">Profile Portal</a>
-      <a href="https://catking.in/login" class="mdrawer-item-secondary">Login</a>
+      <a href="javascript:void(0)" onclick="openLoginModal()" class="mdrawer-item-secondary">Login</a>
     </nav>
 
     <div class="mobile-drawer-foot">
